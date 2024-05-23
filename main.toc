@@ -22,8 +22,8 @@
 \contentsline {subsection}{\numberline {3.3.1}Chemical mechanism}{18}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Aerosol representation}{18}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Initial conditions and emissions}{19}{subsection.3.3.3}%
-\contentsline {chapter}{\numberline {4}Impacts of emissions spatial heterogeneity on gas-phase reactions}{20}{chapter.4}%
-\contentsline {chapter}{\numberline {5}Impacts of emissions spatial heterogeneity on aerosol properties in a particle resolved framework}{21}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusions}{22}{chapter.6}%
-\contentsline {chapter}{References}{23}{chapter*.11}%
+\contentsline {chapter}{\numberline {4}Impacts of emissions spatial heterogeneity on gas-phase reactions}{22}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Impacts of emissions spatial heterogeneity on aerosol properties in a particle resolved framework}{23}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusions}{24}{chapter.6}%
+\contentsline {chapter}{References}{25}{chapter*.13}%
 \contentsfinish 

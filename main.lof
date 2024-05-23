@@ -5,6 +5,8 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Idealized atmospheric sounding used for domain meteorological initial conditions. Initial conditions for potential temperature (left) and specific humidity (right). \texthl {TODO: check what is best, units in brackets or in paretheses? Figure 3.2 uses brackets so I should be consistent either way...}}}{14}{figure.caption.8}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Resolved-scale vertical heat flux profiles (left) and TKE at intervals of 10 minutes during the first hour of simulation spin-up.}}{15}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Aerosol initial condition size distributions.}}{21}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Aerosol emission size distributions.}}{21}{figure.caption.12}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

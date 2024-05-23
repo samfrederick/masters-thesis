@@ -19,6 +19,72 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{curtis_single-column_2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1518c93fd2a306ee6ecc3bc99d686a9e}{%
+           family={Curtis},
+           familyi={C\bibinitperiod},
+           given={Jeffrey\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=761462924bb71da68bb0487e2badbf5a}{%
+           family={Riemer},
+           familyi={R\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=0efcadce193e0f61e982a33e021409ff}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{10461c8f5b491fe9b6eb33adf3323900}
+      \strng{fullhash}{10461c8f5b491fe9b6eb33adf3323900}
+      \strng{bibnamehash}{10461c8f5b491fe9b6eb33adf3323900}
+      \strng{authorbibnamehash}{10461c8f5b491fe9b6eb33adf3323900}
+      \strng{authornamehash}{10461c8f5b491fe9b6eb33adf3323900}
+      \strng{authorfullhash}{10461c8f5b491fe9b6eb33adf3323900}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{{<}p{>}{<}strong class="journal-contentHeaderColor"{>}Abstract.{<}/strong{>} The PartMC-MOSAIC particle-resolved aerosol model was previously developed to predict the aerosol mixing state as it evolves in the atmosphere. However, the modeling framework was limited to a zero-dimensional box model approach without resolving spatial gradients in aerosol concentrations. This paper presents the development of stochastic particle methods to simulate turbulent diffusion and dry deposition of aerosol particles in a vertical column within the planetary boundary layer. The new model, WRF-PartMC-MOSAIC-SCM, resolves the vertical distribution of aerosol mixing state. We verified the new algorithms with analytical solutions for idealized test cases and illustrate the capabilities with results from a 2-day urban scenario that shows the evolution of black carbon mixing state in a vertical column.{<}/p{>}}
+      \field{issn}{1991-959X}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{month}{11}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{11}
+      \field{shorttitle}{A single-column particle-resolved model for simulating the vertical distribution of aerosol mixing state}
+      \field{title}{A single-column particle-resolved model for simulating the vertical distribution of aerosol mixing state: {WRF}-{PartMC}-{MOSAIC}-{SCM} v1.0}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{volume}{10}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{4057\bibrangedash 4079}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.5194/gmd-10-4057-2017
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/26S6J8GH/Curtis et al. - 2017 - A single-column particle-resolved model for simula.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/I9XJGZXE/2017.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://gmd.copernicus.org/articles/10/4057/2017/
+      \endverb
+      \verb{url}
+      \verb https://gmd.copernicus.org/articles/10/4057/2017/
+      \endverb
+      \keyw{Thesis}
+    \endentry
     \entry{deardorff_numerical_1970}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cbabc5950943f99fdc747dee48d3bf50}{%
@@ -206,12 +272,12 @@
     \endentry
     \entry{riemer_simulating_2009}{article}{}
       \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=5c05fd7739fd5ea39474b8fc5c21e5ec}{%
+        {{un=2,uniquepart=given,hash=5c05fd7739fd5ea39474b8fc5c21e5ec}{%
            family={Riemer},
            familyi={R\bibinitperiod},
            given={N.},
            giveni={N\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=5112d0294362c4012eb8aefe452fcc72}{%
            family={West},
            familyi={W\bibinitperiod},

@@ -99,14 +99,14 @@ Prior to the release of gas and aerosol emissions, the simulation is allowed to 
 \subsection{Chemical mechanism}
 In Chapter 4, we conduct simulations with only gas phase initial conditions and emissions to isolate the impact of emissions spatial heterogeneity on gas phase reactions. For these simulations, we use WRF version 4.4.1. Beginning with WRF version 4, various sub-models including chemical mechanisms are packaged alongside the WRF codebase. We select the chemical mechanism Carbon-Bond Mechanism-Z (CBMZ) for gas phase photochemical reactions (\cite{zaveri_new_1999}). CBMZ models both inorganic and organic compounds prevalent in anthropogenic and biogenic emissions. CBMZ allows computationally efficient calculation of over 100 reactions across dozens of chemical species. This is possible due to the model's ``lumped-structure" approach to sorting similar organic compounds by their carbon bond structure (e.g, alkanes, carbonyls, etc.). This reduces the need for tracking large volumes of organic species and reactions. Despite simplifications to the organic chemistry mechanism, CBMZ has been shown to accurately represent concentrations of compounds of primary interest for atmospheric chemistry applications (e.g., O$_3$, NO$_x$, etc.) (\cite{zaveri_new_1999}, \hl{other citations?}). 
 
-\subsection{Initial conditions and emissions}
+\subsection{Initial conditions and emissions}\label{gas-phase-ics-and-emiss}
 
 \begin{table}[h]
 \centering
 \caption{Gas phase emissions and initial conditions. Table taken from \cite{riemer_simulating_2009} \hl{with permission}.}
-\begin{tabular}{lccr}
-\toprule
-Species & Symbol & Initial Mole Fraction (ppb) & Emissions (nmol m\textsuperscript{-2} s\textsuperscript{-1}) \\
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}} lccr}
+\\[-2ex]\hline 
+     \hline \\[-2ex] Species & Symbol & Initial Mole Fraction (ppb) & Emissions (nmol m\textsuperscript{-2} s\textsuperscript{-1}) \\
 \midrule
 Nitric oxide & NO & 0.1 & 31.8 \\
 Nitrogen dioxide & NO\textsubscript{2} & 1.0 & 1.67 \\
@@ -136,8 +136,9 @@ Higher organic acid & RCOOH & 0.2 & \\
 Higher organic peroxide & ROOH & 2.5 \(\cdot 10^{-2}\) & \\
 Isoprene & ISOP & 0.5 & 0.23 \\
 Alcohols & ANOL & & 3.45 \\
-\bottomrule
-\end{tabular}
+\\[-2ex]\hline 
+     \hline \\[-2ex]
+\end{tabular*}
 \label{table:gas_emiss_ics}
 \end{table}
 
@@ -147,17 +148,58 @@ Gas phase initial conditions and emissions are chosen to represent species and c
 
 \section{Multiphase simulations}
 \subsection{Chemical mechanism}
-Chapter 5 presents simulation results where both gas phase chemistry and aerosol processes (e.g., coagulation, gas-particle partitioning, etc.) are modeled. Gas phase chemistry is modeled using CBMZ as in Chapter 4. Aerosol chemistry is represented using the Model for Simulating Aerosol Interactions and Chemistry (MOSAIC) (\cite{zaveri_model_2008}). MOSAIC simulates dynamic gas-particle partitioning and phase-dependent thermodynamic equilibrium. A key challenge for modeling aerosol chemistry is that the coupled system of solid-liquid phase reactions that govern aerosol thermodynamic equilibrium is often numerically stiff due to the rate of reactions varying over large timescales. Often, chemical mechanisms solve such stiff systems in a computationally expensive manner either by iterative techniques or by directly minimizing the Gibbs Free energy of the system. MOSAIC takes an alternative approach whereby the system of equilibrium reactions is reformulated as a pseudo-transient system. This recasts the system as ordinary differential equations, for which standard numerical techniques are used to integrate and obtain equilibrium steady state solutions. This approach makes MOSAIC computationally efficient while maintaining good agreement when benchmarked against numerically rigorous and accurate models (\cite{zaveri_model_2008}).
+Chapter 5 presents simulation results where both gas phase chemistry and aerosol processes (e.g., coagulation, gas-particle partitioning, etc.) are modeled. Both gas phase and aerosol chemistry is represented using the Model for Simulating Aerosol Interactions and Chemistry (MOSAIC) (\cite{zaveri_model_2008}). MOSAIC was developed by the authors of CBMZ, and it should be noted that CBMZ is included a sub-model within MOSAIC for handling gas phase chemistry. For aerosol chemistry, MOSAIC simulates dynamic gas-particle partitioning and phase-dependent thermodynamic equilibrium. A key challenge for modeling aerosol chemistry is that the coupled system of solid-liquid phase reactions that govern aerosol thermodynamic equilibrium is often numerically stiff due to the rate of reactions varying over large timescales. Often, chemical mechanisms solve such stiff systems in a computationally expensive manner either by iterative techniques or by directly minimizing the Gibbs Free energy of the system. MOSAIC takes an alternative approach whereby the system of equilibrium reactions is reformulated as a pseudo-transient system. This recasts the system as ordinary differential equations, for which standard numerical techniques are used to integrate and obtain equilibrium steady state solutions. This approach makes MOSAIC computationally efficient while maintaining good agreement when benchmarked against numerically rigorous and accurate models (\cite{zaveri_model_2008}).
 
 
 \subsection{Aerosol representation}
 
 We use the Particle Monte Carlo (PartMC) model for particle-resolved representation of aerosols (\cite{riemer_simulating_2009}). In PartMC, aerosol particles are represented via a set of computational particles with appropriate multiplicity to represent the desired aerosol population. Each computational particle is allowed to compositionally vary due to aerosol processes (e.g., coagulation, condensation, gas-particle partitioning, etc.), thus allowing the representation of a far greater degree of compositional diversity and aerosol properties than sectional or modal based aerosol models \hl{citations}. PartMC is a box model, meaning that within computational grid cells, the position of computational particles is not tracked. Instead, processes such as coagulation are handled in the probabilistic manner of \hl{Gillepsi 1975}. PartMC is coupled with MOSAIC, thereby leveraging the computational efficiency and accuracy of each model in allowing full representation of an aerosol state (number and mass concentration, per-particle composition) under aging due to both aerosol physical processes and chemical reactions.
 
+\cite{curtis_single-column_2017} coupled PartMC-MOSAIC with WRF for a single column model of the planetary boundary layer. The authors developed approaches for modeling the turbulent diffusion and dry deposition of aerosol particles as stochastic processes. The resulting modeling framework, WRF-PartMC-MOSAIC, is extended here for use with 3D LES. 
 
-\begin{itemize}
-\item Coupling of WRF and PartMC (Jeff's SCM paper).
-\end{itemize}
+For WRF-PartMC-MOSAIC-LES, we use 100 computational particles per grid cell for a total of 100 million computational particles throughout the domain at initialization. This value was chosen to balance computational efficiency and storage demands alongside numerical representability -- too few computational particles will result in random noise for aerosol population properties due to the stochastic nature of the PartMC model.
 
 \subsection{Initial conditions and emissions}
+
+Initial conditions and emissions of gas phase species match those discussed in Section \ref{gas-phase-ics-and-emiss} and displayed in Table \ref{table:gas_emiss_ics}. Similarly, aerosol initial conditions and emission rates are adopted from \cite{riemer_simulating_2009}, who based aerosol distributions, composition, and emission rates off measurements collected as part of the SCAQS campaign in the Los Angeles valley. Aerosol initial conditions and emission properties are summarized in Table \ref{table:aero_emiss_ics}. Size distributions for aerosol initial conditions and emissions are shown in Figure \ref{fig:aero_ic_dist} and Figure \ref{fig:aero_emiss_dist}, respectively. The aerosol initial condition is comprised of two modes, including a Aitken mode and accumulation mode. Each mode is an equal mixture of 50\% ammonium sulfate and 50\% primary organic aerosol (POA). Three emission modes are chosen to represent emissions from various urban combustion sources, including cooking, diesel vehicles, and gasoline vehicles. The cooking emission mode is comprised of 100\% POA and the diesel and gasoline modes are each a mixture of POA and black carbon (BC). 
+
+\begin{table}[h]
+\centering
+\caption{Aerosol emissions and initial conditions. Table taken from \cite{riemer_simulating_2009} \hl{with permission}.}
+\begin{tabular*}{\linewidth}{@{\extracolsep{\fill}} cccccc}
+\\[-2ex]\hline 
+     \hline \\[-2ex] Initial/Background  & $N$ (m$^{-3}$) & $D_{\text{gn}}$ ($\mu$m) & $\sigma_g$ & Composition by Mass\\
+ \midrule
+Aitken Mode & $3.2 \cdot 10^9$ & 0.02 & 1.45 & 50\% (NH$_4$)$_2$SO$_4$, 50\% POA\\
+Accumulation Mode & $2.9 \cdot 10^9$ & 0.116 & 1.65 & 50\% (NH$_4$)$_2$SO$_4$, 50\% POA\\
+\midrule
+Emissions & $E$ (m$^{-2}$ s$^{-1}$) & $D_{\text{gn}}$ ($\mu$m) & $\sigma_g$ & Composition by Mass\\
+\midrule
+Meat cooking & $9 \cdot 10^6$ & 0.086 & 1.9 & 100\% POA\\
+Diesel vehicles & $1.6 \cdot 10^8$ & 0.05 & 1.7 & 30\% POA, 70\% BC \\
+Gasoline vehicles & $5 \cdot 10^7$ & 0.05 & 1.7 & 80\% POA, 20\% BC \\
+\\[-2ex]\hline 
+     \hline \\[-2ex]
+\end{tabular*}
+\label{table:aero_emiss_ics}
+\end{table}
+
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.85\textwidth]{figures/urban-plume-aerosol-ic.pdf}
+    \caption{Aerosol initial condition size distributions.}
+    \label{fig:aero_ic_dist}
+  \end{subfigure}
+   \vspace*{5mm} 
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.85\textwidth]{figures/urban-plume-aerosol-emissions.pdf}
+    \caption{Aerosol emission size distributions.}
+    \label{fig:aero_emiss_dist}
+  \end{subfigure}
+\end{figure}
+
+
 
