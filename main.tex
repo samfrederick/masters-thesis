@@ -1,0 +1,145 @@
+% !TEX TS–program = pdflatexmk    % for making citations with biber
+% For copyright and license information, see uiucthesis2021.dtx and derivatives.
+\documentclass[11pt]{./uiuc_thesis_template/uiucthesis2021} % Set global font here!
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{csquotes}
+\usepackage{microtype}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage[bookmarksdepth=3,linktoc=all,colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
+\usepackage[capitalize]{cleveref}
+\usepackage[backend=biber, style=authoryear, citestyle=authoryear]{biblatex}
+
+% User added packages
+\usepackage{mathptmx}
+\usepackage{color,soul}
+\usepackage{upgreek}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{siunitx}
+\usepackage{booktabs}
+%\usepackage{natbib}
+\graphicspath{ {./figures/} }
+%\usepackage[utf8]{inputenc}
+
+
+
+%\usepackage{sectsty}
+%\chapternumberfont{\Large} 
+%\chaptertitlefont{\huge}
+
+\usepackage{titlesec}
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\huge\onehalfspacing}
+% this alters "before" spacing (the second length argument) to 0
+\titlespacing*{\chapter}{0pt}{0pt}{40pt}
+
+% \usepackage{ruledchapters}  % example of compliant heading format, uncomment to use
+
+%\usepackage{lipsum}  % just for placeholder code
+
+% uncomment the below to show a grid on all pages
+% \usepackage[grid, gridunit=in, gridcolor=blue!40, subgridcolor=blue!20]{eso-pic}
+
+\addbibresource{all-references.bib}
+
+\newcounter{counterforappendices}
+
+\begin{document}
+
+\doublespacing
+
+% ------------------------------------ TITLE PAGE --------------------------------------
+\title{Idealized particle-resolved large-eddy simulations \\
+to evaluate the impact of emissions spatial heterogeneity\\
+on CCN activity}
+\author{Samuel Frederick}
+\department{Climate, Meteorology, and Atmospheric Sciences}
+%\concentration{Coffee Studies}
+\msthesis % options are \phdthesis or \msthesis
+\degreeyear{2024}
+\committee{
+    Professor Nicole Riemer\\				% NOTE: use title of Dr. or professor?
+    Professor Matthew West\\
+    Professor Larry Di Girolamo}
+\maketitle
+
+\frontmatter
+
+\include{abstract} 
+
+%\begin{dedication}
+%To Father and Mother.
+%\end{dedication}
+
+\begin{acknowledgments}
+
+\end{acknowledgments}
+
+{
+    \hypersetup{linkcolor=black}  % disable link coloring locally
+    \setcounter{tocdepth}{2} % Does it matter if I go with 2 (includes subsections) or 1 (just chapters and sections)?
+    \tableofcontents
+    % the Graduate College doesn't recommend including lot or lof
+     \listoftables
+     \listoffigures
+}
+
+%\chapter{List of Abbreviations}
+
+%\begin{abbrevlist}
+%\item[BC] Black carbon
+%\item[OC] Organic carbon
+%\item[VOC] Volatile organic compound
+%\end{abbrevlist}
+
+%\chapter{List of Symbols}
+
+%\begin{symbollist}[0.7in]
+%\item[$\tau$] Time taken to drink one cup of coffee.
+%\item[$\mu$g] Micrograms (of caffeine, generally).
+%\end{symbollist}
+
+
+
+\mainmatter
+
+\include{1-introduction}
+\include{2-spatial-het}
+\include{3-modeling-tools}
+\include{4-spatial-het-gas-phase}
+\include{5-spatial-het-aerosols}
+\include{6-conclusions}
+
+% test cite
+%\cite{Childish07}
+
+
+
+
+% per Graduate College preference, place the \appendix and the appendices content before the
+% bibliography (here) only if the appendices contain references.
+
+\backmatter
+
+\printbibliography[heading=bibintoc,title={References}]
+
+%\bibliographystyle{IEEEtran}
+%\printbibliography
+
+% the below lines are only needed if bibliography precedes appendices
+% uses https://tex.stackexchange.com/a/440212 to continue page numbering
+\clearpage
+\setcounter{counterforappendices}{\value{page}}
+\mainmatter
+\setcounter{page}{\value{counterforappendices}}
+
+\appendix
+
+%\chapter{An appendix}
+
+%\lipsum[1-5]
+
+% \input{Appendix.tex}
+
+\end{document}

@@ -1,0 +1,641 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global}
+    \entry{deardorff_numerical_1970}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbabc5950943f99fdc747dee48d3bf50}{%
+           family={Deardorff},
+           familyi={D\bibinitperiod},
+           given={James\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{cbabc5950943f99fdc747dee48d3bf50}
+      \strng{fullhash}{cbabc5950943f99fdc747dee48d3bf50}
+      \strng{bibnamehash}{cbabc5950943f99fdc747dee48d3bf50}
+      \strng{authorbibnamehash}{cbabc5950943f99fdc747dee48d3bf50}
+      \strng{authornamehash}{cbabc5950943f99fdc747dee48d3bf50}
+      \strng{authorfullhash}{cbabc5950943f99fdc747dee48d3bf50}
+      \field{extraname}{1}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The three-dimensional, primitive equations of motion have been integrated numerically in time for the case of turbulent, plane Poiseuille flow at very large Reynolds numbers. A total of 6720 uniform grid intervals were used, with sub-grid scale effects simulated with eddy coefficients proportional to the local velocity deformation. The agreement of calculated statistics against those measured by Laufer ranges from good to marginal. The eddy shapes are examined, and only the u-component, longitudinal eddies are found to be elongated in the downstream direction. However, the lateral v eddies have distinct downstream tilts. The turbulence energy balance is examined, including the separate effects of vertical diffusion of pressure and local kinetic energy.It is concluded that the numerical approach to the problem of turbulence at large Reynolds numbers is already profitable, with increased accuracy to be expected with modest increase of numerical resolution.}
+      \field{issn}{1469-7645, 0022-1120}
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{A numerical study of three-dimensional turbulent channel flow at large {Reynolds} numbers}
+      \field{urlday}{18}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{41}
+      \field{year}{1970}
+      \field{urldateera}{ce}
+      \field{pages}{453\bibrangedash 480}
+      \range{pages}{28}
+      \verb{doi}
+      \verb 10.1017/S0022112070000691
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/4T6L8XNT/Deardorff - 1970 - A numerical study of three-dimensional turbulent c.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/numerical-study-of-threedimensional-turbulent-channel-flow-at-large-reynolds-numbers/D84769F4A3443E4C87E8878303890999
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/numerical-study-of-threedimensional-turbulent-channel-flow-at-large-reynolds-numbers/D84769F4A3443E4C87E8878303890999
+      \endverb
+    \endentry
+    \entry{deardorff_stratocumulus-capped_1980}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=cbabc5950943f99fdc747dee48d3bf50}{%
+           family={Deardorff},
+           familyi={D\bibinitperiod},
+           given={James\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cbabc5950943f99fdc747dee48d3bf50}
+      \strng{fullhash}{cbabc5950943f99fdc747dee48d3bf50}
+      \strng{bibnamehash}{cbabc5950943f99fdc747dee48d3bf50}
+      \strng{authorbibnamehash}{cbabc5950943f99fdc747dee48d3bf50}
+      \strng{authornamehash}{cbabc5950943f99fdc747dee48d3bf50}
+      \strng{authorfullhash}{cbabc5950943f99fdc747dee48d3bf50}
+      \field{extraname}{2}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Results of a three-dimensional numerical model are analysed in a study of turbulence and entrainment within mixed layers containing stratocumulus with or without parameterized cloud-top radiative cooling. The model eliminates most of the assumptions invoked in theories of cloud-capped mixed layers, but suffers disadvantages which include poor resolution and large truncation errors in and above the capping inversion.}
+      \field{issn}{1573-1472}
+      \field{journaltitle}{Boundary-Layer Meteorology}
+      \field{month}{6}
+      \field{number}{4}
+      \field{title}{Stratocumulus-capped mixed layers derived from a three-dimensional model}
+      \field{volume}{18}
+      \field{year}{1980}
+      \field{pages}{495\bibrangedash 527}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1007/BF00119502
+      \endverb
+      \verb{file}
+      \verb Deardorff - 1980 - Stratocumulus-capped mixed layers derived from a t.pdf:/Users/sf20/Zotero/storage/A8TX26VZ/Deardorff - 1980 - Stratocumulus-capped mixed layers derived from a t.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF00119502
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF00119502
+      \endverb
+    \endentry
+    \entry{fast_impact_2019}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=7cb44e4ec53546ae1bb2deb1ffd1ebb1}{%
+           family={Fast},
+           familyi={F\bibinitperiod},
+           given={Jerome\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b19258854bed1a245bcfe6b95369258}{%
+           family={Berg},
+           familyi={B\bibinitperiod},
+           given={Larry\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53bdaa103215adab6fd5247b20c77d13}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Zhe},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53a5484b243a1e804501b6c024a95aef}{%
+           family={Mei},
+           familyi={M\bibinitperiod},
+           given={Fan},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3aaede8af0fb20c03380de3cf746dd04}{%
+           family={Newsom},
+           familyi={N\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=460cd9164d877312cdcd0a6e7da1ae95}{%
+           family={Sakaguchi},
+           familyi={S\bibinitperiod},
+           given={Koichi},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e50d2f7cfc7f2aea3adfbf6ed8952990}{%
+           family={Xiao},
+           familyi={X\bibinitperiod},
+           given={Heng},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e8661b877942e39654776ba345945f43}
+      \strng{fullhash}{eb70d6120a9e39e82d17bd2c96184e3a}
+      \strng{bibnamehash}{e8661b877942e39654776ba345945f43}
+      \strng{authorbibnamehash}{e8661b877942e39654776ba345945f43}
+      \strng{authornamehash}{e8661b877942e39654776ba345945f43}
+      \strng{authorfullhash}{eb70d6120a9e39e82d17bd2c96184e3a}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We use a large-eddy simulation model with a nested domain configuration (297 and 120 km wide) and an interactive land surface parameterization to simulate the complex population of shallow clouds observed on 30 August 2016 during the Holistic Interactions of Shallow Clouds, Aerosols, and Land-Ecosystems campaign conducted in north-central Oklahoma. Shallow convective clouds first formed over southeast Oklahoma and then spread toward the northwest into southern Kansas. By the early afternoon, the relatively uniform shallow cloud field became more complex in which some regions became nearly cloud free and in other regions larger shallow clouds developed with some transitioning to deeper, precipitating convection. We show that the model reproduces the observed heterogeneity in the cloud populations only when realistic variations in soil moisture are used to initialize the model. While more variable soil moisture and to a lesser extent cool lake temperatures drive the initial spatial heterogeneity in the cloud populations, precipitation-driven cold pools become an important factor after 1300 CST. When smoother soil moisture variations are used in the model, more uniform shallow cloud populations are predicted with far fewer clouds that transition to deeper, precipitating convection that produce cold pools. An algorithm that tracks thousands of individual cumulus show that the more realistic soil moisture distributions produces clouds that are larger and have a longer lifetime. The results suggest that shallow and deep convection parameterizations used by mesoscale models need to account for the effects of variable land-atmosphere interactions and cold pools.}
+      \field{issn}{1942-2466}
+      \field{journaltitle}{Journal of Advances in Modeling Earth Systems}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2019MS001727}
+      \field{number}{8}
+      \field{title}{The {Impact} of {Variable} {Land}-{Atmosphere} {Coupling} on {Convective} {Cloud} {Populations} {Observed} {During} the 2016 {HI}-{SCALE} {Field} {Campaign}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{volume}{11}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{2629\bibrangedash 2654}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1029/2019MS001727
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/ZG5UEVTA/Fast et al. - 2019 - The Impact of Variable Land-Atmosphere Coupling on.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/NTJGNKIQ/2019MS001727.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2019MS001727
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2019MS001727
+      \endverb
+      \keyw{convective clouds,land-atmosphere coupling,LES model,soil moisture,Thesis}
+    \endentry
+    \entry{riemer_simulating_2009}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5c05fd7739fd5ea39474b8fc5c21e5ec}{%
+           family={Riemer},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5112d0294362c4012eb8aefe452fcc72}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6597f09c753d50f4cd072399380d67ec}{%
+           family={Zaveri},
+           familyi={Z\bibinitperiod},
+           given={R.\bibnamedelimi A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b69c5b40badf56f5c5bd0dd42053565b}{%
+           family={Easter},
+           familyi={E\bibinitperiod},
+           given={R.\bibnamedelimi C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e65d34813ce76ea65c246accc4954b2e}
+      \strng{fullhash}{0d19471eb0ebd24ac365dc449a71bbfe}
+      \strng{bibnamehash}{e65d34813ce76ea65c246accc4954b2e}
+      \strng{authorbibnamehash}{e65d34813ce76ea65c246accc4954b2e}
+      \strng{authornamehash}{e65d34813ce76ea65c246accc4954b2e}
+      \strng{authorfullhash}{0d19471eb0ebd24ac365dc449a71bbfe}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The mixing state of soot particles in the atmosphere is of crucial importance for assessing their climatic impact, since it governs their chemical reactivity, cloud condensation nuclei activity, and radiative properties. To improve the mixing state representation in models, we present a new approach, the stochastic particle-resolved model PartMC-MOSAIC, which explicitly resolves the composition of individual particles in a given population of different types of aerosol particles. This approach tracks the evolution of the mixing state of particles due to emission, dilution, condensation, and coagulation. To make this direct stochastic particle-based method practical, we implemented a new multiscale stochastic coagulation method. With this method we achieved high computational efficiency for situations when the coagulation kernel is highly nonuniform, as is the case for many realistic applications. PartMC-MOSAIC was applied to an idealized urban plume case representative of a large urban area to simulate the evolution of carbonaceous aerosols of different types due to coagulation and condensation. For this urban plume scenario we quantified the individual processes that contributed to the aging of the aerosol distribution, illustrating the capabilities of our modeling approach. The results showed for the first time the multidimensional structure of particle composition, which is usually lost in sectional or modal aerosol models.}
+      \field{issn}{2156-2202}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2008JD011073}
+      \field{number}{D9}
+      \field{title}{Simulating the evolution of soot mixing state with a particle-resolved aerosol model}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{volume}{114}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1029/2008JD011073
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/GTKGMQJ8/Riemer et al. - 2009 - Simulating the evolution of soot mixing state with.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/APXHK8L3/2008JD011073.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2008JD011073
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2008JD011073
+      \endverb
+      \keyw{aerosol aging,particle-resolved model,Thesis}
+    \endentry
+    \entry{seinfeld_atmospheric_1998}{book}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ccd8f161435542a47752a03bc69edd12}{%
+           family={Seinfeld},
+           familyi={S\bibinitperiod},
+           given={J},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=75bbc0b8dccb4ebd574e34765b589688}{%
+           family={Pandis},
+           familyi={P\bibinitperiod},
+           given={S},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9f12b0b8fe0d368fd653bb6e2ad726d9}
+      \strng{fullhash}{9f12b0b8fe0d368fd653bb6e2ad726d9}
+      \strng{bibnamehash}{9f12b0b8fe0d368fd653bb6e2ad726d9}
+      \strng{authorbibnamehash}{9f12b0b8fe0d368fd653bb6e2ad726d9}
+      \strng{authornamehash}{9f12b0b8fe0d368fd653bb6e2ad726d9}
+      \strng{authorfullhash}{9f12b0b8fe0d368fd653bb6e2ad726d9}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Atmospheric {Chemistry} and {Physics}: {From} {Air} {Pollution} to {Climate} {Change}}
+      \field{year}{1998}
+      \keyw{imported}
+    \endentry
+    \entry{smagorinsky_general_1963}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f804e4046ebae7d5cd0fb7c22c343b8}{%
+           family={Smagorinsky},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{3f804e4046ebae7d5cd0fb7c22c343b8}
+      \strng{fullhash}{3f804e4046ebae7d5cd0fb7c22c343b8}
+      \strng{bibnamehash}{3f804e4046ebae7d5cd0fb7c22c343b8}
+      \strng{authorbibnamehash}{3f804e4046ebae7d5cd0fb7c22c343b8}
+      \strng{authornamehash}{3f804e4046ebae7d5cd0fb7c22c343b8}
+      \strng{authorfullhash}{3f804e4046ebae7d5cd0fb7c22c343b8}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract An extended period numerical integration of a baroclinic primitive equation model has been made for the simulation and the study of the dynamics of the atmosphere's general circulation. The solution corresponding to external gravitational propagation is filtered by requiring the vertically integrated divergence to vanish identically. The vertical structure permits as dependent variables the horizontal wind at two internal levels and a single temperature, with the static stability entering as a parameter. The incoming radiation is a function of latitude only corresponding to the annual mean, and the outgoing radiation is taken to be a function of the local temperature. With the requirement for thermal equilibrium, the domain mean temperature is specified as a parameter. The role of condensation is taken into account only as it effectively reduces the static stability. All other external sources and sinks of heat are assumed to balance each other locally, and are thus omitted. The kinematics are that of a fluid on a sphere bounded by smooth zonal walls at the equator and at approximately 64° latitude. The dissipative sinks are provided by: (a) surface stresses proportional through a drag coefficient to the square of the surface wind which is suitably extrapolated from above, (b) internal convective stresses proportional to the vertical wind shear, and (c) lateral diffusion of momentum and heat through an exchange coefficient which depends on the local horizontal rate of strain—a horizontal length scale entering as the governing parameter. For a given specification of the parameters, an integration for 60 days has been made from initial conditions where random temperature disturbances have been superimposed on a zonally symmetric regime which is baroclinically unstable according to linear theory. This experiment not only displays the scale selective character of baroclinic instability, yielding zonal wave number 5 to 6, but also predicts an index or energy cycle. The period of this cycle is 11 to 12 days for the first 40 days of the experiment, then lengthening to 17 days while diminishing in amplitude during the latter part. The resulting mean zonal velocity profile is in good qualitative agreement with observation, but too intense, presumably because the effective static stability parameter is taken too large. Furthermore this profile is found to be no more than 5 percent super-geostrophic poleward of the angular momentum maximum and no more than 2 percent sub-geostrophic equatorward. The total zonal angular momentum remains constant to within 2 percent irrespective of the phase of the index cycle. This balance is controlled by the surface wind distribution which agrees quite well with observation. The poleward transport is mainly accomplished by the large-scale eddies, whereas the internal vertical flux is predominantly a transfer of the earth's angular momentum by the meridional circulation. The poleward heat transport is primarily accomplished by a Hadley circulation at low latitudes but by the large-scale horizontal eddies in mid-latitudes, where a Ferrel circulation tends to compensate through an equatorward flux. This compensation at mid-latitudes by an indirect meridional circulation is also quite evident, in the potential-kinetic energy transformations. Comparison of the momentum and heat transfer with observed data when available shows reasonably good quantitative agreement. The lateral transfer of momentum and heat by the non-linear diffusion, which parametrically is supposed to simulate the action of motions of sub-grid scale, accounts for a significant portion of the total eddy transfer. Although no direct comparison with the corresponding transfer in the real atmosphere is available, intuitively our small-scale diffusion appears to play too large a role. A diagnosis is made of the transformations among the baratropic and baroclinic parts of the kinetic energy as well as the zonal mean and zonal perturbation parts of the available potential and kinetic energy. This reveals the dominant paths that the energy passes through from source to ultimate sinks and the processes responsible for these transformations. It is found that the partitioning of dissipation by the energy components may differ considerably from estimates made from observation.}
+      \field{issn}{1520-0493, 0027-0644}
+      \field{journaltitle}{Monthly Weather Review}
+      \field{month}{3}
+      \field{note}{Publisher: American Meteorological Society Section: Monthly Weather Review}
+      \field{number}{3}
+      \field{shorttitle}{{GENERAL} {CIRCULATION} {EXPERIMENTS} {WITH} {THE} {PRIMITIVE} {EQUATIONS}}
+      \field{title}{{GENERAL} {CIRCULATION} {EXPERIMENTS} {WITH} {THE} {PRIMITIVE} {EQUATIONS}: {I}. {THE} {BASIC} {EXPERIMENT}}
+      \field{urlday}{16}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{91}
+      \field{year}{1963}
+      \field{urldateera}{ce}
+      \field{pages}{99\bibrangedash 164}
+      \range{pages}{66}
+      \verb{doi}
+      \verb 10.1175/1520-0493(1963)091<0099:GCEWTP>2.3.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/7P53HD5M/Smagorinsky - 1963 - GENERAL CIRCULATION EXPERIMENTS WITH THE PRIMITIVE.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/mwre/91/3/1520-0493_1963_091_0099_gcewtp_2_3_co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/mwre/91/3/1520-0493_1963_091_0099_gcewtp_2_3_co_2.xml
+      \endverb
+    \endentry
+    \entry{stoll_large-eddy_2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=c5c4b19cff5126b4da75257a36803952}{%
+           family={Stoll},
+           familyi={S\bibinitperiod},
+           given={Rob},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=243f61000fc67fd1d884f92ad2f72c06}{%
+           family={Gibbs},
+           familyi={G\bibinitperiod},
+           given={Jeremy\bibnamedelima A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9f703ed8d3f61579b521b110418ade7}{%
+           family={Salesky},
+           familyi={S\bibinitperiod},
+           given={Scott\bibnamedelima T.},
+           giveni={S\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7408de5ef4e263530dc1700d9ad2d447}{%
+           family={Anderson},
+           familyi={A\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ffa2bc7ab2db4e586d20a0da03ae3863}{%
+           family={Calaf},
+           familyi={C\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0347ea98cee11428c5ec4d071fe4a14e}
+      \strng{fullhash}{81fa47b74f15b6313e73e028c73f7df0}
+      \strng{bibnamehash}{0347ea98cee11428c5ec4d071fe4a14e}
+      \strng{authorbibnamehash}{0347ea98cee11428c5ec4d071fe4a14e}
+      \strng{authornamehash}{0347ea98cee11428c5ec4d071fe4a14e}
+      \strng{authorfullhash}{81fa47b74f15b6313e73e028c73f7df0}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Over the last 50 years the large-eddy simulation (LES) technique has developed into one of the most prominent numerical tools used to study transport processes in the atmospheric boundary layer (ABL). This review examines development of the technique as a tool for ABL research, integration with state-of-the-art scientific computing resources, and some key application areas. Analysis of the published literature indicates that LES research across a broad range of applications accelerated starting around 1990. From that point in time, robust research using LES developed in several different application areas and based on a review of the papers published in this journal, we identify seven major areas of intensive ABL–LES research: convective boundary layers, stable boundary layers, transitional boundary layers, plant canopy flows, urban meteorology and dispersion, surface heterogeneity, and the testing and development of subgrid-scale (SGS) models. We begin with a general overview of LES and then proceed to examine the SGS models developed for use in ABL–LES. After this overview of the technique itself, we review the specific model developments tailored to the identified application areas and the scientific advancements realized using the LES technique in each area. We conclude by examining the computational trends in published ABL–LES research and identify some resource underutilization. Future directions and research needs are identified from a synthesis of the reviewed literature.}
+      \field{issn}{1573-1472}
+      \field{journaltitle}{Boundary-Layer Meteorology}
+      \field{month}{12}
+      \field{number}{2}
+      \field{title}{Large-{Eddy} {Simulation} of the {Atmospheric} {Boundary} {Layer}}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{volume}{177}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{541\bibrangedash 581}
+      \range{pages}{41}
+      \verb{doi}
+      \verb 10.1007/s10546-020-00556-3
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/DKT43LMG/Stoll et al. - 2020 - Large-Eddy Simulation of the Atmospheric Boundary .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/s10546-020-00556-3
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/s10546-020-00556-3
+      \endverb
+      \keyw{Convective boundary layer,Large-eddy simulation,Plant canopy,Stable boundary layer,Subgrid-scale model,Urban canopy layer,Thesis}
+    \endentry
+    \entry{tian_how_2022}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=fc40a9700870af7ab7e39b8da6f2ecdc}{%
+           family={Tian},
+           familyi={T\bibinitperiod},
+           given={Jingjing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b33d420904ea0f17bdea78f25fe6e51}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yunyan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac96515650bd328f8bc17d40e9d3cc12}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Stephen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9728d1240d1a51d3a382cb6a3cb2263}{%
+           family={Öktem},
+           familyi={Ö\bibinitperiod},
+           given={Rusen},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=141946c3379f47a96536d72f3d10ada4}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Likun},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{6a227d1f927c6a659a377abbdc16716b}
+      \strng{fullhash}{a34d8f114e2b6c9dc73727abe91142cb}
+      \strng{bibnamehash}{6a227d1f927c6a659a377abbdc16716b}
+      \strng{authorbibnamehash}{6a227d1f927c6a659a377abbdc16716b}
+      \strng{authornamehash}{6a227d1f927c6a659a377abbdc16716b}
+      \strng{authorfullhash}{a34d8f114e2b6c9dc73727abe91142cb}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study investigates the effects of heterogeneous land covers on shallow cumulus (ShCu) clouds at the US Southern Great Plains using high-resolution satellite and land cover data. During late summer, ShCu occurs over cities the most frequently and over open waters the least frequently, and more often over forest than over grassland. The preferential occurrence of ShCu over forest relative to grassland is consistent with surface measurements showing larger heat fluxes over forests. This preferential occurrence also varies with the length scales of land patches with the largest cloud occurrence difference shifting from smaller length scales ({<}9 km) during midday to larger scales ({>}9 km) in the early afternoon. Consistent with theory, these signals are more pronounced under low wind conditions. The preferential length scale shift with time suggests the existence of secondary circulations that strengthen and promote convergence over larger spatial scales as the differential land surface heating intensifies.}
+      \field{annotation}{e2021GL097070 2021GL097070}
+      \field{issn}{1944-8007}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021GL097070}
+      \field{number}{7}
+      \field{title}{How {Does} {Land} {Cover} and {Its} {Heterogeneity} {Length} {Scales} {Affect} the {Formation} of {Summertime} {Shallow} {Cumulus} {Clouds} in {Observations} {From} the {US} {Southern} {Great} {Plains}?}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{49}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{e2021GL097070}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1029/2021GL097070
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/VZSMSQI6/Tian et al. - 2022 - How Does Land Cover and Its Heterogeneity Length S.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/ISE69DD9/2021GL097070.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2021GL097070
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2021GL097070
+      \endverb
+      \keyw{cloud,GOES,land atmosphere interaction,land cover,secondary circulations,shallow cumulus,surface heat flux,Thesis}
+    \endentry
+    \entry{zaveri_model_2008}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=cefedf772b5058aa14debe40086d9a13}{%
+           family={Zaveri},
+           familyi={Z\bibinitperiod},
+           given={Rahul\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38b4660deb2c79488fd2d72cdcd710d7}{%
+           family={Easter},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cb44e4ec53546ae1bb2deb1ffd1ebb1}{%
+           family={Fast},
+           familyi={F\bibinitperiod},
+           given={Jerome\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=395b4a82f47d4e5b8b8f3c8783618974}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Leonard\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ff81565021583db8271429b6069e0108}
+      \strng{fullhash}{f435752eca86561a78e8dae26c682a88}
+      \strng{bibnamehash}{ff81565021583db8271429b6069e0108}
+      \strng{authorbibnamehash}{ff81565021583db8271429b6069e0108}
+      \strng{authornamehash}{ff81565021583db8271429b6069e0108}
+      \strng{authorfullhash}{f435752eca86561a78e8dae26c682a88}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper describes and evaluates a new Model for Simulating Aerosol Interactions and Chemistry (MOSAIC), with a special focus on addressing the long-standing issues in solving the dynamic partitioning of semivolatile inorganic gases (HNO3, HCl, and NH3) to size-distributed atmospheric aerosol particles. The coupled ordinary differential equations (ODE) for dynamic gas-particle mass transfer are extremely stiff, and the available numerical techniques are either very expensive or produce oscillatory solutions. These limitations are overcome in MOSAIC with a new dynamic gas-particle partitioning module, which is coupled to an efficient and accurate thermodynamics module. The algorithm includes a new concept of “dynamic pH,” a novel formulation for mass transfer to mixed-phase and solid particles, and an adaptive time stepping scheme, which together hold the key to smooth, accurate, and efficient solutions of gas-particle partitioning over the entire relative humidity range. MOSAIC is found to be in excellent agreement with a benchmark version of the model that uses a rigorous solver for integrating the stiff ODEs. The steady-state MOSAIC results for monodisperse aerosol test cases are also in excellent agreement with those obtained with the benchmark equilibrium model AIM. Moreover, the CPU times required for fully dynamic solutions by MOSAIC per size bin per 5 min intervals (typical 3-D model time steps) are similar to those for bulk equilibrium solutions by the computationally efficient but relatively less accurate model ISORROPIA. These results show that MOSAIC is extremely efficient without compromising accuracy, and is therefore highly attractive for use in air quality and regional/global aerosol models.}
+      \field{issn}{2156-2202}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2007JD008782}
+      \field{number}{D13}
+      \field{title}{Model for {Simulating} {Aerosol} {Interactions} and {Chemistry} ({MOSAIC})}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{volume}{113}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1029/2007JD008782
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/IYKRF53G/Zaveri et al. - 2008 - Model for Simulating Aerosol Interactions and Chem.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/BEPI95VE/2007JD008782.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2007JD008782
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2007JD008782
+      \endverb
+      \keyw{Aerosol and air quality modeling,aerosol thermodynamics,computational efficiency,gas-particle partitioning,numerical methods,stiff ordinary differential equations,Thesis}
+    \endentry
+    \entry{zaveri_new_1999}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cefedf772b5058aa14debe40086d9a13}{%
+           family={Zaveri},
+           familyi={Z\bibinitperiod},
+           given={Rahul\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=395b4a82f47d4e5b8b8f3c8783618974}{%
+           family={Peters},
+           familyi={P\bibinitperiod},
+           given={Leonard\bibnamedelima K.},
+           giveni={L\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{593e2ba43bb0c23e1a6d31e5f0f78b06}
+      \strng{fullhash}{593e2ba43bb0c23e1a6d31e5f0f78b06}
+      \strng{bibnamehash}{593e2ba43bb0c23e1a6d31e5f0f78b06}
+      \strng{authorbibnamehash}{593e2ba43bb0c23e1a6d31e5f0f78b06}
+      \strng{authornamehash}{593e2ba43bb0c23e1a6d31e5f0f78b06}
+      \strng{authorfullhash}{593e2ba43bb0c23e1a6d31e5f0f78b06}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The lumped-structure approach for condensing organic chemical mechanisms is attractive, since it yields fewer species and reactions and reduces computational costs. This paper leads through the development of a new lumped-structure mechanism, largely based on the widely used Carbon Bond Mechanism (CBM-IV) developed by Gery et al. [1989]. The new mechanism called CBM-Z extends the original framework to function properly at larger spatial and longer timescales. The major modifications in the mechanism include revised inorganic chemistry; explicit treatment of the lesser reactive paraffins, methane and ethane; revised parameterizations of the reactive paraffin, olefin, and aromatic reactions; inclusion of alkyl and acyl peroxy radical interactions and their reactions with NO3; inclusion of organic nitrates and hydroperoxides; and refined isoprene chemistry based on the condensed one-product mechanism of Carter [1996]. CBM-Z was successfully evaluated along with the CBM-IV, a partially revised CBM-IV, and a revised Regional Acid Deposition Model (RADM2) mechanism [Stockwell et al., 1990; Kirchner and Stockwell, 1996] using the low NOx and volatile organic compound concentration smog chamber experiments of Simonaitis et al. [1997]. Box model versions of the four mechanisms were also evaluated under a variety of hypothetical urban and rural scenarios for a period of 30 days. Results from CBM-Z and revised RADM2 were found to be within ±20\% of each other, while CBM-IV and revised CBM-IV results deviated significantly by up to 50–95\%. Sensitivity tests were performed to elucidate the effects of some of the new features added in CBM-Z. Relative computational memory and time requirements of these mechanisms are also discussed.}
+      \field{issn}{2156-2202}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/1999JD900876}
+      \field{number}{D23}
+      \field{title}{A new lumped structure photochemical mechanism for large-scale applications}
+      \field{urlday}{13}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{volume}{104}
+      \field{year}{1999}
+      \field{urldateera}{ce}
+      \field{pages}{30387\bibrangedash 30415}
+      \range{pages}{29}
+      \verb{doi}
+      \verb 10.1029/1999JD900876
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/EHC4DC5K/Zaveri and Peters - 1999 - A new lumped structure photochemical mechanism for.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/XEPDPMWP/1999JD900876.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/1999JD900876
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/1999JD900876
+      \endverb
+      \keyw{CBMZ,Thesis}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

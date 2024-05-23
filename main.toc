@@ -1,0 +1,29 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{List of Tables}{v}{chapter*.3}%
+\contentsline {chapter}{List of Figures}{vi}{chapter*.4}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}The complexity of aerosols and environmental feedbacks}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Spatial heterogeneity of aerosols}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Impacts of aerosols on climate}{4}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Treatment of aerosols across modeling frameworks}{5}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Objectives of this thesis}{6}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Quantifying emissions spatial heterogeneity}{8}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Existing Approaches to Quantifying Spatial Heterogeneity}{8}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Modeling tools}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Large-eddy simulations}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Sub-grid scale parameterizations}{12}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Computational domain}{13}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Meteorological Initial Conditions}{14}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Simulation spin-up}{15}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Gas phase simulations}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Chemical mechanism}{16}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Initial conditions and emissions}{17}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Multiphase simulations}{18}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Chemical mechanism}{18}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Aerosol representation}{18}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Initial conditions and emissions}{19}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}Impacts of emissions spatial heterogeneity on gas-phase reactions}{20}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Impacts of emissions spatial heterogeneity on aerosol properties in a particle resolved framework}{21}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusions}{22}{chapter.6}%
+\contentsline {chapter}{References}{23}{chapter*.11}%
+\contentsfinish 
