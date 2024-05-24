@@ -14,5 +14,41 @@ SH is ubiquitous across the natural sciences ranging from ecology to atmospheric
 Lacunarity is related to the distribution of scales of texture in a surface. Surfaces with a broader range of texture, including large and small gaps and variations, will tend to have high lacunarity. For more homogeneous objects, the distribution of texture scales will be narrower and will result in a lower lacunarity value. Lacunarity as measured using the gliding box algorithm is dependent on the gliding box size. Importantly, changes to the gliding box size do not ensure linear scaling of the difference between lacunarity of multiple patches, meaning that, for instance, a patch may have higher lacunarity compared to other patches at small gliding box sizes but may have lower lacunarity than other patches at larger gliding box size. While this may be a useful attribute of lacunarity if one wishes to evaluate the scale dependence of spatial variability and the scales at which patches appear spatially similar or dissimilar, gliding box size introduces an additional parameter one one must choose when quantifying spatial heterogeneity and could complicate intercomparison of lacunarity measurements.
 \item {\bf Information entropy based metrics} In landscape ecology, information entropy based metrics such as Shannon’s evenness index are used to quantify the patchiness of topography that is divided among numerous land uses classes. Plexida et al. 2014 evaluate a number of metrics, including Shannon’s evenness index, for measuring the topological variability and land use of central Greece. For its use in landscape ecology, Shannon’s evenness quantifies how evenly distributed the various land use types in a region are. It is defined as Shannon’s diversity index over N populations (i.e., the Shannon entropy) divided by the maximum diversity index. 
 \item {\bf Nearest neighbor statistics for point-based heterogeneity} Shu et al. 2019 discuss nearest neighbor distance statistics for quantifying the spatial heterogeneity of points and apply various metrics to example cases including the spatial distribution of crime events in a city, regional seismic activity in Yutian China, and taxi routes in Beijing China. These examples range from 2D to 4D, illustrating the multidimensional applicability of nearest-neighbor metrics. The authors present a goodness-of-fit metric based on the distribution of nearest neighbor distances called the level of heterogeneity. A normalized version of the metric is proposed to resolve issues that arise when comparing datasets with differing magnitudes due to differences in scale or intensity. The authors note that while the proposed metric is suitable for capturing point-based spatial heterogeneity, it is quite computationally expensive. It is recommended that alternative nearest-neighbor metrics evaluated alongside the proposed metric should be preferred for computationally intensive datasets. 
-
+\item {\bf Multiscale norms} Sobolev norms have been used to quantify the mixing and transport of passive scalars in fluids (Thiffeault 2012). Sobolev norms act as a weighted sum of the Fourier coefficients resulting from the Fourier transform of a scalar field (i.e, the passive scalar suspended in either a fluid or the atmosphere). The multiscale nature of Sobolev norms refers to the selection of Sobolev space $H^q$ over which the norm is defined. Thiffeault 2012 show that the choice of Sobolev norm for $q<0$ is valuable for flow mixing applications as the magnitude of the norm decays alongside the mixing of the medium.
 \end{itemize}
+
+\subsection{Metrics for quantifying the mixing of reactive compounds}
+Atmospheric constituents that undergo chemical reactions including gas phase and aerosol species are subject to both spatial and temporal constraints that determine the rate at which reactions will proceed. For instance, species must be spatially collocated for reactions to occur, and they must remain in close proximity over the timescale that a given reaction will proceed. This gives rise to two important metrics: (1) segregation intensity, which quantifies the spatial proximity of reactive species and (2) the Damköhler number, which characterizes the dominant timescales governing the reactivity of species.
+
+The segregation intensity, first theorized by \cite{danckwerts_definition_1952} for use in combustion processes, is a measure of how spatially segregated or mixed two reactive species are that follow a typical second-order reaction of the form
+
+\begin{equation}
+\ce{A + B -> C}.
+\end{equation}
+Using Reynolds decomposition to express each species concentration as the sum of a spatial average and local deviation, $[A] = \overline{[A]} + [A]'$, $[B] = \overline{[B]} + [B]'$, such that the  chemical reaction proceeds as 
+\begin{equation}
+\frac{d[A]}{dt} = \frac{d[B]}{dt} = -k\left(\overline{[A]}\cdot\overline{[B]} + \overline{[A'][B']} \right).
+\end{equation}
+The segregation intensity is then 
+\begin{equation}
+I_s = \frac{\overline{[A'][B']}}{\overline{[A]}\cdot\overline{[B]}},
+\end{equation}
+such that the chemical reaction can be expressed as 
+\begin{equation}
+\frac{d[A]}{dt} = \frac{d[B]}{dt} = -k\left(\overline{[A]}\cdot\overline{[B]}\right)\left(1 + I_s \right).
+\end{equation}
+Thus, $I_s$ can be thought of as imposing an effective reaction rate $k^{\text{eff}} = k(1+I_s)$. When $I_s = -1$, species $A$ and $B$ are fully spatially separated, such that no reaction occurs. As $I_s$ approaches zero, the two species become fully mixed and the effective reaction rate matches the ideal rate of reaction. $I_s$ can also be positive, corresponding to positive covariance between species which effectively increases the rate of reaction.
+
+The Damköhler number (\cite{damkoehler_effect_1947}) relates the turbulence and chemical reaction timescales via the ratio
+\begin{equation}
+D_a = \frac{\tau_{\text{turb}}}{\tau_{\text{chem}}}.
+\end{equation}
+%where $\tau_{\text{turb}} = $ and $\tau_{\text{chem}} = $
+\hl{Discuss what it means for different regimes, $D_a<1$ and $D_a > 1$}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{damkohler_number_figure.pdf}
+	\caption{}
+	\label{fig:damkohler}
+\end{figure}

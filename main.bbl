@@ -85,6 +85,105 @@
       \endverb
       \keyw{Thesis}
     \endentry
+    \entry{damkoehler_effect_1947}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3b9328075ac457bd398aeca54f05ee2c}{%
+           family={Damkoehler},
+           familyi={D\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{3b9328075ac457bd398aeca54f05ee2c}
+      \strng{fullhash}{3b9328075ac457bd398aeca54f05ee2c}
+      \strng{bibnamehash}{3b9328075ac457bd398aeca54f05ee2c}
+      \strng{authorbibnamehash}{3b9328075ac457bd398aeca54f05ee2c}
+      \strng{authornamehash}{3b9328075ac457bd398aeca54f05ee2c}
+      \strng{authorfullhash}{3b9328075ac457bd398aeca54f05ee2c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The present report deals with the effect of turbulence on the propagation of the flame. Being based upon experiments with laminar as well as turbulent Bunsen flames, both the physico-chemical and the hydro-dynamical aspects of the problem are analyzed. A number of new deductions, interesting from the point of view of engine combustion and other very rapidly changing flame reactions, are made.}
+      \field{journaltitle}{Zeitschrift fuer Elektrochemie und Angewandte Physikalische Chemiw}
+      \field{month}{4}
+      \field{note}{Number: NACA-TM-1112}
+      \field{number}{11}
+      \field{title}{The {Effect} of {Turbulence} on the {Flame} {Velocity} in {Gas} {Mixtures}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{46}
+      \field{year}{1947}
+      \field{urldateera}{ce}
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/C74F4WZG/Damkoehler - 1947 - The Effect of Turbulence on the Flame Velocity in .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ntrs.nasa.gov/citations/20050009802
+      \endverb
+      \verb{url}
+      \verb https://ntrs.nasa.gov/citations/20050009802
+      \endverb
+      \keyw{Thesis}
+    \endentry
+    \entry{danckwerts_definition_1952}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=089a6c833338b93b3ccdd71674d20515}{%
+           family={Danckwerts},
+           familyi={D\bibinitperiod},
+           given={P.\bibnamedelimi V.},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{089a6c833338b93b3ccdd71674d20515}
+      \strng{fullhash}{089a6c833338b93b3ccdd71674d20515}
+      \strng{bibnamehash}{089a6c833338b93b3ccdd71674d20515}
+      \strng{authorbibnamehash}{089a6c833338b93b3ccdd71674d20515}
+      \strng{authornamehash}{089a6c833338b93b3ccdd71674d20515}
+      \strng{authorfullhash}{089a6c833338b93b3ccdd71674d20515}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The systematic study of mixing processes requires a quantitative method of expressing “goodness of mixing”, based on conveniently-made measurements. In this paper, mixtures of mutually soluble liquids, fine powders, or gases are considered. It is shown that the important features of such mixtures can be expressed by two statistically-defined quantities, the scale and the intensity of segregation, and methods of measuring these are suggested. The discussion also throws light on some of the factors which affect the efficiency of mixing processes.}
+      \field{issn}{1573-1987}
+      \field{journaltitle}{Applied Scientific Research, Section A}
+      \field{month}{7}
+      \field{number}{4}
+      \field{title}{The definition and measurement of some characteristics of mixtures}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{3}
+      \field{year}{1952}
+      \field{urldateera}{ce}
+      \field{pages}{279\bibrangedash 296}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/BF03184936
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/QSEBT5RK/Danckwerts - 1952 - The definition and measurement of some characteris.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1007/BF03184936
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1007/BF03184936
+      \endverb
+      \keyw{Fractional Fluctuation,Local Rate,Racemisation Reaction,Soluble Liquid,Unit Volume,Thesis}
+    \endentry
     \entry{deardorff_numerical_1970}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=cbabc5950943f99fdc747dee48d3bf50}{%

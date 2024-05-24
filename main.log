@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  23 MAY 2024 16:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  24 MAY 2024 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -843,25 +843,66 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 \subfig@top=\skip96
 \subfig@bottom=\skip97
 )
+(/usr/local/texlive/2024/texmf-dist/tex/latex/mhchem/mhchem.sty
+Package: mhchem 2024/01/29 v4.10 for typesetting chemical formulae
+
+(/usr/local/texlive/2024/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2024-02-18 LaTeX2e option processing using LaTeX3 keys
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count455
+\calc@Bcount=\count456
+\calc@Adimen=\dimen262
+\calc@Bdimen=\dimen263
+\calc@Askip=\skip98
+\calc@Bskip=\skip99
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count457
+\calc@Cskip=\skip100
+)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/chemgreek/chemgreek.sty
+Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use
+ in chemistry (CN)
+\l__chemgreek_tmpa_int=\count458
+\g__chemgreek_tmpa_int=\count459
+)
+\l__mhchem_ce_distanceFromLastComma_int=\count460
+\__mhchem_arrow_extPgfLength_skip=\skip101
+\mhchem@minispace@tmp=\skip102
+\mhchem@minibackspace@tmp=\skip103
+\mhchem@bondwidth=\skip104
+\mhchem@bondheight=\skip105
+\mhchem@smallbondwidth@tmpA=\skip106
+\mhchem@smallbondwidth@tmpB=\skip107
+\mhchem@smallbondwidth=\skip108
+\mhchem@bondtmp@minussidebearingleft=\skip109
+\mhchem@bondtmp@minussidebearingright=\skip110
+\l__mhchem_option_version_int=\count461
+\mhchem@option@minusmathsidebearingleft=\dimen264
+\mhchem@option@minusmathsidebearingright=\dimen265
+\mhchem@option@minustextsidebearingleft=\dimen266
+\mhchem@option@minustextsidebearingright=\dimen267
+)
 (/usr/local/texlive/2024/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
 \ttl@box=\box65
-\beforetitleunit=\skip98
-\aftertitleunit=\skip99
-\ttl@plus=\dimen262
-\ttl@minus=\dimen263
+\beforetitleunit=\skip111
+\aftertitleunit=\skip112
+\ttl@plus=\dimen268
+\ttl@minus=\dimen269
 \ttl@toksa=\toks42
-\titlewidth=\dimen264
-\titlewidthlast=\dimen265
-\titlewidthfirst=\dimen266
+\titlewidth=\dimen270
+\titlewidthlast=\dimen271
+\titlewidthfirst=\dimen272
 )
-\c@counterforappendices=\count455
+\c@counterforappendices=\count462
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 4
-9.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 5
+0.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
@@ -871,24 +912,24 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 (./5-spatial-het-aerosols.aux) (./6-conclusions.aux))
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -924,26 +965,26 @@ LaTeX Font Info:    ... okay on input line 49.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \microtypecontext on input line 49.
-Package microtype Info: Applying patch `item' on input line 49.
-Package microtype Info: Applying patch `toc' on input line 49.
-Package microtype Info: Applying patch `eqnum' on input line 49.
-Package microtype Info: Applying patch `footnote' on input line 49.
-Package microtype Info: Applying patch `verbatim' on input line 49.
+LaTeX Info: Redefining \microtypecontext on input line 50.
+Package microtype Info: Applying patch `item' on input line 50.
+Package microtype Info: Applying patch `toc' on input line 50.
+Package microtype Info: Applying patch `eqnum' on input line 50.
+Package microtype Info: Applying patch `footnote' on input line 50.
+Package microtype Info: Applying patch `verbatim' on input line 50.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 49.
+LaTeX Info: Redefining \showhyphens on input line 50.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
-Package hyperref Info: Link coloring ON on input line 49.
+Package hyperref Info: Link coloring ON on input line 50.
  (./main.out) (./main.out)
 \@outlinefile=\write4
 \openout4 = `main.out'.
@@ -963,21 +1004,21 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
 
 (./main.bbl)
-Package biblatex Info: Reference section=0 on input line 49.
-Package biblatex Info: Reference segment=0 on input line 49.
+Package biblatex Info: Reference section=0 on input line 50.
+Package biblatex Info: Reference segment=0 on input line 50.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count456
-\scratchdimen=\dimen267
+\scratchcounter=\count463
+\scratchdimen=\dimen273
 \scratchbox=\box66
-\nofMPsegments=\count457
-\nofMParguments=\count458
+\nofMPsegments=\count464
+\nofMParguments=\count465
 \everyMPshowfont=\toks43
-\MPscratchCnt=\count459
-\MPscratchDim=\dimen268
-\MPnumerator=\count460
-\makeMPintoPDFobject=\count461
+\MPscratchCnt=\count466
+\MPscratchDim=\dimen274
+\MPnumerator=\count467
+\makeMPintoPDFobject=\count468
 \everyMPtoPDFconversion=\toks44
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -998,9 +1039,12 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 49.
+or `english'. on input line 50.
+
+Package chemgreek Info: Activating mapping `upgreek' on line 50.
+
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 6
-7.
+8.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
@@ -1008,19 +1052,19 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
 al/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}]
-\thesis@dim=\dimen269
-\ct@dim=\dimen270
-\cn@dim=\dimen271
+\thesis@dim=\dimen275
+\ct@dim=\dimen276
+\cn@dim=\dimen277
 
-Underfull \vbox (badness 10000) detected at line 67
+Underfull \vbox (badness 10000) detected at line 68
  []
 
 
-Underfull \vbox (badness 10000) detected at line 67
+Underfull \vbox (badness 10000) detected at line 68
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
- 67.
+ 68.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
@@ -1029,19 +1073,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
- 67.
+ 68.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
- 67.
+ 68.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
- 67.
+ 68.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
@@ -1053,11 +1097,11 @@ File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 67.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
 
 (/usr/local/texlive/2024/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
@@ -1070,7 +1114,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.70 \include{abstract}
+l.71 \include{abstract}
                         [2
 
 
@@ -1115,7 +1159,7 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5]
-<./figures/particle-resolved-model.pdf, id=267, 476.98201pt x 332.44202pt>
+<./figures/particle-resolved-model.pdf, id=276, 476.98201pt x 332.44202pt>
 File: ./figures/particle-resolved-model.pdf Graphic file (type pdf)
 <use ./figures/particle-resolved-model.pdf>
 Package pdftex.def Info: ./figures/particle-resolved-model.pdf  used on input l
@@ -1135,43 +1179,51 @@ Chapter 2.
 
 
 
-] [9]) [10]
+] [9] [10] [11]
+<./figures/damkohler_number_figure.pdf, id=316, 722.7pt x 433.62pt>
+File: ./figures/damkohler_number_figure.pdf Graphic file (type pdf)
+<use ./figures/damkohler_number_figure.pdf>
+Package pdftex.def Info: ./figures/damkohler_number_figure.pdf  used on input l
+ine 51.
+(pdftex.def)             Requested size: 469.75502pt x 281.85628pt.
+) [12 <./figures/damkohler_number_figure.pdf>]
 \openout2 = `3-modeling-tools.aux'.
 
- (./3-modeling-tools.tex
+
+(./3-modeling-tools.tex
 Chapter 3.
-[11
+[13
 
 
 
 
-] [12]
+] [14]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
-<./figures/WRF-LES_default_sounding.pdf, id=312, 509.71992pt x 380.62262pt>
+<./figures/WRF-LES_default_sounding.pdf, id=357, 509.71992pt x 380.62262pt>
 File: ./figures/WRF-LES_default_sounding.pdf Graphic file (type pdf)
 <use ./figures/WRF-LES_default_sounding.pdf>
 Package pdftex.def Info: ./figures/WRF-LES_default_sounding.pdf  used on input 
 line 67.
 (pdftex.def)             Requested size: 469.75502pt x 350.7985pt.
- [13] [14 <./figures/WRF-LES_default_sounding.pdf>]
-<./figures/heat-flux-and-tke-profile.pdf, id=366, 517.85971pt x 402.25342pt>
+ [15] [16 <./figures/WRF-LES_default_sounding.pdf>]
+<./figures/heat-flux-and-tke-profile.pdf, id=410, 517.85971pt x 402.25342pt>
 File: ./figures/heat-flux-and-tke-profile.pdf Graphic file (type pdf)
 <use ./figures/heat-flux-and-tke-profile.pdf>
 Package pdftex.def Info: ./figures/heat-flux-and-tke-profile.pdf  used on input
  line 89.
 (pdftex.def)             Requested size: 469.75502pt x 364.89725pt.
- [15 <./figures/heat-flux-and-tke-profile.pdf>] [16] [17] [18]
+ [17 <./figures/heat-flux-and-tke-profile.pdf>] [18] [19] [20]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/urban-plume-aerosol-ic.pdf, id=442, 492.64049pt x 364.86815pt>
+<figures/urban-plume-aerosol-ic.pdf, id=487, 492.64049pt x 364.86815pt>
 File: figures/urban-plume-aerosol-ic.pdf Graphic file (type pdf)
 <use figures/urban-plume-aerosol-ic.pdf>
 Package pdftex.def Info: figures/urban-plume-aerosol-ic.pdf  used on input line
  191.
 (pdftex.def)             Requested size: 399.29463pt x 295.73643pt.
-<figures/urban-plume-aerosol-emissions.pdf, id=443, 513.84471pt x 364.86815pt>
+<figures/urban-plume-aerosol-emissions.pdf, id=488, 513.84471pt x 364.86815pt>
 File: figures/urban-plume-aerosol-emissions.pdf Graphic file (type pdf)
 <use figures/urban-plume-aerosol-emissions.pdf>
 Package pdftex.def Info: figures/urban-plume-aerosol-emissions.pdf  used on inp
@@ -1183,7 +1235,7 @@ LaTeX Warning: Float too large for page by 1.27654pt on input line 202.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [19] [20] [21 <./figures/urban-plume-aerosol-ic.pdf> <./figures/urban-plume-a
+) [21] [22] [23 <./figures/urban-plume-aerosol-ic.pdf> <./figures/urban-plume-a
 erosol-emissions.pdf>]
 \openout2 = `4-spatial-het-gas-phase.aux'.
 
@@ -1195,7 +1247,7 @@ Overfull \hbox (4.03891pt too wide) in paragraph at lines 2--2
 s-phase
  []
 
-) [22
+) [24
 
 
 
@@ -1205,7 +1257,7 @@ s-phase
 
  (./5-spatial-het-aerosols.tex
 Chapter 5.
-) [23
+) [25
 
 
 
@@ -1215,7 +1267,7 @@ Chapter 5.
 
  (./6-conclusions.tex
 Chapter 6.
-) [24
+) [26
 
 
 
@@ -1226,38 +1278,38 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (14.01434pt too wide) in paragraph at lines 126--126
+Overfull \hbox (14.01434pt too wide) in paragraph at lines 127--127
 \OT1/cmtt/m/n/10.95 journal -[] of -[] fluid -[] mechanics / article / numerica
 l -[] study -[] of -[] threedimensional -[] turbulent -[]
  []
 
 
-Overfull \hbox (122.85078pt too wide) in paragraph at lines 126--126
+Overfull \hbox (122.85078pt too wide) in paragraph at lines 127--127
 \OT1/ptm/m/n/10.95 (-20) en. In: \OT1/ptm/m/it/10.95 (-20) Jour-nal of Geo-phys
 -i-cal Re-search: At-mo-spheres \OT1/ptm/m/n/10.95 (-20) 114.D9. []eprint: http
 s://onlinelibrary.wiley.com/doi/pdf/10.1029/2008JD011073.
  []
 
-[25
+[27
 
 
 
 
 ]
-Overfull \hbox (8.84402pt too wide) in paragraph at lines 126--126
+Overfull \hbox (8.84402pt too wide) in paragraph at lines 127--127
 \OT1/ptm/m/it/10.95 (-20) Geo-phys-i-cal Re-search Let-ters \OT1/ptm/m/n/10.95 
 (-20) 49.7. []eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021GL097
 070,
  []
 
 
-Overfull \hbox (186.26581pt too wide) in paragraph at lines 126--126
+Overfull \hbox (186.26581pt too wide) in paragraph at lines 127--127
 \OT1/ptm/m/n/10.95 (-20) (MO-SAIC)". en. In: \OT1/ptm/m/it/10.95 (-20) Jour-nal
  of Geo-phys-i-cal Re-search: At-mo-spheres \OT1/ptm/m/n/10.95 (-20) 113.D13. [
 ]eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2007JD008782.
  []
 
-[26] (./main.aux (./abstract.aux) (./1-introduction.aux) (./2-spatial-het.aux)
+[28] (./main.aux (./abstract.aux) (./1-introduction.aux) (./2-spatial-het.aux)
 (./3-modeling-tools.aux) (./4-spatial-het-gas-phase.aux)
 (./5-spatial-het-aerosols.aux) (./6-conclusions.aux))
  ***********
@@ -1265,19 +1317,19 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 615404288CF082F8316EEBE65B0AE7BF;5745.
+(rerunfilecheck)             Checksum: F8403E9707F19FE3AE77E24B88B0A0CC;6108.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29934 strings out of 474116
- 582925 string characters out of 5743682
+ 30897 strings out of 474116
+ 606014 string characters out of 5743682
  1946187 words of memory out of 5000000
- 51502 multiletter control sequences out of 15000+600000
- 618711 words of font info for 331 fonts, out of 8000000 for 9000
+ 52429 multiletter control sequences out of 15000+600000
+ 619335 words of font info for 338 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,81p,4457b,2890s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,81p,4457b,2902s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></
@@ -1289,10 +1341,10 @@ exlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/2024
 /texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on main.pdf (33 pages, 306655 bytes).
+Output written on main.pdf (35 pages, 341834 bytes).
 PDF statistics:
- 681 PDF objects out of 1000 (max. 8388607)
- 478 compressed objects within 5 object streams
- 90 named destinations out of 1000 (max. 500000)
- 82162 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 731 PDF objects out of 1000 (max. 8388607)
+ 517 compressed objects within 6 object streams
+ 101 named destinations out of 1000 (max. 500000)
+ 82175 words of extra memory for PDF output out of 89155 (max. 10000000)
 
