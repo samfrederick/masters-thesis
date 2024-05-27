@@ -19,6 +19,81 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{cooper_quantifying_1997}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=a85f6f52a5e80d121a6d9ab8bf36da87}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Scott\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=87725a833c989657fe3abe9f2207bc77}{%
+           family={Barmuta},
+           familyi={B\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fb2bea1a4ef51f477a7272520a5a12e9}{%
+           family={Sarnelle},
+           familyi={S\bibinitperiod},
+           given={Orlando},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e03f7275782f7d2c0ccd1b7b9d35752e}{%
+           family={Kratz},
+           familyi={K\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d946b1120f95f1a9a0b8a600a6610524}{%
+           family={Diehl},
+           familyi={D\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c153f2ea47cb43ec3eea6fd3b58f07bf}
+      \strng{fullhash}{9ddbde1273f802bf1caf6441f8bf0a78}
+      \strng{bibnamehash}{c153f2ea47cb43ec3eea6fd3b58f07bf}
+      \strng{authorbibnamehash}{c153f2ea47cb43ec3eea6fd3b58f07bf}
+      \strng{authornamehash}{c153f2ea47cb43ec3eea6fd3b58f07bf}
+      \strng{authorfullhash}{9ddbde1273f802bf1caf6441f8bf0a78}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although theoretical and empirical studies show that spatial heterogeneity has important effects on the dynamics of populations and the structure of communities, there has been little rigorous quantification of terms like "patchiness" or "spatial heterogeneity" in studies of lotic systems. In order to compare the spatial heterogeneity of different systems and understand the causes and consequences of that heterogeneity, we must first be able to quantitatively measure it. Spatial heterogeneity has many aspects that change with the scale of our observations, so we need a battery of descriptive measures that explicitly consider the scale-dependence of ecological pattern. Response variables exhibiting similar frequency distributions (i.e., similar overall variability) can have very different spatial distributions; consequently, descriptions of spatial heterogeneity require spatial data, i.e., data related to geographic locations (maps). We review statistical techniques for quantitatively describing aspects of heterogeneity in spatial data, emphasizing the decomposition of heterogeneity into different scales of variation (trends, overall variability, and spatial dependence or autocorrelation). Gradients in spatial data can be evaluated using trend analyses (e.g., regressions), whereas the spatial structure of variation around trends can be evaluated using geostatistical methods. The central concept of geostatistics is spatial dependence, which is the degree to which values of a response variable differ as a function of the distance (lag) between sampling locations. Semivariograms plot variation among samples separated by a common lag versus lag, and can be objectively decomposed by piece-wise regression techniques to estimate the strength and scales of spatial dependence. A variety of other methods can be used to quantify spatial heterogeneity from categorical and numerical maps depending on the question of interest and the underlying structure of the spatial data (e.g., methods derived from fractal geometry and information theory, nearest neighbor analysis, spectral analysis, Mantel's test). Spatial heterogeneity in stream organisms is driven by local variation in environmental conditions, by interactions between individuals of the same or different species, and by the effects of organisms on their abiotic environment. By applying geostatistical methods to spatial data collected from field experiments, stream ecologists can evaluate the effects of biotic and abiotic factors on the spatial arrangement of organisms in streams. We present examples of data obtained from experiments examining how consumers affect, and respond to, spatial heterogeneity in their resources. The results indicate that consumer-resource feedbacks should be considered when modeling the causes and consequences of spatial heterogeneity in streams.}
+      \field{annotation}{Cited in Matin’s paper - “In geo-statistics, variogram-based methods have been frequently used to measure the spatial heterogeneity of landscape and geographic data “}
+      \field{issn}{0887-3593}
+      \field{journaltitle}{Journal of the North American Benthological Society}
+      \field{month}{3}
+      \field{note}{Publisher: The University of Chicago Press}
+      \field{number}{1}
+      \field{title}{Quantifying {Spatial} {Heterogeneity} in {Streams}}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{16}
+      \field{year}{1997}
+      \field{urldateera}{ce}
+      \field{pages}{174\bibrangedash 188}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.2307/1468250
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/XPI4Q3D2/Cooper et al. - 1997 - Quantifying Spatial Heterogeneity in Streams.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www-journals-uchicago-edu.proxy2.library.illinois.edu/doi/10.2307/1468250
+      \endverb
+      \verb{url}
+      \verb https://www-journals-uchicago-edu.proxy2.library.illinois.edu/doi/10.2307/1468250
+      \endverb
+      \keyw{Consumers,Maps,Patchiness,Resources,Semivariograms,Spatial heterogeneity,Spatial statistics,Streams,Trends,Variability,Thesis}
+    \endentry
     \entry{curtis_single-column_2017}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=1518c93fd2a306ee6ecc3bc99d686a9e}{%
@@ -85,10 +160,10 @@
       \endverb
       \keyw{Thesis}
     \endentry
-    \entry{damkoehler_effect_1947}{article}{}
+    \entry{damkohler_effect_1947}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3b9328075ac457bd398aeca54f05ee2c}{%
-           family={Damkoehler},
+        {{un=0,uniquepart=base,hash=1fc8572d03d9347540237f913ec9230c}{%
+           family={Damköhler},
            familyi={D\bibinitperiod},
            given={Gerhard},
            giveni={G\bibinitperiod},
@@ -97,12 +172,12 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{3b9328075ac457bd398aeca54f05ee2c}
-      \strng{fullhash}{3b9328075ac457bd398aeca54f05ee2c}
-      \strng{bibnamehash}{3b9328075ac457bd398aeca54f05ee2c}
-      \strng{authorbibnamehash}{3b9328075ac457bd398aeca54f05ee2c}
-      \strng{authornamehash}{3b9328075ac457bd398aeca54f05ee2c}
-      \strng{authorfullhash}{3b9328075ac457bd398aeca54f05ee2c}
+      \strng{namehash}{1fc8572d03d9347540237f913ec9230c}
+      \strng{fullhash}{1fc8572d03d9347540237f913ec9230c}
+      \strng{bibnamehash}{1fc8572d03d9347540237f913ec9230c}
+      \strng{authorbibnamehash}{1fc8572d03d9347540237f913ec9230c}
+      \strng{authornamehash}{1fc8572d03d9347540237f913ec9230c}
+      \strng{authorfullhash}{1fc8572d03d9347540237f913ec9230c}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -281,6 +356,56 @@
       \verb https://doi.org/10.1007/BF00119502
       \endverb
     \endentry
+    \entry{dong_lacunarity_2000}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=bcad8ee16167c8b7fee692250b63d6ae}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Pinliang},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bcad8ee16167c8b7fee692250b63d6ae}
+      \strng{fullhash}{bcad8ee16167c8b7fee692250b63d6ae}
+      \strng{bibnamehash}{bcad8ee16167c8b7fee692250b63d6ae}
+      \strng{authorbibnamehash}{bcad8ee16167c8b7fee692250b63d6ae}
+      \strng{authornamehash}{bcad8ee16167c8b7fee692250b63d6ae}
+      \strng{authorfullhash}{bcad8ee16167c8b7fee692250b63d6ae}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{As a scale dependent measure of heterogeneity, lacunarity has been applied to the analysis of structures in both fractals and non-fractals. In this paper, the lacunarity concept and some lacunarity estimation methods are briefly described, then a Lacunarity Analysis extension for ArcView GIS (ESRI) is introduced. Using binary and grayscale images, several examples are also given for lacunarity analysis of spatial heterogeneity. Experiments with gray-scale image textures show that a new lacunarity estimation method can provide more accurate heterogeneity measurement than some existing methods. The results suggest that lacunarity analysis is a promising tool for spatial heterogeneity measurement in a GIS environment.}
+      \field{issn}{1082-4006}
+      \field{journaltitle}{Geographic Information Sciences}
+      \field{month}{6}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/10824000009480530}
+      \field{number}{1}
+      \field{title}{Lacunarity for {Spatial} {Heterogeneity} {Measurement} in {GIS}}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{6}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{20\bibrangedash 26}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1080/10824000009480530
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/Z4ZXJBJA/Dong - 2000 - Lacunarity for Spatial Heterogeneity Measurement i.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/10824000009480530
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/10824000009480530
+      \endverb
+      \keyw{Thesis}
+    \endentry
     \entry{fast_impact_2019}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=7cb44e4ec53546ae1bb2deb1ffd1ebb1}{%
@@ -368,6 +493,131 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2019MS001727
       \endverb
       \keyw{convective clouds,land-atmosphere coupling,LES model,soil moisture,Thesis}
+    \endentry
+    \entry{loke_measuring_2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2d09b50ec5d21d02016231a2ba34068c}{%
+           family={Loke},
+           familyi={L\bibinitperiod},
+           given={Lynette\bibnamedelimb H.\bibnamedelimi L.},
+           giveni={L\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ae00cbffdcd96fffa39e8032378c838}{%
+           family={Chisholm},
+           familyi={C\bibinitperiod},
+           given={Ryan\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{787eb74e78effbfd852aab5321a34b4c}
+      \strng{fullhash}{787eb74e78effbfd852aab5321a34b4c}
+      \strng{bibnamehash}{787eb74e78effbfd852aab5321a34b4c}
+      \strng{authorbibnamehash}{787eb74e78effbfd852aab5321a34b4c}
+      \strng{authornamehash}{787eb74e78effbfd852aab5321a34b4c}
+      \strng{authorfullhash}{787eb74e78effbfd852aab5321a34b4c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Habitat complexity has been considered a key driver of biodiversity and other ecological phenomena for nearly a century. However, there is still no consensus over the definition of complexity or how to measure it. Up-to-date and clear guidance on measuring complexity is urgently needed, particularly given the rise of remote sensing and advent of technologies that allow environments to be scanned at unprecedented spatial extents and resolutions. Here we review how complexity is measured in ecology. We provide a framework for metrics of habitat complexity, and for the related concept of spatial heterogeneity. We focus on the two most commonly used complexity metrics in ecology: fractal dimension and rugosity. We discuss the pros and cons of these metrics using practical examples from our own empirical data and from simulations. Fractal dimension is particularly widely used, and we provide a critical examination of it drawing on research from other scientific fields. We also discuss informational metrics of complexity and their potential benefits. We chart a path forward for research on measuring habitat complexity by presenting, as a guide, sets of essential and desirable criteria that a metric of complexity should possess. Lastly, we discuss the applied significance of our review.}
+      \field{issn}{1461-0248}
+      \field{journaltitle}{Ecology Letters}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/ele.14084}
+      \field{number}{10}
+      \field{title}{Measuring habitat complexity and spatial heterogeneity in ecology}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{25}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{2269\bibrangedash 2288}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1111/ele.14084
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/2AL25RMX/Loke and Chisholm - 2022 - Measuring habitat complexity and spatial heterogen.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/VDBGCBWL/ele.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14084
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14084
+      \endverb
+      \keyw{box-counting,complexity–diversity relationships,digital elevation model (DEM),fractal dimension,habitat structure,landscape metrics,photogrammetry,remote sensing,spatial analysis,spatial ecology,Thesis}
+    \endentry
+    \entry{plexida_selecting_2014}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=e83ca1051a20fcd6fd2f2882790fa3c1}{%
+           family={Plexida},
+           familyi={P\bibinitperiod},
+           given={Sofia\bibnamedelima G.},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1ebb6d4354050115aa7b2de6e56ad60}{%
+           family={Sfougaris},
+           familyi={S\bibinitperiod},
+           given={Athanassios\bibnamedelima I.},
+           giveni={A\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1734aa2866afb58dd661e55d65aa5458}{%
+           family={Ispikoudis},
+           familyi={I\bibinitperiod},
+           given={Ioannis\bibnamedelima P.},
+           giveni={I\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5e23d9802678b534953a8529b5f2770}{%
+           family={Papanastasis},
+           familyi={P\bibinitperiod},
+           given={Vasilios\bibnamedelima P.},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{670152bf383a2dfb962f56376899fbb6}
+      \strng{fullhash}{bcdf39f3e3a64414303b87f63c787b6c}
+      \strng{bibnamehash}{670152bf383a2dfb962f56376899fbb6}
+      \strng{authorbibnamehash}{670152bf383a2dfb962f56376899fbb6}
+      \strng{authornamehash}{670152bf383a2dfb962f56376899fbb6}
+      \strng{authorfullhash}{bcdf39f3e3a64414303b87f63c787b6c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper investigates the spatial heterogeneity of three landscapes along an altitudinal gradient and different human land use. The main aim was the identification of appropriate landscape indicators using different extents. ASTER image was used to create a land cover map consisting of three landscapes which differed in altitude and land use. A number of landscape metrics quantifying patch complexity, configuration, diversity and connectivity were derived from the thematic map at the landscape level. There were significant differences among the three landscapes regarding these four aspects of landscape heterogeneity. The analysis revealed a specific pattern of land use where lowlands are being increasingly utilized by humans (percentage of agricultural land=65.84\%) characterized by physical connectedness (high values of Patch Cohesion Index) and relatively simple geometries (low values of fractal dimension index). The landscape pattern of uplands was found to be highly diverse based upon the Shannon Diversity index. After selecting the scale (600ha) where metrics values stabilized, it was shown that metrics were more correlated at the small scale of 60ha. From the original 24 metrics, 14 individual metrics with high Spearman correlation coefficient and Variance Inflation Factor criterion were eliminated, leaving 10 representative metrics for subsequent analysis. Data reduction analysis showed that Patch Density, Area-Weighted Mean Fractal Dimension Index and Patch Cohesion Index are suitable to describe landscape patterns irrespective of the scale. A systematic screening of these metrics could enhance a deeper understanding of the results obtained by them and contribute to a sustainable landscape management of Mediterranean landscapes.}
+      \field{annotation}{Cited by ARM proposal - “ Such metrics already exist for example in the field of landscape ecology”}
+      \field{issn}{1569-8432}
+      \field{journaltitle}{International Journal of Applied Earth Observation and Geoinformation}
+      \field{month}{2}
+      \field{title}{Selecting landscape metrics as indicators of spatial heterogeneity—{A} comparison among {Greek} landscapes}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{26}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{26\bibrangedash 35}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.jag.2013.05.001
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/sf20/Zotero/storage/BCQLNNC9/S0303243413000500.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0303243413000500
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0303243413000500
+      \endverb
+      \keyw{Altitude,Human land use,Landscape indicators,Landscape pattern analysis,Thesis}
     \endentry
     \entry{riemer_simulating_2009}{article}{}
       \name{author}{4}{}{%
@@ -467,6 +717,92 @@
       \field{title}{Atmospheric {Chemistry} and {Physics}: {From} {Air} {Pollution} to {Climate} {Change}}
       \field{year}{1998}
       \keyw{imported}
+    \endentry
+    \entry{shu_quantifying_2019}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=8b660d292dfc7520b5f3abfb0b8ebae1}{%
+           family={Shu},
+           familyi={S\bibinitperiod},
+           given={Hua},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5003f3792022a75dbee53517e3d0c917}{%
+           family={Pei},
+           familyi={P\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=67b5a91ef51afb89b547b14a46d02abd}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={Ci},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0739f74bfc1dadb8f93271f36d759c6}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Ting},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b42c34d099a236a3a2b1e39db4aa471f}{%
+           family={Du},
+           familyi={D\bibinitperiod},
+           given={Yunyan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39152f383a337889f7cd97ac1b91feba}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Zide},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bab213a902bc15d631c300761a1d8039}{%
+           family={Guo},
+           familyi={G\bibinitperiod},
+           given={Sihui},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{83ad6eb726ec2ec6f327e3aa84b193a3}
+      \strng{fullhash}{195d39eac22d40c16bf90706ac27ca1b}
+      \strng{bibnamehash}{83ad6eb726ec2ec6f327e3aa84b193a3}
+      \strng{authorbibnamehash}{83ad6eb726ec2ec6f327e3aa84b193a3}
+      \strng{authornamehash}{83ad6eb726ec2ec6f327e3aa84b193a3}
+      \strng{authorfullhash}{195d39eac22d40c16bf90706ac27ca1b}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Variation in the spatial heterogeneity of points reflects the evolutionary process or mechanism of geographical events. The key to depicting this variation is quantifying spatial heterogeneity. In this paper, the spatial heterogeneity of a point pattern is defined as the degree of aggregation-type deviation from complete spatial randomness. In such a case, a goodness-of-fit-type statistic based on the distribution of nearest-neighbor distances called the level of heterogeneity (LH*) is regarded as a standard measurement, and a normalized version called the normalized level of heterogeneity (NLH*) is proposed for datasets with different point numbers and study region areas. Considering the complex integration calculation of LH* and NLH*, simulation experiments are implemented to test the capability of some classic nearest-neighbor statistics in quantifying spatial heterogeneity. The results showed that except for the standard LH* statistic, only Clark and Evans’ statistic (A-w) and Byth and Ripley’s statistic (H-xw) are robust. Statistics NLH*, (A-w) and (H-xw) are validated by quantifying the spatial heterogeneity of two-dimensional crime events, three-dimensional earthquake events and four-dimensional origin-destination (OD) events. The results indicate that these statistics all have a reasonable explanation in quantifying spatial heterogeneity for real-world geographical events of different types and with different dimensions. Compared with NLH*, Clark and Evans’ (A-w) statistic and Byth and Ripley’s (H-xw) statistic are recommended from the perspective of accessibility.}
+      \field{issn}{1365-8816}
+      \field{journaltitle}{International Journal of Geographical Information Science}
+      \field{month}{7}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/13658816.2019.1577432}
+      \field{number}{7}
+      \field{title}{Quantifying the spatial heterogeneity of points}
+      \field{urlday}{9}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{1355\bibrangedash 1376}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1080/13658816.2019.1577432
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/K98XJIMQ/Shu et al. - 2019 - Quantifying the spatial heterogeneity of points.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/13658816.2019.1577432
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/13658816.2019.1577432
+      \endverb
+      \keyw{nearest-neighbor statistics,Point pattern,spatial heterogeneity,spatial statistics,Thesis}
     \endentry
     \entry{smagorinsky_general_1963}{article}{}
       \name{author}{1}{}{%
@@ -597,6 +933,59 @@
       \endverb
       \keyw{Convective boundary layer,Large-eddy simulation,Plant canopy,Stable boundary layer,Subgrid-scale model,Urban canopy layer,Thesis}
     \endentry
+    \entry{thiffeault_using_2012}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=da9f1475f044703285e6322963db0c58}{%
+           family={Thiffeault},
+           familyi={T\bibinitperiod},
+           given={Jean-Luc},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{da9f1475f044703285e6322963db0c58}
+      \strng{fullhash}{da9f1475f044703285e6322963db0c58}
+      \strng{bibnamehash}{da9f1475f044703285e6322963db0c58}
+      \strng{authorbibnamehash}{da9f1475f044703285e6322963db0c58}
+      \strng{authornamehash}{da9f1475f044703285e6322963db0c58}
+      \strng{authorfullhash}{da9f1475f044703285e6322963db0c58}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mixing is relevant to many areas of science and engineering, including the pharmaceutical and food industries, oceanography, atmospheric sciences and civil engineering. In all these situations one goal is to quantify and often then to improve the degree of homogenization of a substance being stirred, referred to as a passive scalar or tracer. A classical measure of mixing is the variance of the concentration of the scalar, which is the L2 norm of a mean-zero concentration field. Recently, other norms have been used to quantify mixing, in particular the mix-norm as well as negative Sobolev norms. These norms have the advantage that unlike variance they decay even in the absence of diffusion, and their decay corresponds to the flow being mixing in the sense of ergodic theory. General Sobolev norms weigh scalar gradients differently, and are known as multiscale norms for mixing. We review the applications of such norms to mixing and transport, and show how they can be used to optimize the stirring and mixing of a decaying passive scalar. We then review recent work on the less-studied case of a continuously replenished scalar field—the source–sink problem. In that case the flows that optimally reduce the norms are associated with transport rather than mixing: they push sources onto sinks, and vice versa.}
+      \field{annotation}{Cited by ARM proposal - “Such metrics already exist for example in the … theory of fluid transport and mixing”}
+      \field{issn}{0951-7715}
+      \field{journaltitle}{Nonlinearity}
+      \field{month}{1}
+      \field{number}{2}
+      \field{title}{Using multiscale norms to quantify mixing and transport}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{25}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{R1}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1088/0951-7715/25/2/R1
+      \endverb
+      \verb{file}
+      \verb Submitted Version:/Users/sf20/Zotero/storage/5FM4RTKC/Thiffeault - 2012 - Using multiscale norms to quantify mixing and tran.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://dx.doi.org/10.1088/0951-7715/25/2/R1
+      \endverb
+      \verb{url}
+      \verb https://dx.doi.org/10.1088/0951-7715/25/2/R1
+      \endverb
+      \keyw{Thesis}
+    \endentry
     \entry{tian_how_2022}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=fc40a9700870af7ab7e39b8da6f2ecdc}{%
@@ -673,6 +1062,62 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2021GL097070
       \endverb
       \keyw{cloud,GOES,land atmosphere interaction,land cover,secondary circulations,shallow cumulus,surface heat flux,Thesis}
+    \endentry
+    \entry{vinuesa_fluxes_2003}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=37ea2b989d9b0a8e8be501a37a7722b2}{%
+           family={Vinuesa},
+           familyi={V\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ead14f21a8b483e844cf16def2b28f6f}{%
+           family={Arellano},
+           familyi={A\bibinitperiod},
+           given={Jordi\bibnamedelimb Vilá-Guerau\bibnamedelima De},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinithyphendelim G\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ade2b0f256ba4861dddeeefb12aad344}
+      \strng{fullhash}{ade2b0f256ba4861dddeeefb12aad344}
+      \strng{bibnamehash}{ade2b0f256ba4861dddeeefb12aad344}
+      \strng{authorbibnamehash}{ade2b0f256ba4861dddeeefb12aad344}
+      \strng{authornamehash}{ade2b0f256ba4861dddeeefb12aad344}
+      \strng{authorfullhash}{ade2b0f256ba4861dddeeefb12aad344}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The effects of chemistry on the transport and the mixing of reacting scalars in the convective atmospheric boundary layer (CBL) are investigated. To do this, we use large-eddy simulation (LES) to calculate explicitly the different terms of the flux and (co-)variance budget equations and to analyse in particular the role of the chemical term with respect to the thermodynamical terms. We examine a set of chemical cases that are representative of various turbulent reacting flows. The chemical scheme involves two reacting scalars undergoing a second-order reaction. In addition, we study a chemical cycle, based on a first- and a second-order reaction, to study the behaviour of chemical systems in equilibrium in turbulent flows. From the budget analysis, we found that the chemical terms become more relevant when the chemical timescale is similar to the turbulent timescale. In order to determine the importance of the chemical terms, we compared these terms to the dynamical terms of the budget equations. For the flux of reactants, the chemical term becomes the dominant sink in the bulk of the CBL. As a result, flux profiles of reacting scalars have non-linear shapes. For the covariance, which accounts for the segregation of species in the CBL, the chemical term can act as a sink or source term. Consequently, reacting scalar covariance profiles deviate considerably from the inert scalar profile. When the chemistry is in equilibrium, the chemical term becomes negligible and therefore the flux and (co-)variance profiles are similar to those of inert scalrs. On the basis of the previous budget results, we develop a parameterisation that represents the segregation of reacting species in large-scale models under convective conditions. The parameterisation is applied to an atmospheric chemical mechanism that accounts for ozone formation and depletion in the CBL. We found a good agreement between the parameterisation and the LES results.}
+      \field{issn}{null}
+      \field{journaltitle}{Tellus B: Chemical and Physical Meteorology}
+      \field{month}{12}
+      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.3402/tellusb.v55i4.16382}
+      \field{number}{4}
+      \field{title}{Fluxes and (co-)variances of reacting scalars in the convective boundary layer}
+      \field{urlday}{6}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{55}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \field{pages}{935\bibrangedash 949}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.3402/tellusb.v55i4.16382
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/PCB5YW95/Vinuesa and Arellano - 2011 - Fluxes and (co-)variances of reacting scalars in t.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3402/tellusb.v55i4.16382
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3402/tellusb.v55i4.16382
+      \endverb
+      \keyw{Thesis}
     \endentry
     \entry{zaveri_model_2008}{article}{}
       \name{author}{4}{ul=2}{%
