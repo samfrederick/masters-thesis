@@ -4,11 +4,14 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Dependence of the Damköhler number on turbulent and reactive timescales. Figure adapted from \texthl {V. Rao Kotamarthi and Yan Feng, Argonne presentation, STM meeting 2017}.}}{13}{figure.caption.8}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Example subsets for $SH$ calculation. (a) Full domain mean. (b-f) Examples of rectangular subsets (highlighted regions) over which the subset mean is computed.}}{15}{figure.caption.9}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Compute time for the naive looping $SH$ Fortran subroutine. The x-axis indicates the total number of domain grid cells (elements) in the array passed to the subroutine. A power law regression is plotted as the red dashed line.}}{16}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Compute time for the Monte Carlo $SH$ Fortran subroutine. The x-axis indicates the number of domain subsets that are randomly selected to determine the $SH$ estimate. A power law regression is plotted as the red dashed line.}}{17}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces $SH$ estimate in blue for the Monte Carlo sampling subroutine vs. the number of randomly selected domain subsets (top panel). The true value of $SH$ computed via the naive algorithm is shown as the black line. Absolute relative error between $SH$ estimate and the true value of $SH$ (middle panel). Bias between $SH$ estimate and the true value of $SH$ (bottom panel) }}{18}{figure.caption.12}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Idealized atmospheric sounding used for domain meteorological initial conditions. Initial conditions for potential temperature (left) and specific humidity (right). \texthl {TODO: check what is best, units in brackets or in paretheses? Figure 3.2 uses brackets so I should be consistent either way...}}}{19}{figure.caption.10}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Resolved-scale vertical heat flux profiles (left) and TKE at intervals of 10 minutes during the first hour of simulation spin-up.}}{20}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Aerosol initial condition size distributions.}}{26}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Aerosol emission size distributions.}}{26}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Idealized atmospheric sounding used for domain meteorological initial conditions. Initial conditions for potential temperature (left) and specific humidity (right). \texthl {TODO: check what is best, units in brackets or in paretheses? Figure 3.2 uses brackets so I should be consistent either way...}}}{22}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Resolved-scale vertical heat flux profiles (left) and TKE at intervals of 10 minutes during the first hour of simulation spin-up.}}{23}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Aerosol initial condition size distributions.}}{29}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Aerosol emission size distributions.}}{29}{figure.caption.17}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

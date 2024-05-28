@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  27 MAY 2024 15:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  28 MAY 2024 16:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1169,7 +1169,7 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5]
-<./figures/particle-resolved-model.pdf, id=353, 476.98201pt x 332.44202pt>
+<./figures/particle-resolved-model.pdf, id=376, 476.98201pt x 332.44202pt>
 File: ./figures/particle-resolved-model.pdf Graphic file (type pdf)
 <use ./figures/particle-resolved-model.pdf>
 Package pdftex.def Info: ./figures/particle-resolved-model.pdf  used on input l
@@ -1190,7 +1190,7 @@ Chapter 2.
 
 
 ] [9] [10] [11]
-<./figures/damkohler_number_figure.pdf, id=401, 722.7pt x 433.62pt>
+<./figures/damkohler_number_figure.pdf, id=424, 722.7pt x 433.62pt>
 File: ./figures/damkohler_number_figure.pdf Graphic file (type pdf)
 <use ./figures/damkohler_number_figure.pdf>
 Package pdftex.def Info: ./figures/damkohler_number_figure.pdf  used on input l
@@ -1201,49 +1201,86 @@ ine 65.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [12] [13 <./figures/damkohler_number_figure.pdf>]
-<./figures/SH-subarray-examples.pdf, id=443, 963.6pt x 578.16pt>
+
+LaTeX Warning: Reference `sh-metric-calculation' on page 14 undefined on input 
+line 77.
+
+<./figures/SH-subarray-examples.pdf, id=465, 963.6pt x 578.16pt>
 File: ./figures/SH-subarray-examples.pdf Graphic file (type pdf)
 <use ./figures/SH-subarray-examples.pdf>
 Package pdftex.def Info: ./figures/SH-subarray-examples.pdf  used on input line
- 91.
+ 90.
 (pdftex.def)             Requested size: 469.75502pt x 281.85406pt.
- [14]) [15 <./figures/SH-subarray-examples.pdf>]
+[14]
+<./figures/NSH-performance.pdf, id=473, 507.79083pt x 354.14308pt>
+File: ./figures/NSH-performance.pdf Graphic file (type pdf)
+<use ./figures/NSH-performance.pdf>
+Package pdftex.def Info: ./figures/NSH-performance.pdf  used on input line 110.
+
+(pdftex.def)             Requested size: 469.75502pt x 327.62044pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15 <./figures/SH-subarray-examples.pdf>]
+<./figures/mcNSH-performance.pdf, id=519, 507.79083pt x 352.74724pt>
+File: ./figures/mcNSH-performance.pdf Graphic file (type pdf)
+<use ./figures/mcNSH-performance.pdf>
+Package pdftex.def Info: ./figures/mcNSH-performance.pdf  used on input line 11
+9.
+(pdftex.def)             Requested size: 469.75502pt x 326.32913pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[16 <./figures/NSH-performance.pdf>]
+<./figures/mcNSH-accuracy.pdf, id=571, 860.40508pt x 644.15968pt>
+File: ./figures/mcNSH-accuracy.pdf Graphic file (type pdf)
+<use ./figures/mcNSH-accuracy.pdf>
+Package pdftex.def Info: ./figures/mcNSH-accuracy.pdf  used on input line 128.
+(pdftex.def)             Requested size: 469.75502pt x 351.69403pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[17 <./figures/mcNSH-performance.pdf>]) [18 <./figures/mcNSH-accuracy.pdf>]
 \openout2 = `3-modeling-tools.aux'.
 
- (./3-modeling-tools.tex
+
+(./3-modeling-tools.tex
 Chapter 3.
-[16
+[19
 
 
 
 
-] [17]
+] [20]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
-<./figures/WRF-LES_default_sounding.pdf, id=511, 509.71992pt x 380.62262pt>
+<./figures/WRF-LES_default_sounding.pdf, id=686, 509.71992pt x 380.62262pt>
 File: ./figures/WRF-LES_default_sounding.pdf Graphic file (type pdf)
 <use ./figures/WRF-LES_default_sounding.pdf>
 Package pdftex.def Info: ./figures/WRF-LES_default_sounding.pdf  used on input 
 line 67.
 (pdftex.def)             Requested size: 469.75502pt x 350.7985pt.
- [18] [19 <./figures/WRF-LES_default_sounding.pdf>]
-<./figures/heat-flux-and-tke-profile.pdf, id=563, 517.85971pt x 402.25342pt>
+ [21] [22 <./figures/WRF-LES_default_sounding.pdf>]
+<./figures/heat-flux-and-tke-profile.pdf, id=738, 517.85971pt x 402.25342pt>
 File: ./figures/heat-flux-and-tke-profile.pdf Graphic file (type pdf)
 <use ./figures/heat-flux-and-tke-profile.pdf>
 Package pdftex.def Info: ./figures/heat-flux-and-tke-profile.pdf  used on input
  line 89.
 (pdftex.def)             Requested size: 469.75502pt x 364.89725pt.
- [20 <./figures/heat-flux-and-tke-profile.pdf>] [21] [22] [23]
+ [23 <./figures/heat-flux-and-tke-profile.pdf>] [24] [25] [26]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/urban-plume-aerosol-ic.pdf, id=640, 492.64049pt x 364.86815pt>
+<figures/urban-plume-aerosol-ic.pdf, id=814, 492.64049pt x 364.86815pt>
 File: figures/urban-plume-aerosol-ic.pdf Graphic file (type pdf)
 <use figures/urban-plume-aerosol-ic.pdf>
 Package pdftex.def Info: figures/urban-plume-aerosol-ic.pdf  used on input line
  191.
 (pdftex.def)             Requested size: 399.29463pt x 295.73643pt.
-<figures/urban-plume-aerosol-emissions.pdf, id=641, 513.84471pt x 364.86815pt>
+<figures/urban-plume-aerosol-emissions.pdf, id=815, 513.84471pt x 364.86815pt>
 File: figures/urban-plume-aerosol-emissions.pdf Graphic file (type pdf)
 <use figures/urban-plume-aerosol-emissions.pdf>
 Package pdftex.def Info: figures/urban-plume-aerosol-emissions.pdf  used on inp
@@ -1255,7 +1292,7 @@ LaTeX Warning: Float too large for page by 1.27654pt on input line 202.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [24] [25] [26 <./figures/urban-plume-aerosol-ic.pdf> <./figures/urban-plume-a
+) [27] [28] [29 <./figures/urban-plume-aerosol-ic.pdf> <./figures/urban-plume-a
 erosol-emissions.pdf>]
 \openout2 = `4-spatial-het-gas-phase.aux'.
 
@@ -1267,7 +1304,7 @@ Overfull \hbox (4.03891pt too wide) in paragraph at lines 2--2
 s-phase
  []
 
-) [27
+) [30
 
 
 
@@ -1277,7 +1314,7 @@ s-phase
 
  (./5-spatial-het-aerosols.tex
 Chapter 5.
-) [28
+) [31
 
 
 
@@ -1287,7 +1324,7 @@ Chapter 5.
 
  (./6-conclusions.tex
 Chapter 6.
-) [29
+) [32
 
 
 
@@ -1303,7 +1340,7 @@ Overfull \hbox (14.01434pt too wide) in paragraph at lines 131--131
 l -[] study -[] of -[] threedimensional -[] turbulent -[]
  []
 
-[30
+[33
 
 
 
@@ -1329,7 +1366,7 @@ Overfull \hbox (66.00247pt too wide) in paragraph at lines 131--131
 13658816.2019.1577432,
  []
 
-[31]
+[34]
 Overfull \hbox (8.84402pt too wide) in paragraph at lines 131--131
 \OT1/ptm/m/it/10.95 (-20) Geo-phys-i-cal Re-search Let-ters \OT1/ptm/m/n/10.95 
 (-20) 49.7. []eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021GL097
@@ -1343,7 +1380,7 @@ Overfull \hbox (186.26581pt too wide) in paragraph at lines 131--131
 ]eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2007JD008782.
  []
 
-[32] (./main.aux (./abstract.aux) (./1-introduction.aux) (./2-spatial-het.aux)
+[35] (./main.aux (./abstract.aux) (./1-introduction.aux) (./2-spatial-het.aux)
 (./3-modeling-tools.aux) (./4-spatial-het-gas-phase.aux)
 (./5-spatial-het-aerosols.aux) (./6-conclusions.aux))
  ***********
@@ -1355,29 +1392,22 @@ L3 programming layer <2024-02-20>
 LaTeX Warning: There were undefined references.
 
 
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: CB966C841C6949BC682B4E821D623614;8873
-(rerunfilecheck)             After:  944812947368228D0117A440B65B3A9D;8969.
-
-Package biblatex Warning: Please rerun LaTeX.
-(biblatex)                Page breaks have changed.
-
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 2FDFAE75D92AC3185D46836A01CD9E90;8966.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31062 strings out of 474116
- 610544 string characters out of 5743682
+ 31150 strings out of 474116
+ 612259 string characters out of 5743682
  1947187 words of memory out of 5000000
- 52553 multiletter control sequences out of 15000+600000
+ 52634 multiletter control sequences out of 15000+600000
  620100 words of font info for 346 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,81p,4457b,2904s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,13n,81p,4457b,2902s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -1386,16 +1416,17 @@ sr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/
 local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/l
 ocal/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr
-/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><
-/usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/
-texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive/202
-4/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texmf-di
-st/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fonts/t
-ype1/urw/times/utmri8a.pfb>
-Output written on main.pdf (40 pages, 460397 bytes).
+/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><
+/usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.p
+fb></usr/local/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/lo
+cal/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive
+/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texm
+f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fon
+ts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (43 pages, 538146 bytes).
 PDF statistics:
- 926 PDF objects out of 1000 (max. 8388607)
- 698 compressed objects within 7 object streams
- 128 named destinations out of 1000 (max. 500000)
- 82268 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 1106 PDF objects out of 1200 (max. 8388607)
+ 761 compressed objects within 8 object streams
+ 135 named destinations out of 1000 (max. 500000)
+ 82291 words of extra memory for PDF output out of 89155 (max. 10000000)
 
