@@ -2,17 +2,28 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Cartoon representation of a particle resolved model}}{7}{figure.caption.6}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Dependence of the Damköhler number on turbulent and reactive timescales. Figure adapted from \texthl {V. Rao Kotamarthi and Yan Feng, Argonne presentation, STM meeting 2017}.}}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Dependence of the Damköhler number on turbulent and reactive timescales. Figure adapted from \blx@tocontentsinit {0}\cite {kotamarthi_and_2017}}}{13}{figure.caption.8}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Example subsets for $SH$ calculation. (a) Full domain mean. (b-f) Examples of rectangular subsets (highlighted regions) over which the subset mean is computed.}}{15}{figure.caption.9}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Compute time for the naive looping $SH$ Fortran subroutine. The x-axis indicates the total number of domain grid cells (elements) in the array passed to the subroutine. A power law regression is plotted as the red dashed line.}}{16}{figure.caption.10}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Compute time for the Monte Carlo $SH$ Fortran subroutine. The x-axis indicates the number of domain subsets that are randomly selected to determine the $SH$ estimate. A power law regression is plotted as the red dashed line.}}{17}{figure.caption.11}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces CPU time for the naive looping $SH$ Fortran subroutine. The x-axis indicates the total number of domain grid cells (elements) in the array passed to the subroutine. A power law regression is plotted as the red dashed line.}}{16}{figure.caption.10}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces CPU time for the Monte Carlo $SH$ Fortran subroutine. The x-axis indicates the number of domain subsets that are randomly selected to determine the $SH$ estimate. A power law regression is plotted as the red dashed line.}}{17}{figure.caption.11}%
 \contentsline {figure}{\numberline {2.5}{\ignorespaces $SH$ estimate in blue for the Monte Carlo sampling subroutine vs. the number of randomly selected domain subsets (top panel). The true value of $SH$ computed via the naive algorithm is shown as the black line. Absolute relative error between $SH$ estimate and the true value of $SH$ (middle panel). Bias between $SH$ estimate and the true value of $SH$ (bottom panel) }}{18}{figure.caption.12}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Example emission patterns arranged from least heterogeneous (``Uniform base case") to most heterogeneous (``Scenario 7"). For each pattern, the spatial heterogeneity $SH$ is listed alongisde the domain mean and variance. The color of each scenario indicates the emission scaling relative to the uniform base case.)}}{19}{figure.caption.13}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Idealized atmospheric sounding used for domain meteorological initial conditions. Initial conditions for potential temperature (left) and specific humidity (right). \texthl {TODO: check what is best, units in brackets or in paretheses? Figure 3.2 uses brackets so I should be consistent either way...}}}{22}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Resolved-scale vertical heat flux profiles (left) and TKE at intervals of 10 minutes during the first hour of simulation spin-up.}}{23}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Aerosol initial condition size distributions.}}{29}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Aerosol emission size distributions.}}{29}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Idealized atmospheric sounding used for domain meteorological initial conditions. Initial conditions for potential temperature (left) and specific humidity (right). \texthl {TODO: check what is best, units in brackets or in paretheses? Figure 3.2 uses brackets so I should be consistent either way...}}}{23}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Resolved-scale vertical heat flux profiles (left) and TKE at intervals of 10 minutes during the first hour of simulation spin-up.}}{24}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Aerosol initial condition size distributions.}}{30}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Aerosol emission size distributions.}}{30}{figure.caption.18}%
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Emissions scenarios for ozone production simulations. The spatial heterogeneity of each emission scenario is listed in the lower portion of each scenario. For overlapping emissions cases, both NO$_x$ and VOCs are emitted in the same regions for each scenario indicted in blue. For non-overlapping emissions cases, NO$_x$ are emitted in blue regions while VOCs are emitted in white regions.}}{31}{figure.caption.19}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Uniform base case}}{33}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Scenario 1}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Scenario 2}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Scenario 3}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Scenario 1}}{36}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Scenario 2}}{36}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Scenario 3}}{36}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \texthl {Via ARM poster:} Relationship of SH of emissions and SH of concentration fields for the example of the directly emitted species NOx and VOC and the secondarily formed species ozone. SH of the concentration fields generally increases with increasing SH of the emissions. SH for NOx and ozone is larger for overlapping precursors compared to non-overlapping precursors.}}{37}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces \texthl {Via ARM poster:} Deviation of ozone concentration from case with uniform NOx and VOC emissions. Larger SH in emissions and overlapping emissions lead to larger deviations.}}{38}{figure.caption.24}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 

@@ -19,6 +19,64 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{auger_chemical_2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=13df2131330717b0675f3c9c3eb6093e}{%
+           family={Auger},
+           familyi={A\bibinitperiod},
+           given={Ludovic},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b6425d6f47d8c9d89ac600493d4431e7}{%
+           family={Legras},
+           familyi={L\bibinitperiod},
+           given={Bernard},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{22798669a371e83d9d8db1245ac57fa1}
+      \strng{fullhash}{22798669a371e83d9d8db1245ac57fa1}
+      \strng{bibnamehash}{22798669a371e83d9d8db1245ac57fa1}
+      \strng{authorbibnamehash}{22798669a371e83d9d8db1245ac57fa1}
+      \strng{authornamehash}{22798669a371e83d9d8db1245ac57fa1}
+      \strng{authorfullhash}{22798669a371e83d9d8db1245ac57fa1}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ozone pollution in the boundary layer results from photoactivated chemistry of primary pollutants released at the ground. As emissions are highly inhomogeneous in space and time and some chemical time-scales are of the order or larger than dynamical time-scales, it is admitted that turbulent transport and mixing is a key factor in ozone production. We study the interaction between chemistry and convective boundary layer turbulent with a large eddy simulation model coupled to CHIMERE, a detailed chemical model, over a 10×10km domain. Our results show that when emissions are concentrated over a limited area, strong values of segregation between chemical species are obtained over the first two active hours during the morning, leading to significant impact in terms of pollutants concentration. After 3h, for each heterogeneous emission case considered, segregation drops to a few percents for most compounds pairs, due to the strong convective mixing of the boundary layer.}
+      \field{issn}{1352-2310}
+      \field{journaltitle}{Atmospheric Environment}
+      \field{month}{4}
+      \field{number}{11}
+      \field{title}{Chemical segregation by heterogeneous emissions}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{41}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{2303\bibrangedash 2318}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.atmosenv.2006.11.032
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/Users/sf20/Zotero/storage/LYSEQ2BK/Auger and Legras - 2007 - Chemical segregation by heterogeneous emissions.pdf:application/pdf;ScienceDirect Snapshot:/Users/sf20/Zotero/storage/ANYRKP4A/S1352231006011319.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231006011319
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231006011319
+      \endverb
+      \keyw{Turbulence,LES,To read,Atmospheric chemistry,Boundary layer,Segregation,Thesis}
+    \endentry
     \entry{cooper_quantifying_1997}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=a85f6f52a5e80d121a6d9ab8bf36da87}{%
@@ -160,7 +218,7 @@
       \endverb
       \keyw{Thesis}
     \endentry
-    \entry{damkohler_effect_1947}{article}{}
+    \entry{damköhler_effect_1947}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1fc8572d03d9347540237f913ec9230c}{%
            family={Damköhler},
@@ -494,6 +552,147 @@
       \endverb
       \keyw{convective clouds,land-atmosphere coupling,LES model,soil moisture,Thesis}
     \endentry
+    \entry{gillespie_exact_1975}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1bf42ebd509a3dc7c57325afbcd733fa}{%
+           family={Gillespie},
+           familyi={G\bibinitperiod},
+           given={Daniel\bibnamedelima T.},
+           giveni={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \strng{fullhash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \strng{bibnamehash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \strng{authorbibnamehash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \strng{authornamehash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \strng{authorfullhash}{1bf42ebd509a3dc7c57325afbcd733fa}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract A computer-oriented Monte Carlo algorithm for simulating the stochastic coalescence process in a warm cloud is presented. The computational procedures used in the algorithm are rigorously derived from the fundamental premise of the stochastic model. The algorithm is more general, more accurate and more efficient than previously proposed Monte Carlo procedures; in addition, it is more exact than computations based on the stochastic coalescence equation, since it takes proper account of correlations that are artificially ignored in the derivation of that equation. The mechanics of the algorithm, its advantages and its limitations are discussed in general terms; applications to specific coalescence kernels are deferred to future publication.}
+      \field{issn}{0022-4928, 1520-0469}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{month}{10}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of the Atmospheric Sciences}
+      \field{number}{10}
+      \field{title}{An {Exact} {Method} for {Numerically} {Simulating} the {Stochastic} {Coalescence} {Process} in a {Cloud}}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{32}
+      \field{year}{1975}
+      \field{urldateera}{ce}
+      \field{pages}{1977\bibrangedash 1989}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1175/1520-0469(1975)032<1977:AEMFNS>2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Gillespie - 1975 - An Exact Method for Numerically Simulating the Sto.pdf:/Users/sf20/Zotero/storage/6MA6G2AI/Gillespie - 1975 - An Exact Method for Numerically Simulating the Sto.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals-ametsoc-org.proxy2.library.illinois.edu/view/journals/atsc/32/10/1520-0469_1975_032_1977_aemfns_2_0_co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals-ametsoc-org.proxy2.library.illinois.edu/view/journals/atsc/32/10/1520-0469_1975_032_1977_aemfns_2_0_co_2.xml
+      \endverb
+    \endentry
+    \entry{kolmogorov_local_1991}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=aadf44e45ed3eaf797179742cb37adb1}{%
+           family={Kolmogorov},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{aadf44e45ed3eaf797179742cb37adb1}
+      \strng{fullhash}{aadf44e45ed3eaf797179742cb37adb1}
+      \strng{bibnamehash}{aadf44e45ed3eaf797179742cb37adb1}
+      \strng{authorbibnamehash}{aadf44e45ed3eaf797179742cb37adb1}
+      \strng{authornamehash}{aadf44e45ed3eaf797179742cb37adb1}
+      \strng{authorfullhash}{aadf44e45ed3eaf797179742cb37adb1}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0962-8444}
+      \field{journaltitle}{Proceedings: Mathematical and Physical Sciences}
+      \field{note}{Publisher: Royal Society}
+      \field{number}{1890}
+      \field{title}{The {Local} {Structure} of {Turbulence} in {Incompressible} {Viscous} {Fluid} for {Very} {Large} {Reynolds} {Numbers}}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{434}
+      \field{year}{1991}
+      \field{urldateera}{ce}
+      \field{pages}{9\bibrangedash 13}
+      \range{pages}{5}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/sf20/Zotero/storage/JPD7KG8A/Kolmogorov - 1991 - The Local Structure of Turbulence in Incompressibl.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/51980
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/51980
+      \endverb
+    \endentry
+    \entry{kotamarthi_and_2017}{misc}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=57111d723821134da2f72d221f1a6860}{%
+           family={Kotamarthi},
+           familyi={K\bibinitperiod},
+           given={V\bibnamedelima Rao},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1d912509d266eb94dfcd8d6e4984992}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{location}{1}{%
+        {Tysons, Virginia}%
+      }
+      \strng{namehash}{c1744cec88085c0527f89697b2b839f7}
+      \strng{fullhash}{c1744cec88085c0527f89697b2b839f7}
+      \strng{bibnamehash}{c1744cec88085c0527f89697b2b839f7}
+      \strng{authorbibnamehash}{c1744cec88085c0527f89697b2b839f7}
+      \strng{authornamehash}{c1744cec88085c0527f89697b2b839f7}
+      \strng{authorfullhash}{c1744cec88085c0527f89697b2b839f7}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{LES} and {Atmospheric} {Chemistry}/{Aerosol} {Modeling}?}
+      \field{year}{2017}
+      \verb{file}
+      \verb Kotamarthi and Feng - LES and Atmospheric ChemistryAerosol Modeling .pdf:/Users/sf20/Zotero/storage/5RD78WXF/Kotamarthi and Feng - LES and Atmospheric ChemistryAerosol Modeling .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://asr.science.energy.gov/meetings/stm/presentations/2017/444.pdf
+      \endverb
+      \verb{url}
+      \verb https://asr.science.energy.gov/meetings/stm/presentations/2017/444.pdf
+      \endverb
+    \endentry
     \entry{loke_measuring_2022}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2d09b50ec5d21d02016231a2ba34068c}{%
@@ -597,7 +796,7 @@
       \field{journaltitle}{International Journal of Applied Earth Observation and Geoinformation}
       \field{month}{2}
       \field{title}{Selecting landscape metrics as indicators of spatial heterogeneity—{A} comparison among {Greek} landscapes}
-      \field{urlday}{10}
+      \field{urlday}{20}
       \field{urlmonth}{5}
       \field{urlyear}{2024}
       \field{volume}{26}
@@ -609,7 +808,7 @@
       \verb 10.1016/j.jag.2013.05.001
       \endverb
       \verb{file}
-      \verb ScienceDirect Snapshot:/Users/sf20/Zotero/storage/BCQLNNC9/S0303243413000500.html:text/html
+      \verb Plexida et al. - 2014 - Selecting landscape metrics as indicators of spati.pdf:/Users/sf20/Zotero/storage/VEJYIMYI/Plexida et al. - 2014 - Selecting landscape metrics as indicators of spati.pdf:application/pdf;ScienceDirect Snapshot:/Users/sf20/Zotero/storage/ESA22E7J/S0303243413000500.html:text/html
       \endverb
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/S0303243413000500
@@ -686,6 +885,58 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2008JD011073
       \endverb
       \keyw{aerosol aging,particle-resolved model,Thesis}
+    \endentry
+    \entry{schumann_large-eddy_1989}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1018947d3a8974d0f44f13b9b58a0551}{%
+           family={Schumann},
+           familyi={S\bibinitperiod},
+           given={Ulrich},
+           giveni={U\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1018947d3a8974d0f44f13b9b58a0551}
+      \strng{fullhash}{1018947d3a8974d0f44f13b9b58a0551}
+      \strng{bibnamehash}{1018947d3a8974d0f44f13b9b58a0551}
+      \strng{authorbibnamehash}{1018947d3a8974d0f44f13b9b58a0551}
+      \strng{authornamehash}{1018947d3a8974d0f44f13b9b58a0551}
+      \strng{authorfullhash}{1018947d3a8974d0f44f13b9b58a0551}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bottom-up and top-down diffusion of two reacting air constituents in a dry homogeneous convective boundary layer with zero mean wind are simulated using large-eddy simulations. The model includes a simple binary, irreversible reaction without heat release. Subgrid-scale contributions of reactions are neglected as justified by spectral analysis of the results. The results depend upon the ratio R of time scales for convection relative to that of the chemical reaction, on the concentration ratio of the two reacting components, and on the initial conditions. Cases with zero, finite and infinite reaction rate are considered. Without reactions, the bottom-up diffusivity is about twice as large as top-down diffusivity due to buoyancy effects. For infinite reaction rate, the thin reaction layer becomes highly convoluted. For R {>} 0.1, i.e. for parameter values which are typical for the reaction between ozone and nitrogen oxide in the atmosphere, the reaction rate is strongly influenced by turbulence. The effective eddy diffusivities may be enhanced or reduced by chemical reactions, depending on the importance of gradient forcings of mass fluxes relative to other source and sink terms. A simple ‘box-model’ describes the time evolution of the mean concentrations in the mixed layer fairly well for R ⩽0.1 and for infinite reaction rate.}
+      \field{issn}{0004-6981}
+      \field{journaltitle}{Atmospheric Environment (1967)}
+      \field{month}{1}
+      \field{number}{8}
+      \field{title}{Large-eddy simulation of turbulent diffusion with chemical reactions in the convective boundary layer}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{23}
+      \field{year}{1989}
+      \field{urldateera}{ce}
+      \field{pages}{1713\bibrangedash 1727}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/0004-6981(89)90056-5
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/Users/sf20/Zotero/storage/Q4ZCF9MM/Schumann - 1989 - Large-eddy simulation of turbulent diffusion with .pdf:application/pdf;ScienceDirect Snapshot:/Users/sf20/Zotero/storage/FKNFXJ4V/0004698189900565.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0004698189900565
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0004698189900565
+      \endverb
+      \keyw{convective boundary layer,numerical simulation,Turbulent reacting flows,To read,Thesis}
     \endentry
     \entry{seinfeld_atmospheric_1998}{book}{}
       \name{author}{2}{}{%
@@ -803,6 +1054,97 @@
       \verb https://doi.org/10.1080/13658816.2019.1577432
       \endverb
       \keyw{nearest-neighbor statistics,Point pattern,spatial heterogeneity,spatial statistics,Thesis}
+    \endentry
+    \entry{skamarock_description_2008}{article}{}
+      \name{author}{9}{}{%
+        {{un=0,uniquepart=base,hash=90e3c97707f00d8bb5fc98c72722f703}{%
+           family={Skamarock},
+           familyi={S\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0e1a4f544fd366ca3046413ad565df5a}{%
+           family={Klemp},
+           familyi={K\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=eeab89da8743d7f8af2f33ec513fa3b8}{%
+           family={Dudhia},
+           familyi={D\bibinitperiod},
+           given={Jimy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e73cce1b66e3c02da4c7b067cd6740d0}{%
+           family={Gill},
+           familyi={G\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cbe15b917a4c943c9f48443062a9e25f}{%
+           family={Barker},
+           familyi={B\bibinitperiod},
+           given={Dale},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=234eb197cac82ce091b6ca73bf53f18d}{%
+           family={Duda},
+           familyi={D\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18314bc593197e81f140df65e1c35e55}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xiang-yu},
+           giveni={X\bibinithyphendelim y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f27ec46ccd272a021fd78bdac92dd490}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea350ef62d7e1de61835f2f38696137f}{%
+           family={Powers},
+           familyi={P\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f2413db313dae4f7540bdef1fedd953c}
+      \strng{fullhash}{e309c4c2fa16e7e4eae00b5d4feb4aff}
+      \strng{bibnamehash}{f2413db313dae4f7540bdef1fedd953c}
+      \strng{authorbibnamehash}{f2413db313dae4f7540bdef1fedd953c}
+      \strng{authornamehash}{f2413db313dae4f7540bdef1fedd953c}
+      \strng{authorfullhash}{e309c4c2fa16e7e4eae00b5d4feb4aff}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{A {Description} of the {Advanced} {Research} {WRF} {Version} 3}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{year}{2008}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.5065/D68S4MVH
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/GLJY6LNA/Skamarock et al. - 2008 - A Description of the Advanced Research WRF Version.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://opensky.ucar.edu/islandora/object/technotes%3A500/
+      \endverb
+      \verb{url}
+      \verb https://opensky.ucar.edu/islandora/object/technotes%3A500/
+      \endverb
     \endentry
     \entry{smagorinsky_general_1963}{article}{}
       \name{author}{1}{}{%
@@ -932,6 +1274,75 @@
       \verb https://doi.org/10.1007/s10546-020-00556-3
       \endverb
       \keyw{Convective boundary layer,Large-eddy simulation,Plant canopy,Stable boundary layer,Subgrid-scale model,Urban canopy layer,Thesis}
+    \endentry
+    \entry{sykes_large-eddy_1992}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9f23da5d5d3c9fd44ab67b72e24c298f}{%
+           family={Sykes},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a4863218de57d3673ba6a8b6c4194f0}{%
+           family={Henn},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ca6e2ac0aeb684bd9b9525bcc0725be}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11e380550a58674fce4454b5fdbce70d}{%
+           family={Lewellen},
+           familyi={L\bibinitperiod},
+           given={W.\bibnamedelimi S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{49fbb25ab0a2b5c674a25f050f9e8836}
+      \strng{fullhash}{86fad805db9d4234cb459047c65b3127}
+      \strng{bibnamehash}{49fbb25ab0a2b5c674a25f050f9e8836}
+      \strng{authorbibnamehash}{49fbb25ab0a2b5c674a25f050f9e8836}
+      \strng{authornamehash}{49fbb25ab0a2b5c674a25f050f9e8836}
+      \strng{authorfullhash}{86fad805db9d4234cb459047c65b3127}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The results of large-eddy simulations (LES) of a chemically reacting, dispersing plume in a turbulent boundary layer are presented. The detailed simulations of the dispersion mechanisms are used to investigate the effects of turbulent fluctuations on nonlinear chemical reactions. The idealized single reaction between ozone and nitrogen oxides, NO+O3→NO2+O2, is used as a representative simple, irreversible binary reaction. Effects of different reaction rates are investigated by varying the source NO concentration, while maintaining a constant ambient ozone level. The simulations demonstrate that the rate of production of NO2 is significantly affected by the turbulent nature of the dispersing plume. The effect of incomplete turbulent mixing of the two reactants on the reaction rate can persist for long distances downstream, particularly for the high NO levels typical of power plant stacks. The LES results also show that the important measure of the turbulent fluctuations, the turbulence segregation coefficient, may be reasonably approximated by a constant value over most of the plume cross-section. This result may prove useful for simplified plume modeling, but will depend on whether the range of constant segregation coefficient covers the whole reaction region since this takes place predominantly in the plumeedges.}
+      \field{issn}{0960-1686}
+      \field{journaltitle}{Atmospheric Environment. Part A. General Topics}
+      \field{month}{10}
+      \field{number}{14}
+      \field{title}{Large-eddy simulation of a turbulent reacting plume}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{26}
+      \field{year}{1992}
+      \field{urldateera}{ce}
+      \field{pages}{2565\bibrangedash 2574}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/0960-1686(92)90109-X
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/sf20/Zotero/storage/64IC4IEL/096016869290109X.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/096016869290109X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/096016869290109X
+      \endverb
     \endentry
     \entry{thiffeault_using_2012}{article}{}
       \name{author}{1}{}{%
@@ -1119,6 +1530,267 @@
       \endverb
       \keyw{Thesis}
     \endentry
+    \entry{wang_segregation_2022}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=8867ec7ba406060d80adc69093d45bd2}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuting},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=ca9931ba2cb727b41ee398338e0b9446}{%
+           family={Brasseur},
+           familyi={B\bibinitperiod},
+           given={Guy\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=ad1506e9f10da2cad4389eac16751647}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{c07abd558b65d2d24a8f7d30b8c54e31}
+      \strng{fullhash}{c07abd558b65d2d24a8f7d30b8c54e31}
+      \strng{bibnamehash}{c07abd558b65d2d24a8f7d30b8c54e31}
+      \strng{authorbibnamehash}{c07abd558b65d2d24a8f7d30b8c54e31}
+      \strng{authornamehash}{c07abd558b65d2d24a8f7d30b8c54e31}
+      \strng{authorfullhash}{c07abd558b65d2d24a8f7d30b8c54e31}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the atmospheric boundary layer that is affected by turbulent motions and inhomogeneous surface chemical emissions, short-lived reactive species may not be completely mixed within any given airmass. Coarse atmospheric models, which assume complete mixing within each grid-box, may overestimate the rates at which chemical species react. We used a large eddy simulation (LES) model embedded in the Weather Research and Forecasting (WRF) model to assess the influence of species segregation on the photochemistry in the convective boundary layer. We implemented our model in the vicinity of Hong Kong Island, which is subject to strong turbulent flow and spatially inhomogeneous anthropogenic and biogenic emissions. We conclude that under heavy pollution conditions, segregation reduces the rate of the reaction between anthropogenic hydrocarbons and hydroxyl radical (OH) by 25\% near the surface in urban areas. Furthermore, under polluted conditions, segregation reduces the ozone production rate in the urbanized areas by 50\% at about 100 m above the surface. The reduction is only equal to 20\% near the surface in the forested mountain area. This highlights the need to develop grid refinement approaches in regional and global models in the vicinity of large urban areas with high pollution levels. Under clean conditions, our large eddy simulations suggest that the role of segregation is small and can be ignored in regional and global modelling approaches.}
+      \field{issn}{2073-4433}
+      \field{journaltitle}{Atmosphere}
+      \field{month}{2}
+      \field{note}{Number: 2 Publisher: Multidisciplinary Digital Publishing Institute}
+      \field{number}{2}
+      \field{title}{Segregation of {Atmospheric} {Oxidants} in {Turbulent} {Urban} {Environments}}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{13}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{315}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/atmos13020315
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/MEYLYVBP/Wang et al. - 2022 - Segregation of Atmospheric Oxidants in Turbulent U.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4433/13/2/315
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4433/13/2/315
+      \endverb
+      \keyw{segregation,LES,ozone production rate,reaction rate,urban pollution,To read,Thesis}
+    \endentry
+    \entry{wang_coupled_2023}{article}{}
+      \name{author}{10}{ul=4}{%
+        {{un=1,uniquepart=given,hash=8867ec7ba406060d80adc69093d45bd2}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuting},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=479ded1ca62a1a1cd41aae33921d1af7}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yong-Feng},
+           giveni={Y\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7172257c6c4b3e336a74d0d1296a786}{%
+           family={Muñoz-Esparza},
+           familyi={M\bibinithyphendelim E\bibinitperiod},
+           given={Domingo},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b88e40e44d3caad6dc78d0e9873d4151}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jianing},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2868ea5d9d0a0839e7d5b6b9db7dc0ac}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Cathy\bibnamedelimb Wing\bibnamedelima Yi},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2c1b3aeded9d5eed2a06d3bdab76ddf1}{%
+           family={Lichtig},
+           familyi={L\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd3b1e08bde59804ad7efb0755e48b34}{%
+           family={Tsang},
+           familyi={T\bibinitperiod},
+           given={Roy\bibnamedelima Chun-Wang},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f185de79612f7d709acb7c208b106510}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Chun-Ho},
+           giveni={C\bibinithyphendelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad1506e9f10da2cad4389eac16751647}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=302e602660a22424bb3914c0bdb8a1cd}{%
+           family={Brasseur},
+           familyi={B\bibinitperiod},
+           given={Guy\bibnamedelima Pierre},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{6b691f0d0d6a592cf02c5c4726787bbf}
+      \strng{fullhash}{32956845113356c9c276805939456952}
+      \strng{bibnamehash}{6b691f0d0d6a592cf02c5c4726787bbf}
+      \strng{authorbibnamehash}{6b691f0d0d6a592cf02c5c4726787bbf}
+      \strng{authornamehash}{6b691f0d0d6a592cf02c5c4726787bbf}
+      \strng{authorfullhash}{32956845113356c9c276805939456952}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{To perform realistic high-resolution air quality modeling in a polluted urban area, the Weather Research and Forecasting (WRF) model is used with an embedded large-eddy simulation (LES) module and online chemistry. As an illustration, a numerical experiment is conducted in the megacity of Hong Kong, which is characterized by multi-type inhomogeneous pollution sources and complex topography. The results from the multi-resolution simulations at mesoscale and LES scales are evaluated by comparing them with ozone sounding profiles and surface observations. The comparisons show that both mesoscale and LES simulations reproduce the mean concentrations of the chemical species and their diurnal variations at the background stations well. However, the mesoscale simulations largely underestimate the NOx concentrations and overestimate O3 at the roadside stations due to the coarse representation of the traffic emissions. The LES simulations improve the agreement with the measurements near the road traffic, and the LES with the highest spatial resolution (33.3 m) provides the best results. The large-eddy simulations show more detailed structures in the spatial distributions of chemical species than the mesoscale simulations, highlighting the capability of LES to resolve high-resolution photochemical transformations in urban areas. Compared to the mesoscale model results, the LES simulations show similar evolutions in the profiles of the chemical species as a function of the boundary layer development over a diurnal cycle.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{5}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{10}
+      \field{title}{Coupled mesoscale–microscale modeling of air quality in a polluted city using {WRF}-{LES}-{Chem}}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{5905\bibrangedash 5927}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.5194/acp-23-5905-2023
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/AHHV2VVK/Wang et al. - 2023 - Coupled mesoscale–microscale modeling of air quali.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/23/5905/2023/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/23/5905/2023/
+      \endverb
+      \keyw{To read,Thesis}
+    \endentry
+    \entry{wang_impact_2021}{article}{}
+      \name{author}{7}{ul=4}{%
+        {{un=1,uniquepart=given,hash=8867ec7ba406060d80adc69093d45bd2}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuting},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=479ded1ca62a1a1cd41aae33921d1af7}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Yong-Feng},
+           giveni={Y\bibinithyphendelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a7172257c6c4b3e336a74d0d1296a786}{%
+           family={Muñoz-Esparza},
+           familyi={M\bibinithyphendelim E\bibinitperiod},
+           given={Domingo},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfeafc1b641d0cb87d188a267ded0699}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Cathy\bibnamedelimb W.\bibnamedelimi Y.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=886e68547626a3ed3dbf5b835ab98624}{%
+           family={Barth},
+           familyi={B\bibinitperiod},
+           given={Mary},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad1506e9f10da2cad4389eac16751647}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Tao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ca9931ba2cb727b41ee398338e0b9446}{%
+           family={Brasseur},
+           familyi={B\bibinitperiod},
+           given={Guy\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{37462d0d4d1c2e303870973c07c21197}
+      \strng{fullhash}{87afd6a9e5031487f7f6a11519e99e8d}
+      \strng{bibnamehash}{37462d0d4d1c2e303870973c07c21197}
+      \strng{authorbibnamehash}{37462d0d4d1c2e303870973c07c21197}
+      \strng{authornamehash}{37462d0d4d1c2e303870973c07c21197}
+      \strng{authorfullhash}{87afd6a9e5031487f7f6a11519e99e8d}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Global and regional chemical transport models of the atmosphere are based on the assumption that chemical species are completely mixed within each model grid box. However, in reality, these species are often segregated due to localized sources and the influence of topography. In order to investigate the degree to which the rates of chemical reactions between two reactive species are reduced due to the possible segregation of species within the convective boundary layer, we perform large-eddy simulations (LESs) in the mountainous region of Hong Kong Island. We adopt a simple chemical scheme with 15 primary and secondary chemical species, including ozone and its precursors. We calculate the segregation intensity due to inhomogeneity in the surface emissions of primary pollutants and due to turbulent motions related to topography. We show that the inhomogeneity in the emissions increases the segregation intensity by a factor of 2–5 relative to a case in which the emissions are assumed to be uniformly distributed. Topography has an important effect on the segregation locally, but this influence is relatively limited when considering the spatial domain as a whole. In the particular setting of our model, segregation reduces the ozone formation by 8 \%–12 \% compared to the case with complete mixing, implying that the coarse-resolution models may overestimate the surface ozone when ignoring the segregation effect.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{3}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{5}
+      \field{title}{The impact of inhomogeneous emissions and topography on ozone photochemistry in the vicinity of {Hong} {Kong} {Island}}
+      \field{urlday}{5}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{3531\bibrangedash 3553}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.5194/acp-21-3531-2021
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/N4VEAA7R/Wang et al. - 2021 - The impact of inhomogeneous emissions and topograp.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/21/3531/2021/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/21/3531/2021/
+      \endverb
+      \keyw{To read,Thesis}
+    \endentry
     \entry{zaveri_model_2008}{article}{}
       \name{author}{4}{ul=2}{%
         {{un=0,uniquepart=base,hash=cefedf772b5058aa14debe40086d9a13}{%
@@ -1244,6 +1916,136 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/1999JD900876
       \endverb
       \keyw{CBMZ,Thesis}
+    \endentry
+    \entry{zhong_modelling_2015}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2b94cd0fae81f957d5cabce984d1a94c}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c18834b552a036355e0a855d3b1626f}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Xiao-Ming},
+           giveni={X\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0978a8562bcc935c56c7e5f10239bd9a}{%
+           family={Bloss},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima James},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \strng{fullhash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \strng{bibnamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \strng{authorbibnamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \strng{authornamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \strng{authorfullhash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This study investigates the dispersion and transport of reactive pollutants in a deep urban street canyon with an aspect ratio of 2 under neutral meteorological conditions using large-eddy simulation. The spatial variation of pollutants is significant due to the existence of two unsteady vortices. The deviation of species abundance from chemical equilibrium for the upper vortex is greater than that for the lower vortex. The interplay of dynamics and chemistry is investigated using two metrics: the photostationary state defect, and the inferred ozone production rate. The latter is found to be negative at all locations within the canyon, pointing to a systematic negative offset to ozone production rates inferred by analogous approaches in environments with incomplete mixing of emissions. This study demonstrates an approach to quantify parameters for a simplified two-box model, which could support traffic management and urban planning strategies and personal exposure assessment.}
+      \field{issn}{0269-7491}
+      \field{journaltitle}{Environmental Pollution}
+      \field{month}{5}
+      \field{shorttitle}{Modelling the dispersion and transport of reactive pollutants in a deep urban street canyon}
+      \field{title}{Modelling the dispersion and transport of reactive pollutants in a deep urban street canyon: {Using} large-eddy simulation}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{200}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \field{pages}{42\bibrangedash 52}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.envpol.2015.02.009
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/Users/sf20/Zotero/storage/DJWQIKMP/Zhong et al. - 2015 - Modelling the dispersion and transport of reactive.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0269749115000779
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0269749115000779
+      \endverb
+      \keyw{Large-eddy simulation,Turbulence,Pollutant removal,Two-box model,Urban street canyon,Thesis}
+    \endentry
+    \entry{zhong_large_2017}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2b94cd0fae81f957d5cabce984d1a94c}{%
+           family={Zhong},
+           familyi={Z\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c18834b552a036355e0a855d3b1626f}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Xiao-Ming},
+           giveni={X\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0978a8562bcc935c56c7e5f10239bd9a}{%
+           family={Bloss},
+           familyi={B\bibinitperiod},
+           given={William\bibnamedelima James},
+           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \strng{fullhash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \strng{bibnamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \strng{authorbibnamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \strng{authornamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \strng{authorfullhash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{A large eddy simulation (LES) model coupled with O3-NOx-VOC chemistry is implemented to simulate the coupled effects of emissions, mixing and chemical pre-processing within an idealised deep (aspect ratio = 2) urban street canyon under a weak wind condition. Reactive pollutants exhibit significant spatial variations in the presence of two vertically aligned unsteady vortices formed in the canyon. Comparison of the LES results from two chemical schemes (simple NOx-O3 chemistry and a more comprehensive Reduced Chemical Scheme (RCS) chemical mechanism) shows that the concentrations of NO2 and Ox inside the street canyon are enhanced by approximately 30–40\% via OH/HO2 chemistry. NO, NOx, O3, OH and HO2 are chemically consumed, while NO2 and Ox (total oxidant) are chemically produced within the canyon environment. Within-canyon pre-processing increases oxidant fluxes from the canyon to the overlying boundary layer, and this effect is greater for deeper street canyons (as found in many traditional European urban centres) than shallower (lower aspect ratio) streets. There is clear evidence of distinct behaviours for emitted chemical species and entrained chemical species, and positive (or negative) values of intensities of segregations are found between pairs of species with similar (or opposite) behaviour. The simplified two-box model underestimated NO and O3 levels, but overestimated NO2 levels for both the lower and upper canyon compared with the more realistic LES-chemistry model. This suggests that the segregation effect due to incomplete mixing reduces the chemical conversion rate of NO to NO2. This study reveals the impacts of nonlinear O3-NOx-VOC photochemical processes in the incomplete mixing environment and provides a better understanding of the pre-processing of emissions within canyons, prior to their release to the urban boundary layer, through the coupling of street canyon dynamics and chemistry.}
+      \field{issn}{0269-7491}
+      \field{journaltitle}{Environmental Pollution}
+      \field{month}{5}
+      \field{shorttitle}{Large eddy simulation of reactive pollutants in a deep urban street canyon}
+      \field{title}{Large eddy simulation of reactive pollutants in a deep urban street canyon: {Coupling} dynamics with {O3}-{NOx}-{VOC} chemistry}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{224}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{171\bibrangedash 184}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.envpol.2017.01.076
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/Users/sf20/Zotero/storage/645J6QWH/Zhong et al. - 2017 - Large eddy simulation of reactive pollutants in a .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0269749116312398
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0269749116312398
+      \endverb
+      \keyw{Large eddy simulation,Nonlinear photochemistry,Segregation effect,Street canyon,Thesis}
     \endentry
   \enddatalist
 \endrefsection
