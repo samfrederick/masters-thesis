@@ -15,18 +15,22 @@
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Aerosol emission size distributions.}}{30}{figure.caption.18}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {4.1}{\ignorespaces Emissions scenarios for ozone production simulations. The spatial heterogeneity of each emission scenario is listed in the lower portion of each scenario alongside domain mean and variance.}}{32}{figure.caption.19}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Uniform base case}}{33}{figure.caption.20}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Scenario 1}}{35}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Scenario 2}}{35}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Scenario 3}}{35}{figure.caption.21}%
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Ozone concentration height time plot for scenario 1.}}{36}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Ozone concentration height time plot for scenario 2.}}{36}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Ozone concentration height time plot for scenario 3.}}{36}{figure.caption.22}%
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Height-time plot of ozone percent difference for scenario 1.}}{37}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Height-time plot of ozone percent difference for scenario 2.}}{37}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Height-time plot of ozone percent difference for scenario 3.}}{37}{figure.caption.23}%
-\contentsline {figure}{\numberline {4.12}{\ignorespaces \texthl {Via ARM poster:} Relationship of SH of emissions and SH of concentration fields for the example of the directly emitted species NOx and VOC and the secondarily formed species ozone. SH of the concentration fields generally increases with increasing SH of the emissions. SH for NOx and ozone is larger for overlapping precursors compared to non-overlapping precursors.}}{38}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.13}{\ignorespaces \texthl {Via ARM poster:} Deviation of ozone concentration from case with uniform NOx and VOC emissions. Larger SH in emissions and overlapping emissions lead to larger deviations.}}{39}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim 500$ \si {m}) for the uniform base case.}}{33}{figure.caption.20}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim 500$ \si {m}) for emissions scenario 1.}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim 500$ \si {m}) for emissions scenario 2.}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim 500$ \si {m}) for emissions scenario 3.}}{35}{figure.caption.21}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces \relax }}{36}{figure.caption.22}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Ozone concentration height time plot for the uniform base case.}}{36}{figure.caption.23}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Ozone concentration height time plot for emissions scenario 1.}}{37}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Ozone concentration height time plot for emissions scenario 2.}}{37}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Ozone concentration height time plot for emissions scenario 3.}}{37}{figure.caption.24}%
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Height-time plot of ozone percent difference for emissions scenario 1.}}{38}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Height-time plot of ozone percent difference for emissions scenario 2.}}{38}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.13}{\ignorespaces Height-time plot of ozone percent difference for emissions scenario 3.}}{38}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Height-time plot of field $SH$ for O$_3$, NO$_x$, and HCHO in the uniform base case. $SH$ value contours are shown in grayscale for each subplot.}}{39}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Height-time plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 1. $SH$ value contours are shown in grayscale for each subplot.}}{39}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Height-time plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 2. $SH$ value contours are shown in grayscale for each subplot.}}{40}{figure.caption.27}%
+\contentsline {figure}{\numberline {4.17}{\ignorespaces Height-time plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 3. $SH$ value contours are shown in grayscale for each subplot.}}{40}{figure.caption.27}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsfinish 

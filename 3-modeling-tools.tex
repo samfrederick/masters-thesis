@@ -61,7 +61,7 @@ The domain is absent of any topographic features with a uniform, flat surface.  
  
  \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{WRF-LES_default_sounding.pdf}
+	\includegraphics[width=\textwidth]{figures/chapter3/WRF-LES_default_sounding.pdf}
 	\caption{Idealized atmospheric sounding used for domain meteorological initial conditions. Initial conditions for potential temperature (left) and specific humidity (right). \hl{TODO: check what is best, units in brackets or in paretheses? Figure 3.2 uses brackets so I should be consistent either way...}}
 	\label{fig:sounding}
 \end{figure}
@@ -83,7 +83,7 @@ At the surface, the specific humidity $q$ is highest at 14 \si{g.kg^{-1}} and lo
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{heat-flux-and-tke-profile.pdf}
+	\includegraphics[width=\textwidth]{figures/chapter3/heat-flux-and-tke-profile.pdf}
 	\caption{Resolved-scale vertical heat flux profiles (left) and TKE at intervals of 10 minutes during the first hour of simulation spin-up.}
 	\label{fig:heat-flux}
 \end{figure}
@@ -100,7 +100,7 @@ In Chapter 4, we conduct simulations with only gas phase initial conditions and 
 
 \begin{table}[h]
 \centering
-\caption{Gas phase emissions and initial conditions. Table taken from \cite{riemer_simulating_2009} \hl{with permission}.}
+\caption{Gas phase emissions and initial conditions. Table adapted from \cite{riemer_simulating_2009} \hl{with permission}.}
 \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}} lccr}
 \\[-2ex]\hline 
      \hline \\[-2ex] Species & Symbol & Initial Mole Fraction (ppb) & Emissions (nmol m\textsuperscript{-2} s\textsuperscript{-1}) \\
@@ -162,7 +162,7 @@ Initial conditions and emissions of gas phase species match those discussed in S
 
 \begin{table}[h]
 \centering
-\caption{Aerosol emissions and initial conditions. Table taken from \cite{riemer_simulating_2009} \hl{with permission}.}
+\caption{Aerosol emissions and initial conditions. Table adapted from \cite{riemer_simulating_2009} \hl{with permission}.}
 \begin{tabular*}{\linewidth}{@{\extracolsep{\fill}} cccccc}
 \\[-2ex]\hline 
      \hline \\[-2ex] Initial/Background  & $N$ (m$^{-3}$) & $D_{\text{gn}}$ ($\mu$m) & $\sigma_g$ & Composition by Mass\\
@@ -185,14 +185,14 @@ Gasoline vehicles & $5 \cdot 10^7$ & 0.05 & 1.7 & 80\% POA, 20\% BC \\
   \centering
   \begin{subfigure}
     \centering
-    \includegraphics[width=.85\textwidth]{figures/urban-plume-aerosol-ic.pdf}
+    \includegraphics[width=.85\textwidth]{figures/chapter3/urban-plume-aerosol-ic.pdf}
     \caption{Aerosol initial condition size distributions.}
     \label{fig:aero_ic_dist}
   \end{subfigure}
    \vspace*{5mm} 
   \begin{subfigure}
     \centering
-    \includegraphics[width=.85\textwidth]{figures/urban-plume-aerosol-emissions.pdf}
+    \includegraphics[width=.85\textwidth]{figures/chapter3/urban-plume-aerosol-emissions.pdf}
     \caption{Aerosol emission size distributions.}
     \label{fig:aero_emiss_dist}
   \end{subfigure}

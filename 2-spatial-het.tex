@@ -62,7 +62,7 @@ where $w_*$ is the velocity scale in the convective boundary layer and is define
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{damkohler_number_figure.pdf}
+	\includegraphics[width=\textwidth]{figures/chapter2/damkohler_number_figure.pdf}
 	\caption{Dependence of the Damköhler number on turbulent and reactive timescales. Figure adapted from \cite{kotamarthi_and_2017}}
 	\label{fig:damkohler}
 \end{figure}
@@ -87,7 +87,7 @@ SH(f, S) = \frac{1}{P}\sum_{\tilde{S}\in \mathbb{R}}|\overline{f}(S) - \overline
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{SH-subarray-examples.pdf}
+	\includegraphics[width=\textwidth]{figures/chapter2/SH-subarray-examples.pdf}
 	\caption{Example subsets for $SH$ calculation. (a) Full domain mean. (b-f) Examples of rectangular subsets (highlighted regions) over which the subset mean is computed.}
 	\label{fig:sh-subarrays}
 \end{figure}
@@ -101,13 +101,12 @@ SH(f, S) = \frac{1}{\overline{f}(S)\left[\frac{3}{2}(N\times M)(N-1)(M-1) + N(N-
 A visualization of the total domain mean $\overline{f}(S)$ and domain subset means $\overline{f}(\tilde{S})$ are shown in Figure \ref{fig:sh-subarrays}. The checkerboard pattern represents an idealized emission pattern, where orange-filled cells correspond to regions of uniform emissions and dark blue regions correspond to zero emissions. $\overline{f}(S)$ is shown in subfigure (a), while five examples of rectangular subsets are displayed in subfigures (b-f).
 
 
-%\subsection{Monte Carlo approach for estimating the spatial heterogeneity metric}\label{sh-metric-calculation}
-\subsection{Computational methods for computing the spatial heterogeneity metric}
+\subsection{Computational methods for computing the spatial heterogeneity metric}\label{sh-metric-calculation}
 To calculate $SH$ over a computational domain, an array comprising the scalar quantity of interest with dimension equal to the size of the domain ($N$ by $M$) is passed to a Fortran subroutine. Here, we discuss two approaches to calculating $SH$: a computationally expensive naive looping algorithm and a significantly more efficient Monte Carlo based method.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{NSH-performance.pdf}
+	\includegraphics[width=\textwidth]{figures/chapter2/NSH-performance.pdf}
 	\caption{CPU time for the naive looping $SH$ Fortran subroutine. The x-axis indicates the total number of domain grid cells (elements) in the array passed to the subroutine. A power law regression is plotted as the red dashed line.}
 	\label{fig:nsh-performance}
 \end{figure}
@@ -116,7 +115,7 @@ The naive subroutine loops over all possible rectangular subdomains which can be
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{mcNSH-performance.pdf}
+	\includegraphics[width=\textwidth]{figures/chapter2/mcNSH-performance.pdf}
 	\caption{CPU time for the Monte Carlo $SH$ Fortran subroutine. The x-axis indicates the number of domain subsets that are randomly selected to determine the $SH$ estimate. A power law regression is plotted as the red dashed line.}
 	\label{fig:mcsh-performance}
 \end{figure}
@@ -125,20 +124,20 @@ Instead of looping over every possible subdomain, we may use the fact that the p
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{mcNSH-accuracy-v2.pdf}
+	\includegraphics[width=\textwidth]{figures/chapter2/mcNSH-accuracy-v2.pdf}
 	\caption{$SH$ estimate in blue for the Monte Carlo sampling subroutine vs. the number of randomly selected domain subsets (top panel). The true value of $SH$ computed via the naive algorithm is shown as the black line.  Absolute relative error between $SH$ estimate and the true value of $SH$ (middle panel). Bias between $SH$ estimate and the true value of $SH$ (bottom panel) }
 	\label{fig:mcsh-accuracy}
 \end{figure}
 
 We validate the accuracy of the Monte Carlo sampling subroutine against the naive looping approach in Figure \ref{fig:mcsh-accuracy}. First, the precise value of $SH$ was computed via the naive algorithm for a scalar field of random noise with dimensions $N=M=100$. We then vary the number of randomly selected subsets $N_{\tilde{S}}$ used to compute the estimate of $SH$ in the Monte-Carlo subroutine. The left panel in Figure \ref{fig:mcsh-accuracy} shows how the $SH$ estimate converges on the precise value of $SH$ (shown as a horizontal black dashed line). The right panel displays the relative error between $SH$ estimates and the precise value (note the logarithmic scaling). Relative error decreases as $\propto 1/\sqrt{N_{\tilde{S}}}$ as indicated by the power law regression in red. This behavior is to be expected, because as the number of samples (i.e., $N_{\tilde{S}}$) increases, the error should decrease like the standard error-- $SE = \sigma/\sqrt{n}$ for $\sigma$ the standard deviation of a sampling distribution and $n$ the number of samples.
 
-Given the performance of the Monte Carlo sampling subroutine over the naive looping approach and its ability to reach a high level of accuracy with minimal error when sampling a sufficient number of domain subsets, we utilize the Monte Carlo method for subsequent $SH$ calculations. For such calculations, we choose the number of randomly selected domain subsets to be 40,000 as this results in relative error $\lesssim 1\%$ for the domain size $N=M=100$ used in this thesis. Referring back to Figures \ref{fig:nsh-performance} and \ref{fig:mcsh-performance} for naive algorithm performance and Monte Carlo sampling performance, respectively, we find that for a domain size with $N=M=100$, CPU time is in excess of two minutes for the naive looping approach and of order $\sim0.1$ \si{s} for the Monte Carlo subroutine. This corresponds to a speedup in excess of 1000.
+Given the performance of the Monte Carlo sampling subroutine over the naive looping approach and its ability to reach a high level of accuracy with minimal error when sampling a sufficient number of domain subsets, we utilize the Monte Carlo method for subsequent $SH$ calculations. For such calculations, we choose the number of randomly selected domain subsets to be 10,000 as this results in relative error $\sim 1\%$ for the domain size $N=M=100$ used in this thesis. Referring back to Figures \ref{fig:nsh-performance} and \ref{fig:mcsh-performance} for naive algorithm performance and Monte Carlo sampling performance, respectively, we find that for a domain size with $N=M=100$, CPU time is in excess of two minutes for the naive looping approach and of order $\sim0.1$ \si{s} for the Monte Carlo subroutine. This corresponds to a speedup in excess of 1000.
 
 \subsection{Example calculations for emission patterns}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{SH-scenarios-all.pdf}
+	\includegraphics[width=\textwidth]{figures/chapter2/SH-scenarios-all.pdf}
 	\caption{Example emission patterns arranged from least heterogeneous (``Uniform Base Case") to most heterogeneous (``Scenario 5").  For each pattern, the spatial heterogeneity $SH$ is listed alongisde the domain mean ($\overline{f}(S)$) and variance ($\sigma^2$). The color of each scenario indicates the emission scaling relative to the uniform base case with red being the highest scaling.)}
 	\label{fig:emission-patterns}
 \end{figure}

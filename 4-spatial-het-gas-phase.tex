@@ -1,7 +1,7 @@
 % !TEX root = ./main.tex
 \chapter{Impacts of emissions spatial heterogeneity on gas-phase reactions}
 
-This chapter investigates the impacts of pure gas phase emissions and associated chemical reactions on the production of ozone in the planetary boundary layer. The effect of chemical segregation between precursor species for ozone production is explored with simulations that contain both overlapping and non-overlapping precursor emissions. We find that for overlapping emissions scenarios, ozone production is reduced in the mid-boundary layer by up to $\sim30\%$ for overlapping emissions and up to $\sim90\%$ for non-overlapping emissions.
+This chapter investigates the impacts of pure gas phase emissions and associated chemical reactions on the production of ozone in the planetary boundary layer. The effect emissions spatial heterogeneity on ozone production is explored across numerous emissions scenarios with ranging emissions spatial heterogeneity. We find that for the most heterogeneous emissions case, ozone production is reduced in the mid-boundary layer by up to $\sim12\%$.
 
 \section{Simulated emission scenarios}
 
@@ -12,120 +12,166 @@ This chapter investigates the impacts of pure gas phase emissions and associated
 	\label{fig:ozone-emission-patterns}
 \end{figure}
 
-We conduct four simulations in total ranging in emissions spatial heterogeneity and the spatial colocation (or segregation) of precursor species responsible the production of ozone. Emissions scenarios are shown in Figure \ref{fig:ozone-emission-patterns}. The first simulation, named the uniform base case scenario, is characterized by uniform emissions of all compounds across the computational domain ground level. The uniform base case has a spatial heterogeneity equal to zero. This scenario represents the emissions across a single grid cell in a lower resolution model, such as a regional or global climate model, where emitted species are both uniform and dilute. Thus, results for simulations with higher emissions heterogeneity are compared against the uniform base case to quantify the structural uncertainty in ozone concentrations resulting from the assumption of uniform, dilute emissions characteristic of coarser resolved models that do not adequately resolve the true emissions spatial heterogeneity.  
+We conduct four simulations in total ranging in emissions spatial heterogeneity from $SH=0$ to $SH=1$ for precursor species responsible the production of ozone. Emissions scenarios are shown in Figure \ref{fig:ozone-emission-patterns}. The first simulation, named the uniform base case scenario, is characterized by uniform emissions of all compounds across the computational domain ground level. The uniform base case has a spatial heterogeneity equal to zero. This scenario represents the emissions across a single grid cell in a lower resolution model, such as a regional or global climate model, where emitted species are both uniform and dilute. Thus, results for simulations with higher emissions heterogeneity are compared against the uniform base case to quantify the structural uncertainty in ozone concentrations resulting from the assumption of uniform, dilute emissions characteristic of coarser resolved models that do not adequately resolve the true emissions spatial heterogeneity.  
 
-%Emission scenarios 1-3 are checkerboard patterns with increasing spatial heterogeneity. For each emissions scenario, we conduct two simulations: one run where precursors for ozone production, NO$_x$ and VOCs, are emitted in the same region (referred to as ``overlapping" emissions cases) and an additional run where the emission of NO$_x$ and VOCs are fully segregated (referred to as ``non-overlapping" emissions cases).
+Across the simulated emission scenarios, the area occupied by ground level emissions decreases up to a single grid cell in the case of emissions scenario 3. This scenario is meant to represent a highly localized emissions source and is the maximally heterogeneous case with $SH=1$. The total mass per unit time emitted across each scenario remains the same, thus the emission rate for high spatial heterogeneity cases must be scaled by the ratio between the area occupied by emissions in the uniform base case and the area emissions occupy in the corresponding emissions scenario. For example, the area of emissions in emissions scenario 3 is $0.01$ \si{km^2} while the area occupied by emissions in the uniform base case is  $100$ \si{km^2}, resulting in an emissions rate scaling factor of $100/0.01 = 10,000$. 
+
+Each simulation was run for a total of 6 hours beginning at 9:00 AM LT and ending at 3:00 PM LT. The first hour of each simulation allows spin up and development of the PBL. Afterward, emissions occur at a constant rate for the remainder of each simulation.
 
 \section{Results}
 
-\hl{NOTE: The simulations that I ran last summer were 1 hour in duration and emissions started at t=0, such that there was no initial spin up period prior to the release of emissions. I there there may also have been some issues with the emission rates (potentially) that led to very high O3 values, higher than typical of even polluted urban regions.}
-
-\hl{Note that precursors are emitted into a background uniform concentration of 50 ppb as specified by the urban plume gas phase initial conditions,}
-
-\hl{I think if I can show that the segregation intensity of VOCs and NOx is nearly 0 at t=60 min for even the most heterogeneous case then its a bit more justifiable to focus on only the first 1 hour.} Maybe? This is not so true for the nonoverlapping emissions though.
 
 \subsection{Ozone cross sections}
 
-\hl{ARM caption for cross sections: Snapshots of ozone mixing ratios in the x-y plane at approximately halfway up the boundary layer. Overlapping precursor emissions (top) result in larger ozone formation compared to non-overlapping precursor emissions (bottom).}
+In order to visualize the spatial heterogeneities present in ozone throughout each simulation, cross sections of ozone concentrations in the x-y plane were plotted for each emissions scenario. Cross sections were selected at a vertical level corresponding to the approximate middle of the PBL ($z\sim500$ \si{m}) and were plotted at regular, 2 hour intervals. 
+
+Ozone cross section plots for the uniform base case are shown in Figure \ref{fig:o3-crosssec-ub}. Ozone concentrations are displayed as molar fractions in parts per billion by volume (ppbv). Throughout each snapshot, the distribution of ozone is shown to be nearly uniform with minimal concentration gradients. Ozone concentrations steadily increase throughout the course of the simulation, reaching in excess of 110 ppbv by $t=6$ h.
+
+Ozone cross sections for emission scenarios 1--3 are shown in Figures \ref{fig:o3-crosssec-s1}--\ref{fig:o3-crosssec-s3}, respectively.
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{figures/o3-crosssec-uniform-basecase-z25.pdf}
-    \caption{Uniform base case}
-    %\label{fig:aero_ic_dist}
+    \includegraphics[width=\textwidth]{figures/chapter4/o3-crosssec-uniform-basecase-z25.pdf}
+    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim500$ \si{m}) for the uniform base case.}
+    \label{fig:o3-crosssec-ub}
   \end{figure}
 
 \begin{figure}[h]
   \centering
   \begin{subfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/o3-crosssec-fx1fy0-z25.pdf}
-    \caption{Scenario 1}
-    %\label{fig:aero_emiss_dist}
+    \includegraphics[width=\textwidth]{figures/chapter4/o3-crosssec-fx1fy0-z25.pdf}
+    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim500$ \si{m}) for emissions scenario 1.}
+    \label{fig:o3-crosssec-s1}
   \end{subfigure}
      \vspace*{5mm} 
   \begin{subfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/o3-crosssec-road-10x-z25.pdf}
-    \caption{Scenario 2}
-    %\label{fig:aero_emiss_dist}
+    \includegraphics[width=\textwidth]{figures/chapter4/o3-crosssec-road-10x-z25.pdf}
+    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim500$ \si{m}) for emissions scenario 2.}
+    \label{fig:o3-crosssec-s2}
   \end{subfigure}
    \vspace*{5mm} 
   \begin{subfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/o3-crosssec-point-source-1x1-z25.pdf}
-    \caption{Scenario 3}
-    %\label{fig:aero_emiss_dist}
+    \includegraphics[width=\textwidth]{figures/chapter4/o3-crosssec-point-source-1x1-z25.pdf}
+    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim500$ \si{m}) for emissions scenario 3.}
+    \label{fig:o3-crosssec-s3}
   \end{subfigure}
 \end{figure}
 
-\begin{figure}[h]
-  \centering
-  \begin{subfigure}
-    \centering
-    \includegraphics[width=.8\textwidth]{figures/height-time-o3-fx1fy0.pdf}
-    \caption{Ozone concentration height time plot for scenario 1.}
-    %\label{fig:aero_emiss_dist}
-  \end{subfigure}
-     \vspace*{5mm} 
-  \begin{subfigure}
-    \centering
-    \includegraphics[width=.8\textwidth]{figures/height-time-o3-road-10x.pdf}
-    \caption{Ozone concentration height time plot for scenario 2.}
-    %\label{fig:aero_emiss_dist}
-  \end{subfigure}
-   \vspace*{5mm} 
-  \begin{subfigure}
-    \centering
-    \includegraphics[width=.8\textwidth]{figures/height-time-o3-point-source-1x1.pdf}
-    \caption{Ozone concentration height time plot for scenario 3.}
-    %\label{fig:aero_emiss_dist}
-  \end{subfigure}
-\end{figure}
-
-\begin{figure}[h]
-  \centering
-  \begin{subfigure}
-    \centering
-    \includegraphics[width=.8\textwidth]{figures/height-time-pdiff-o3-fx1fy0.pdf}
-    \caption{Height-time plot of ozone percent difference for scenario 1.}
-    %\label{fig:aero_emiss_dist}
-  \end{subfigure}
-     \vspace*{5mm} 
-  \begin{subfigure}
-    \centering
-    \includegraphics[width=.8\textwidth]{figures/height-time-pdiff-o3-road-10x.pdf}
-    \caption{Height-time plot of ozone percent difference for scenario 2.}
-    %\label{fig:aero_emiss_dist}
-  \end{subfigure}
-   \vspace*{5mm} 
-  \begin{subfigure}
-    \centering
-    \includegraphics[width=.8\textwidth]{figures/height-time-pdiff-o3-point-source-1x1.pdf}
-    \caption{Height-time plot of ozone percent difference for scenario 3.}
-    %\label{fig:aero_emiss_dist}
-  \end{subfigure}
-\end{figure}
 
 %\subsection{Segregation intensity}
+\subsection{Spatio-temporal trends in ozone and its precursors}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/chapter4/vertical-profiles-time36.pdf}
+    \caption{}
+    \label{fig:vertical-profiles-o3-nox-hcho}
+  \end{figure}
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=\textwidth]{figures/chapter4/height-time-o3-uniform-basecase.pdf}
+    \caption{Ozone concentration height time plot for the uniform base case.}
+    %\label{fig:aero_ic_dist}
+  \end{figure}
+  
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.8\textwidth]{figures/chapter4/height-time-o3-fx1fy0.pdf}
+    \caption{Ozone concentration height time plot for emissions scenario 1.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+     \vspace*{5mm} 
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.8\textwidth]{figures/chapter4/height-time-o3-road-10x.pdf}
+    \caption{Ozone concentration height time plot for emissions scenario 2.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+   \vspace*{5mm} 
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.8\textwidth]{figures/chapter4/height-time-o3-point-source-1x1.pdf}
+    \caption{Ozone concentration height time plot for emissions scenario 3.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.8\textwidth]{figures/chapter4/height-time-pdiff-o3-fx1fy0.pdf}
+    \caption{Height-time plot of ozone percent difference for emissions scenario 1.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+     \vspace*{5mm} 
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.8\textwidth]{figures/chapter4/height-time-pdiff-o3-road-10x.pdf}
+    \caption{Height-time plot of ozone percent difference for emissions scenario 2.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+   \vspace*{5mm} 
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.8\textwidth]{figures/chapter4/height-time-pdiff-o3-point-source-1x1.pdf}
+    \caption{Height-time plot of ozone percent difference for emissions scenario 3.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+\end{figure}
 
 \subsection{Spatial heterogeneity of ozone and its precursors}
 
 \begin{figure}[h]
+  \centering
+  \begin{subfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/field-SH-vs-emiss-SH-two-rows.png}
-    \caption{\hl{Via ARM poster:} Relationship of SH of emissions and SH of concentration fields for the example of the directly emitted species NOx and VOC and the secondarily formed species ozone. SH of the concentration fields generally increases with increasing SH of the emissions. SH for NOx and ozone is larger for overlapping precursors compared to non-overlapping precursors.}
-    %\label{fig:aero_ic_dist}
-  \end{figure}
+    \includegraphics[width=.97\textwidth]{figures/chapter4/height-time-nsh-multivar-uniform-basecase.pdf}
+    \caption{Height-time plot of field $SH$ for O$_3$, NO$_x$, and HCHO in the uniform base case. $SH$ value contours are shown in grayscale for each subplot.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+     \vspace*{2mm} 
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.97\textwidth]{figures/chapter4/height-time-nsh-multivar-fx1fy0.pdf}
+    \caption{Height-time plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 1. $SH$ value contours are shown in grayscale for each subplot.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+ \end{figure}
+
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.97\textwidth]{figures/chapter4/height-time-nsh-multivar-road-10x.pdf}
+    \caption{Height-time plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 2. $SH$ value contours are shown in grayscale for each subplot.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+     \vspace*{2mm} 
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.97\textwidth]{figures/chapter4/height-time-nsh-multivar-point-source-1x1.pdf}
+    \caption{Height-time plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 3. $SH$ value contours are shown in grayscale for each subplot.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+ \end{figure}
+
+
 
 \subsection{Structural uncertainty in ozone production}
 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=\textwidth]{figures/O3-percent-err-vs-emiss-SH.png}
-    \caption{\hl{Via ARM poster:} Deviation of ozone concentration from case with uniform NOx and VOC emissions. Larger SH in emissions and overlapping emissions lead to larger deviations.}
+%\begin{figure}[h]
+%    \centering
+%    \includegraphics[width=\textwidth]{figures/O3-percent-err-vs-emiss-SH.png}
+%    \caption{\hl{Via ARM poster:} Deviation of ozone concentration from case with uniform NOx and VOC emissions. Larger SH in emissions and overlapping emissions lead to larger deviations.}
     %\label{fig:aero_ic_dist}
-  \end{figure}
+%  \end{figure}
   
 \section{Discussion}
 
