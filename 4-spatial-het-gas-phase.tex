@@ -7,14 +7,14 @@ This chapter investigates the impacts of pure gas phase emissions and associated
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{ozone-production-emiss-patterns.pdf}
-	\caption{Emissions scenarios for ozone production simulations. The spatial heterogeneity of each emission scenario is listed in the lower portion of each scenario. For overlapping emissions cases, both NO$_x$ and VOCs are emitted in the same regions for each scenario indicted in blue. For non-overlapping emissions cases, NO$_x$ are emitted in blue regions while VOCs are emitted in white regions.}
+	\includegraphics[width=.7\textwidth]{SH-scenarios-main-runs.pdf}
+	\caption{Emissions scenarios for ozone production simulations. The spatial heterogeneity of each emission scenario is listed in the lower portion of each scenario alongside domain mean and variance.}
 	\label{fig:ozone-emission-patterns}
 \end{figure}
 
-We conduct seven simulations in total ranging in emissions spatial heterogeneity and the spatial colocation (or segregation) of precursor species responsible the production of ozone. Emissions scenarios are shown in Figure \ref{fig:ozone-emission-patterns}. The first simulation, named the uniform base case scenario, is characterized by uniform emissions of all compounds across the computational domain ground level. The uniform base case has a spatial heterogeneity equal to zero. This scenario represents the emissions across a single grid cell in a lower resolution model, such as a regional or global climate model, where emitted species are both uniform and dilute. Thus, results for simulations with higher emissions heterogeneity are compared against the uniform base case to quantify the structural uncertainty in ozone concentrations resulting from the assumption of uniform, dilute emissions characteristic of coarser resolved models that do not adequately resolve the true emissions spatial heterogeneity.  
+We conduct four simulations in total ranging in emissions spatial heterogeneity and the spatial colocation (or segregation) of precursor species responsible the production of ozone. Emissions scenarios are shown in Figure \ref{fig:ozone-emission-patterns}. The first simulation, named the uniform base case scenario, is characterized by uniform emissions of all compounds across the computational domain ground level. The uniform base case has a spatial heterogeneity equal to zero. This scenario represents the emissions across a single grid cell in a lower resolution model, such as a regional or global climate model, where emitted species are both uniform and dilute. Thus, results for simulations with higher emissions heterogeneity are compared against the uniform base case to quantify the structural uncertainty in ozone concentrations resulting from the assumption of uniform, dilute emissions characteristic of coarser resolved models that do not adequately resolve the true emissions spatial heterogeneity.  
 
-Emission scenarios 1-3 are checkerboard patterns with increasing spatial heterogeneity. For each emissions scenario, we conduct two simulations: one run where precursors for ozone production, NO$_x$ and VOCs, are emitted in the same region (referred to as ``overlapping" emissions cases) and an additional run where the emission of NO$_x$ and VOCs are fully segregated (referred to as ``non-overlapping" emissions cases).
+%Emission scenarios 1-3 are checkerboard patterns with increasing spatial heterogeneity. For each emissions scenario, we conduct two simulations: one run where precursors for ozone production, NO$_x$ and VOCs, are emitted in the same region (referred to as ``overlapping" emissions cases) and an additional run where the emission of NO$_x$ and VOCs are fully segregated (referred to as ``non-overlapping" emissions cases).
 
 \section{Results}
 
@@ -30,7 +30,7 @@ Emission scenarios 1-3 are checkerboard patterns with increasing spatial heterog
 
 \begin{figure}[h]
     \centering
-    \includegraphics[width=\textwidth]{figures/ozone_cross_section_basecase_overlapTrue.png}
+    \includegraphics[width=\textwidth]{figures/o3-crosssec-uniform-basecase-z25.pdf}
     \caption{Uniform base case}
     %\label{fig:aero_ic_dist}
   \end{figure}
@@ -39,21 +39,21 @@ Emission scenarios 1-3 are checkerboard patterns with increasing spatial heterog
   \centering
   \begin{subfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/ozone_cross_section_fx2fy2_overlapTrue.png}
+    \includegraphics[width=\textwidth]{figures/o3-crosssec-fx1fy0-z25.pdf}
     \caption{Scenario 1}
     %\label{fig:aero_emiss_dist}
   \end{subfigure}
      \vspace*{5mm} 
   \begin{subfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/ozone_cross_section_fx1fy1_overlapTrue.png}
+    \includegraphics[width=\textwidth]{figures/o3-crosssec-road-10x-z25.pdf}
     \caption{Scenario 2}
     %\label{fig:aero_emiss_dist}
   \end{subfigure}
    \vspace*{5mm} 
   \begin{subfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/ozone_cross_section_fx1fy0_overlapTrue.png}
+    \includegraphics[width=\textwidth]{figures/o3-crosssec-point-source-1x1-z25.pdf}
     \caption{Scenario 3}
     %\label{fig:aero_emiss_dist}
   \end{subfigure}
@@ -63,22 +63,46 @@ Emission scenarios 1-3 are checkerboard patterns with increasing spatial heterog
   \centering
   \begin{subfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/ozone_cross_section_fx2fy2_overlapFalse.png}
-    \caption{Scenario 1}
+    \includegraphics[width=.8\textwidth]{figures/height-time-o3-fx1fy0.pdf}
+    \caption{Ozone concentration height time plot for scenario 1.}
     %\label{fig:aero_emiss_dist}
   \end{subfigure}
      \vspace*{5mm} 
   \begin{subfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/ozone_cross_section_fx1fy1_overlapFalse.png}
-    \caption{Scenario 2}
+    \includegraphics[width=.8\textwidth]{figures/height-time-o3-road-10x.pdf}
+    \caption{Ozone concentration height time plot for scenario 2.}
     %\label{fig:aero_emiss_dist}
   \end{subfigure}
    \vspace*{5mm} 
   \begin{subfigure}
     \centering
-    \includegraphics[width=\textwidth]{figures/ozone_cross_section_fx1fy0_overlapFalse.png}
-    \caption{Scenario 3}
+    \includegraphics[width=.8\textwidth]{figures/height-time-o3-point-source-1x1.pdf}
+    \caption{Ozone concentration height time plot for scenario 3.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.8\textwidth]{figures/height-time-pdiff-o3-fx1fy0.pdf}
+    \caption{Height-time plot of ozone percent difference for scenario 1.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+     \vspace*{5mm} 
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.8\textwidth]{figures/height-time-pdiff-o3-road-10x.pdf}
+    \caption{Height-time plot of ozone percent difference for scenario 2.}
+    %\label{fig:aero_emiss_dist}
+  \end{subfigure}
+   \vspace*{5mm} 
+  \begin{subfigure}
+    \centering
+    \includegraphics[width=.8\textwidth]{figures/height-time-pdiff-o3-point-source-1x1.pdf}
+    \caption{Height-time plot of ozone percent difference for scenario 3.}
     %\label{fig:aero_emiss_dist}
   \end{subfigure}
 \end{figure}

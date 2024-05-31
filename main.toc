@@ -38,11 +38,11 @@
 \contentsline {chapter}{\numberline {4}Impacts of emissions spatial heterogeneity on gas-phase reactions}{31}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Simulated emission scenarios}{31}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Results}{32}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Ozone cross sections}{32}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.1}Ozone cross sections}{33}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Spatial heterogeneity of ozone and its precursors}{33}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Structural uncertainty in ozone production}{33}{subsection.4.2.3}%
 \contentsline {section}{\numberline {4.3}Discussion}{33}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Impacts of emissions spatial heterogeneity on aerosol properties in a particle resolved framework}{39}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusions}{40}{chapter.6}%
-\contentsline {chapter}{References}{41}{chapter*.25}%
+\contentsline {chapter}{\numberline {5}Impacts of emissions spatial heterogeneity on aerosol properties in a particle resolved framework}{40}{chapter.5}%
+\contentsline {chapter}{\numberline {6}Conclusions}{41}{chapter.6}%
+\contentsline {chapter}{References}{42}{chapter*.26}%
 \contentsfinish 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  30 MAY 2024 09:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  30 MAY 2024 16:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1169,7 +1169,7 @@ Chapter 1.
 
 
 ] [2] [3] [4] [5]
-<./figures/particle-resolved-model.pdf, id=460, 476.98201pt x 332.44202pt>
+<./figures/particle-resolved-model.pdf, id=469, 476.98201pt x 332.44202pt>
 File: ./figures/particle-resolved-model.pdf Graphic file (type pdf)
 <use ./figures/particle-resolved-model.pdf>
 Package pdftex.def Info: ./figures/particle-resolved-model.pdf  used on input l
@@ -1190,7 +1190,7 @@ Chapter 2.
 
 
 ] [9] [10] [11]
-<./figures/damkohler_number_figure.pdf, id=508, 722.7pt x 433.62pt>
+<./figures/damkohler_number_figure.pdf, id=516, 722.7pt x 433.62pt>
 File: ./figures/damkohler_number_figure.pdf Graphic file (type pdf)
 <use ./figures/damkohler_number_figure.pdf>
 Package pdftex.def Info: ./figures/damkohler_number_figure.pdf  used on input l
@@ -1205,14 +1205,14 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 LaTeX Warning: Reference `sh-metric-calculation' on page 14 undefined on input 
 line 77.
 
-<./figures/SH-subarray-examples.pdf, id=550, 963.6pt x 578.16pt>
+<./figures/SH-subarray-examples.pdf, id=557, 963.6pt x 578.16pt>
 File: ./figures/SH-subarray-examples.pdf Graphic file (type pdf)
 <use ./figures/SH-subarray-examples.pdf>
 Package pdftex.def Info: ./figures/SH-subarray-examples.pdf  used on input line
  90.
 (pdftex.def)             Requested size: 469.75502pt x 281.85406pt.
 [14]
-<./figures/NSH-performance.pdf, id=558, 507.79083pt x 354.14308pt>
+<./figures/NSH-performance.pdf, id=566, 507.79083pt x 354.14308pt>
 File: ./figures/NSH-performance.pdf Graphic file (type pdf)
 <use ./figures/NSH-performance.pdf>
 Package pdftex.def Info: ./figures/NSH-performance.pdf  used on input line 110.
@@ -1223,7 +1223,7 @@ Package pdftex.def Info: ./figures/NSH-performance.pdf  used on input line 110.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [15 <./figures/SH-subarray-examples.pdf>]
-<./figures/mcNSH-performance.pdf, id=605, 507.79083pt x 353.13933pt>
+<./figures/mcNSH-performance.pdf, id=612, 507.79083pt x 353.13933pt>
 File: ./figures/mcNSH-performance.pdf Graphic file (type pdf)
 <use ./figures/mcNSH-performance.pdf>
 Package pdftex.def Info: ./figures/mcNSH-performance.pdf  used on input line 11
@@ -1234,7 +1234,7 @@ Package pdftex.def Info: ./figures/mcNSH-performance.pdf  used on input line 11
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16 <./figures/NSH-performance.pdf>]
-<./figures/mcNSH-accuracy-v2.pdf, id=659, 679.63254pt x 298.00397pt>
+<./figures/mcNSH-accuracy-v2.pdf, id=666, 679.63254pt x 298.00397pt>
 File: ./figures/mcNSH-accuracy-v2.pdf Graphic file (type pdf)
 <use ./figures/mcNSH-accuracy-v2.pdf>
 Package pdftex.def Info: ./figures/mcNSH-accuracy-v2.pdf  used on input line 12
@@ -1245,21 +1245,21 @@ Package pdftex.def Info: ./figures/mcNSH-accuracy-v2.pdf  used on input line 12
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [17 <./figures/mcNSH-performance.pdf>]
-<./figures/SH-emission-patterns.pdf, id=709, 690.07813pt x 360.53194pt>
-File: ./figures/SH-emission-patterns.pdf Graphic file (type pdf)
-<use ./figures/SH-emission-patterns.pdf>
-Package pdftex.def Info: ./figures/SH-emission-patterns.pdf  used on input line
- 141.
-(pdftex.def)             Requested size: 469.75502pt x 245.42802pt.
+<./figures/SH-scenarios-all.pdf, id=716, 459.43005pt x 264.11987pt>
+File: ./figures/SH-scenarios-all.pdf Graphic file (type pdf)
+<use ./figures/SH-scenarios-all.pdf>
+Package pdftex.def Info: ./figures/SH-scenarios-all.pdf  used on input line 141
+.
+(pdftex.def)             Requested size: 469.75502pt x 270.06769pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[18 <./figures/mcNSH-accuracy-v2.pdf>]) [19 <./figures/SH-emission-patterns.pdf
->]
+[18 <./figures/mcNSH-accuracy-v2.pdf>]) [19 <./figures/SH-scenarios-all.pdf>]
 \openout2 = `3-modeling-tools.aux'.
 
- (./3-modeling-tools.tex
+
+(./3-modeling-tools.tex
 Chapter 3.
 [20
 
@@ -1269,14 +1269,14 @@ Chapter 3.
 ] [21]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 55.
-<./figures/WRF-LES_default_sounding.pdf, id=819, 509.71992pt x 380.62262pt>
+<./figures/WRF-LES_default_sounding.pdf, id=830, 509.71992pt x 380.62262pt>
 File: ./figures/WRF-LES_default_sounding.pdf Graphic file (type pdf)
 <use ./figures/WRF-LES_default_sounding.pdf>
 Package pdftex.def Info: ./figures/WRF-LES_default_sounding.pdf  used on input 
 line 64.
 (pdftex.def)             Requested size: 469.75502pt x 350.7985pt.
  [22] [23 <./figures/WRF-LES_default_sounding.pdf>]
-<./figures/heat-flux-and-tke-profile.pdf, id=871, 517.85971pt x 402.25342pt>
+<./figures/heat-flux-and-tke-profile.pdf, id=882, 517.85971pt x 402.25342pt>
 File: ./figures/heat-flux-and-tke-profile.pdf Graphic file (type pdf)
 <use ./figures/heat-flux-and-tke-profile.pdf>
 Package pdftex.def Info: ./figures/heat-flux-and-tke-profile.pdf  used on input
@@ -1286,13 +1286,13 @@ Package pdftex.def Info: ./figures/heat-flux-and-tke-profile.pdf  used on input
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/urban-plume-aerosol-ic.pdf, id=947, 492.64049pt x 364.86815pt>
+<figures/urban-plume-aerosol-ic.pdf, id=958, 492.64049pt x 364.86815pt>
 File: figures/urban-plume-aerosol-ic.pdf Graphic file (type pdf)
 <use figures/urban-plume-aerosol-ic.pdf>
 Package pdftex.def Info: figures/urban-plume-aerosol-ic.pdf  used on input line
  188.
 (pdftex.def)             Requested size: 399.29463pt x 295.73643pt.
-<figures/urban-plume-aerosol-emissions.pdf, id=948, 513.84471pt x 364.86815pt>
+<figures/urban-plume-aerosol-emissions.pdf, id=959, 513.84471pt x 364.86815pt>
 File: figures/urban-plume-aerosol-emissions.pdf Graphic file (type pdf)
 <use figures/urban-plume-aerosol-emissions.pdf>
 Package pdftex.def Info: figures/urban-plume-aerosol-emissions.pdf  used on inp
@@ -1316,115 +1316,127 @@ Overfull \hbox (4.03891pt too wide) in paragraph at lines 2--2
 s-phase
  []
 
-<./figures/ozone-production-emiss-patterns.pdf, id=1065, 963.6pt x 289.08pt>
-File: ./figures/ozone-production-emiss-patterns.pdf Graphic file (type pdf)
-<use ./figures/ozone-production-emiss-patterns.pdf>
-Package pdftex.def Info: ./figures/ozone-production-emiss-patterns.pdf  used on
- input line 10.
-(pdftex.def)             Requested size: 469.75502pt x 140.92703pt.
+<./figures/SH-scenarios-main-runs.pdf, id=1076, 294.72836pt x 305.04277pt>
+File: ./figures/SH-scenarios-main-runs.pdf Graphic file (type pdf)
+<use ./figures/SH-scenarios-main-runs.pdf>
+Package pdftex.def Info: ./figures/SH-scenarios-main-runs.pdf  used on input li
+ne 10.
+(pdftex.def)             Requested size: 328.82707pt x 340.34229pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [31
 
 
 
 
- <./figures/ozone-production-emiss-patterns.pdf>]
-<figures/ozone_cross_section_basecase_overlapTrue.png, id=1079, 897.5934pt x 29
-7.2706pt>
-File: figures/ozone_cross_section_basecase_overlapTrue.png Graphic file (type p
-ng)
-<use figures/ozone_cross_section_basecase_overlapTrue.png>
-Package pdftex.def Info: figures/ozone_cross_section_basecase_overlapTrue.png  
-used on input line 33.
-(pdftex.def)             Requested size: 469.75502pt x 155.57951pt.
+] [32 <./figures/SH-scenarios-main-runs.pdf>]
+<figures/o3-crosssec-uniform-basecase-z25.pdf, id=1124, 889.28586pt x 291.48804
+pt>
+File: figures/o3-crosssec-uniform-basecase-z25.pdf Graphic file (type pdf)
+<use figures/o3-crosssec-uniform-basecase-z25.pdf>
+Package pdftex.def Info: figures/o3-crosssec-uniform-basecase-z25.pdf  used on 
+input line 33.
+(pdftex.def)             Requested size: 469.75502pt x 153.97198pt.
+<figures/o3-crosssec-fx1fy0-z25.pdf, id=1125, 889.28586pt x 291.48804pt>
+File: figures/o3-crosssec-fx1fy0-z25.pdf Graphic file (type pdf)
+<use figures/o3-crosssec-fx1fy0-z25.pdf>
+Package pdftex.def Info: figures/o3-crosssec-fx1fy0-z25.pdf  used on input line
+ 42.
+(pdftex.def)             Requested size: 469.75502pt x 153.97198pt.
+<figures/o3-crosssec-road-10x-z25.pdf, id=1126, 889.28586pt x 291.48804pt>
+File: figures/o3-crosssec-road-10x-z25.pdf Graphic file (type pdf)
+<use figures/o3-crosssec-road-10x-z25.pdf>
+Package pdftex.def Info: figures/o3-crosssec-road-10x-z25.pdf  used on input li
+ne 49.
+(pdftex.def)             Requested size: 469.75502pt x 153.97198pt.
+<figures/o3-crosssec-point-source-1x1-z25.pdf, id=1127, 889.28586pt x 291.48804
+pt>
+File: figures/o3-crosssec-point-source-1x1-z25.pdf Graphic file (type pdf)
+<use figures/o3-crosssec-point-source-1x1-z25.pdf>
+Package pdftex.def Info: figures/o3-crosssec-point-source-1x1-z25.pdf  used on 
+input line 56.
+(pdftex.def)             Requested size: 469.75502pt x 153.97198pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/ozone_cross_section_fx2fy2_overlapTrue.png, id=1081, 887.7165pt x 297.
-2706pt>
-File: figures/ozone_cross_section_fx2fy2_overlapTrue.png Graphic file (type png
-)
-<use figures/ozone_cross_section_fx2fy2_overlapTrue.png>
-Package pdftex.def Info: figures/ozone_cross_section_fx2fy2_overlapTrue.png  us
-ed on input line 42.
-(pdftex.def)             Requested size: 469.75502pt x 157.30771pt.
-<figures/ozone_cross_section_fx1fy1_overlapTrue.png, id=1082, 887.7165pt x 297.
-2706pt>
-File: figures/ozone_cross_section_fx1fy1_overlapTrue.png Graphic file (type png
-)
-<use figures/ozone_cross_section_fx1fy1_overlapTrue.png>
-Package pdftex.def Info: figures/ozone_cross_section_fx1fy1_overlapTrue.png  us
-ed on input line 49.
-(pdftex.def)             Requested size: 469.75502pt x 157.30771pt.
-<figures/ozone_cross_section_fx1fy0_overlapTrue.png, id=1083, 887.7165pt x 297.
-2706pt>
-File: figures/ozone_cross_section_fx1fy0_overlapTrue.png Graphic file (type png
-)
-<use figures/ozone_cross_section_fx1fy0_overlapTrue.png>
-Package pdftex.def Info: figures/ozone_cross_section_fx1fy0_overlapTrue.png  us
-ed on input line 56.
-(pdftex.def)             Requested size: 469.75502pt x 157.30771pt.
+<figures/height-time-o3-fx1fy0.pdf, id=1128, 678.87416pt x 299.8747pt>
+File: figures/height-time-o3-fx1fy0.pdf Graphic file (type pdf)
+<use figures/height-time-o3-fx1fy0.pdf>
+Package pdftex.def Info: figures/height-time-o3-fx1fy0.pdf  used on input line 
+66.
+(pdftex.def)             Requested size: 375.80544pt x 166.00687pt.
+<figures/height-time-o3-road-10x.pdf, id=1129, 678.87416pt x 299.8747pt>
+File: figures/height-time-o3-road-10x.pdf Graphic file (type pdf)
+<use figures/height-time-o3-road-10x.pdf>
+Package pdftex.def Info: figures/height-time-o3-road-10x.pdf  used on input lin
+e 73.
+(pdftex.def)             Requested size: 375.80544pt x 166.00687pt.
+<figures/height-time-o3-point-source-1x1.pdf, id=1130, 678.87416pt x 299.8747pt
+>
+File: figures/height-time-o3-point-source-1x1.pdf Graphic file (type pdf)
+<use figures/height-time-o3-point-source-1x1.pdf>
+Package pdftex.def Info: figures/height-time-o3-point-source-1x1.pdf  used on i
+nput line 80.
+(pdftex.def)             Requested size: 375.80544pt x 166.00687pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/ozone_cross_section_fx2fy2_overlapFalse.png, id=1084, 887.7165pt x 297
-.2706pt>
-File: figures/ozone_cross_section_fx2fy2_overlapFalse.png Graphic file (type pn
-g)
-<use figures/ozone_cross_section_fx2fy2_overlapFalse.png>
-Package pdftex.def Info: figures/ozone_cross_section_fx2fy2_overlapFalse.png  u
-sed on input line 66.
-(pdftex.def)             Requested size: 469.75502pt x 157.30771pt.
-<figures/ozone_cross_section_fx1fy1_overlapFalse.png, id=1085, 887.7165pt x 297
-.2706pt>
-File: figures/ozone_cross_section_fx1fy1_overlapFalse.png Graphic file (type pn
-g)
-<use figures/ozone_cross_section_fx1fy1_overlapFalse.png>
-Package pdftex.def Info: figures/ozone_cross_section_fx1fy1_overlapFalse.png  u
-sed on input line 73.
-(pdftex.def)             Requested size: 469.75502pt x 157.30771pt.
-<figures/ozone_cross_section_fx1fy0_overlapFalse.png, id=1086, 887.7165pt x 297
-.2706pt>
-File: figures/ozone_cross_section_fx1fy0_overlapFalse.png Graphic file (type pn
-g)
-<use figures/ozone_cross_section_fx1fy0_overlapFalse.png>
-Package pdftex.def Info: figures/ozone_cross_section_fx1fy0_overlapFalse.png  u
-sed on input line 80.
-(pdftex.def)             Requested size: 469.75502pt x 157.30771pt.
+<figures/height-time-pdiff-o3-fx1fy0.pdf, id=1131, 681.10123pt x 299.8747pt>
+File: figures/height-time-pdiff-o3-fx1fy0.pdf Graphic file (type pdf)
+<use figures/height-time-pdiff-o3-fx1fy0.pdf>
+Package pdftex.def Info: figures/height-time-pdiff-o3-fx1fy0.pdf  used on input
+ line 90.
+(pdftex.def)             Requested size: 375.80544pt x 165.45778pt.
+<figures/height-time-pdiff-o3-road-10x.pdf, id=1132, 681.10123pt x 299.8747pt>
+File: figures/height-time-pdiff-o3-road-10x.pdf Graphic file (type pdf)
+<use figures/height-time-pdiff-o3-road-10x.pdf>
+Package pdftex.def Info: figures/height-time-pdiff-o3-road-10x.pdf  used on inp
+ut line 97.
+(pdftex.def)             Requested size: 375.80544pt x 165.45778pt.
+<figures/height-time-pdiff-o3-point-source-1x1.pdf, id=1133, 681.10123pt x 299.
+8747pt>
+File: figures/height-time-pdiff-o3-point-source-1x1.pdf Graphic file (type pdf)
+
+<use figures/height-time-pdiff-o3-point-source-1x1.pdf>
+Package pdftex.def Info: figures/height-time-pdiff-o3-point-source-1x1.pdf  use
+d on input line 104.
+(pdftex.def)             Requested size: 375.80544pt x 165.45778pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/field-SH-vs-emiss-SH-two-rows.png, id=1087, 619.5948pt x 464.937pt>
+<figures/field-SH-vs-emiss-SH-two-rows.png, id=1134, 619.5948pt x 464.937pt>
 File: figures/field-SH-vs-emiss-SH-two-rows.png Graphic file (type png)
 <use figures/field-SH-vs-emiss-SH-two-rows.png>
 Package pdftex.def Info: figures/field-SH-vs-emiss-SH-two-rows.png  used on inp
-ut line 92.
+ut line 116.
 (pdftex.def)             Requested size: 469.75502pt x 352.51155pt.
-[32]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/O3-percent-err-vs-emiss-SH.png, id=1092, 732.5769pt x 456.2646pt>
+<figures/O3-percent-err-vs-emiss-SH.png, id=1136, 732.5769pt x 456.2646pt>
 File: figures/O3-percent-err-vs-emiss-SH.png Graphic file (type png)
 <use figures/O3-percent-err-vs-emiss-SH.png>
 Package pdftex.def Info: figures/O3-percent-err-vs-emiss-SH.png  used on input 
-line 101.
+line 125.
 (pdftex.def)             Requested size: 469.75502pt x 292.57227pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[33 <./figures/ozone_cross_section_basecase_overlapTrue.png>]) [34] [35 <./figu
-res/ozone_cross_section_fx2fy2_overlapTrue.png> <./figures/ozone_cross_section_
-fx1fy1_overlapTrue.png> <./figures/ozone_cross_section_fx1fy0_overlapTrue.png>]
-[36 <./figures/ozone_cross_section_fx2fy2_overlapFalse.png> <./figures/ozone_cr
-oss_section_fx1fy1_overlapFalse.png> <./figures/ozone_cross_section_fx1fy0_over
-lapFalse.png>] [37 <./figures/field-SH-vs-emiss-SH-two-rows.png>] [38 <./figure
-s/O3-percent-err-vs-emiss-SH.png>]
+[33 <./figures/o3-crosssec-uniform-basecase-z25.pdf>]) [34] [35 <./figures/o3-c
+rosssec-fx1fy0-z25.pdf> <./figures/o3-crosssec-road-10x-z25.pdf> <./figures/o3-
+crosssec-point-source-1x1-z25.pdf>] [36 <./figures/height-time-o3-fx1fy0.pdf> <
+./figures/height-time-o3-road-10x.pdf> <./figures/height-time-o3-point-source-1
+x1.pdf>] [37 <./figures/height-time-pdiff-o3-fx1fy0.pdf> <./figures/height-time
+-pdiff-o3-road-10x.pdf> <./figures/height-time-pdiff-o3-point-source-1x1.pdf>]
+[38 <./figures/field-SH-vs-emiss-SH-two-rows.png>] [39 <./figures/O3-percent-er
+r-vs-emiss-SH.png>]
 \openout2 = `5-spatial-het-aerosols.aux'.
 
  (./5-spatial-het-aerosols.tex
 Chapter 5.
-) [39
+) [40
 
 
 
@@ -1434,7 +1446,7 @@ Chapter 5.
 
  (./6-conclusions.tex
 Chapter 6.
-) [40
+) [41
 
 
 
@@ -1450,7 +1462,7 @@ Overfull \hbox (14.01434pt too wide) in paragraph at lines 131--131
 l -[] study -[] of -[] threedimensional -[] turbulent -[]
  []
 
-[41
+[42
 
 
 
@@ -1462,7 +1474,7 @@ Let-ters \OT1/ptm/m/n/10.95 (-20) 25.10. []eprint: https://onlinelibrary.wiley.
 com/doi/pdf/10.1111/ele.14084,
  []
 
-[42]
+[43]
 Overfull \hbox (122.85078pt too wide) in paragraph at lines 131--131
 \OT1/ptm/m/n/10.95 (-20) en. In: \OT1/ptm/m/it/10.95 (-20) Jour-nal of Geo-phys
 -i-cal Re-search: At-mo-spheres \OT1/ptm/m/n/10.95 (-20) 114.D9. []eprint: http
@@ -1476,7 +1488,7 @@ Overfull \hbox (66.00247pt too wide) in paragraph at lines 131--131
 13658816.2019.1577432,
  []
 
-[43]
+[44]
 Overfull \hbox (8.84402pt too wide) in paragraph at lines 131--131
 \OT1/ptm/m/it/10.95 (-20) Geo-phys-i-cal Re-search Let-ters \OT1/ptm/m/n/10.95 
 (-20) 49.7. []eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021GL097
@@ -1489,14 +1501,14 @@ Overfull \hbox (47.24539pt too wide) in paragraph at lines 131--131
 za, Jian-ing Dai, et al. (May 2023). \  Cou-pled mesoscale{microscale
  []
 
-[44]
+[45]
 Overfull \hbox (186.26581pt too wide) in paragraph at lines 131--131
 \OT1/ptm/m/n/10.95 (-20) (MO-SAIC)". en. In: \OT1/ptm/m/it/10.95 (-20) Jour-nal
  of Geo-phys-i-cal Re-search: At-mo-spheres \OT1/ptm/m/n/10.95 (-20) 113.D13. [
 ]eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2007JD008782.
  []
 
-[45] (./main.aux (./abstract.aux) (./1-introduction.aux) (./2-spatial-het.aux)
+[46] (./main.aux (./abstract.aux) (./1-introduction.aux) (./2-spatial-het.aux)
 (./3-modeling-tools.aux) (./4-spatial-het-gas-phase.aux)
 (./5-spatial-het-aerosols.aux) (./6-conclusions.aux))
  ***********
@@ -1507,17 +1519,20 @@ L3 programming layer <2024-02-20>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 052CD0E20F8E3917054A3BB2E521B138;10139.
+(rerunfilecheck)             Checksum: A239C77784CEED827E4E66326815C3F8;10139.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31386 strings out of 474116
- 620421 string characters out of 5743682
- 1978187 words of memory out of 5000000
- 52806 multiletter control sequences out of 15000+600000
+ 31412 strings out of 474116
+ 621060 string characters out of 5743682
+ 1968187 words of memory out of 5000000
+ 52827 multiletter control sequences out of 15000+600000
  621528 words of font info for 361 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,13n,81p,4457b,2902s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1536,10 +1551,10 @@ cal/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texlive
 /2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (54 pages, 3969722 bytes).
+Output written on main.pdf (55 pages, 4005971 bytes).
 PDF statistics:
- 1369 PDF objects out of 1440 (max. 8388607)
- 966 compressed objects within 10 object streams
- 177 named destinations out of 1000 (max. 500000)
- 82394 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 1762 PDF objects out of 2073 (max. 8388607)
+ 1061 compressed objects within 11 object streams
+ 182 named destinations out of 1000 (max. 500000)
+ 82409 words of extra memory for PDF output out of 89155 (max. 10000000)
 
