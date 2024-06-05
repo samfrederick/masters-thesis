@@ -27,11 +27,16 @@
 \contentsline {figure}{\numberline {4.11}{\ignorespaces Time-height plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 2. $SH$ value contours are shown in grayscale for each subplot.}}{41}{figure.caption.29}%
 \contentsline {figure}{\numberline {4.12}{\ignorespaces Time-height plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 3. $SH$ value contours are shown in grayscale for each subplot.}}{42}{figure.caption.30}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Sulfate}}{46}{figure.caption.31}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Nitrate}}{47}{figure.caption.32}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Ammonium}}{48}{figure.caption.33}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Scenario 1}}{49}{figure.caption.34}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Scenario 2}}{50}{figure.caption.35}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Scenario 3}}{51}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces $SH$ scenarios for ideal coagulation simulations.}}{45}{figure.caption.31}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Total number concentration for each $SH$ scenario normalized by the initial condition total number concentration. Lines indicate normalized number concentration averaged over each vertical level in the domain. (a) Uniform base case. (b--f) Scenarios 1--5}}{46}{figure.caption.32}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Time required in minutes for the total number concentration in the lowest 200 m of the PBL to be reduced to 75\% of the initial value vs. scenario $SH$. ``S0" is the uniform base case, with all other scenarios labeled S1--S5.}}{47}{figure.caption.33}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces \relax }}{49}{figure.caption.34}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces \relax }}{50}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Sulfate}}{51}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Nitrate}}{52}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Ammonium}}{53}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Scenario 1}}{54}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Scenario 2}}{55}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Scenario 3}}{56}{figure.caption.41}%
 \addvspace {10\p@ }
 \contentsfinish 
