@@ -5,7 +5,7 @@
 This chapter presents results for the impacts of emissions spatial heterogeneity on aerosol properties, including changes to the aerosol size distribution, composition, mixing state, and CCN activity. We begin with a set of simplified simulations to isolate the effect of spatial heterogeneity on an important aerosol process, coagulation. Subsequently, we present simulation results for full multiphase (gas and aerosol) chemistry runs and discuss changes to aerosol properties and CCN activity. We find that under high emissions spatial heterogeneity, up to 25\% more CCN activate in the upper boundary layer for supersaturations in the range $S=0.3\%$ to $S=0.6\%$. 
 \section{Idealized coagulation simulations}
 
-Prior to discussing simulations utilizing the full multiphase chemical mechanism for aerosols and chemistry, we first focus our discussion on the impact of spatial heterogeneity on aerosol number concentration due to coagulation. Coagulation is a primary mechanism for aerosol aging and its rate scales with the square of the number concentration of particles, thus making it an important aerosol processes for which to evaluate the impacts of spatial heterogeneity. 
+Prior to discussing simulations utilizing the full multiphase chemical mechanism for aerosols and chemistry, we first focus our discussion on the impact of spatial heterogeneity on aerosol number concentration due to coagulation. Coagulation is a primary mechanism for aerosol aging and its rate scales with the square of the number concentration of particles, thus making it an important aerosol process for which to evaluate the impacts of spatial heterogeneity. 
 
 \subsection{Simulation scenarios}
 
@@ -16,9 +16,9 @@ Prior to discussing simulations utilizing the full multiphase chemical mechanism
     \label{fig:sh-scenarios-ideal-coag}
 \end{figure}
 
-Here we investigate the modification to the rate of coagulation under numerous spatial heterogeneity scenarios. We run a total of 6 simulations for a range of $SH$ scenarios shown in Figure \ref{fig:sh-scenarios-ideal-coag}. As with gas phase simulations in chapter 4, the concentration of atmospheric constituents (here aerosol particle number concentration) must be scaled within the $SH$ scenario region by the ratio of the area of the uniform base case and the area occupied by the $SH$ pattern. For example, the number concentrations in the central region of scenario 5 are a factor of 10,000 higher than in the uniform base case. 
+Here we investigate the modification to the rate of coagulation under numerous spatial heterogeneity scenarios. We run a total of 6 simulations for a range of $SH$ scenarios shown in Figure \ref{fig:sh-scenarios-ideal-coag}. As with gas phase simulations in Chapter 4, the concentration of atmospheric constituents (here aerosol particle number concentration) must be scaled within the $SH$ scenario region by the ratio of the area of the uniform base case and the area occupied by the $SH$ pattern. For example, the aerosol number concentration in the central region of scenario 5 is a factor of 10,000 higher than in the uniform base case. 
 
-Note that the setup of these simulations differs from all other simulations discussed in this thesis. Chemistry is turned off primarily for computational efficiency as, here, we are simply interested in changes to the number concentration rather than changes to aerosol composition. Rather than using initial conditions that are uniform throughout the domain, here the aerosol initial condition is set by the chosen $SH$ scenario for each vertical level in the domain (i.e., the pattern extends vertically throughout the domain). Additionally, emissions are turned off such that only coagulation is responsible for changes to aerosol number concentration.
+Note that the setup of these simulations differs from all other simulations discussed in this thesis. Chemistry is turned off primarily for computational efficiency as, here, we are simply interested in changes to the number concentration rather than changes to aerosol composition. Instead of using initial conditions that are uniform throughout the domain, here the aerosol initial condition is set by the chosen $SH$ scenario for each vertical level in the domain (i.e., the pattern extends vertically throughout the domain). Additionally, emissions are turned off such that only coagulation is responsible for changes to aerosol number concentration.
 
 \subsection{Results}
 
@@ -57,7 +57,7 @@ Here we discuss simulations containing full multiphase chemistry under numerous 
     \label{fig:aerosol-emission-scenarios}
 \end{figure}
 
-Scenarios discussed in this section match the set of emissions scenarios discussed in Chapter 4 Section \ref{gas-emission-scenarios}. We evaluate changes to the aerosol population under four scenarios as shown in Figure \ref{fig:aerosol-emission-scenarios}.  with increasing spatial heterogeneity with the first scenario being a ``uniform base case" with diffuse, uniform emissions across the ground level of the domain ($SH=0$). Scenarios 1--3 contain increasing spatial heterogeneity, whereby the rate of emissions is scaled to ensure the total mass per unit time emitted across each scenario is the same.
+Scenarios discussed in this section match the set of emissions scenarios presented in Chapter 4 Section \ref{gas-emission-scenarios}. We evaluate changes to the aerosol population under four scenarios with increasing spatial heterogeneity as shown in Figure \ref{fig:aerosol-emission-scenarios}. As with previous results, the first scenario is a ``uniform base case", characterized by diffuse and uniform emissions across the ground level of the domain ($SH=0$). Scenarios 1--3 present progressively higher heterogeneity up to $SH=1$, whereby the rate of emissions is scaled to ensure the total mass per unit time emitted across each scenario is the same.
 
 \subsection{Aerosol size distributions}
 
@@ -70,11 +70,11 @@ Scenarios discussed in this section match the set of emissions scenarios discuss
 
 Figure \ref{fig:number-dists} shows aerosol number distributions for each simulated emissions scenario. The initial condition size distribution is presented alongside the size distribution at the end of each simulation ($t=6$ h). Each size distribution is taken from a vertical level in the upper boundary layer at $z\sim800$ \si{m}. Due to the stochastic treatment aerosols in the WRF-PartMC model and the chosen number of computational particles per grid cell ($n=100$), size distributions represent the average distribution in a 1 \si{km^2} region centered over the emissions plume. For all scenarios except scenario 1, this region is located at the center of the domain. For scenario 1, emissions are released in one half of the domain that is offset from the center, thus the averaging region for the size distribution is located in the center of the emissions plume. WRF-PartMC returns the number distribution in 100 logarithmically spaced bins ranging from $10^{-9}$ m to $10^{-3}$ m.
 
-For each scenario displayed in Figure \ref{fig:number-dists}, the initial condition size distribution is shown in light blue. The distribution is bimodal, containing an Aitken (left) and accumulation mode (right). The Aitken mode contains fine particulates and is centered around $20$ nm, while the accumulation mode contains slightly fewer particles and is centered around 116 $nm$. 
+For each scenario displayed in Figure \ref{fig:number-dists}, the initial condition size distribution is shown in light blue. The distribution is bimodal, containing an Aitken (left) and accumulation mode (right). The Aitken mode contains fine particulates and is centered around $20$ nm, while the accumulation mode contains slightly fewer particles and is centered around 116 nm. 
 
-After 6 hours, the number of particles with diameter smaller than $\sim30$ nm is significantly reduced as these small particles undergo coagulation and grow by gas-to-particle partitioning. For particle diameters greater than $\sim30$ nm, the number concentration is increased under each scenario as primary aerosol are emitted and particles undergo aging. For the uniform base case (Figure \ref{fig:number-dists} subplot a), the distribution still takes on a bimodal shape at $t=6$ h, however the Aitken mode has been replaced by a mode centered around 35 nm and is likely a combination of primary aerosol emissions and growth of smaller particles from the initial Aitken mode. 
+After 6 hours, the number of particles with diameter smaller than $\sim30$ nm is significantly reduced as these small particles undergo coagulation and growth by gas-to-particle partitioning. For particle diameters greater than $\sim30$ nm, the number concentration is increased under each scenario as primary aerosol are emitted and particles undergo aging. For the uniform base case (Figure \ref{fig:number-dists} subplot a), the distribution still takes on a bimodal shape at $t=6$ h, however the Aitken mode has been replaced by a mode centered around 35 nm and is likely a combination of primary aerosol emissions and growth of smaller particles from the initial Aitken mode. 
 
-Moving to higher emissions spatial heterogeneity scenarios, we find that the number distribution loses its bimodal shape after 6 hours, especially under the highest heterogeneity scenario, scenario 3 (Figure \ref{fig:number-dists} subplot d). For scenario 3, the number distribution peaks around 0.1 $\mu$m. Compared with the uniform base case, the number concentration of particles in the accumulation mode is approximately half an order of magnitude higher ($10^{10}$ \si{m^{-3}} vs. $4\cdot10^9$ \si{m^{-3}}).
+Moving to higher emissions spatial heterogeneity scenarios, we find that the number distribution loses its bimodal shape after 6 hours, especially under the highest heterogeneity scenario, scenario 3 (Figure \ref{fig:number-dists} subplot d). For scenario 3, the number distribution peaks around 0.1 $\mu$m. Compared with the uniform base case, the number concentration of particles in the accumulation mode near $D_p = 0.1$ \si{\mu m} is approximately half an order of magnitude higher ($10^{10}$ \si{m^{-3}} vs. $4\cdot10^9$ \si{m^{-3}}).
 
 \begin{figure}[!t]
   \centering
@@ -83,20 +83,80 @@ Moving to higher emissions spatial heterogeneity scenarios, we find that the num
     \label{fig:mass-dists}
 \end{figure}
 
-Mass dist
+Figure \ref{fig:mass-dists} shows mass distribution plots for each emissions scenario. Mass distributions were taken from the same upper boundary layer region as number distributions and the same averaging technique was applied over a 1 \si{km^2} region centered over the emissions plume. Mass concentrations are presented in \si{\mu g.m^{-3}}. 
 
-IC
+The mass distribution initial condition presents a bimodal profile as before; however, much more mass is concentrated in the larger accumulation mode particles due to the cubic scaling between mass and particle diameter, $M_p \propto D_p^3$. After six hours, the mass concentration of all particles with diameters larger than $\sim25$ nm is increased. The distribution for the uniform base case (Figure \ref{fig:mass-dists} subfigure a) contains two distinct modes, one corresponding to the accumulation mode and an additional mode centered around $40--50$ nm. This mode likely contains primary aerosol emissions and particles that have grown from the Aitken mode due to aging processes. 
 
-Compare each
+As with the number distributions, when moving from low to high $SH$ scenarios, the bimodal shape of the mass distribution is replaced by a single mode centered around the accumulation mode, peaking at $D_p = 0.2$ \si{\mu m}. When compared to the uniform base case, mass concentrations in the accumulation mode for the highest $SH$ case, scenario 3, are approximately 3 times higher ($\sim30$ \si{\mu g.m^{-3}} vs. $\sim10$ \si{\mu g.m^{-3}}).
 
 
-\subsection{aerosol composition}
+\subsection{Aerosol composition}
+
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/height-time-pmc_SO4-four-scenarios.pdf}
+    \caption{Time-height plots for aerosol sulfate across each emissions scenario. Isopleths indicate sulfate mixing ratio in ppbv ranging from 3.5--4.75 ppbv.}
+    \label{fig:ht-so4}
+\end{figure}
+
+Figure \ref{fig:ht-so4} shows time-height plots for aerosol sulfate concentrations in parts per billion by volume (ppbv). Mixing ratios are shown instead of mass concentrations as mixing ratio is independent of the atmospheric pressure and density. To compute the mixing ratio in ppbv for aerosol concentrations natively output by WRF-PartMC in \si{kg.m^{-3}}, concentrations are multiplied by the inverse of atmospheric density for each vertical level and by a factor of $10^9$ to convert from mol/mol to parts per billion.
+
+As with previous time-height plots presented in Chapter 4, each pixel in the time-height grid mesh represents the average concentration over a given vertical level and time. Isopleths indicate lines of constant sulfate mixing ratios, ranging from 3.50 to 4.75 ppbv in increments of 0.25 ppbv.
+
+Initially, each scenario contains a uniform sulfate concentration of $\sim3.5$ ppbv. During the first hour, concentrations gradually increase everywhere, likely due to the oxidation of ambient SO$_2$ and partitioning of resulting H$_2$SO$_4$ into the aerosol phase due to its extremely low volatility vapor pressure. As emissions turn on at $t=1$ h, the concentration of sulfate across emissions scenarios begins to diverge. In the uniform base case, sulfate concentrations steadily increase within the PBL through $t=6$ h up to 4.75 ppbv. For high $SH$ scenarios such as scenario 3, the rate of increase in sulfate concentrations is suppressed--it takes nearly two hours for sulfate concentrations to increase from 4.25 ppbv at $t=4$ h to 4.50 by $t=6$ h whereas the same increase under the uniform base case takes approximately 1 hour between $t=3$ h and $t=4$ h. This results in lower sulfate concentrations within the PBL under high $SH$ scenarios through $t=6$ h. For each scenario and timestep, we find that sulfate concentrations are approximately uniform throughout the PBL. 
+
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/height-time-pmc_NH4-four-scenarios.pdf}
+    \caption{Time-height plots for aerosol ammonium across each emissions scenario. Isopleths indicate ammonium mixing ratio in ppbv ranging from 1.3--2.1 ppbv.}
+    \label{fig:ht-nh4}
+\end{figure}
+
+Time-height plots for ammonium concentrations in each emissions scenario are shown in Figure \ref{fig:ht-nh4}. Initially, aerosol ammonium concentrations are uniformly 1.2 ppbv everywhere. Ammonium concentrations steadily increase as ambient ammonia partitions into the aerosol phase. Following the release of emissions at $t=1$ h, ammonium concentrations are similar across each scenario between $t=1$ h to $t=2$ h with concentrations increasing to 1.5 ppbv. Subsequently, ammonium concentrations differ both spatially and temporally across emissions scenarios. Ammonium concentrations in the base case remain diffuse and relatively uniform throughout the PBL, increasing to 1.8 ppbv through $t=6$ h. As $SH$ increases across scenarios, ammonium concentrations in the upper PBL increase to as much as 2.1 ppbv in scenario 3 by $t=5$ to $t=6$ h. Meanwhile, concentrations in the lower PBL remain near 1.7--1.8 ppbv.
+
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/height-time-pmc_NO3-four-scenarios.pdf}
+    \caption{Time-height plots for aerosol nitrate across each emissions scenario. Isopleths indicate nitrate mixing ratio in ppbv ranging from $10^{-3}$ to $10^0$ ppbv.}
+    \label{fig:ht-no3}
+\end{figure}
+
+Figure \ref{fig:ht-no3} shows time-height plots of aerosol nitrate concentrations for each emissions scenario. Note the logarithmic scaling for the color bar as nitrate concentrations span numerous orders of magnitude due to trace concentrations in some regions. Initially, no nitrate is present in the aerosol phase (zero concentrations are indicated by white). Nitrate concentrations remain at or below $10^{-3}$ ppbv in the free troposphere throughout each scenario. When compared to sulfate and ammonium, the abundance of nitrate is most sensitive to emissions spatial heterogeneity as only trace amounts of nitrate ($10^{-3}$--$10^{-2}$ ppbv) are present in the upper PBL in the uniform base case, whereas concentrations reach 1 ppbv in the upper PBL in scenario 3. Additionally, the formation of nitrate occurs over a broader depth of the PBL for high $SH$ scenarios and the onset of formation occurs earlier. 
+
+%\hl{Seinfeld and Pandis (10.4.4) discuss the SNA system and the two important regimes, ammonia-rich and ammonia-poor. In ammonia-poor, there isnt enough ammonia to neutralize the sulfate and most ammonia will exist in the gas phase and consequentially ammonium nitrate levels will also be low. In the ammonia rich case, there is excess ammonium than what is necessary to neutral all of the sulfate and thus the free ammonium will form ammonium nitrate.}
+
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/aerosol-SNA-vertical-profiles-time36.pdf}
+    \caption{Vertical profiles of aerosol ammonia, nitrate, and sulfate at $t=6$ h.}
+    \label{fig:sna-vertical-profile}
+\end{figure}
+
+Time-height plots for sulfate, ammonium, and nitrate capture the spatial and temporal variation of each aerosol species across each emissions scenario. However, to help quantitatively summarize and compare the relative abundances of each species, we focus here on the final state of the sulfate-nitrate-ammonium system at the end of each simulation, $t=6$ h. Figure \ref{fig:sna-vertical-profile} shows vertical profiles of ammonia, nitrate, and sulfate for $t=6$ h, whereby each vertical profile represents the horizontally averaged concentration in ppbv at each vertical level of the domain.
+
+We find that ammonium has a relatively uniform concentration of 1.85 ppbv in the PBL for the uniform base case. As the spatial heterogeneity of emissions scenarios increases, the abundance of ammonium increases towards the upper PBL (which reaches a height of $z\sim1.5$ km by $t=6$ h), reaching 2.1 ppbv in the highest $SH$ scenario. Near the surface, ammonia concentrations decrease as the $SH$ of the emissions scenario increases. 
+
+Discuss nitrate and sulfate  
 
 \begin{itemize}
-\item Time-height plots for sulfate, nitrate, ammonium
 \item \% mass fraction vs particle diameter plots
 \item kappa distributions (either here or in the ccn subsection?)
 \end{itemize}
+
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/speciated-mass-frac-four-panel-uniform-basecase-z40.pdf}
+    \caption{}
+    %\label{fig:sna-vertical-profile}
+\end{figure}
+
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/speciated-mass-frac-four-panel-point-source-1x1-z40.pdf}
+    \caption{}
+    %\label{fig:sna-vertical-profile}
+\end{figure}
+
 
 \subsection{aerosol mixing state}
 
@@ -120,30 +180,6 @@ Compare each
 \item Vertical profile of SNA
 \item Vertical profile of ccn conc at each supersaturation level
 \end{itemize}
-
-\newpage
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=\textwidth]{figures/chapter5/height-time-pmc_SO4-four-scenarios.pdf}
-    \caption{Sulfate}
-    \label{fig:ht-so4}
-\end{figure}
-
-\newpage
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=\textwidth]{figures/chapter5/height-time-pmc_NO3-four-scenarios.pdf}
-    \caption{Nitrate}
-    \label{fig:ht-no3}
-\end{figure}
-
-\newpage
-\begin{figure}[h]
-  \centering
-    \includegraphics[width=\textwidth]{figures/chapter5/height-time-pmc_NH4-four-scenarios.pdf}
-    \caption{Ammonium}
-    \label{fig:ht-nh4}
-\end{figure}
 
 
 \newpage
