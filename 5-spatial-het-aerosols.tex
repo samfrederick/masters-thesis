@@ -136,26 +136,70 @@ Time-height plots for sulfate, ammonium, and nitrate capture the spatial and tem
 
 We find that ammonium has a relatively uniform concentration of 1.85 ppbv in the PBL for the uniform base case. As the spatial heterogeneity of emissions scenarios increases, the abundance of ammonium increases towards the upper PBL (which reaches a height of $z\sim1.5$ km by $t=6$ h), reaching 2.1 ppbv in the highest $SH$ scenario. Near the surface, ammonia concentrations decrease as the $SH$ of the emissions scenario increases. 
 
-Discuss nitrate and sulfate  
+Nitrate levels increase with increasing emissions $SH$. For lower $SH$ scenarios, this increase is localized to the upper PBL. As emissions $SH$ increases across scenarios, nitrate concentrations also increase in the lower PBL, however the region of highest nitrate concentrations remains vertically distributed in the upper PBL. Nitrate levels reach up to 1.5 ppbv at $z\sim1.25$ km in the highest $SH$ scenario.  
 
-\begin{itemize}
-\item \% mass fraction vs particle diameter plots
-\item kappa distributions (either here or in the ccn subsection?)
-\end{itemize}
+Compared with ammonium and nitrate, sulfate concentrations within the PBL are more vertically uniform for each emissions scenario. As the $SH$ of emissions scenarios increases, sulfate concentrations are reduced by approximately the same amount everywhere in the PBL from a PBL average of 4.9 ppbv in the uniform base case to 4.6 ppbv in scenario 3. 
 
 \begin{figure}[!t]
   \centering
     \includegraphics[width=\textwidth]{figures/chapter5/speciated-mass-frac-four-panel-uniform-basecase-z40.pdf}
-    \caption{}
-    %\label{fig:sna-vertical-profile}
+    \caption{Size-resolved mass fraction for the uniform base case at regular 2-hour intervals.}
+    \label{fig:mass-frac-ub}
 \end{figure}
+
+Figure \ref{fig:mass-frac-ub} shows the size-resolved mass fraction of aerosol particles in the upper PBL ($z\sim800$ m) at 2-hour intervals for the uniform base case. The average of species mass as a fraction of aerosol total mass is displayed for each aerosol species in WRF-PartMC. As with number and mass distribution plots, species concentrations are size-resolved with 100 logarithmically spaced bins between $10^{-9}$ and $10^{-3}$ m. Mass fractions are computed by dividing the mass of each species by the total mass of a bin. In order to reduce stochastic noise, an averaging strategy similar to that utilized for the number and mass distribution plots is employed, whereby mass fractions are computed for aerosol particles contained within a 1 \si{km^2} cross section of the domain centered over the emissions plume. Aerosol species model symbols are included in the key of Figure \ref{fig:mass-frac-ub}. A comprehensive list of aerosol species in WRF-PartMC is contained in Table \ref{table:wrf-partmc-species} alongside a description of each species model symbol". 
+
+\begin{table}[!t]
+\centering
+\caption{Aerosol species and associated hygroscopicities in WRF-PartMC}
+\begin{tabular*}{.6\linewidth}{@{\extracolsep{\fill}} lcc}
+\\[-2ex]\hline 
+     \hline \\[-2ex] \textbf{Aerosol species} & \textbf{Model symbol} & \textbf{Hygroscopicity $\kappa$} \\
+\midrule
+Sulfate & SO4 & 0.65 \\
+Nitrate & NO3 & 0.65 \\
+Chloride & Cl & 0.53 \\
+Ammonium & NH4 & 0.65 \\
+Nethanesulfonic acid & MSA & 0.53 \\
+Aromatic & ARO1 & 0.1 \\
+Aromatic & ARO2 & 0.1 \\
+Alkanes & ALK1 & 0.1 \\
+Olefin & OLE1 & 0.1 \\
+$\alpha$-pinene & API1 & 0.1 \\
+$\alpha$-pinene & API2 & 0.1 \\
+Limonene & LIM1 & 0.1 \\
+Limonene & LIM2 & 0.1 \\
+Carbonate & CO3 & 0.53 \\
+Sodium & Na & 0.53 \\
+Calcium & Ca & 0.53 \\
+Other inorganics & OIN & 0.1 \\
+Organic carbon & OC & 0.001 \\
+Black carbon & BC & 0 \\
+Water & H2O & 0 \\
+\\[-2ex]\hline 
+     \hline \\[-2ex]
+\end{tabular*}
+\label{table:wrf-partmc-species}
+\end{table}
+
+For the initial condition, the composition of all particles is identical, with a mixture comprised of sulfate, organic carbon (OC), and ammonium. Once emissions are active at $t=1$ h, the release of carbonaceous primary aerosol introduces black carbon (BC) into the aerosol population.  By $t=6$ h, BC makes up a meaningful fraction of aerosol mass for fine particulates; particles with diameter $\sim20$ nm are up to 50\% BC and particles near 50--60 nm are $\sim40\%$ BC.
+
+Additionally, volatile organic compounds (VOCs) are emitted in the gas phase which are oxidized, lowering their volatility and allowing them to condense into the aerosol phase as secondary organic aerosol (SOA). SOA species are organized by functional group in WRF-PartMC and include aromatics (``ARO1", ``ARO2"), alkanes (``ALK1", ``ALK2"), limonenes (``LIM1", ``LIM2"), etc (see Table \ref{table:wrf-partmc-species} for a full list). In size-resolved mass fraction plots, SOA appears as a ribbon of green, pink, and purple atop nitrate (orange), indicating that alkanes, olefins, and aromatics comprise the bulk of SOA species present in aerosol particles. In total, SOA makes up a small fraction of aerosol mass, reaching up to 10\% of total mass by $t=6$ h.
+
+Throughout the uniform base case simulation, the mass fraction of sulfate makes up a large portion of aerosol mass. After initially being comprised of 45\% sulfate across all aerosol diameters, by $t=6$ h, sulfate mass fraction varies between a minimum of 10\% for ultrafine particles less than 20 nm and peaks at $\sim50\%$ for particles near 30 nm. Particles in the accumulation mode are comprised of 30--40\% sulfate. Ammonium initially comprises $\sim10\%$ of aerosol mass fraction and its relative contribution to total aerosol mass is fairly consistent across time, especially for larger particles ($D_p > 0.1$ \si{\mu m}). The mass fraction of ammonium reaches a minimum for particles ultrafine particles less than 30 nm in diameter. It is important to note that no nitrate is present at any point during the uniform base case simulation.
 
 \begin{figure}[!t]
   \centering
     \includegraphics[width=\textwidth]{figures/chapter5/speciated-mass-frac-four-panel-point-source-1x1-z40.pdf}
-    \caption{}
-    %\label{fig:sna-vertical-profile}
+    \caption{Size-resolved mass fraction for emissions scenario 3 at regular 2-hour intervals showing species mass fraction as a percent of total aerosol mass vs. particle diameter.}
+    \label{fig:mass-frac-s3}
 \end{figure}
+
+Figure \ref{fig:mass-frac-s3} shows size-resolved mass fraction plots for the highest heterogeneity case, scenario 3. By $t=6$ h, the composition of aerosol particles is markedly different than in the uniform base case shown in Figure \ref{fig:mass-frac-ub}. Most notably, we find that nitrate comprises a large fraction of aerosol mass, especially for particle diameters near $D_p\sim0.1$ \si{\mu m}. As particle diameter decreases below 0.1 \si{\mu m}, the mass fraction of sulfate steady increases from less than 10\% to nearly 60\% for particles with diameter $D_p  \lesssim 30$ nm. Sulfate and nitrate effectively replace the large mass fraction of BC found for these ultrafine particles. By $t=6$ h, sulfate, nitrate, and ammonium jointly comprise a majority of aerosol mass across all particles diameters observed in emissions scenario 3. For particles smaller than 0.1 \si{\mu m}, sulfate, nitrate, and ammonium represent over 80\% of aerosol mass. For particles larger than 0.1 \si{\mu m}, these species comprise 70--80\% of aerosol mass.
+
+Differences observed in aerosol composition are important due to the varying properties of aerosol species. For example, particle hygroscopicity determines the critical supersaturation at which a particle of a given diameter will active as a cloud condensation nucleus. Note that Table \ref{table:wrf-partmc-species} lists the hygroscopicity parameter $\kappa$ of each aerosol species and is highly variable (e.g., the hygroscopicity of BC is zero while sulfate has a hygroscopicity of 0.65). Values of  $\kappa$ closer to 1 indicate the aerosol species has a high hygroscopicity, while $\kappa=0$ corresponds to a non-hygroscopic compound.
+
+
 
 
 \subsection{aerosol mixing state}
