@@ -197,9 +197,25 @@ Throughout the uniform base case simulation, the mass fraction of sulfate makes 
 
 Figure \ref{fig:mass-frac-s3} shows size-resolved mass fraction plots for the highest heterogeneity case, scenario 3. By $t=6$ h, the composition of aerosol particles is markedly different than in the uniform base case shown in Figure \ref{fig:mass-frac-ub}. Most notably, we find that nitrate comprises a large fraction of aerosol mass, especially for particle diameters near $D_p\sim0.1$ \si{\mu m}. As particle diameter decreases below 0.1 \si{\mu m}, the mass fraction of sulfate steady increases from less than 10\% to nearly 60\% for particles with diameter $D_p  \lesssim 30$ nm. Sulfate and nitrate effectively replace the large mass fraction of BC found for these ultrafine particles. By $t=6$ h, sulfate, nitrate, and ammonium jointly comprise a majority of aerosol mass across all particles diameters observed in emissions scenario 3. For particles smaller than 0.1 \si{\mu m}, sulfate, nitrate, and ammonium represent over 80\% of aerosol mass. For particles larger than 0.1 \si{\mu m}, these species comprise 70--80\% of aerosol mass.
 
-Differences observed in aerosol composition are important due to the varying properties of aerosol species. For example, particle hygroscopicity determines the critical supersaturation at which a particle of a given diameter will active as a cloud condensation nucleus. Note that Table \ref{table:wrf-partmc-species} lists the hygroscopicity parameter $\kappa$ of each aerosol species and is highly variable (e.g., the hygroscopicity of BC is zero while sulfate has a hygroscopicity of 0.65). Values of  $\kappa$ closer to 1 indicate the aerosol species has a high hygroscopicity, while $\kappa=0$ corresponds to a non-hygroscopic compound.
+Differences observed in aerosol composition are important due to the varying properties of aerosol species and their downstream influence on the atmospheric state. For example, particle hygroscopicity determines the critical supersaturation at which a particle of a given diameter will active as a cloud condensation nucleus. Hygroscopicity is parameterized using the $\kappa$-Köhler theory of \cite{petters_single_2007}. $\kappa$-Köhler theory is a modification to Köhler's relationship for determining the saturation ratio over a particle and the critical supersaturation at which the particle activates (\cite{kohler_nucleus_1936}). Each aerosol species has an associated hygroscopicity $\kappa$, and the total particle $\kappa$ is a volume-weighted sum of each species $\kappa$. Note that Table \ref{table:wrf-partmc-species} lists the hygroscopicity parameter $\kappa$ of each aerosol species and is highly variable (e.g., the hygroscopicity of BC is zero while sulfate has a hygroscopicity of 0.65). Values of  $\kappa$ greater than 0.5 indicate the aerosol species has a high hygroscopicity, while $\kappa=0$ corresponds to a nonhygroscopic compound.
 
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/2d-kappa-dist-4-panel-uniform-basecase-z40.pdf}
+    \caption{2-dimensional number distributions $n(D_p, \kappa)$ at regular two-hour intervals for the uniform base case.}
+    \label{fig:2d-kappa-dist-ub}
+\end{figure}
 
+Figure \ref{fig:2d-kappa-dist-ub} shows two-dimensional number distributions at regular two hour intervals for the uniform base case in the upper PBL ($z\sim800$ m). The x-axis indicates particle diameter in meters, while hygroscopicity $\kappa$ is plotted along the y-axis. Particles are binned into a two-dimensional histogram by diameter (50 bins from 10 nm to 1 $\mu$m) and $\kappa$ (50 bins from 0 to 1) and the number concentration within each bin is tallied and displayed as a colorbar. Bins with zero particles are filled in white.
+
+At the initial condition, we find that all particles posses the same total hygroscopicity, $\kappa=0.32$, as each is a mixture of ammonium sulfate and OC. Beginning at $t=1$ h, emissions of primary aerosol and gas phase species alter the distribution of particle hygroscopicity. Recall that emitted primary aerosol are composed of OC and BC with $\kappa$ values 0.001 and 0, respectively. This results in a distribution of low-$\kappa$ aerosol particles situated beneath the sulfate-rich aerosol. As the simulation evolves, gas-particle partitioning and coagulation age the aerosol population, increasing particle hygroscopicity.
+
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/2d-kappa-dist-4-panel-point-source-1x1-z40.pdf}
+    \caption{2-dimensional number distributions $n(D_p, \kappa)$ at regular two-hour intervals for scenario 3.}
+    \label{fig:2d-kappa-dist-s3}
+\end{figure}
 
 
 \subsection{aerosol mixing state}
@@ -208,6 +224,21 @@ Differences observed in aerosol composition are important due to the varying pro
 \item Vertical profile of average particle $\chi$, $D_{\alpha}$, $D_{\gamma}$
 \item Vertical profile of ccn $\chi$, $D_{\alpha}$, $D_{\gamma}$
 \end{itemize}
+
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/aerosol-mixingstate-vertical-profiles-time36.pdf}
+    \caption{}
+    %\label{fig:2d-kappa-dist-s3}
+\end{figure}
+
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/aerosol-ccn-mixingstate-vertical-profiles-time36.pdf}
+    \caption{}
+    %\label{fig:2d-kappa-dist-s3}
+\end{figure}
+
 
 \subsection{ccn}
 

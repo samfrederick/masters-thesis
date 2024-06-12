@@ -604,6 +604,58 @@
       \verb https://journals-ametsoc-org.proxy2.library.illinois.edu/view/journals/atsc/32/10/1520-0469_1975_032_1977_aemfns_2_0_co_2.xml
       \endverb
     \endentry
+    \entry{kohler_nucleus_1936}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=1a4d1c99d1d73e270eaa695861295be4}{%
+           family={Köhler},
+           familyi={K\bibinitperiod},
+           given={Hilding},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1a4d1c99d1d73e270eaa695861295be4}
+      \strng{fullhash}{1a4d1c99d1d73e270eaa695861295be4}
+      \strng{bibnamehash}{1a4d1c99d1d73e270eaa695861295be4}
+      \strng{authorbibnamehash}{1a4d1c99d1d73e270eaa695861295be4}
+      \strng{authornamehash}{1a4d1c99d1d73e270eaa695861295be4}
+      \strng{authorfullhash}{1a4d1c99d1d73e270eaa695861295be4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{No abstract available}
+      \field{issn}{0014-7672}
+      \field{journaltitle}{Transactions of the Faraday Society}
+      \field{month}{1}
+      \field{note}{Publisher: The Royal Society of Chemistry}
+      \field{number}{0}
+      \field{title}{The nucleus in and the growth of hygroscopic droplets}
+      \field{urlday}{11}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{32}
+      \field{year}{1936}
+      \field{urldateera}{ce}
+      \field{pages}{1152\bibrangedash 1161}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1039/TF9363201152
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/Z9775BFM/Köhler - 1936 - The nucleus in and the growth of hygroscopic dropl.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://pubs.rsc.org/en/content/articlelanding/1936/tf/tf9363201152
+      \endverb
+      \verb{url}
+      \verb https://pubs.rsc.org/en/content/articlelanding/1936/tf/tf9363201152
+      \endverb
+    \endentry
     \entry{kolmogorov_local_1991}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=aadf44e45ed3eaf797179742cb37adb1}{%
@@ -750,6 +802,64 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14084
       \endverb
       \keyw{box-counting,complexity–diversity relationships,digital elevation model (DEM),fractal dimension,habitat structure,landscape metrics,photogrammetry,remote sensing,spatial analysis,spatial ecology,Thesis}
+    \endentry
+    \entry{petters_single_2007}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=6d8002fa7161cabb7c686b9a7a38aced}{%
+           family={Petters},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi D.},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64efe74e36cea844b036ebf61081b7f8}{%
+           family={Kreidenweis},
+           familyi={K\bibinitperiod},
+           given={S.\bibnamedelimi M.},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{56a285477007e9a941d3607a2f1f4b40}
+      \strng{fullhash}{56a285477007e9a941d3607a2f1f4b40}
+      \strng{bibnamehash}{56a285477007e9a941d3607a2f1f4b40}
+      \strng{authorbibnamehash}{56a285477007e9a941d3607a2f1f4b40}
+      \strng{authornamehash}{56a285477007e9a941d3607a2f1f4b40}
+      \strng{authorfullhash}{56a285477007e9a941d3607a2f1f4b40}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present a method to describe the relationship between particle dry diameter and cloud condensation nuclei (CCN) activity using a single hygroscopicity parameter κ. Values of the hygroscopicity parameter are between 0.5 and 1.4 for highly-CCN-active salts such as sodium chloride, between 0.01 and 0.5 for slightly to very hygroscopic organic species, and 0 for nonhygroscopic components. Observations indicate that atmospheric particulate matter is typically characterized by 0.1\&lt;\&kappa;\&lt;0.9. If compositional data are available and if the hygroscopicity parameter of each component is known, a multicomponent hygroscopicity parameter can be computed by weighting component hygroscopicity parameters by their volume fractions in the mixture. In the absence of information on chemical composition, experimental data for complex, multicomponent particles can be fitted to obtain the hygroscopicity parameter. The hygroscopicity parameter can thus also be used to conveniently model the CCN activity of atmospheric particles, including those containing insoluble components. We confirm the applicability of the hygroscopicity parameter and its mixing rule by applying it to published hygroscopic diameter growth factor and CCN-activation data for single- and multi-component particles containing varying amounts of inorganic, organic and surface active compounds. We suggest that \&kappa; may be fit to CCN data assuming \&sigma;s/a=0.072 J m\&minus;2 and present a table of \&kappa; derived for this value and T=298.15 K. The predicted hygroscopicities for mixtures that contain the surfactant fulvic acid agree within uncertainties with the measured values. It thus appears that this approach is adequate for predicting CCN activity of mixed particles containing surface active materials, but the generality of this assumption requires further verification.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{4}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{8}
+      \field{title}{A single parameter representation of hygroscopic growth and cloud condensation nucleus activity}
+      \field{urlday}{11}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{7}
+      \field{year}{2007}
+      \field{urldateera}{ce}
+      \field{pages}{1961\bibrangedash 1971}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.5194/acp-7-1961-2007
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/7RRM4ZZP/Petters and Kreidenweis - 2007 - A single parameter representation of hygroscopic g.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/7/1961/2007/acp-7-1961-2007.html
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/7/1961/2007/acp-7-1961-2007.html
+      \endverb
     \endentry
     \entry{plexida_selecting_2014}{article}{}
       \name{author}{4}{}{%
