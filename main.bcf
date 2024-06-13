@@ -2409,6 +2409,8 @@
     <bcf:citekey order="48" intorder="1">wang_coupled_2023</bcf:citekey>
     <bcf:citekey order="49" intorder="1">petters_single_2007</bcf:citekey>
     <bcf:citekey order="50" intorder="1">kohler_nucleus_1936</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">riemer_quantifying_2013</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">petters_single_2007</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

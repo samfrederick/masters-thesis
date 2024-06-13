@@ -2,7 +2,7 @@
 \chapter{Impacts of emissions spatial heterogeneity on aerosol properties and CCN activity}
 %\chapter{Impacts of emissions spatial heterogeneity on aerosol properties in a particle resolved framework}
 
-This chapter presents results for the impacts of emissions spatial heterogeneity on aerosol properties, including changes to the aerosol size distribution, composition, mixing state, and CCN activity. We begin with a set of simplified simulations to isolate the effect of spatial heterogeneity on an important aerosol process, coagulation. Subsequently, we present simulation results for full multiphase (gas and aerosol) chemistry runs and discuss changes to aerosol properties and CCN activity. We find that under high emissions spatial heterogeneity, up to 25\% more CCN activate in the upper boundary layer for supersaturations in the range $S=0.3\%$ to $S=0.6\%$. 
+This chapter presents results for the impacts of emissions spatial heterogeneity on aerosol properties, including changes to the aerosol size distribution, composition, mixing state, and CCN activity. We begin with a set of simplified simulations to isolate the effect of spatial heterogeneity on an important aerosol process, coagulation. Subsequently, we present simulation results for full multiphase (gas and aerosol) chemistry runs and discuss changes to aerosol properties and CCN activity. We find that under high emissions spatial heterogeneity, up to 25\% more CCN activate in the upper boundary layer for supersaturations in the range $S=0.3\%$ to $S=0.6\%$. The effects of ammonium on CCN activity are also explored, as we find that high spatial heterogeneity scenarios allow more nitrate in the aerosol phase due to the avialability of free ammonium.
 \section{Idealized coagulation simulations}
 
 Prior to discussing simulations utilizing the full multiphase chemical mechanism for aerosols and chemistry, we first focus our discussion on the impact of spatial heterogeneity on aerosol number concentration due to coagulation. Coagulation is a primary mechanism for aerosol aging and its rate scales with the square of the number concentration of particles, thus making it an important aerosol process for which to evaluate the impacts of spatial heterogeneity. 
@@ -20,7 +20,7 @@ Here we investigate the modification to the rate of coagulation under numerous s
 
 Note that the setup of these simulations differs from all other simulations discussed in this thesis. Chemistry is turned off primarily for computational efficiency as, here, we are simply interested in changes to the number concentration rather than changes to aerosol composition. Instead of using initial conditions that are uniform throughout the domain, here the aerosol initial condition is set by the chosen $SH$ scenario for each vertical level in the domain (i.e., the pattern extends vertically throughout the domain). Additionally, emissions are turned off such that only coagulation is responsible for changes to aerosol number concentration.
 
-\subsection{Results}
+\subsection{Results}\label{ideal-coag-results}
 
 \begin{figure}[!h]
   \centering
@@ -217,44 +217,85 @@ At the initial condition, we find that all particles posses the same total hygro
     \label{fig:2d-kappa-dist-s3}
 \end{figure}
 
+Figure \ref{fig:2d-kappa-dist-s3} shows two-dimensional size distributions at regular two hour intervals for the highest $SH$ scenario, scenario 3. We find that following the initial condition, the evolution of the $\kappa$-resolved size distribution differs markedly from the uniform base case in numerous ways. First, the abundance of low-$\kappa$ primary aerosol due to emissions is greatly reduced for $t=2$ h to $t=6$ h. The increased rate of coagulation for high $SH$ scenarios shown in Section \ref{ideal-coag-results} indicates that this process is likely enhanced for emissions scenario 3 and removes aerosol particles in the high-concentration emissions plume. Additionally, we find a greater abundance of high-$\kappa$ particles in the size range 20 nm to 0.4 \si{\mu m} with $\kappa$ in excess of 0.6 for some particles near $D_p=0.1$ \si{\mu m}. By comparison, far fewer particles in the uniform base case posses $kappa\sim0.6$ and are limited to the size range 20--30 nm. 
 
-\subsection{aerosol mixing state}
+\subsection{Aerosol mixing state}
 
-\begin{itemize}
-\item Vertical profile of average particle $\chi$, $D_{\alpha}$, $D_{\gamma}$
-\item Vertical profile of ccn $\chi$, $D_{\alpha}$, $D_{\gamma}$
-\end{itemize}
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/mixing-state-ideal-cases.pdf}
+    \caption{Two idealized cases for aerosol populations composed of ammonium sulfate (blue) and organic carbon (beige). Case 1 is fully internally mixed while case 2 is fully externally mixed, yet each case contains the same bulk concentration of each species.}
+    \label{fig:mixing-state-scenarios}
+\end{figure}
+
+So far in this section we have shown results for the bulk composition of the aerosol. That is, we have shown which aerosol species are contained in the population, their mean abundances, and how they vary with particle size. However, these results do not indicate how each aerosol species is distributed amongst the particles in the population. Consider two cases, each with a grouping of six monodisperse aerosol particles. In the first case, all aerosol particles are an equal mixture of 50\% ammonium sulfate and 50\% OC. In the second case, half of the particles are 100\% ammonium sulfate and the remaining half are 100\% OC. When averaged to find the bulk composition of the population, each case leads to the same conclusion--the population is composed of 50\% ammonium sulfate and 50\% OC. However, this bulk state oversimplifies the compositional diversity of the particle population and aerosol particle properties vary considerably across each case. Note that the hygroscopicity $\kappa$ under the two cases will differ. If all particles are internally mixed as in the first case (i.e., each particle is a mixture of ammonium sulfate and OC), all particles have a $\kappa$ \hl{actually compute that here}. For the second case, the particles are externally mixed (i.e., each particle is purely composed of a single aerosol species), resulting in the ammonium sulfate particles being highly hygroscopic, $\kappa=$\hl{compute}, while the pure OC particles are nearly nonhygroscopic, $\kappa=0.001$. As a consequence, there will exist a supersaturation at which all of the particles in case 1 active as CCN, while only half of the particles in the second case will active. This illustrates the importance of the aerosol mixing state, which describes how externally or internally mixed aerosol species are in the particle population. 
+
+The mixing state $\chi$ is quantified using the metric definition of \cite{riemer_quantifying_2013} and is defined as 
+\begin{equation}
+\chi = \frac{D_{\alpha}-1}{D_{\gamma}-1},
+\end{equation}
+where $D_{\alpha}$ is the average particle species diversity and $D_{\gamma}$ is the bulk population species diversity. $D_{\alpha}$ is related to the average Shannon entropy for each particle as 
+ \begin{equation}
+D_{\alpha} = \exp\left(\sum_{i=1}^N p_i H_i\right),
+\end{equation}
+where $p_i$ is the mass fraction of particle $i$ in the population and $H_i$, the Shannon entropy of the species distribution in particle $i$, is 
+\begin{equation}
+H_i = \sum_{a=1}^A -p_i^a\ln(p_i^a),
+\end{equation}
+where $p_i^a$ is the mass fraction of species $a$ in particle $i$.
+
+$D_{\gamma}$ is related to the Shannon entropy for the distribution of an aerosol species in the population as 
+ \begin{equation}
+D_{\gamma} = \exp\left(\sum_{a=1}^A p^a \ln(p^a)\right),
+\end{equation}
+where $p^a$ is the mass fraction of species $a$ in the population.
 
 \begin{figure}[!t]
   \centering
     \includegraphics[width=\textwidth]{figures/chapter5/aerosol-mixingstate-vertical-profiles-time36.pdf}
-    \caption{}
-    %\label{fig:2d-kappa-dist-s3}
+    \caption{Vertical profiles for mixing state $\chi$ and diversity measures $D_{\alpha}$ and $D_{\gamma}$ for each emissions scenario at $t=6$ h.}
+    \label{fig:mixing-state-vert-profiles}
 \end{figure}
+
+Figure \ref{fig:mixing-state-vert-profiles} shows vertical profiles for $\chi$ and its associated diversity measures $D_{\alpha}$ and $D_{\gamma}$ for each emissions scenario at $t=6$ h. We find that $\chi$ is approximately the same across each emission scenario in both the PBL and in the free troposphere. Furthermore, $\chi$ is nearly uniform within the PBL, with values near $\chi\sim0.81$ in the uniform base case and $\chi\sim0.83$ in the highest $SH$ scenario, scenario 3. Above the PBL, $\chi$ matches closely across all scenarios and reaches $\chi\sim1$ by the top of the domain. These results point to a near-fully internally mixed aerosol population in the PBL and completely internally mixed aerosol above the PBL. 
+
+We find that diversity measures $D_{\alpha}$ and $D_{\gamma}$ increase with height in the PBL and subsequently decrease in the free troposphere. In the middle to lower PBL, both $D_{\alpha}$ and $D_{\gamma}$ decrease for high $SH$ scenarios relative to the uniform base case. We find that $D_{\alpha}$ and $D_{\gamma}$ both peak near the top of the PBL and reach a maximum for emissions scenario 1 at 3.95 and 4.6, respectively. 
 
 \begin{figure}[!t]
   \centering
     \includegraphics[width=\textwidth]{figures/chapter5/aerosol-ccn-mixingstate-vertical-profiles-time36.pdf}
     \caption{}
-    %\label{fig:2d-kappa-dist-s3}
+    \label{fig:ccn-mixing-state-vert-profiles}
 \end{figure}
 
+Figure \ref{fig:ccn-mixing-state-vert-profiles} shows vertical profiles for $\chi$ and diversity measures $D_{\alpha}$ and $D_{\gamma}$ for particles which activate as CCN \hl{Need to ask Jeff how mixing state is calculated for CCN? Is this for particles that activate above a certain supersaturation threshold?}. For each emissions scenario, $\chi_{\text{CCN}}$ gradually increases in the PBL. $\chi_{\text{CCN}}$ is slightly greater than $\chi$ for each scenario, indicating that CCN are very well mixed in the PBL. Furthermore, $\chi_{\text{CCN}}$ increases slightly with greater emissions $SH$ (e.g., at $z=500$ m, $\chi_{\text{CCN}} = 0.87$ for the uniform base case and $\chi_{\text{CCN}} = 0.90$ for scenario 3). As $SH$ increases, $D_{\alpha,\text{CCN}}$ also slightly increases in the PBL (e.g., at $z=500$ m, $D_{\alpha,\text{CCN}} = 1.74$ for the uniform base case and $D_{\alpha,\text{CCN}} = 1.77$ for scenario 3). Above the PBL, $D_{\alpha,\text{CCN}}$ tends to converge across emissions scenarios, increasing to $\sim1.83$ at $z=2$ km. We find that $D_{\gamma,\text{CCN}}$ gradually decreases moving vertically in the PBL for each emissions scenario. As $SH$ increases across emissions scenarios, $D_{\gamma,\text{CCN}}$ takes on higher values in the lower to middle boundary layer, while in the middle to upper boundary layer this trend is reversed, with higher $SH$ indicating lower values of $D_{\gamma,\text{CCN}}$. 
 
-\subsection{ccn}
+\subsection{Impacts of emissions $SH$ on CCN activity}
+
+We have shown that emissions spatial heterogeneity alters the aerosol composition, producing more nitrate-rich particles and that this results in an increase in aerosol hygroscopicity $\kappa$. The critical supersaturation at which a particle activates as a cloud condensation nucleus is a function of $\kappa$ and particle diameter. Thus, changes to the aerosol properties such as composition and hygroscopicity will propagate to changes in CCN activity. 
+
+Here, we group particles by critical saturation into CCN that activate at the following supersaturation levels:  $S=0.1, 0.3, 0.6, 1.0\%$. CCN concentrations at each supersaturation level are determined in the following manner. First, the critical supersaturation $S_c$ is determined for each particle by using a root finding algorithm to solve for the critical point of the supersaturation curve $S(D_p, \kappa)$ of $\kappa$-Köhler theory \cite{petters_single_2007}. Particles are then grouped by supersaturation ($0.1, 0.3, 0.6, 1.0\%$) required for activation in a cumulative manner (i.e., particles activating at $S=0.3\%$ are included in bins for $S=0.5\%$ and higher supersaturations as they will activate at any supersaturation higher than $S=0.3\%$). Subsequently, the concentration of CCN at each supersaturation level is determined for each grid cell. 
+
+Figure \ref{fig:ht-ccn-pdiff-s1} shows vertical profiles for each emissions scenario of CCN that activate at supersaturations $S=0.1, 0.3, 0.6, 1.0\%$. Each vertical profile displays the level-averaged mixing ratio in ppbv of particles that would act as CCN at each supersaturation level (note, environmental conditions do not exceed 100\% RH at any point or time in each simulation).  For $S=0.1\%$, we find that CCN concentrations decrease with increasing $SH$ in the lower boundary layer. In the middle to upper boundary layer, the opposite trend is observed, with CCN concentrations increasing as emissions $SH$ increases. This increase is most pronounced at the top of the PBL ($z\sim 1.25$ km), where CCN concentrations reach nearly 1.2 ppbv for scenario 3 compared to 1.0 ppbv in the uniform base case. Increases in CCN concentrations due to increasing emissions $SH$ are observed everywhere in the PBL for $S=0.3\%$, with concentrations again peaking near the top of the boundary layer. For the highest $SH$ scenario, we find CCN concentrations exceed 3.5 ppbv, while in the uniform base case, CCN concentrations are a vertically uniform 2.8 ppbv. 
+
+
+
+
+
+\begin{figure}[!t]
+  \centering
+    \includegraphics[width=.9\textwidth]{figures/chapter5/aerosol-ccn-vertical-profiles-time36.pdf}
+    \caption{Vertical profiles ($t=6$ h) for each emission scenario of CCN activating at supersaturations $S=0.1, 0.3, 0.6, 1.0$\%}
+    \label{fig:ht-ccn-pdiff-s1}
+\end{figure}
 
 \begin{itemize}
 \item Vertical profile of ccn conc at each supersaturation level
-\item Vertical profile of ccn $\chi$, $D_{\alpha}$, $D_{\gamma}$
+%\item Vertical profile of ccn $\chi$, $D_{\alpha}$, $D_{\gamma}$
 \item time height plots of ccn \% error
 \item (potentially) some sort of box plot ccn error thing similar to what I showed at IAMA?
 \end{itemize}
 
-\subsection{Runs without ammonia}
-
-\begin{itemize}
-\item Vertical profile of SNA
-\item Vertical profile of ccn conc at each supersaturation level
-\end{itemize}
 
 
 \newpage
@@ -280,4 +321,26 @@ At the initial condition, we find that all particles posses the same total hygro
     \caption{Scenario 3}
     \label{fig:ht-ccn-pdiff-s3}
 \end{figure}
+
+\subsection{Influence of ammonia on aerosol composition and CCN activity}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/aerosol-SNA-vertical-profiles-no-nh4-cases-time36.pdf}
+    \caption{}
+    %\label{fig:ht-ccn-pdiff-s3}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+    \includegraphics[width=\textwidth]{figures/chapter5/aerosol-ccn-vertical-profiles-no-nh4-cases-time36.pdf}
+    \caption{}
+    %\label{fig:ht-ccn-pdiff-s3}
+\end{figure}
+
+\section{Discussion}
+Non-linear coupling between emissions $SH$ and CCN activity, mediated by the presence of nitrate and contingent on the availability of free ammonium to allow partitioning of nitrate into the aerosol phase.
+
+
+
 

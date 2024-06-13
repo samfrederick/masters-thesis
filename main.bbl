@@ -166,12 +166,12 @@
            given={Nicole},
            giveni={N\bibinitperiod},
            givenun=2}}%
-        {{un=0,uniquepart=base,hash=0efcadce193e0f61e982a33e021409ff}{%
+        {{un=2,uniquepart=given,hash=0efcadce193e0f61e982a33e021409ff}{%
            family={West},
            familyi={W\bibinitperiod},
            given={Matthew},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
       }
       \list{language}{1}{%
         {English}%
@@ -928,20 +928,78 @@
       \endverb
       \keyw{Altitude,Human land use,Landscape indicators,Landscape pattern analysis,Thesis}
     \endentry
-    \entry{riemer_simulating_2009}{article}{}
-      \name{author}{4}{}{%
+    \entry{riemer_quantifying_2013}{article}{}
+      \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=5c05fd7739fd5ea39474b8fc5c21e5ec}{%
            family={Riemer},
            familyi={R\bibinitperiod},
            given={N.},
            giveni={N\bibinitperiod},
            givenun=2}}%
-        {{un=0,uniquepart=base,hash=5112d0294362c4012eb8aefe452fcc72}{%
+        {{un=2,uniquepart=given,hash=5112d0294362c4012eb8aefe452fcc72}{%
            family={West},
            familyi={W\bibinitperiod},
            given={M.},
            giveni={M\bibinitperiod},
-           givenun=0}}%
+           givenun=2}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{8e52c20c819fbfddcbc45059b713535e}
+      \strng{fullhash}{8e52c20c819fbfddcbc45059b713535e}
+      \strng{bibnamehash}{8e52c20c819fbfddcbc45059b713535e}
+      \strng{authorbibnamehash}{8e52c20c819fbfddcbc45059b713535e}
+      \strng{authornamehash}{8e52c20c819fbfddcbc45059b713535e}
+      \strng{authorfullhash}{8e52c20c819fbfddcbc45059b713535e}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents the first quantitative metric for aerosol population mixing state, defined as the distribution of per-particle chemical species composition. This new metric, the mixing state index χ, is an affine ratio of the average per-particle species diversity D\&alpha; and the bulk population species diversity D\&gamma;, both of which are based on information-theoretic entropy measures. The mixing state index χ enables the first rigorous definition of the spectrum of mixing states from so-called external mixture to internal mixture, which is significant for aerosol climate impacts, including aerosol optical properties and cloud condensation nuclei activity. We illustrate the usefulness of this new mixing state framework with model results from the stochastic particle-resolved model PartMC-MOSAIC. These results demonstrate how the mixing state metrics evolve with time for several archetypal cases, each of which isolates a specific process such as coagulation, emission, or condensation. Further, we present an analysis of the mixing state evolution for a complex urban plume case, for which these processes occur simultaneously. We additionally derive theoretical properties of the mixing state index and present a family of generalized mixing state indexes that vary in the importance assigned to low-mass-fraction species.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{11}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{22}
+      \field{title}{Quantifying aerosol mixing state with entropy and diversity measures}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{volume}{13}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{11423\bibrangedash 11439}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.5194/acp-13-11423-2013
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/25ZWP8ZZ/Riemer and West - 2013 - Quantifying aerosol mixing state with entropy and .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/13/11423/2013/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/13/11423/2013/
+      \endverb
+    \endentry
+    \entry{riemer_simulating_2009}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=2,uniquepart=given,hash=5c05fd7739fd5ea39474b8fc5c21e5ec}{%
+           family={Riemer},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=2}}%
+        {{un=2,uniquepart=given,hash=5112d0294362c4012eb8aefe452fcc72}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=2}}%
         {{un=0,uniquepart=base,hash=6597f09c753d50f4cd072399380d67ec}{%
            family={Zaveri},
            familyi={Z\bibinitperiod},
@@ -958,11 +1016,11 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{e65d34813ce76ea65c246accc4954b2e}
+      \strng{namehash}{62c212e21a3837145ee484b850349bc7}
       \strng{fullhash}{0d19471eb0ebd24ac365dc449a71bbfe}
-      \strng{bibnamehash}{e65d34813ce76ea65c246accc4954b2e}
-      \strng{authorbibnamehash}{e65d34813ce76ea65c246accc4954b2e}
-      \strng{authornamehash}{e65d34813ce76ea65c246accc4954b2e}
+      \strng{bibnamehash}{62c212e21a3837145ee484b850349bc7}
+      \strng{authorbibnamehash}{62c212e21a3837145ee484b850349bc7}
+      \strng{authornamehash}{62c212e21a3837145ee484b850349bc7}
       \strng{authorfullhash}{0d19471eb0ebd24ac365dc449a71bbfe}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}

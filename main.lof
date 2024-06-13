@@ -41,10 +41,14 @@
 \contentsline {figure}{\numberline {5.12}{\ignorespaces Size-resolved mass fraction for emissions scenario 3 at regular 2-hour intervals showing species mass fraction as a percent of total aerosol mass vs. particle diameter.}}{59}{figure.caption.43}%
 \contentsline {figure}{\numberline {5.13}{\ignorespaces 2-dimensional number distributions $n(D_p, \kappa )$ at regular two-hour intervals for the uniform base case.}}{60}{figure.caption.44}%
 \contentsline {figure}{\numberline {5.14}{\ignorespaces 2-dimensional number distributions $n(D_p, \kappa )$ at regular two-hour intervals for scenario 3.}}{61}{figure.caption.45}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces \relax }}{62}{figure.caption.46}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces \relax }}{62}{figure.caption.47}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Scenario 1}}{63}{figure.caption.48}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Scenario 2}}{64}{figure.caption.49}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Scenario 3}}{65}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Two idealized cases for aerosol populations composed of ammonium sulfate (blue) and organic carbon (beige). Case 1 is fully internally mixed while case 2 is fully externally mixed, yet each case contains the same bulk concentration of each species.}}{62}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Vertical profiles for mixing state $\chi $ and diversity measures $D_{\alpha }$ and $D_{\gamma }$ for each emissions scenario at $t=6$ h.}}{63}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces \relax }}{64}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Vertical profiles ($t=6$ h) for each emission scenario of CCN activating at supersaturations $S=0.1, 0.3, 0.6, 1.0$\%}}{66}{figure.caption.49}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Scenario 1}}{67}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Scenario 2}}{68}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Scenario 3}}{69}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces \relax }}{70}{figure.caption.53}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces \relax }}{71}{figure.caption.54}%
 \addvspace {10\p@ }
 \contentsfinish 
