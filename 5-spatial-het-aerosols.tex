@@ -276,11 +276,11 @@ We have shown that emissions spatial heterogeneity alters the aerosol compositio
 
 Here, we group particles by critical saturation into CCN that activate at the following supersaturation levels:  $S=0.1, 0.3, 0.6, 1.0\%$. CCN concentrations at each supersaturation level are determined in the following manner. First, the critical supersaturation $S_c$ is determined for each particle by using a root finding algorithm to solve for the critical point of the supersaturation curve $S(D_p, \kappa)$ of $\kappa$-Köhler theory \cite{petters_single_2007}. Particles are then grouped by supersaturation ($0.1, 0.3, 0.6, 1.0\%$) required for activation in a cumulative manner (i.e., particles activating at $S=0.3\%$ are included in bins for $S=0.5\%$ and higher supersaturations as they will activate at any supersaturation higher than $S=0.3\%$). Subsequently, the concentration of CCN at each supersaturation level is determined for each grid cell. 
 
-Figure \ref{fig:ht-ccn-pdiff-s1} shows vertical profiles for each emissions scenario of CCN that activate at supersaturations $S=0.1, 0.3, 0.6, 1.0\%$. Each vertical profile displays the level-averaged mixing ratio in ppbv of particles that would act as CCN at each supersaturation level (note, environmental conditions do not exceed 100\% RH at any point or time in each simulation).  For $S=0.1\%$, we find that CCN concentrations decrease with increasing $SH$ in the lower boundary layer. In the middle to upper boundary layer, the opposite trend is observed, with CCN concentrations increasing as emissions $SH$ increases. This increase is most pronounced at the top of the PBL ($z\sim 1.25$ km), where CCN concentrations reach nearly 1.2 ppbv for scenario 3 compared to 1.0 ppbv in the uniform base case. Increases in CCN concentrations due to increasing emissions $SH$ are observed everywhere in the PBL for $S=0.3\%$, with concentrations again peaking near the top of the boundary layer. For the highest $SH$ scenario, we find CCN concentrations exceed 3.5 ppbv, while in the uniform base case, CCN concentrations are a vertically uniform 2.8 ppbv. 
+Figure \ref{fig:ht-ccn-pdiff-s1} shows vertical profiles for each emissions scenario of CCN that activate at supersaturations $S=0.1, 0.3, 0.6, 1.0\%$. Each vertical profile is taken at time $t=6$ h and displays the level-averaged mixing ratio in ppbv of particles that would act as CCN at each supersaturation level (note, environmental conditions do not exceed 100\% RH at any point or time in each simulation).  
 
+For $S=0.1\%$, we find that CCN concentrations decrease with increasing $SH$ in the lower boundary layer. In the middle to upper boundary layer, the opposite trend is observed, with CCN concentrations increasing as emissions $SH$ increases. This increase is most pronounced at the top of the PBL ($z\sim 1.25$ km), where CCN concentrations reach nearly 1.2 ppbv for scenario 3 compared to 1.0 ppbv in the uniform base case. 
 
-
-
+Increases in CCN concentrations due to increasing emissions $SH$ are observed everywhere in the PBL for $S=0.3\%$, with concentrations again peaking near the top of the boundary layer. For the highest $SH$ scenario, we find CCN concentrations in the upper PBL exceed 3.5 ppbv, while in the uniform base case, CCN concentrations are a vertically uniform 2.8 ppbv. 
 
 \begin{figure}[!t]
   \centering
@@ -289,56 +289,78 @@ Figure \ref{fig:ht-ccn-pdiff-s1} shows vertical profiles for each emissions scen
     \label{fig:ht-ccn-pdiff-s1}
 \end{figure}
 
-\begin{itemize}
-\item Vertical profile of ccn conc at each supersaturation level
-%\item Vertical profile of ccn $\chi$, $D_{\alpha}$, $D_{\gamma}$
-\item time height plots of ccn \% error
-\item (potentially) some sort of box plot ccn error thing similar to what I showed at IAMA?
-\end{itemize}
+For $S=0.6\%$, we find that CCN concentrations in the lowest 500 m of the PBL for Scenarios 1--3 are slightly lower than in the uniform base case. In the middle to upper PBL, we find that the increases in $SH$ correspond to non-monotonic changes in CCN concentrations (i.e., CCN concentrations do not appear to increase with progressively higher $SH$ scenarios as found in the upper PBL for $S=0.1\%$ and $S=0.3\%$). Instead, CCN concentrations in the upper PBL for $S=0.6\%$ are highest for the mid-$SH$ scenario (scenario 2), followed by scenario 3, scenario 1, and the uniform base case. 
 
+For $S=1.0\%$ we also find a complex set of responses to CCN concentrations across emissions $SH$ scenarios. For low to mid-$SH$ scenarios 1 and 2, we find that CCN concentrations in the lowest $600$ m of the PBL closely align with the uniform base case. In the middle to upper boundary layer, scenarios 1 and 2 exhibit an increase in CCN concentrations relative to the uniform base case. We find that CCN concentrations for $S=1.0\%$ in the highest $SH$ scenario, scenario 3, are approximately uniform throughout the extent of the PBL at 4.4 ppbv, slightly less than the 4.6 ppbv observed for the uniform base case. 
 
-
-\newpage
-\begin{figure}[h]
+\begin{figure}[!t]
   \centering
     \includegraphics[width=\textwidth]{figures/chapter5/height-time-ccn-pdiff-fx1fy0.pdf}
-    \caption{Scenario 1}
+    \caption{Time-height plots for the percent difference between CCN concentrations in the uniform base case and scenario 1 for each supersaturation level. Red indicates an increase in CCN relative to the base case while blue indicates a decrease. Isopleths indicate lines of constant percent difference in increments of 5\%.}
     \label{fig:ht-ccn-pdiff-s1}
 \end{figure}
 
-\newpage
-\begin{figure}[h]
+Figure \ref{fig:ht-ccn-pdiff-s1} shows time-height plots for the percent difference of CCN concentrations in emissions scenario 1 relative to the uniform base case. Plots are shown for each supersaturation level ($S=0.1, 0.3, 0.6, 1.0\%$). Red indicates increases in CCN concentrations relative to the base case while blue indicates a decrease. To aid interpretability, isopleths indicating percent difference in steps of $5\%$ are shown on each figure. If no isopleths are present, this indicates that percent difference did not exceed $5\%$ anywhere or at any time between the emissions scenario CCN concentrations and the uniform base case. Percent difference is calculated as 
+\begin{equation}
+    \% \text{ difference} = 100\times\left(\frac{\overline{[\text{CCN}]}(t, z, S)_{\text{Scenario}} - \overline{[\text{CCN}]}(t, z, S)_{\text{Base case}}}{\overline{[\text{CCN}]}(t, z, S)_{\text{Base case}}}\right),
+\end{equation}
+where $\overline{[\text{CCN}]}(t, z,S)_{\text{Scenario}}$ is the horizontally averaged concentration of CCN at time $t$ and vertical level $z$ that activate at supersaturation $S$ for the given emissions scenario and $\overline{[\text{CCN}]}(t, z, S)_{\text{Base case}}$ is the horizontally averaged concentration of CCN at time $t$ and vertical level $z$ that activate at supersaturation $S$ for the uniform base case.
+
+Stepping through each supersaturation level, we find that at $S=0.1\%$, percent difference does not exceed 5\% at any point during the simulation. Slight spatial and temporal fluctuations are found in CCN concentrations, however, these do not appear to significantly depart from percent difference between scenario 1 and the uniform base case in the first hour of the simulation during which the configuration and spinup of each simulation is identical, indicating that internal variability due to stochastic noise is likely on the order of 1--2\%.
+
+For $S=0.3\%$, we find a slight increase in CCN concentrations beginning at $t=5$ h from $z\sim1.1$ km to $z\sim1.4$ km on the order of 5\%. Similarly for $S=0.6\%$ and $S=1.0\%$, we find that CCN concentrations increase in the upper PBL. At $S=0.6\%$ CCN concentrations increase up to 10\% by $t=5$ h. At $S=1.0\%$, we find similar behavior in the percent difference for $S=0.3\%$, with an increase in CCN concentrations the upper PBL of up to 5\%.
+
+\begin{figure}[!t]
   \centering
     \includegraphics[width=\textwidth]{figures/chapter5/height-time-ccn-pdiff-road-10x.pdf}
-    \caption{Scenario 2}
+    \caption{Time-height plots for the percent difference between CCN concentrations in the uniform base case and scenario 2 for each supersaturation level. Red indicates an increase in CCN relative to the base case while blue indicates a decrease. Isopleths indicate lines of constant percent difference in increments of 5\%.}
     \label{fig:ht-ccn-pdiff-s2}
 \end{figure}
 
-\newpage
-\begin{figure}[h]
+Figure \ref{fig:ht-ccn-pdiff-s2} shows time-height plots for percent difference in CCN concentrations at each supersaturation level between scenario 2 and the uniform base case. We find that for each supersaturation level, CCN concentrations increase in the upper PBL by at least 5\%. Additionally, the onset of increased CCN concentrations relative to the uniform base case is earlier than found for scenario 1 for each supersaturation level. 
+
+For $S=0.1\%$, we find that CCN concentrations in the upper PBL increase up to 5\% beginning at $t=4.5$ h. For $S=0.3\%$ and $S=0.6\%$, we find increases of up to 20\% with elevated concentrations relative to the uniform base case beginning at $t\sim3$ h and gradually increasing in the upper PBL through the remainder of each simulation. For $S=1.0\%$, CCN concentrations increase in a similar manner to those found for $S=0.1\%$ with concentrations increasing up to 5\% in the upper PBL. However, CCN concentrations increase earlier than in the lower supersaturation case, with elevated concentrations by 5\% in the upper PBL appearing around $t=2.5$ h.
+
+\begin{figure}[!t]
   \centering
     \includegraphics[width=\textwidth]{figures/chapter5/height-time-ccn-pdiff-point-source-1x1.pdf}
-    \caption{Scenario 3}
+    \caption{Time-height plots for the percent difference between CCN concentrations in the uniform base case and scenario 3 for each supersaturation level. Red indicates an increase in CCN relative to the base case while blue indicates a decrease. Isopleths indicate lines of constant percent difference in increments of 5\%.}
     \label{fig:ht-ccn-pdiff-s3}
 \end{figure}
 
+Figure \ref{fig:ht-ccn-pdiff-s3} displays time-height plots for percent difference in CCN concentrations at each supersaturation level between scenario 3 and the uniform base case. 
+Compared with scenarios 1 and 2, the trend of increasing CCN concentrations is much more vertically and temporally vaired, particularly for $S=0.3\%$ and $S=0.6\%$ where an increase in CCN concentrations begins in the upper PBL at $t=2$ h, extends downward throughout the vertical extent of the PBL by $t=3$ h, and moves back upwards towards the mid to upper PBL beginning at $t=4$ h. 
+
+For $S=0.1\%$, CCN concentrations increase by up to 20\% in the upper boundary layer by $t=5.5$ h. Beginning around $t=5$ h, CCN concentrations decrease by up to 5\% in the lowest 300 m of the domain. At $S=0.3\%$, CCN concentrations increase by up to 25\% in the upper PBL beginning at $t=5$ h. This is the highest magnitude CCN concentration percent difference observed for any supersaturation and across any emissions scenario. For $S=0.6\%$, CCN concentrations increase by 10--15\%, indicating a notable drop in the magnitude of elevated CCN concentrations when compared to scenario 2 results for $S=0.6\%$ shown in Figure \ref{fig:ht-ccn-pdiff-s2}. At $S=1.0\%$, we find a slight reduction in CCN concentrations by up to 5\% that starts near the surface at $t\sim4.5$ h and extends throughout the lower to middle PBL by $t=6$ h. 
+
 \subsection{Influence of ammonia on aerosol composition and CCN activity}
 
-\begin{figure}[h]
+We have shown that the composition of the aerosol population varies considerably with emissions spatial heterogeneity. Specifically, nitrate and ammonium are found to substantially increase as emissions $SH$ increases. Changes in the relative abundance of these species alters the hygroscopic properties of the aerosol resulting in an increased concentration of CCN at low supersaturations. 
+
+Sulfate and nitrate are both anions with charge -2 and -1, respectively, while ammonium is an cation with charge +1. In turn, ammonium plays an important role in neutralizing both sulfate and nitrate. Due to the extremely low volatility of H$_2$SO$_4$, it rapidly partitions into the aerosol phase where it dissociates into SO$_4^{-2}$. In turn, available ammonium will first neutralize sulfate by forming ammonium sulfate. Any remaining ammonium in excess of what is required to neutralized the sulfate, referred to as free ammonium, will bind to nitrate and thus form ammonium nitrate. Crucially, the abundance of free ammonium determines the concentration of nitrate in the aerosol phase; if no free ammonium is available then no nitrate will enter the aerosol, whereas the presence of free ammonium allows a one-to-one molar ratio of nitrate to ammonium in the form of ammonium nitrate.  
+
+Here, we run two additional modified simulations for the uniform base case and scenario 3 in which the concentration of total ammonium ($\text{NH}_{3\text{, gas}} + \text{NH}_{4\text{, aerosol}}$) is set to zero. Emissions of NH$_3$ are also set to zero to ensure that total ammonium remains zero throughout each simulation. These additional simulations help to isolate the impact of emissions spatial heterogeneity on aerosol composition and CCN activity in the absence of ammonium.  
+
+\begin{figure}[!t]
   \centering
     \includegraphics[width=\textwidth]{figures/chapter5/aerosol-SNA-vertical-profiles-no-nh4-cases-time36.pdf}
-    \caption{}
-    %\label{fig:ht-ccn-pdiff-s3}
+    \caption{Vertical profiles ($t=6$ h) for ammonium, nitrate, and sulfate comparing uniform base case and scenario 3 both with and without ammonium.}
+    \label{fig:vert-profiles-no-nh4}
 \end{figure}
 
-\begin{figure}[h]
+Figure \ref{fig:vert-profiles-no-nh4} shows vertical profiles at $t=6$ h for aerosol ammonium, nitrate, and sulfate concentrations in ppbv for four simulation runs: the uniform base case and scenario 3 as shown in previous sections and the same scenarios but without any ammonium present. Simulations with ammonium show that the uniform base case has slightly more ammonium in the lowest 500 m of the PBL, while scenario 3 has higher concentrations in excess of 2 ppbv in the middle to upper PBL. As a consistency check, the same scenarios without ammonium (uniform base case in green, scenario 3 in purple) indicate zero ammonium throughout the entire domain. We find that simulations without ammonium contain no nitrate, which is consistent with previous discussion of the availability of free ammonium in order to allow nitrate to enter the aerosol phase. Without ammonium present, sulfate concentrations increase for both the uniform base case (4.9 ppbv to 6.1 ppbv) and scenario 3 (4.6 ppbv to 5.9 ppbv).
+
+\begin{figure}[!t]
   \centering
     \includegraphics[width=\textwidth]{figures/chapter5/aerosol-ccn-vertical-profiles-no-nh4-cases-time36.pdf}
-    \caption{}
-    %\label{fig:ht-ccn-pdiff-s3}
+    \caption{Vertical profiles ($t = 6$ h) for CCN concentrations at supersaturations S = 0.1, 0.3, 0.6, 1.0\% for the uniform base case and scenario 3 with and without ammonium.}
+    \label{fig:vert-profiles-ccn-no-nh4}
 \end{figure}
 
-\section{Discussion}
+\hl{note that the CCN mixing ratios are large (1e18) since these are number concentrations.. need to modify mentions of concentration values!}
+Figure \ref{fig:vert-profiles-ccn-no-nh4} shows vertical profiles of CCN concentrations at $t=6$ h for each supersaturation level (S = 0.1, 0.3, 0.6, 1.0\%) for both the uniform base case and emissions scenario 3 with and without ammonium. We find that in the absence of ammonium, concentrations of CCN at each supersaturation level agree closely across the uniform base case and scenario 3. For $S=0.1\%$, we find that CCN concentrations in scenario 3 (no ammonium) are a constant factor of 0.02 ppbv less than in the uniform base case (no ammonium). At $S=0.3\%$, CCN concentrations across both scenarios are virtually identical to within random variability. For $S=0.6\%$, the no-ammonium scenario 3 has a relatively constant factor of 0.1 ppbv less CCN than the no-ammonium uniform base case. We find a similar relationship for $S=1.0\%$ with a constant factor of 0.5 ppbv fewer CCN in the ammonium-free scenario 3 case. 
+
+\section{Implications}
 Non-linear coupling between emissions $SH$ and CCN activity, mediated by the presence of nitrate and contingent on the availability of free ammonium to allow partitioning of nitrate into the aerosol phase.
 
 
