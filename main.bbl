@@ -19,6 +19,54 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{albrecht_aerosols_1989}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1cde21444721e5acff14516cd8a0352}{%
+           family={Albrecht},
+           familyi={A\bibinitperiod},
+           given={Bruce\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a1cde21444721e5acff14516cd8a0352}
+      \strng{fullhash}{a1cde21444721e5acff14516cd8a0352}
+      \strng{bibnamehash}{a1cde21444721e5acff14516cd8a0352}
+      \strng{authorbibnamehash}{a1cde21444721e5acff14516cd8a0352}
+      \strng{authornamehash}{a1cde21444721e5acff14516cd8a0352}
+      \strng{authorfullhash}{a1cde21444721e5acff14516cd8a0352}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Increases in aerosol concentrations over the oceans may increase the amount of low-level cloudiness through a reduction in drizzle—a process that regulates the liquid-water content and the energetics of shallow marine clouds. The resulting increase in the global albedo would be in addition to the increase due to enhancement in reflectivity associated with a decrease in droplet size and would contribute to a cooling of the earth's surface.}
+      \field{journaltitle}{Science}
+      \field{month}{9}
+      \field{note}{Publisher: American Association for the Advancement of Science}
+      \field{number}{4923}
+      \field{title}{Aerosols, {Cloud} {Microphysics}, and {Fractional} {Cloudiness}}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{245}
+      \field{year}{1989}
+      \field{urldateera}{ce}
+      \field{pages}{1227\bibrangedash 1230}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.245.4923.1227
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/49M27P8G/Albrecht - 1989 - Aerosols, Cloud Microphysics, and Fractional Cloud.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www-science-org.proxy2.library.illinois.edu/doi/10.1126/science.245.4923.1227
+      \endverb
+      \verb{url}
+      \verb https://www-science-org.proxy2.library.illinois.edu/doi/10.1126/science.245.4923.1227
+      \endverb
+    \endentry
     \entry{auger_chemical_2007}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=13df2131330717b0675f3c9c3eb6093e}{%
@@ -76,6 +124,146 @@
       \verb https://www.sciencedirect.com/science/article/pii/S1352231006011319
       \endverb
       \keyw{Turbulence,LES,To read,Atmospheric chemistry,Boundary layer,Segregation,Thesis}
+    \endentry
+    \entry{charlson_climate_1969}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=70fbda854ad1ad03b22ef6240c790dc5}{%
+           family={Charlson},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8fc7a7cafcd6edc95275b8f31c077e42}{%
+           family={Pilat},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{da1faedd82e4212b278c15521e60801e}
+      \strng{fullhash}{da1faedd82e4212b278c15521e60801e}
+      \strng{bibnamehash}{da1faedd82e4212b278c15521e60801e}
+      \strng{authorbibnamehash}{da1faedd82e4212b278c15521e60801e}
+      \strng{authornamehash}{da1faedd82e4212b278c15521e60801e}
+      \strng{authorfullhash}{da1faedd82e4212b278c15521e60801e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract}
+      \field{issn}{1520-0450}
+      \field{journaltitle}{Journal of Applied Meteorology and Climatology}
+      \field{month}{12}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of Applied Meteorology and Climatology}
+      \field{number}{6}
+      \field{shorttitle}{Climate}
+      \field{title}{Climate: {The} {Influence} of {Aerosols}}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{8}
+      \field{year}{1969}
+      \field{urldateera}{ce}
+      \field{pages}{1001\bibrangedash 1002}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1175/1520-0450(1969)008<1001:CTIOA>2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/5W77VSWF/Charlson and Pilat - 1969 - Climate The Influence of Aerosols.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/apme/8/6/1520-0450_1969_008_1001_ctioa_2_0_co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/apme/8/6/1520-0450_1969_008_1001_ctioa_2_0_co_2.xml
+      \endverb
+    \endentry
+    \entry{charlson_climate_1992}{article}{}
+      \name{author}{7}{ul=2}{%
+        {{un=0,uniquepart=base,hash=70fbda854ad1ad03b22ef6240c790dc5}{%
+           family={Charlson},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=92bcd7f78dee8a5ae7ee6883d7f372f2}{%
+           family={Schwartz},
+           familyi={S\bibinitperiod},
+           given={S.\bibnamedelimi E.},
+           giveni={S\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=396e164a3e52e83e0a68b17af850b1c7}{%
+           family={Hales},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ce7b1bc3a369ab56dffe3e6f869863c0}{%
+           family={Cess},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27618281b9ca3b2189b0e4b76d70c241}{%
+           family={Coakley},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi A.},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7d065656635eaad41449ce21f792e293}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b2ccd39ba688cf0f2a172936f797f65c}{%
+           family={Hofmann},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b37768d674fb9e032449fd61ad1ba427}
+      \strng{fullhash}{cd262414996dc25bfb5fff1c25bc6b88}
+      \strng{bibnamehash}{b37768d674fb9e032449fd61ad1ba427}
+      \strng{authorbibnamehash}{b37768d674fb9e032449fd61ad1ba427}
+      \strng{authornamehash}{b37768d674fb9e032449fd61ad1ba427}
+      \strng{authorfullhash}{cd262414996dc25bfb5fff1c25bc6b88}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although long considered to be of marginal importance to global climate change, tropospheric aerosol contributes substantially to radiative forcing, and anthropogenic sulfate aerosol in particular has imposed a major perturbation to this forcing. Both the direct scattering of short-wavelength solar radiation and the modification of the shortwave reflective properties of clouds by sulfate aerosol particles increase planetary albedo, thereby exerting a cooling influence on the planet. Current climate forcing due to anthropogenic sulfate is estimated to be -1 to -2 watts per square meter, globally averaged. This perturbation is comparable in magnitude to current anthropogenic greenhouse gas forcing but opposite in sign. Thus, the aerosol forcing has likely offset global greenhouse warming to a substantial degree. However, differences in geographical and seasonal distributions of these forcings preclude any simple compensation. Aerosol effects must be taken into account in evaluating anthropogenic influences on past, current, and projected future climate and in formulating policy regarding controls on emission of greenhouse gases and sulfur dioxide. Resolution of such policy issues requires integrated research on the magnitude and geographical distribution of aerosol climate forcing and on the controlling chemical and physical processes.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{note}{Publisher: American Association for the Advancement of Science}
+      \field{number}{5043}
+      \field{title}{Climate {Forcing} by {Anthropogenic} {Aerosols}}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{255}
+      \field{year}{1992}
+      \field{urldateera}{ce}
+      \field{pages}{423\bibrangedash 430}
+      \range{pages}{8}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/sf20/Zotero/storage/DKU4M2ZL/Charlson et al. - 1992 - Climate Forcing by Anthropogenic Aerosols.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/2876009
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/2876009
+      \endverb
     \endentry
     \entry{cooper_quantifying_1997}{article}{}
       \name{author}{5}{}{%
@@ -464,6 +652,78 @@
       \endverb
       \keyw{Thesis}
     \endentry
+    \entry{fan_review_2016}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=433ecdecf407103a826dfd19dbb32a6f}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Jiwen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ada4bcdae17a026fd90c53ac3c8b89b}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95703b548cbd9708e5d253aa5266cdf7}{%
+           family={Rosenfeld},
+           familyi={R\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=163b6ada3d03b7a9c8ff77f957ba0c28}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaohong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{3e5e58da554f2a80ee51107bda19d6b9}
+      \strng{fullhash}{30300e8cf8df33c52e0881a394c0ee46}
+      \strng{bibnamehash}{3e5e58da554f2a80ee51107bda19d6b9}
+      \strng{authorbibnamehash}{3e5e58da554f2a80ee51107bda19d6b9}
+      \strng{authornamehash}{3e5e58da554f2a80ee51107bda19d6b9}
+      \strng{authorfullhash}{30300e8cf8df33c52e0881a394c0ee46}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract Over the past decade, the number of studies that investigate aerosol–cloud interactions has increased considerably. Although tremendous progress has been made to improve the understanding of basic physical mechanisms of aerosol–cloud interactions and reduce their uncertainties in climate forcing, there is still poor understanding of 1) some of the mechanisms that interact with each other over multiple spatial and temporal scales, 2) the feedbacks between microphysical and dynamical processes and between local-scale processes and large-scale circulations, and 3) the significance of cloud–aerosol interactions on weather systems as well as regional and global climate. This review focuses on recent theoretical studies and important mechanisms on aerosol–cloud interactions and discusses the significances of aerosol impacts on radiative forcing and precipitation extremes associated with different cloud systems. The authors summarize the main obstacles preventing the science from making a leap—for example, the lack of concurrent profile measurements of cloud dynamics, microphysics, and aerosols over a wide region on the observation side and the large variability of cloud microphysics parameterizations resulting in a large spread of modeling results on the modeling side. Therefore, large efforts are needed to escalate understanding. Future directions should focus on obtaining concurrent measurements of aerosol properties and cloud microphysical and dynamic properties over a range of temporal and spatial scales collected over typical climate regimes and closure studies, as well as improving understanding and parameterizations of cloud microphysics such as ice nucleation, mixed-phase properties, and hydrometeor size and fall speed.}
+      \field{issn}{0022-4928, 1520-0469}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{month}{11}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of the Atmospheric Sciences}
+      \field{number}{11}
+      \field{shorttitle}{Review of {Aerosol}–{Cloud} {Interactions}}
+      \field{title}{Review of {Aerosol}–{Cloud} {Interactions}: {Mechanisms}, {Significance}, and {Challenges}}
+      \field{urlday}{14}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{73}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{4221\bibrangedash 4252}
+      \range{pages}{32}
+      \verb{doi}
+      \verb 10.1175/JAS-D-16-0037.1
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/7QCUS9UH/Fan et al. - 2016 - Review of Aerosol–Cloud Interactions Mechanisms, .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/atsc/73/11/jas-d-16-0037.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/atsc/73/11/jas-d-16-0037.1.xml
+      \endverb
+      \keyw{Thesis}
+    \endentry
     \entry{fast_impact_2019}{article}{}
       \name{author}{7}{}{%
         {{un=0,uniquepart=base,hash=7cb44e4ec53546ae1bb2deb1ffd1ebb1}{%
@@ -551,6 +811,210 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2019MS001727
       \endverb
       \keyw{convective clouds,land-atmosphere coupling,LES model,soil moisture,Thesis}
+    \endentry
+    \entry{ipcc_report_2021}{inbook}{}
+      \name{author}{12}{}{%
+        {{un=0,uniquepart=base,hash=83ba2e9a516335da912b16c3bb60d42c}{%
+           family={Forster},
+           familyi={F\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16bc27448b8099ffb3c8879f0d10163d}{%
+           family={Storelvmo},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c77f549e54480317deacc693b8c03038}{%
+           family={Armour},
+           familyi={A\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e641ecea654571841bd253ad8f07120a}{%
+           family={Collins},
+           familyi={C\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b8d50c57dd854b44a0903e63b6fb3a4}{%
+           family={Dufresne},
+           familyi={D\bibinitperiod},
+           given={J.-L.},
+           giveni={J\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f48c268972dc53e99d820b937da3df03}{%
+           family={Frame},
+           familyi={F\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f9193d835af72d75924e41d3650f7edd}{%
+           family={Lunt},
+           familyi={L\bibinitperiod},
+           given={D.J.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=614da4e5647d9d5dcd9029c0c8ff6237}{%
+           family={Mauritsen},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1bdc69704609ada05a62c07d8dc8581f}{%
+           family={Palmer},
+           familyi={P\bibinitperiod},
+           given={M.D.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3b72eae9099dcaa667d7aada8e9438e}{%
+           family={Watanabe},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3d328c866b90dbc39680fe68f350dde6}{%
+           family={Wild},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=32e563370422457790db030ab2c13183}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{19}{}{%
+        {{hash=9baa057cd134125664b0d07a362c0c27}{%
+           family={Masson-Delmotte},
+           familyi={M\bibinithyphendelim D\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=40e4e4701c79f538faae3e65611d1446}{%
+           family={Zhai},
+           familyi={Z\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0b00e20006587972fceede350c638b42}{%
+           family={Pirani},
+           familyi={P\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9a6c45169a610a8ffdc387702efeb052}{%
+           family={Connors},
+           familyi={C\bibinitperiod},
+           given={S.L.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=48c5f37dceaddd9cf56ef0b12499dc10}{%
+           family={Péan},
+           familyi={P\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=8f23d1e458061338a4b3850c212d4de2}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a4d4621930b6f22890632603ae890f34}{%
+           family={Caud},
+           familyi={C\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=cde2bee81704818f8cf1123a8b23862b}{%
+           family={Goldfarb},
+           familyi={G\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=2710a6ca48852cb497ef1bce2e9584d4}{%
+           family={Gomis},
+           familyi={G\bibinitperiod},
+           given={M.I.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=adbd0ac1cc513e30d814f59ea619661d}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5eace0bb473468ade5639564dd5474f8}{%
+           family={Leitzell},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=4abde0bdb5fd609407bb66794b1d0d9d}{%
+           family={Lonnoy},
+           familyi={L\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=bb504a678251010fed056a4f8779e6a2}{%
+           family={Matthews},
+           familyi={M\bibinitperiod},
+           given={J.B.R.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=5b9cccbf161ba9f2126df9b5fa823e0a}{%
+           family={Maycock},
+           familyi={M\bibinitperiod},
+           given={T.K.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=0914370d501f327d27b7b17a5c41585a}{%
+           family={Waterfield},
+           familyi={W\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=850f35f25cf63a5344362abae08e9ab9}{%
+           family={Yelekçi},
+           familyi={Y\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod}}}%
+        {{hash=05ed76149e148fca98e6c03495426736}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4c178bbd5267e4fefacd4e0234a0688a}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{location}{2}{%
+        {Cambridge, United Kingdom}%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{2c832f71cf93aa41fa7b28445a0665b8}
+      \strng{fullhash}{8bc888e4a18c0a378c6d088a89604619}
+      \strng{bibnamehash}{2c832f71cf93aa41fa7b28445a0665b8}
+      \strng{authorbibnamehash}{2c832f71cf93aa41fa7b28445a0665b8}
+      \strng{authornamehash}{2c832f71cf93aa41fa7b28445a0665b8}
+      \strng{authorfullhash}{8bc888e4a18c0a378c6d088a89604619}
+      \strng{editorbibnamehash}{9d0cdbc1cfe10ab399782fa7fcfc1b49}
+      \strng{editornamehash}{9d0cdbc1cfe10ab399782fa7fcfc1b49}
+      \strng{editorfullhash}{9914da6e4099e9ecdd8aa4c27a28b867}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Climate Change 2021: The Physical Science Basis. Contribution of Working Group I to the Sixth Assessment Report of the Intergovernmental Panel on Climate Change}
+      \field{title}{The Earth’s Energy Budget, Climate Feedbacks, and Climate Sensitivity}
+      \field{type}{Book Section}
+      \field{year}{2021}
+      \field{pages}{923\bibrangedash 1054}
+      \range{pages}{132}
+      \verb{doi}
+      \verb 10.1017/9781009157896.009
+      \endverb
     \endentry
     \entry{gillespie_exact_1975}{article}{}
       \name{author}{1}{}{%
@@ -744,6 +1208,199 @@
       \verb{url}
       \verb https://asr.science.energy.gov/meetings/stm/presentations/2017/444.pdf
       \endverb
+    \endentry
+    \entry{lau_observational_2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0c455f511760e59269669b70229cd4f}{%
+           family={Lau},
+           familyi={L\bibinitperiod},
+           given={K.-M.},
+           giveni={K\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9fb6eec534906a58efbf72ac2e54b023}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={K.-M.},
+           giveni={K\bibinithyphendelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{a44e2874b6d882c12180d94916a80e67}
+      \strng{fullhash}{a44e2874b6d882c12180d94916a80e67}
+      \strng{bibnamehash}{a44e2874b6d882c12180d94916a80e67}
+      \strng{authorbibnamehash}{a44e2874b6d882c12180d94916a80e67}
+      \strng{authornamehash}{a44e2874b6d882c12180d94916a80e67}
+      \strng{authorfullhash}{a44e2874b6d882c12180d94916a80e67}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Preliminary observational evidences are presented showing that the Indian subcontinent and surrounding regions are subject to heavy loading of absorbing aerosols, i.e., dust and black carbon, which possess spatial and temporal variability that are closely linked to those of the Asian monsoon water cycle. Consistent with the Elevated Heat Pump hypothesis, we find that increased loading of absorbing aerosols over the Indo-Gangetic Plain in the pre-monsoon season is associated with a) increased heating of the upper troposphere, with the formation of a warm-core upper level anticyclone over the Tibetan Plateau in April–May, b) an advance of the monsoon rainy season in northern India in May, and c) subsequent increased rainfall over the Indian subcontinent, and decreased rainfall over East Asia in June–July.}
+      \field{issn}{1944-8007}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2006GL027546}
+      \field{number}{21}
+      \field{title}{Observational relationships between aerosol and {Asian} monsoon rainfall, and circulation}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{33}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1029/2006GL027546
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/9KLUTU8B/Lau and Kim - 2006 - Observational relationships between aerosol and As.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/BKYMDUT4/2006GL027546.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2006GL027546
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2006GL027546
+      \endverb
+      \keyw{aerosol,circulation,monsoon}
+    \endentry
+    \entry{li_scattering_2022}{article}{}
+      \name{author}{15}{}{%
+        {{un=1,uniquepart=given,hash=bcdd73174e26b44169c10e9083e72469}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=4c364612e67701e40ba33cadf5b38f65}{%
+           family={Carlson},
+           familyi={C\bibinitperiod},
+           given={Barbara\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a1f31951d4b4331a43422c36acab454}{%
+           family={Yung},
+           familyi={Y\bibinitperiod},
+           given={Yuk\bibnamedelima L.},
+           giveni={Y\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84c9ab860527af9df6b52685c0d80b11}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Daren},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4516acd3a1a7ee7f9cbec284834b113c}{%
+           family={Hansen},
+           familyi={H\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16f092238bacc856b31d5ad7e9c6f92a}{%
+           family={Penner},
+           familyi={P\bibinitperiod},
+           given={Joyce\bibnamedelima E.},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=650adf996c2e1c83bf4497d502667414}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Hong},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f38b2158b13637e1d96e0c9829531cb5}{%
+           family={Ramaswamy},
+           familyi={R\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34d94429c9dd41d116d0b07f76dced6b}{%
+           family={Kahn},
+           familyi={K\bibinitperiod},
+           given={Ralph\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f189b293bd3263254702f8c5fe1d714b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Peng},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e9dbbf7eb99de77e62390a18f7264e6}{%
+           family={Dubovik},
+           familyi={D\bibinitperiod},
+           given={Oleg},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5a0da03a0410b354f595d2f08a595b21}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Aijun},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac6a8bb7ec9e8c9b81ea88038eeb6e8f}{%
+           family={Lacis},
+           familyi={L\bibinitperiod},
+           given={Andrew\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=da9f7c9885c62f90094bae30cd44886c}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Lu},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd86c87b35b9c954e8e8a0ac9990858a}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Yueming},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0797a8fa4ff947089a1c0b1996838ed7}
+      \strng{fullhash}{1ac824432d44c28531cb91f13f35a947}
+      \strng{bibnamehash}{0797a8fa4ff947089a1c0b1996838ed7}
+      \strng{authorbibnamehash}{0797a8fa4ff947089a1c0b1996838ed7}
+      \strng{authornamehash}{0797a8fa4ff947089a1c0b1996838ed7}
+      \strng{authorfullhash}{1ac824432d44c28531cb91f13f35a947}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Tropospheric anthropogenic aerosols contribute the second-largest forcing to climate change, but with high uncertainty owing to their spatio-temporal variability and complicated optical properties. In this Review, we synthesize understanding of aerosol observations and their radiative and climate effects. Aerosols offset about one-third of the warming effect by anthropogenic greenhouse gases. Yet, in regions and seasons where the absorbing aerosol fraction is high — such as South America and East and South Asia — substantial atmospheric warming can occur. The internal mixing and the vertical distribution of aerosols, which alters both the direct effect and aerosol–cloud interactions, might further enhance this warming. Despite extensive research in aerosol–cloud interactions, there is still at least a 50\% spread in total aerosol forcing estimates. This ongoing uncertainty is linked, in part, to the poor measurement of anthropogenic and natural aerosol absorption, as well as the little-understood effects of aerosols on clouds. Next-generation, space-borne, multi-angle polarization and active remote sensing, combined with in situ observations, offer opportunities to better constrain aerosol scattering, absorption and size distribution, thus, improving models to refine estimates of aerosol forcing and climate effects.}
+      \field{issn}{2662-138X}
+      \field{journaltitle}{Nature Reviews Earth \& Environment}
+      \field{month}{6}
+      \field{note}{Publisher: Nature Publishing Group}
+      \field{number}{6}
+      \field{title}{Scattering and absorbing aerosols in the climate system}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{3}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{363\bibrangedash 379}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1038/s43017-022-00296-7
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/XAQP7QMU/Li et al. - 2022 - Scattering and absorbing aerosols in the climate s.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.nature.com/articles/s43017-022-00296-7
+      \endverb
+      \verb{url}
+      \verb https://www.nature.com/articles/s43017-022-00296-7
+      \endverb
+      \keyw{Atmospheric chemistry,Attribution}
     \endentry
     \entry{loke_measuring_2022}{article}{}
       \name{author}{2}{}{%
@@ -1642,6 +2299,58 @@
       \endverb
       \keyw{cloud,GOES,land atmosphere interaction,land cover,secondary circulations,shallow cumulus,surface heat flux,Thesis}
     \endentry
+    \entry{twomey_influence_1977}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=18c060504a02a9521115cfd51be1a61a}{%
+           family={Twomey},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{18c060504a02a9521115cfd51be1a61a}
+      \strng{fullhash}{18c060504a02a9521115cfd51be1a61a}
+      \strng{bibnamehash}{18c060504a02a9521115cfd51be1a61a}
+      \strng{authorbibnamehash}{18c060504a02a9521115cfd51be1a61a}
+      \strng{authornamehash}{18c060504a02a9521115cfd51be1a61a}
+      \strng{authorfullhash}{18c060504a02a9521115cfd51be1a61a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By increasing droplet concentration and thereby the optical thickness of a cloud, pollution acts to increase the reflectance (albedo) of clouds; by increasing the absorption coefficient it acts to decrease the reflectance. Calculations suggest that the former effect (brightening of the clouds in reflection, hence climatically a cooling effect) dominates for thin to moderately thick clouds, whereas for sufficiently thick clouds the latter effect (climatically a warming effect) can become dominant.}
+      \field{issn}{0022-4928, 1520-0469}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{month}{7}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of the Atmospheric Sciences}
+      \field{number}{7}
+      \field{title}{The {Influence} of {Pollution} on the {Shortwave} {Albedo} of {Clouds}}
+      \field{urlday}{17}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{34}
+      \field{year}{1977}
+      \field{urldateera}{ce}
+      \field{pages}{1149\bibrangedash 1152}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1175/1520-0469(1977)034<1149:TIOPOT>2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/PHNBGYML/Twomey - 1977 - The Influence of Pollution on the Shortwave Albedo.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/atsc/34/7/1520-0469_1977_034_1149_tiopot_2_0_co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/atsc/34/7/1520-0469_1977_034_1149_tiopot_2_0_co_2.xml
+      \endverb
+    \endentry
     \entry{vinuesa_fluxes_2003}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=37ea2b989d9b0a8e8be501a37a7722b2}{%
@@ -1890,12 +2599,12 @@
            given={Domingo},
            giveni={D\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=dfeafc1b641d0cb87d188a267ded0699}{%
+        {{un=1,uniquepart=given,hash=dfeafc1b641d0cb87d188a267ded0699}{%
            family={Li},
            familyi={L\bibinitperiod},
            given={Cathy\bibnamedelimb W.\bibnamedelimi Y.},
            giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Y\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
         {{un=0,uniquepart=base,hash=886e68547626a3ed3dbf5b835ab98624}{%
            family={Barth},
            familyi={B\bibinitperiod},
