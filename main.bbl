@@ -602,6 +602,102 @@
       \verb https://doi.org/10.1007/BF00119502
       \endverb
     \endentry
+    \entry{dlugi_balances_2014}{article}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=6bf5de65d034634e806cf6056d3e4969}{%
+           family={Dlugi},
+           familyi={D\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8137c2a0174eaedef4c2a34cfb761f1b}{%
+           family={Berger},
+           familyi={B\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e0119845deab6e12631d7cc62fb2206e}{%
+           family={Zelger},
+           familyi={Z\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fe85800311e699cbffccd657005fe20}{%
+           family={Hofzumahaus},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4061958b50a093762d790ee6bfbc7b5f}{%
+           family={Rohrer},
+           familyi={R\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=10f16d7d2133637610e90fc83848e943}{%
+           family={Holland},
+           familyi={H\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59b65bba8a6ce01a33cf6c42127c6e1b}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1008e1cceb19d3b755c8a37f769a847b}{%
+           family={Kramm},
+           familyi={K\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{bf8d6cabdca3df929447021c0742c5c6}
+      \strng{fullhash}{7ab8966f0d2addeb4b9fee505c750221}
+      \strng{bibnamehash}{bf8d6cabdca3df929447021c0742c5c6}
+      \strng{authorbibnamehash}{bf8d6cabdca3df929447021c0742c5c6}
+      \strng{authornamehash}{bf8d6cabdca3df929447021c0742c5c6}
+      \strng{authorfullhash}{7ab8966f0d2addeb4b9fee505c750221}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{An inhomogeneous mixing of reactants causes a reduction of their chemical removal compared to the homogeneously mixed case in turbulent atmospheric flows. This can be described by the intensity of segregation IS being the covariance of the mixing ratios of two species divided by the product of their means. Both terms appear in the balance equation of the mixing ratio and are discussed for the reaction between isoprene and OH for data of the field study ECHO 2003 above a deciduous forest. For most of these data, IS is negatively correlated with the fraction of mean OH mixing ratio reacting with isoprene. IS is also negatively correlated with the isoprene standard deviation. Both findings agree with model results discussed by Patton et al. (2001) and others. The correlation coefficient between OH and isoprene and, therefore, IS increases with increasing mean reaction rate. In addition, the balance equation of the covariance between isoprene and OH is applied as the theoretical framework for the analysis of the same field data. The storage term is small, and, therefore, a diagnostic equation for this covariance can be derived. The chemical reaction term Rij is dominated by the variance of isoprene times the quotient of mixing ratios of OH and isoprene. Based on these findings a new diagnostic equation for IS is formulated. Comparing different terms of this equation, IS and Rij show a relation also to the normalised isoprene standard deviation. It is shown that not only chemistry but also turbulent and convective mixing and advection – considered in a residual term – influence IS. Despite this finding, a detection of the influence of coherent eddy transport above the forest according to Katul et al. (1997) on IS fails, but a relation to the turbulent and advective transport of isoprene variance is determined. The largest values of IS are found for most unstable conditions with increasing buoyant production, confirming qualitatively model predictions by Ouwersloot et al. (2011).}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{9}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{18}
+      \field{shorttitle}{The balances of mixing ratios and segregation intensity}
+      \field{title}{The balances of mixing ratios and segregation intensity: a case study from the field ({ECHO} 2003)}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{14}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{10333\bibrangedash 10362}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.5194/acp-14-10333-2014
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/2Y4JCV9W/Dlugi et al. - 2014 - The balances of mixing ratios and segregation inte.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/14/10333/2014/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/14/10333/2014/
+      \endverb
+      \keyw{Thesis}
+    \endentry
     \entry{dong_lacunarity_2000}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=bcad8ee16167c8b7fee692250b63d6ae}{%
@@ -1068,6 +1164,70 @@
       \verb https://journals-ametsoc-org.proxy2.library.illinois.edu/view/journals/atsc/32/10/1520-0469_1975_032_1977_aemfns_2_0_co_2.xml
       \endverb
     \endentry
+    \entry{kim_impact_2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=c23bf43de54a6b7148f0fd9de7b0b865}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={S.-W.},
+           giveni={S\bibinithyphendelim W\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=fec7fdbe66e235b26ea449650d0244b6}{%
+           family={Barth},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=bf082cd128b5c69abc7efb52f9e45c0d}{%
+           family={Trainer},
+           familyi={T\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{48124b057e4a0522fcc9410f698c0d2b}
+      \strng{fullhash}{48124b057e4a0522fcc9410f698c0d2b}
+      \strng{bibnamehash}{48124b057e4a0522fcc9410f698c0d2b}
+      \strng{authorbibnamehash}{48124b057e4a0522fcc9410f698c0d2b}
+      \strng{authornamehash}{48124b057e4a0522fcc9410f698c0d2b}
+      \strng{authorfullhash}{48124b057e4a0522fcc9410f698c0d2b}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Isoprene, a volatile organic compound that is mainly emitted from trees, rapidly reacts with hydroxyl radical (OH) during daytime and subsequently forms ozone and aerosols in the troposphere. The isoprene-OH reaction can be affected by the interplay between chemistry and mixing because the two processes occur at a similar time scale. We investigate the impact of turbulent mixing on isoprene-OH reactivity with large eddy simulations (LES) coupled with comprehensive chemistry. Our results show that the covariance of isoprene and OH causes 20\% decrease to 10\% increase of the horizontal average reaction rate, depending on nitrogen oxides (NOx = NO + NO2) abundances, compared to the rate that neglects the covariance. This wide range of effects on reaction rates is caused by the primary production and loss reactions of OH in each NOx regime. Our research promotes the use of LES for better understanding the role of turbulence in isoprene-OH reaction and parameterizations in large-scale models.}
+      \field{issn}{1944-8007}
+      \field{journaltitle}{Geophysical Research Letters}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/2016GL069752}
+      \field{number}{14}
+      \field{title}{Impact of turbulent mixing on isoprene chemistry}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{43}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{7701\bibrangedash 7708}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1002/2016GL069752
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/ZIRSK8C7/Kim et al. - 2016 - Impact of turbulent mixing on isoprene chemistry.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/LPVZHBUD/2016GL069752.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/2016GL069752
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/2016GL069752
+      \endverb
+      \keyw{cloud,turbulence,LES,To read,hydroxyl radical,isoprene,NOx,Thesis}
+    \endentry
     \entry{kohler_nucleus_1936}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=1a4d1c99d1d73e270eaa695861295be4}{%
@@ -1164,6 +1324,73 @@
       \verb https://www.jstor.org/stable/51980
       \endverb
     \endentry
+    \entry{komori_effects_1991}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=aeafe84cff9981472d3f87a392194a34}{%
+           family={Komori},
+           familyi={K\bibinitperiod},
+           given={Satoru},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f90569cf41d5f6c2aeec1618b45727a3}{%
+           family={Hunt},
+           familyi={H\bibinitperiod},
+           given={J.\bibnamedelimi C.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=03172ec6c250529f751bf3f52baedd40}{%
+           family={Kanzaki},
+           familyi={K\bibinitperiod},
+           given={Takao},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59a4dee075789130108e1aa4404ad2c3}{%
+           family={Murakami},
+           familyi={M\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{01a46771f427b296cc092204be7fc9c5}
+      \strng{fullhash}{ce16f0e2a33931b624adca38a615afdd}
+      \strng{bibnamehash}{01a46771f427b296cc092204be7fc9c5}
+      \strng{authorbibnamehash}{01a46771f427b296cc092204be7fc9c5}
+      \strng{authornamehash}{01a46771f427b296cc092204be7fc9c5}
+      \strng{authorfullhash}{ce16f0e2a33931b624adca38a615afdd}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{When two species A and B are introduced through different parts of the bounding surface into a region of turbulent flow, molecules of A and B are brought together by the combined actions of the turbulent velocity field and molecular diffusion. A random flight model is developed to simulate the relative motion of pairs of fluid elements and random motions of the molecules, based on the models of Durbin (1980) and Sawford \& Hunt (1986). The model is used to estimate the cross-correlation between fluctuating concentrations of A and B, \${\textbackslash}overline\{c\_Ac\_B\}\$, at a point, in non-premixed homogeneous turbulence with a moderately fast or slow second-order chemical reaction. The correlation indicates the effects of turbulent and molecular mixing on the mean chemical reaction rate, and it is commonly expressed as the ‘segregation’ or ‘unmixedness’ parameter \${\textbackslash}alpha(={\textbackslash}overline\{c\_Ac\_B\}/{\textbackslash}overline\{C\}\_A{\textbackslash}overline\{C\}\_B) \$ when normalized by the mean concentrations \${\textbackslash}overline\{C\}\_A\$ and \${\textbackslash}overline\{C\}\_B\$. It is found that α increases from near −1 to zero with the time (or distance) from the moment (or location) of release of two species in high-Reynolds-number flow. Also, the model (and experiments) agrees with the exact results of Danckwerts (1952) that \${\textbackslash}overline\{c\_Ac\_B\}/({\textbackslash}overline\{c{\textasciicircum}2\_A\}{\textbackslash}overline\{c{\textasciicircum}2\_B\}){\textasciicircum}\{{\textbackslash}frac\{1\}\{2\}\} = -1\$ for mixing without reaction. The model is then extended to account for the effects on the segregation parameter α of chemical reactions between A and B. This leads to α eventually decreasing, depending on the relative timescales for turbulent mixing and for chemical reaction (i.e. the Damköhler number). The model also indicates how a number of other parameters such as the turbulent scales, the Schmidt number, the ratio of initial concentrations of two reactants and the mean shear affect the segregation parameter α.The model explains the measurements of α in previously published studies by ourselves and other authors, for mixing with and without reactions, provided that the reaction rate is not very fast. Also the model is only strictly applicable for a limited mixing time t, such that t [lsim ] TL where TL is the Lagrangian timescale, because the model requires that the interface between A and B is effectively continuous and thin, even if highly convoluted. Flow visualization results are presented, which are consistent with the physical idea underlying the two-particle model.}
+      \field{issn}{1469-7645, 0022-1120}
+      \field{journaltitle}{Journal of Fluid Mechanics}
+      \field{month}{7}
+      \field{note}{Publisher: Cambridge University Press}
+      \field{title}{The effects of turbulent mixing on the correlation between two species and on concentration fluctuations in non-premixed reacting flows}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{228}
+      \field{year}{1991}
+      \field{urldateera}{ce}
+      \field{pages}{629\bibrangedash 659}
+      \range{pages}{31}
+      \verb{doi}
+      \verb 10.1017/S0022112091002847
+      \endverb
+      \verb{urlraw}
+      \verb https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/effects-of-turbulent-mixing-on-the-correlation-between-two-species-and-on-concentration-fluctuations-in-nonpremixed-reacting-flows/598B9E2383C0F90690090A298E60FD5F
+      \endverb
+      \verb{url}
+      \verb https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/abs/effects-of-turbulent-mixing-on-the-correlation-between-two-species-and-on-concentration-fluctuations-in-nonpremixed-reacting-flows/598B9E2383C0F90690090A298E60FD5F
+      \endverb
+      \keyw{Thesis}
+    \endentry
     \entry{kotamarthi_and_2017}{misc}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=57111d723821134da2f72d221f1a6860}{%
@@ -1209,6 +1436,73 @@
       \verb https://asr.science.energy.gov/meetings/stm/presentations/2017/444.pdf
       \endverb
     \endentry
+    \entry{krol_effects_2000}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=274427527e050541c1c8e639304bd21a}{%
+           family={Krol},
+           familyi={K\bibinitperiod},
+           given={Maarten\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f50626e71acae2c3260fdaa0a1edb56d}{%
+           family={Molemaker},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi Jeroen},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=9516e68d83b1de9490f5cbc40b436f77}{%
+           family={Arellano},
+           familyi={A\bibinitperiod},
+           given={Jordi\bibnamedelimb Vilà\bibnamedelima Guerau},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=1,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{961538523341293f510a1092c27edd20}
+      \strng{fullhash}{961538523341293f510a1092c27edd20}
+      \strng{bibnamehash}{961538523341293f510a1092c27edd20}
+      \strng{authorbibnamehash}{961538523341293f510a1092c27edd20}
+      \strng{authornamehash}{961538523341293f510a1092c27edd20}
+      \strng{authorfullhash}{961538523341293f510a1092c27edd20}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Photochemistry is studied in a convective atmospheric boundary layer. The essential reactions that account for the ozone formation and depletion are included in the chemical mechanism which, as a consequence, contains a wide range of timescales. The turbulent reacting flow is modeled with a large-eddy simulation (LES) code. The deviations from chemical equilibrium that are caused by turbulent motions are investigated in terms of the intensity of segregation. For the studied cases it is found that the volume-averaged concentrations calculated with the LES code agree well with the concentrations calculated with a box model. The reaction rate between RH (a generic hydrocarbon emitted at the surface) and OH is most strongly affected (3\% slower than in the box model). However, if RH is emitted nonuniformly at the surface, or if the RH-OH reaction rate is increased, the volume-averaged RH destruction by OH may be slowed down by as much as 30\% compared to a box model. Sensitivity studies showed that the intensity of segregation between RH and OH not only depends on the strength and spatial distribution of the RH emissions but also on the way NO is emitted in the model atmosphere. The results obtained indicate that the assumption that localized emissions of reactive hydrocarbons, for example, isoprene or terpenes, are instantaneously mixed may lead to an underestimation of their atmospheric lifetime.}
+      \field{issn}{2156-2202}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/1999JD900958}
+      \field{number}{D5}
+      \field{title}{Effects of turbulence and heterogeneous emissions on photochemically active species in the convective boundary layer}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{105}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \field{pages}{6871\bibrangedash 6884}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1029/1999JD900958
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/CDMSEVEW/Krol et al. - 2000 - Effects of turbulence and heterogeneous emissions .pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/RBG3NIG2/1999JD900958.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/1999JD900958
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/1999JD900958
+      \endverb
+      \keyw{Thesis}
+    \endentry
     \entry{lau_observational_2006}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d0c455f511760e59269669b70229cd4f}{%
@@ -1217,12 +1511,12 @@
            given={K.-M.},
            giveni={K\bibinithyphendelim M\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=9fb6eec534906a58efbf72ac2e54b023}{%
+        {{un=1,uniquepart=given,hash=9fb6eec534906a58efbf72ac2e54b023}{%
            family={Kim},
            familyi={K\bibinitperiod},
            given={K.-M.},
            giveni={K\bibinithyphendelim M\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \list{language}{1}{%
         {en}%
@@ -1264,6 +1558,142 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2006GL027546
       \endverb
       \keyw{aerosol,circulation,monsoon}
+    \endentry
+    \entry{lee_effect_2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2047ae74cf55b208d0392147e6fe3653}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={Jungmin\bibnamedelima M.},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b33d420904ea0f17bdea78f25fe6e51}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yunyan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac96515650bd328f8bc17d40e9d3cc12}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Stephen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{a54f8cbd107376c79b7b62f5a4b944bb}
+      \strng{fullhash}{a54f8cbd107376c79b7b62f5a4b944bb}
+      \strng{bibnamehash}{a54f8cbd107376c79b7b62f5a4b944bb}
+      \strng{authorbibnamehash}{a54f8cbd107376c79b7b62f5a4b944bb}
+      \strng{authornamehash}{a54f8cbd107376c79b7b62f5a4b944bb}
+      \strng{authorfullhash}{a54f8cbd107376c79b7b62f5a4b944bb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Idealized large-eddy simulations (LESs) with prescribed heterogeneous land surface heat fluxes are performed to study the impact of the heterogeneity length scale and background wind speed on the development of shallow cumulus and the subsequent transition to congestus/deep convection. We study the impact of land surface heterogeneity in an atmosphere that favors shallow convection but is also conditionally unstable with respect to deeper convection. We find that before the convection transition, larger and thicker shallow cumulus clouds are attached to moisture pools near the PBL top over patches with low evaporative fraction (referred to as “DRY”). This feature is attributable to a surface-induced secondary circulation whose development depends on the heterogeneity size and the background wind speed. With large patches (≥5 km) under zero ambient wind, the secondary mesoscale circulation promotes the vertical transport of moisture forming a moisture pool over DRY patches, while with smaller patches, no such circulation develops. The influence of the background wind on the secondary circulation is strong such that any wind stronger than 2 m s−1 effectively eliminates the impact of surface heterogeneity on the PBL and brings no secondary circulation. This is because the triggered secondary circulation is not strong enough to withstand the imposed background wind. Based on these, we propose two criteria for the convection transition, namely, that the heterogeneity length scale is greater than 5 km and that the background wind speed is less than Uc0, where Uc0 is the near-surface cross-patch wind speed of the secondary circulation under zero background wind for a given patch size and is about 1.5 m s−1 in our cases.}
+      \field{issn}{0022-4928, 1520-0469}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{month}{2}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of the Atmospheric Sciences}
+      \field{number}{2}
+      \field{title}{The {Effect} of {Land} {Surface} {Heterogeneity} and {Background} {Wind} on {Shallow} {Cumulus} {Clouds} and the {Transition} to {Deeper} {Convection}}
+      \field{urlday}{31}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{76}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{401\bibrangedash 419}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1175/JAS-D-18-0196.1
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/NY3SERYM/Lee et al. - 2019 - The Effect of Land Surface Heterogeneity and Backg.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/atsc/76/2/jas-d-18-0196.1.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/atsc/76/2/jas-d-18-0196.1.xml
+      \endverb
+      \keyw{Thesis}
+    \endentry
+    \entry{li_error_2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=1,uniquepart=given,hash=dfeafc1b641d0cb87d188a267ded0699}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Cathy\bibnamedelimb W.\bibnamedelimi Y.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=ca9931ba2cb727b41ee398338e0b9446}{%
+           family={Brasseur},
+           familyi={B\bibinitperiod},
+           given={Guy\bibnamedelima P.},
+           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b0de728d48ce52fda70fe7403b337119}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Hauke},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abd61bcc2d23fb6301f09a5f6ad10948}{%
+           family={Mellado},
+           familyi={M\bibinitperiod},
+           given={Juan\bibnamedelima Pedro},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{7b27bade3535435d97956904f706b406}
+      \strng{fullhash}{bd1cbe1d1b28addcca7de8354534c312}
+      \strng{bibnamehash}{7b27bade3535435d97956904f706b406}
+      \strng{authorbibnamehash}{7b27bade3535435d97956904f706b406}
+      \strng{authornamehash}{7b27bade3535435d97956904f706b406}
+      \strng{authorfullhash}{bd1cbe1d1b28addcca7de8354534c312}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We employed direct numerical simulations to estimate the error on chemical calculation in simulations with regional chemical-transport models induced by neglecting subgrid chemical segregation due to inefficient turbulent mixing in an urban boundary layer with strong and heterogeneously distributed surface emissions. In simulations of initially segregated reactive species with an entrainment-emission configuration with an A–B–C second-order chemical scheme, urban surface emission fluxes of the homogeneously emitted tracer A result in a very large segregation between the tracers and hence a very large overestimation of the effective chemical reaction rate in a complete-mixing model. This large effect can be indicated by a large Damköhler number (Da) of the limiting reactant. With heterogeneous surface emissions of the two reactants, the resultant normalised boundary-layer-averaged effective chemical reaction rate is found to be in a Gaussian function of Da, and it is increasingly overestimated by the imposed rate with an increased horizontal scale of emission heterogeneity. Coarse-grid models with resolutions commensurable to regional models give reduced yet still significant errors for all simulations with homogeneous emissions. Such model improvement is more sensitive to the increased vertical resolution. However, such improvement cannot be seen for simulations with heterogeneous emissions when the horizontal resolution of the model cannot resolve emission heterogeneity. This work highlights particular conditions in which the ability to resolve chemical segregation is especially important when modelling urban environments.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{1}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{1}
+      \field{title}{Error induced by neglecting subgrid chemical segregation due to inefficient turbulent mixing in regional chemical-transport models in urban environments}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{21}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \field{pages}{483\bibrangedash 503}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.5194/acp-21-483-2021
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/I2L5GAF2/Li et al. - 2021 - Error induced by neglecting subgrid chemical segre.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/21/483/2021/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/21/483/2021/
+      \endverb
+      \keyw{To read,Important,Thesis}
     \endentry
     \entry{li_scattering_2022}{article}{}
       \name{author}{15}{}{%
@@ -1402,6 +1832,69 @@
       \endverb
       \keyw{Atmospheric chemistry,Attribution}
     \endentry
+    \entry{li_comparing_2019}{article}{}
+      \name{author}{3}{}{%
+        {{un=1,uniquepart=given,hash=2af761d9bef859ea29248418adce0dd7}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Yang},
+           giveni={Y\bibinitperiod},
+           givenun=1}}%
+        {{un=2,uniquepart=given,hash=103b2c7c253d5884dc8c68e7885f45a3}{%
+           family={Barth},
+           familyi={B\bibinitperiod},
+           given={Mary\bibnamedelima C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=148dc3902755a694b57a029ed63d06af}{%
+           family={Steiner},
+           familyi={S\bibinitperiod},
+           given={Allison\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{0376a7f1632e8c85043e26a9c63a404d}
+      \strng{fullhash}{0376a7f1632e8c85043e26a9c63a404d}
+      \strng{bibnamehash}{0376a7f1632e8c85043e26a9c63a404d}
+      \strng{authorbibnamehash}{0376a7f1632e8c85043e26a9c63a404d}
+      \strng{authornamehash}{0376a7f1632e8c85043e26a9c63a404d}
+      \strng{authorfullhash}{0376a7f1632e8c85043e26a9c63a404d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Vertical mixing processes as simulated by atmospheric models affect the prediction of vertical profiles of reactive trace gases and oxidants and our understanding of atmospheric chemistry throughout the boundary layer. Specifically, the vertical transport of these oxidants is important for understanding where in situ chemistry occurs. Simulations of the vertical transport are influenced by many factors, including the horizontal and vertical grid resolution, planetary boundary layer (PBL) schemes, and the use of cumulus parameterization to represent sub-grid scale cloud processes. Here, we compare simulations using the Weather Research and Forecasting Model coupled with Chemistry (WRF-Chem) with the NCAR Large Eddy Simulation (LES) model and the NASA P-3B measurements over the Baltimore-Washington region to evaluate the performance of WRF-Chem in simulating vertical mixing of chemical oxidants in the PBL. For two different PBL schemes, WRF-Chem simulates a weaker convective environment and lower PBL height than LES. Comparing WRF simulations, the Yonsei University (YSU) PBL scheme simulates higher and drier PBL than the Mellor-Yamada-Janjic (MYJ) PBL scheme. The stronger vertical mixing in the LES model simulates higher concentrations of chemical oxidants aloft than WRF-Chem, leading to a constant O3 vertical profile up to the top of the LES domain (4.8 km). Weaker vertical mixing in WRF-Chem prohibits upward transport of the key chemical precursors, therefore resulting in low in situ chemical production of O3 and OH aloft in the WRF-Chem simulations with both PBL schemes and reducing the oxidative capacity in the buffer or cloud layer.}
+      \field{issn}{1352-2310}
+      \field{journaltitle}{Atmospheric Environment}
+      \field{month}{2}
+      \field{title}{Comparing turbulent mixing of atmospheric oxidants across model scales}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{199}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{88\bibrangedash 101}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1016/j.atmosenv.2018.11.004
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Full Text PDF:/Users/sf20/Zotero/storage/7NQTJJE5/Li et al. - 2019 - Comparing turbulent mixing of atmospheric oxidants.pdf:application/pdf;ScienceDirect Snapshot:/Users/sf20/Zotero/storage/K6NSFBAK/S1352231018307702.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231018307702
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231018307702
+      \endverb
+      \keyw{To read,Thesis}
+    \endentry
     \entry{loke_measuring_2022}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=2d09b50ec5d21d02016231a2ba34068c}{%
@@ -1459,6 +1952,151 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14084
       \endverb
       \keyw{box-counting,complexity–diversity relationships,digital elevation model (DEM),fractal dimension,habitat structure,landscape metrics,photogrammetry,remote sensing,spatial analysis,spatial ecology,Thesis}
+    \endentry
+    \entry{molemaker_control_1998}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=f50626e71acae2c3260fdaa0a1edb56d}{%
+           family={Molemaker},
+           familyi={M\bibinitperiod},
+           given={M.\bibnamedelimi Jeroen},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=8286899a78bcffe16abc045b95263822}{%
+           family={Arellano},
+           familyi={A\bibinitperiod},
+           given={Jordi\bibnamedelimb Vilà-Guerau\bibnamedelima de},
+           giveni={J\bibinitperiod\bibinitdelim V\bibinithyphendelim G\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{b8b062e4f12d858d9648baeb267aa996}
+      \strng{fullhash}{b8b062e4f12d858d9648baeb267aa996}
+      \strng{bibnamehash}{b8b062e4f12d858d9648baeb267aa996}
+      \strng{authorbibnamehash}{b8b062e4f12d858d9648baeb267aa996}
+      \strng{authornamehash}{b8b062e4f12d858d9648baeb267aa996}
+      \strng{authorfullhash}{b8b062e4f12d858d9648baeb267aa996}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract The influence of convective turbulence on chemical reactions in the atmospheric boundary layer is studied by means of direct numerical simulation (DNS). An archetype of turbulent reacting flows is used to study the reaction zones and to obtain a description of the turbulent control of chemical reactions. Several simulations are carried out and classified using a turbulent Damköhler number and a Kolmogorov Damköhler number. Using a classification based on these numbers, it is shown that it is possible to represent and to solve adequately all relevant scales of turbulence and chemistry by means of DNS. The simulations show clearly that the reaction zones are located near the boundaries where the species are introduced. At the lower boundary of the convective boundary layer, the reaction takes place predominantly in the core of the updrafts, whereas in the upper part of the domain the chemical reaction is greatest in the center of the downdrafts. In the bulk of the boundary layer the chemical reaction proceeds very slowly, due to the almost complete segregation of the chemical species. From the point of view of chemistry, the mixing across the interface between updrafts and downdrafts in the bulk of the convective boundary layer plays only a minor role. The amount of chemical reaction in relation to the degree of turbulence is quantified by the introduction of an effective Damköhler number. This dimensionless number explicitly takes into account the reduction of the reaction rate due to the segregation of the chemical species. It is shown that the number approaches an asymptotic value that is O(1) for increasingly fast reaction rates. This shows explicitly that the timescale of the chemical reactions is limited by the integral turbulent timescale. It is suggested how a parameterization could be used to include this effect into one-dimensional atmospheric models.}
+      \field{issn}{0022-4928, 1520-0469}
+      \field{journaltitle}{Journal of the Atmospheric Sciences}
+      \field{month}{2}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of the Atmospheric Sciences}
+      \field{number}{4}
+      \field{title}{Control of {Chemical} {Reactions} by {Convective} {Turbulence} in the {Boundary} {Layer}}
+      \field{urlday}{18}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{55}
+      \field{year}{1998}
+      \field{urldateera}{ce}
+      \field{pages}{568\bibrangedash 579}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1175/1520-0469(1998)055<0568:COCRBC>2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/GBE3YRGH/Molemaker and Arellano - 1998 - Control of Chemical Reactions by Convective Turbul.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/atsc/55/4/1520-0469_1998_055_0568_cocrbc_2.0.co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/atsc/55/4/1520-0469_1998_055_0568_cocrbc_2.0.co_2.xml
+      \endverb
+      \keyw{Thesis}
+    \endentry
+    \entry{ouwersloot_segregation_2011}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=bb233c671290b62a6c11faa0c3805de9}{%
+           family={Ouwersloot},
+           familyi={O\bibinitperiod},
+           given={H.\bibnamedelimi G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6e6e3baf9efb1197342eb0c94fb8a0a2}{%
+           family={Vilà-Guerau\bibnamedelimb de\bibnamedelima Arellano},
+           familyi={V\bibinithyphendelim G\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1588cb25432b60139b233eed6fc2c130}{%
+           family={Heerwaarden},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=fa800d16c2b7b70037e635c8c4bec22f}{%
+           family={Ganzeveld},
+           familyi={G\bibinitperiod},
+           given={L.\bibnamedelimi N.},
+           giveni={L\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c27dc874a20af076cc434f7455e0d79c}{%
+           family={Krol},
+           familyi={K\bibinitperiod},
+           given={M.\bibnamedelimi C.},
+           giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dea31eddef99ed68b38e2e0770fcd8c}{%
+           family={Lelieveld},
+           familyi={L\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{28b84785ad18d7dcfc0aa219f2b721e1}
+      \strng{fullhash}{597b838a3b16742719c30d8acf9d9a27}
+      \strng{bibnamehash}{28b84785ad18d7dcfc0aa219f2b721e1}
+      \strng{authorbibnamehash}{28b84785ad18d7dcfc0aa219f2b721e1}
+      \strng{authornamehash}{28b84785ad18d7dcfc0aa219f2b721e1}
+      \strng{authorfullhash}{597b838a3b16742719c30d8acf9d9a27}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Using a Large-Eddy Simulation model, we have systematically studied the inability of boundary layer turbulence to efficiently mix reactive species. This creates regions where the species are accumulated in a correlated or anti-correlated way, thereby modifying the mean reactivity. We quantify this modification by the intensity of segregation, IS, and analyse the driving mechanisms: heterogeneity of the surface moisture and heat fluxes, various background wind patterns and non-uniform isoprene emissions. The heterogeneous surface conditions are characterized by cool and wet forested patches with high isoprene emissions, alternated with warm and dry patches that represents pasture with relatively low isoprene emissions. For typical conditions in the Amazon rain forest, applying homogeneous surface forcings and in the absence of free tropospheric NOx, the isoprene-OH reaction rate is altered by less than 10\%. This is substantially smaller than the previously assumed IS of 50\% in recent large-scale model analyses of tropical rain forest chemistry. Spatial heterogeneous surface emissions enhance the segregation of species, leading to alterations of the chemical reaction rates up to 20\%. The intensities of segregation are enhanced when the background wind direction is parallel to the borders between the patches and reduced in the case of a perpendicular wind direction. The effects of segregation on trace gas concentrations vary per species. For the highly reactive OH, the differences in concentration averaged over the boundary layer are less than 2\% compared to homogeneous surface conditions, while the isoprene concentration is increased by as much as 12\% due to the reduced chemical reaction rates. These processes take place at the sub-grid scale of chemistry transport models and therefore need to be parameterized.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{10}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{20}
+      \field{title}{On the segregation of chemical species in a clear boundary layer over heterogeneous land surfaces}
+      \field{urlday}{6}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{11}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{10681\bibrangedash 10704}
+      \range{pages}{24}
+      \verb{doi}
+      \verb 10.5194/acp-11-10681-2011
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/33B9RXFP/Ouwersloot et al. - 2011 - On the segregation of chemical species in a clear .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/11/10681/2011/acp-11-10681-2011.html
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/11/10681/2011/acp-11-10681-2011.html
+      \endverb
+      \keyw{To read,Important,Thesis}
     \endentry
     \entry{petters_single_2007}{article}{}
       \name{author}{2}{}{%
@@ -1584,6 +2222,89 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0303243413000500
       \endverb
       \keyw{Altitude,Human land use,Landscape indicators,Landscape pattern analysis,Thesis}
+    \endentry
+    \entry{pugh_influence_2011}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=87551a117b743749528056f3f51abe7b}{%
+           family={Pugh},
+           familyi={P\bibinitperiod},
+           given={T.\bibnamedelimi a.\bibnamedelimi M.},
+           giveni={T\bibinitperiod\bibinitdelim a\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6616cd746ce049d6d4273ccacebe2ce2}{%
+           family={MacKenzie},
+           familyi={M\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66aa6bf0d02e81b83bde0d8208566311}{%
+           family={Langford},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c5677f4064fe016f4cc3f81f10431e83}{%
+           family={Nemitz},
+           familyi={N\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71c204d36082fc89c8c5a75df3bcb7a3}{%
+           family={Misztal},
+           familyi={M\bibinitperiod},
+           given={P.\bibnamedelimi K.},
+           giveni={P\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f70aab650b733842de776cd6b37a6cd}{%
+           family={Hewitt},
+           familyi={H\bibinitperiod},
+           given={C.\bibnamedelimi N.},
+           giveni={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{fe63aee5441dcca2604d3fb8f1fbe4a2}
+      \strng{fullhash}{34f4d6d99ebd264eca535227d0e15453}
+      \strng{bibnamehash}{fe63aee5441dcca2604d3fb8f1fbe4a2}
+      \strng{authorbibnamehash}{fe63aee5441dcca2604d3fb8f1fbe4a2}
+      \strng{authornamehash}{fe63aee5441dcca2604d3fb8f1fbe4a2}
+      \strng{authorfullhash}{34f4d6d99ebd264eca535227d0e15453}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Biogenic volatile organic compounds (BVOCs) such as isoprene constitute a large proportion of the global atmospheric oxidant sink. Their reactions in the atmosphere contribute to processes such as ozone production and secondary organic aerosol formation. However, over the tropical rainforest, where 50 \% of the global emissions of BVOCs are believed to occur, atmospheric chemistry models have been unable to simulate concurrently the measured daytime concentration of isoprene and that of its principal oxidant, hydroxyl (OH). One reason for this model-measurement discrepancy may be incomplete mixing of isoprene within the convective boundary layer, leading to patchiness or segregation in isoprene and OH mixing ratios and average concentrations that appear to be incompatible with each other. One way of capturing this effect in models of atmospheric chemistry is to use a reduced effective rate constant for their reaction. Recent studies comparing atmospheric chemistry global/box models with field measurements have suggested that this effective rate reduction may be as large as 50 \%; which is at the upper limit of that calculated using large eddy simulation models. To date there has only been one field campaign worldwide that has reported co-located measurements of isoprene and OH at the necessary temporal resolution to calculate the segregation of these compounds. However many campaigns have recorded sufficiently high resolution isoprene measurements to capture the small-scale fluctuations in its concentration. Assuming uniform distributions of other OH production and loss processes, we use a box model of atmospheric chemistry, constrained by the spectrum of isoprene concentrations measured, as a virtual instrument, to estimate the variability in OH at a point and hence, to estimate the segregation intensity of isoprene and OH from high-frequency isoprene time series. The method successfully reproduces the only directly observed segregation, using measurements made in a deciduous forest in Germany. The effective rate constant reduction for the reaction of isoprene and OH over a South-East Asian rainforest is calculated to be typically \&lt;15 \%. Although there are many unconstrained uncertainties, the likely nature of those processes suggests that this value represents an upper limit. The estimate is not sensitive to heterogeneities in NO at this remote site, unless they are correlated with those of isoprene, or to OH-recycling schemes in the isoprene oxidation mechanism, unless the recycling happens in the first reaction step. Segregation alone is therefore unlikely to be the sole cause of model-measurement discrepancies for isoprene and OH above a rainforest.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{5}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{9}
+      \field{title}{The influence of small-scale variations in isoprene concentrations on atmospheric chemistry over a tropical rainforest}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{11}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{4121\bibrangedash 4134}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.5194/acp-11-4121-2011
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/8DQ4HMCC/Pugh et al. - 2011 - The influence of small-scale variations in isopren.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/11/4121/2011/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/11/4121/2011/
+      \endverb
+      \keyw{Thesis}
     \endentry
     \entry{riemer_quantifying_2013}{article}{}
       \name{author}{2}{}{%
@@ -2101,7 +2822,7 @@
       \keyw{Convective boundary layer,Large-eddy simulation,Plant canopy,Stable boundary layer,Subgrid-scale model,Urban canopy layer,Thesis}
     \endentry
     \entry{sykes_large-eddy_1992}{article}{}
-      \name{author}{4}{}{%
+      \name{author}{4}{ul=2}{%
         {{un=0,uniquepart=base,hash=9f23da5d5d3c9fd44ab67b72e24c298f}{%
            family={Sykes},
            familyi={S\bibinitperiod},
@@ -2130,11 +2851,11 @@
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{49fbb25ab0a2b5c674a25f050f9e8836}
+      \strng{namehash}{2764fc2ecefeedeb56253a0cb127bf55}
       \strng{fullhash}{86fad805db9d4234cb459047c65b3127}
-      \strng{bibnamehash}{49fbb25ab0a2b5c674a25f050f9e8836}
-      \strng{authorbibnamehash}{49fbb25ab0a2b5c674a25f050f9e8836}
-      \strng{authornamehash}{49fbb25ab0a2b5c674a25f050f9e8836}
+      \strng{bibnamehash}{2764fc2ecefeedeb56253a0cb127bf55}
+      \strng{authorbibnamehash}{2764fc2ecefeedeb56253a0cb127bf55}
+      \strng{authornamehash}{2764fc2ecefeedeb56253a0cb127bf55}
       \strng{authorfullhash}{86fad805db9d4234cb459047c65b3127}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
@@ -2168,6 +2889,77 @@
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/096016869290109X
       \endverb
+    \endentry
+    \entry{sykes_turbulent_1994}{article}{}
+      \name{author}{4}{ul=2}{%
+        {{un=0,uniquepart=base,hash=9f23da5d5d3c9fd44ab67b72e24c298f}{%
+           family={Sykes},
+           familyi={S\bibinitperiod},
+           given={R.\bibnamedelimi I.},
+           giveni={R\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ca6e2ac0aeb684bd9b9525bcc0725be}{%
+           family={Parker},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi F.},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a4863218de57d3673ba6a8b6c4194f0}{%
+           family={Henn},
+           familyi={H\bibinitperiod},
+           given={D.\bibnamedelimi S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=11e380550a58674fce4454b5fdbce70d}{%
+           family={Lewellen},
+           familyi={L\bibinitperiod},
+           given={W.\bibnamedelimi S.},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {EN}%
+      }
+      \strng{namehash}{3651b744f3a9cb63f8bad663366bd534}
+      \strng{fullhash}{54eac3aa3005841833419f47d3ea9fb1}
+      \strng{bibnamehash}{3651b744f3a9cb63f8bad663366bd534}
+      \strng{authorbibnamehash}{3651b744f3a9cb63f8bad663366bd534}
+      \strng{authornamehash}{3651b744f3a9cb63f8bad663366bd534}
+      \strng{authorfullhash}{54eac3aa3005841833419f47d3ea9fb1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Detailed statistics of the fluctuating concentration field produced by large-eddy simulations (LES) of the chemically reactive mixing of two species in a convectively driven mixed layer are presented. The effect of the turbulent mixing on the effective reaction rate between the species is analysed. The segregation between the species is shown to be significant for fast reactions, and therefore correct model predictions of the evolution of the species concentration requires an estimate of the segregation coefficient. Some simple modeling concepts for one-point second-order turbulence closure schemes are examined and compared with the LES results. The results are a promising indication that second-order closure schemes can be extended to provide a practical calculation of the turbulent mixing effects on fast chemical reactions.}
+      \field{issn}{1520-0450, 0894-8763}
+      \field{journaltitle}{Journal of Applied Meteorology and Climatology}
+      \field{month}{7}
+      \field{note}{Publisher: American Meteorological Society Section: Journal of Applied Meteorology and Climatology}
+      \field{number}{7}
+      \field{title}{Turbulent {Mixing} with {Chemical} {Reaction} in the {Planetary} {Boundary} {Layer}}
+      \field{urlday}{8}
+      \field{urlmonth}{6}
+      \field{urlyear}{2023}
+      \field{volume}{33}
+      \field{year}{1994}
+      \field{urldateera}{ce}
+      \field{pages}{825\bibrangedash 834}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1175/1520-0450(1994)033<0825:TMWCRI>2.0.CO;2
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/4WNGBYTC/Sykes et al. - 1994 - Turbulent Mixing with Chemical Reaction in the Pla.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://journals.ametsoc.org/view/journals/apme/33/7/1520-0450_1994_033_0825_tmwcri_2_0_co_2.xml
+      \endverb
+      \verb{url}
+      \verb https://journals.ametsoc.org/view/journals/apme/33/7/1520-0450_1994_033_0825_tmwcri_2_0_co_2.xml
+      \endverb
+      \keyw{Thesis}
     \endentry
     \entry{thiffeault_using_2012}{article}{}
       \name{author}{1}{}{%
@@ -2359,12 +3151,12 @@
            given={Jean-François},
            giveni={J\bibinithyphendelim F\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=ead14f21a8b483e844cf16def2b28f6f}{%
+        {{un=1,uniquepart=given,hash=ead14f21a8b483e844cf16def2b28f6f}{%
            family={Arellano},
            familyi={A\bibinitperiod},
            given={Jordi\bibnamedelimb Vilá-Guerau\bibnamedelima De},
            giveni={J\bibinitperiod\bibinitdelim V\bibinithyphendelim G\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
+           givenun=1}}%
       }
       \strng{namehash}{ade2b0f256ba4861dddeeefb12aad344}
       \strng{fullhash}{ade2b0f256ba4861dddeeefb12aad344}
@@ -2923,6 +3715,79 @@
       \verb https://www.sciencedirect.com/science/article/pii/S0269749116312398
       \endverb
       \keyw{Large eddy simulation,Nonlinear photochemistry,Segregation effect,Street canyon,Thesis}
+    \endentry
+    \entry{zhu_study_2002}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=664d1162650ba607c9fcfe328262c7df}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Yifang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95c0554ccb72db4587e500a6cfe28880}{%
+           family={Hinds},
+           familyi={H\bibinitperiod},
+           given={William\bibnamedelima C},
+           giveni={W\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0bab44208d78ac07139e6ba124a5e549}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Seongheon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=02753bc5abc0d16ee859bae9d20a460d}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Si},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfe88522138723b866f161bb4319b6f7}{%
+           family={Sioutas},
+           familyi={S\bibinitperiod},
+           given={Constantinos},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a673ea895ffd82b9f7252397c0b35657}
+      \strng{fullhash}{a64d6e00632a730706fc7b3ee4420179}
+      \strng{bibnamehash}{a673ea895ffd82b9f7252397c0b35657}
+      \strng{authorbibnamehash}{a673ea895ffd82b9f7252397c0b35657}
+      \strng{authornamehash}{a673ea895ffd82b9f7252397c0b35657}
+      \strng{authorfullhash}{a64d6e00632a730706fc7b3ee4420179}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Motor vehicle emissions usually constitute the most significant source of ultrafine particles (diameter {<}0.1μm) in an urban environment. Zhu et al. (J. Air Waste Manage. Assoc., 2002, accepted for publication) conducted systematic measurements of the concentration and size distribution of ultrafine particles in the vicinity of a highway dominated by gasoline vehicle. The present study compares these previous measurements with those made on Interstate 710 freeway in Los Angeles. The 710 freeway was selected because more than 25\% of the vehicles are heavy-duty diesel trucks. Particle number concentration and size distribution in the size range from 6 to 220nm were measured by a condensation particle counter and a scanning mobility particle sizer, respectively. Measurements were taken at 17, 20, 30, 90, 150, and 300m downwind and 200m upwind from the center of the freeway. At each sampling location, concentrations of carbon monoxide (CO) and black carbon (BC) were also measured by a Dasibi CO monitor and an Aethalometer, respectively. The range of average concentration of CO, BC and total particle number concentration at 17m was 1.9–2.6ppm, 20.3–24.8μg/m3, 1.8×105–3.5×105/cm3, respectively. Relative concentration of CO, BC and particle number decreased exponentially and tracked each other well as one moves away from the freeway. Both atmospheric dispersion and coagulation appears to contribute to the rapid decrease in particle number concentration and change in particle size distribution with increasing distance from the freeway. Average traffic flow during the sampling periods was 12,180 vehicles/h with more than 25\% of vehicles being heavy-duty diesel trucks. Ultrafine particle number concentration measured at 300m downwind from the freeway was indistinguishable from upwind background concentration. These data may be used to estimate exposure to ultrafine particles in the vicinity of major highways.}
+      \field{issn}{1352-2310}
+      \field{journaltitle}{Atmospheric Environment}
+      \field{month}{9}
+      \field{number}{27}
+      \field{title}{Study of ultrafine particles near a major highway with heavy-duty diesel traffic}
+      \field{urlday}{18}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{36}
+      \field{year}{2002}
+      \field{urldateera}{ce}
+      \field{pages}{4323\bibrangedash 4335}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/S1352-2310(02)00354-0
+      \endverb
+      \verb{file}
+      \verb ScienceDirect Snapshot:/Users/sf20/Zotero/storage/YZHNWNPM/S1352231002003540.html:text/html;Zhu et al. - 2002 - Study of ultrafine particles near a major highway .pdf:/Users/sf20/Zotero/storage/9W5T2LCE/Zhu et al. - 2002 - Study of ultrafine particles near a major highway .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231002003540
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1352231002003540
+      \endverb
+      \keyw{Black carbon,Carbon monoxide,Diesel,Freeways,Ultrafine particles}
     \endentry
   \enddatalist
 \endrefsection
