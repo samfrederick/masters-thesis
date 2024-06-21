@@ -44,33 +44,28 @@ where $K(v_1, v_2)$ is the coagulation kernel between particles of volume $v_1$ 
 
 In addition to coagulation, the rate of chemical reactions in both the gas phase and gas-particle partitioning are concentration dependent and thus the spatial heterogeneity of emitted compounds  determines the effective rate at which such reactions proceed. An extensive body of literature evaluates the effects of chemical segregation (i.e., the degree to which precursor compounds are spatially separated or collocated) on the abundance of reaction products in the atmospheric boundary layer (\cite{schumann_large-eddy_1989}; \cite{sykes_turbulent_1994}; \cite{molemaker_control_1998}; \cite{krol_effects_2000}; \cite{vinuesa_fluxes_2003}; \cite{auger_chemical_2007}; \cite{pugh_influence_2011}; \cite{ouwersloot_segregation_2011}; \cite{dlugi_balances_2014}; \cite{kim_impact_2016}; \cite{li_error_2021}; \cite{wang_segregation_2022}). All of these studies focus on second order gas phase reactions which are prevalent in atmospheric chemistry and utilize LES to resolve turbulence-chemistry interactions. Initial studies focused on generic species and a range of imposed reaction rates (\cite{schumann_large-eddy_1989}; \cite{sykes_turbulent_1994};  \cite{molemaker_control_1998}). Subsequently, modeling studies have investigated the production and destruction of ozone and oxidation of generic VOCs (\cite{krol_effects_2000}; \cite{auger_chemical_2007}) and more recently oxidation of isoprene by OH (\cite{pugh_influence_2011}; \cite{ouwersloot_segregation_2011}; \cite{dlugi_balances_2014}; \cite{kim_impact_2016}). Advances in computing have allowed the use of direct numerical simulations of gas phase reactions in the planetary boundary layer (\cite{li_error_2021}) and the modeling of entire urban regions with LES to evaluate chemical segregation (\cite{wang_segregation_2022}). Note that these studies do not model aerosols, however the coupling between the gas phase and aerosols through gas-particle partitioning suggests  chemical segregation due to the spatial heterogeneity of emissions likely influences the aerosol state. %including composition and climate relevant properties such as optical properties and CCN activity. 
 
+The spatial heterogeneity of emission sources and aerosol processes such as coagulation and gas-particle partitioning vary on scales smaller than the grid resolution of current global climate models (GCMs) and regional scale models. This further complicates calculation of climate relevant properties  (optical properties and CCN activity) and their associated ERF due to uncertainty in the sub-grid variability of both gas phase and aerosol concentrations and properties. Past efforts to quantify the sub-grid variability of aerosols and their associated properties have centered around the comparison of coarse resolution, large-scale observational or modeling domains against higher resolution versions of the same domain. The resulting difference in the aerosol state between coarse and fine resolution domains serves as a measure of structural uncertainty in coarse-resolved models due to the inability to capture the full spatial heterogeneity of aerosols. 
+
+\cite{lin_quantification_2017} conduct a modeling study to evaluate the sub-grid variability in aerosol number and mass concentrations over the southern Pacific Ocean. The model, WRF-Chem, is run over a 900x900 km region at a grid resolution of 3x3 km and aerosols were modeled using the three-mode MAM3 scheme. A 360x360 km study region in the center of the modeling domain is further divided into various grid boxes representative of GCM resolutions ranging from 180x180 km to 30x30 km. At each resolution, grid cell averages are computed alongside the sub-grid standard deviation at the native model resolution of 3x3 km. The authors find that aerosol number and mass concentrations are highly variable, with the greatest variability in standard deviation found in the free troposphere. 
+
+\cite{weigum_effect_2016} quantify sub-grid variability in aerosol optical depth (AOD) and CCN concentrations for a modeling region encompassing the United Kingdom and northern France. WRF-Chem modeling runs are conducted first at 10 km resolution and subsequently at coarser resolutions (40, 80, 160 km). Aerosols are modeled using a three mode version of the MADE/SORGAM module, which combines the Modal Aerosol Dynamics model for Europe (MADE) with the Secondary Organic Aerosol Module (SORGAM). When comparing the 80 km resolution case (typical of most GCM resolutions) against results at 10km, the authors find an underestimation of AOD by 20-40\% and an underestimation of CCN concentrations by 33\% on average\footnote{Note that \cite{weigum_effect_2016} compare coarse resolution results against the highest resolution scenario for two types of simulations: runs where the resolution of only the aerosols and gasses are lowered (all other environmental variables and dynamics are resolved at the base 10 km resolution), and those in which all model parameters and dynamics are represented on the coarse grid mesh. Results discussed here compare the high and low resolution simulations where the resolution of all model parameters was lowered (these simulations are referred to as ``FRA10" for the full-resolution 10 km run and ``FRA80" for the full-resolution 80 km run). This approach matches the manner in which past studies have evaluated sub-grid variability across modeling scales and crucially considers the coupled impact of resolution on meteorology and aerosol processes.}. They note that the processes most affected by neglecting aerosol sub-grid variability include gas-phase chemistry and aerosol water uptake. For instance, changes in AOD are linked to the water content of the accumulation mode, which is largely regulated by gas-particle partitioning of the sulfate-nitrate-ammonium system. The authors note that boundary layer nitrate concentrations are up to 20\% lower in the 80 km scenario, leading to a reduction in aerosol water content. The impact of aerosol sub-grid variability on nitrate concentrations is particularly meaningful, as recently GCMs have begun to include nitrate aerosol in the calculation of direct radiative forcing.
+
+\cite{qian_investigation_2010} conduct a modeling study to measure sub-grid variability of both gasses and aerosols in a region over central Mexico. The authors use WRF-Chem and compare modeling results at 75x75 km resolution against two higher resolution scenarios (15x15 km and 3x3 km). Aerosols are modeled using the 8-bin sectional MOSAIC model and CBMZ is used for gas phase chemistry. Probability density functions (PDFs) are created for the distribution of trace gases and aerosols captured by the higher resolution simulations over a region of high urban emissions (Mexico City) and indicate that longer-lived compounds (e.g., CO in the gas phase and BC in the aerosol phase) tend to have broader distributions, indicating greater sub-grid variability. Faster reacting species (e.g., ozone in the gas phase and sulfate, nitrate, and ammonium in the aerosol phase) tend to have narrower PDFs, suggesting less sub-grid variability. The daytime vertical profile of sub-grid variability for trace gasses including CO and ozone are nearly uniform within the PBL, indicating they are well mixed, whereas the sub-grid variability of BC, sulfur, nitrate, and ammonium reach a maximum at the top of the PBL. Emissions contribute significantly to sub-grid variability by up to 50\%, especially during the daytime for less reactive species in the vicinity of urban regions. 
+
+\cite{gustafson_jr_downscaling_2011} extend on the work of \cite{qian_investigation_2010} by using the same modeling region and simulation setup; however, their analysis focuses on the contribution of sub-grid variability to direct aerosol radiative forcing. The authors find that over the Mexico City metropolitan area, daytime mean bias for top-of-atmosphere direct aerosol radiative forcing is in excess of 30\% when comparing modeling results at coarse resolution (75x75 km) against the highest resolution scenario (3x3 km). Furthermore, the depiction of emissions contributes significantly to direct aerosol radiative forcing. This is because emissions rates such as dust are dependent on local wind speeds and higher resolution simulations better resolve local flow heterogeneities that result in a greater concentration of suspended dust. 
+
+\cite{crippa_impact_2017} conduct a modeling study over eastern North America to measure the effects of resolution of meteorological, gas phase, and aerosol properties including AOD. WRF-Chem is used alongside the three-mode MADE/SORGAM module for representation of aerosols. Simulations are run at both 60 and 12 km resolution. In addition to direct comparison between model runs at each resolution, meteorological outputs are evaluated against reanalysis data while simulated AOD is compared against MODIS satellite observations. The skill of model outputs is measured using Brier skill scores. The authors find that the higher resolution 12 km simulations agree more closely with meteorological reanalysis and AOD observations, however, notable differences are still present at 12 km, especially in comparing AOD measurements to MODIS observations. The authors note that this discrepancy made be in part due to the choice of a modal aerosol representation, as the geometric standard deviation of each mode is fixed and past studies have shown that modeled AOD is sensitive to the choice of standard deviation (\cite{brock_aerosol_2016}; \cite{mann_intercomparison_2012}). 
+
+\cite{fast_using_2022} evaluate the sub-grid scale variability of aerosol properties in an observational campaign using aircraft measurements over the Atmospheric Radiation Measurement (ARM) program's Southern Great Plains (SGP) site in north Oklahoma. A 162x162 km study region was divided into gridded domains representative of model resolutions typical of GCMs (81 km), future climate models (27 km), current global forecast models (9 km), and cloud-resolving models (3 km). Aircraft measurements of aerosol number distributions, CCN concentrations. and aerosol composition were averaged within each grid resolution and cell averages were compared against mean values within coarse-resolved 81 km cells. The authors find considerable sub-grid variability in the concentration of aerosol organic matter which comprises much of the aerosol composition due to the abundance of biogenic sources that release precursor BVOCs in the vicinity of the SGP site. 3 km cell averaged size distributions are shown to have much higher variability than their 81 km cell averaged counterpart due to local industrial sources of ultrafine particles and indicate that bi-modal or multi-modal distributions are averaged out at coarse resolution. It is suggested that differences in representation of the size distribution due to spatial averaging of sub-grid variability may lead to errors in CCN concentrations for GCMs. 
+
+Numerous parameterizations have been developed for incorporating the effects of sub-grid variability resulting from the spatial heterogeneity of both gas phase and aerosol emissions.  \cite{galmarini_modeling_2008} proposed a parameterization for the sub-grid variability of emitted, non-reactive scalars in the PBL. Their approach requires representing the evolution of the scalar concentration variance via a prognostic equation, for which closure of the covariance between emission fluctuations and scalar concentration values is proposed.  
 
 \begin{itemize}
-
-\item Impacts on aerosol processes: non-linear, concentration dependent processes
-\begin{itemize}
-\item Coagulation
-\item Chemistry
-\begin{itemize}
-\item Present body of literature investigates predominantly gas-phase chemistry (e.g., isoprene-OH reaction) and contribution of chemical segregation due to turbulence and spatial distribution of reactive species
-\end{itemize}
-\item These processes alter the radiative and hygroscopic properties of the aerosol 
-\end{itemize}
-
-\item Representation of aerosol spatial heterogeneity in models
-\begin{itemize}
-\item Lack of resolution, impact of sub-grid scale variability on aerosol properties (Radiative properties, CCN concentrations)
-\begin{itemize}
-\item Fast et al. 2022 (properties)
-\item Lin et al. 2017 find that aerosol (mass I think) SGV over the pacific ocean within a typical GCM grid cell is 15\% near the surface and as high as 50\% in the free troposphere. (this could also be cited in the paragraph above on variability of aerosols).
-\item Weigum et al. 2016 look at the effect of SGV on AOD and CCN by comparing WRF-Chem runs at 80 km resolution against 10 km resolution and find an underestimation of AOD by 13\% and an overestimation of CCN by 27\%. They find gas-phase chemistry and aerosol water uptake are processes which are most affected.
-\item Qian et al. 2010 (study over mexico, contribution of emissions to SGV)
-\item Gustafason et al. 2011 (similar to Qian 2010, radiative effects)
-\item Crippa et al. 2017
-\end{itemize}
-\item Attempts at parameterizations (adaptive grids, plume in grid modeling, coagulation parameterizations, PDF-based methods, stochastic fields, etc.)
-\end{itemize}
-
+\item adaptive grids
+\item plume in grid modeling
+\item coagulation parameterizations
+\item PDF-based methods: Probability distribution functions have been used to model the within-grid variability of emissions \cite{ching_joint_2006}
+\item stochastic fields
 \end{itemize}
 
 \section{Treatment of aerosols across modeling frameworks}\label{aerosol_model_treatments}
@@ -117,20 +112,3 @@ In addition to coagulation, the rate of chemical reactions in both the gas phase
 	\caption{Cartoon representation of a particle resolved model}
 	\label{fig:test}
 \end{figure}
-
-\begin{table}[h!]
-\centering
-\begin{tabular}{||c c c c||} 
- \hline
- Col1 & Col2 & Col2 & Col3 \\ [0.5ex] 
- \hline\hline
- 1 & 6 & 87837 & 787 \\ 
- 2 & 7 & 78 & 5415 \\
- 3 & 545 & 778 & 7507 \\
- 4 & 545 & 18744 & 7560 \\
- 5 & 88 & 788 & 6344 \\ [1ex] 
- \hline
-\end{tabular}
-\caption{Table to test captions and labels.}
-\label{table:1}
-\end{table}
