@@ -1704,6 +1704,71 @@
       \endverb
       \keyw{aerosol,climate model,downscaling,radiative forcing,subgrid,Thesis}
     \endentry
+    \entry{karamchandani_sub-grid_2011}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=218d87bf324338f0a9ae811ff6af220c}{%
+           family={Karamchandani},
+           familyi={K\bibinitperiod},
+           given={Prakash},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f95c69d2097c46f9f1ffbc5faa47cabf}{%
+           family={Vijayaraghavan},
+           familyi={V\bibinitperiod},
+           given={Krish},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9583824888bf4cb0dac293d4259f455}{%
+           family={Yarwood},
+           familyi={Y\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{1662a40c83d7fcf06725f2ca20095035}
+      \strng{fullhash}{1662a40c83d7fcf06725f2ca20095035}
+      \strng{bibnamehash}{1662a40c83d7fcf06725f2ca20095035}
+      \strng{authorbibnamehash}{1662a40c83d7fcf06725f2ca20095035}
+      \strng{authornamehash}{1662a40c83d7fcf06725f2ca20095035}
+      \strng{authorfullhash}{1662a40c83d7fcf06725f2ca20095035}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Multi-pollutant chemical transport models (CTMs) are being routinely used to predict the impacts of emission controls on the concentrations and deposition of primary and secondary pollutants. While these models have a fairly comprehensive treatment of the governing atmospheric processes, they are unable to correctly represent processes that occur at very fine scales, such as the near-source transport and chemistry of emissions from elevated point sources, because of their relatively coarse horizontal resolution. Several different approaches have been used to address this limitation, such as using fine grids, adaptive grids, hybrid modeling, or an embedded sub-grid scale plume model, i.e., plume-in-grid (PinG) modeling. In this paper, we first discuss the relative merits of these various approaches used to resolve sub-grid scale effects in grid models, and then focus on PinG modeling which has been very effective in addressing the problems listed above. We start with a history and review of PinG modeling from its initial applications for ozone modeling in the Urban Airshed Model (UAM) in the early 1980s using a relatively simple plume model, to more sophisticated and state-of-the-science plume models, that include a full treatment of gas-phase, aerosol, and cloud chemistry, embedded in contemporary models such as CMAQ, CAMx, and WRF-Chem. We present examples of some typical results from PinG modeling for a variety of applications, discuss the implications of PinG on model predictions of source attribution, and discuss possible future developments and applications for PinG modeling.}
+      \field{issn}{2073-4433}
+      \field{journaltitle}{Atmosphere}
+      \field{month}{9}
+      \field{note}{Number: 3 Publisher: Molecular Diversity Preservation International}
+      \field{number}{3}
+      \field{title}{Sub-{Grid} {Scale} {Plume} {Modeling}}
+      \field{urlday}{10}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{2}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \field{pages}{389\bibrangedash 406}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.3390/atmos2030389
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/9GFVYLP6/Karamchandani et al. - 2011 - Sub-Grid Scale Plume Modeling.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2073-4433/2/3/389
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2073-4433/2/3/389
+      \endverb
+      \keyw{air quality modeling,grid resolution,plume chemistry,plume-in-grid,source attribution,Thesis}
+    \endentry
     \entry{kim_impact_2016}{article}{}
       \name{author}{3}{}{%
         {{un=1,uniquepart=given,hash=c23bf43de54a6b7148f0fd9de7b0b865}{%
