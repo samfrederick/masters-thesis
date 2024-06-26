@@ -286,6 +286,77 @@
       \verb https://acp.copernicus.org/articles/16/5009/2016/
       \endverb
     \endentry
+    \entry{cassiani_stochastic_2010}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=bddb28836d4a181ec03249d56b0b27ab}{%
+           family={Cassiani},
+           familyi={C\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=91bce4bd17783cb18f6c67422806b5d8}{%
+           family={Vinuesa},
+           familyi={V\bibinitperiod},
+           given={J.\bibnamedelimi F.},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9d20c3f0b08a59544741d12b70cdf932}{%
+           family={Galmarini},
+           familyi={G\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cafe39c4968feae3ff5f9333dc8cce09}{%
+           family={Denby},
+           familyi={D\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{03aaf9a86dadc3c825788a72289289a8}
+      \strng{fullhash}{8a81ccadbcea5b69cc91201cddbacafa}
+      \strng{bibnamehash}{03aaf9a86dadc3c825788a72289289a8}
+      \strng{authorbibnamehash}{03aaf9a86dadc3c825788a72289289a8}
+      \strng{authornamehash}{03aaf9a86dadc3c825788a72289289a8}
+      \strng{authorfullhash}{8a81ccadbcea5b69cc91201cddbacafa}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The stochastic fields method for turbulent reacting flows has been applied to the issue of sub-grid scale emission heterogeneity in a mesoscale model. This method is a solution technique for the probability density function (PDF) transport equation and can be seen as a straightforward extension of currently used mesoscale dispersion models. It has been implemented in an existing mesoscale model and the results are compared with Large-Eddy Simulation (LES) data devised to test specifically the effect of sub-grid scale emission heterogeneity on boundary layer concentration fluctuations. The sub-grid scale emission variability is assimilated in the model as a PDF of the emissions. The stochastic fields method shows excellent agreement with the LES data without adjustment of the constants used in the mesoscale model. The stochastic fields method is a stochastic solution of the transport equations for the concentration PDF of dispersing scalars, therefore it possesses the ability to handle chemistry of any complexity without the need to introduce additional closures for the high order statistics of chemical species. This study shows for the first time the feasibility of applying this method to mesoscale chemical transport models.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{1}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{1}
+      \field{title}{Stochastic fields method for sub-grid scale emission heterogeneity in mesoscale atmospheric dispersion models}
+      \field{urlday}{29}
+      \field{urlmonth}{3}
+      \field{urlyear}{2024}
+      \field{volume}{10}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \field{pages}{267\bibrangedash 277}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.5194/acp-10-267-2010
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/6VYLAME5/Cassiani et al. - 2010 - Stochastic fields method for sub-grid scale emissi.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/10/267/2010/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/10/267/2010/
+      \endverb
+      \keyw{Thesis}
+    \endentry
     \entry{charlson_climate_1969}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=70fbda854ad1ad03b22ef6240c790dc5}{%
@@ -425,68 +496,6 @@
       \verb{url}
       \verb https://www.jstor.org/stable/2876009
       \endverb
-    \endentry
-    \entry{ching_joint_2006}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=2dc0b18d12c0d0bd33f03ab00e5a3eef}{%
-           family={Ching},
-           familyi={C\bibinitperiod},
-           given={Jason},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3daf76da1b14f1331dbe1f98ba56304f}{%
-           family={Herwehe},
-           familyi={H\bibinitperiod},
-           given={Jerold},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6db145a01457a0c467c0e9bd01133365}{%
-           family={Swall},
-           familyi={S\bibinitperiod},
-           given={Jenise},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{6fc930455c387eea386617b1b41bdbe8}
-      \strng{fullhash}{6fc930455c387eea386617b1b41bdbe8}
-      \strng{bibnamehash}{6fc930455c387eea386617b1b41bdbe8}
-      \strng{authorbibnamehash}{6fc930455c387eea386617b1b41bdbe8}
-      \strng{authornamehash}{6fc930455c387eea386617b1b41bdbe8}
-      \strng{authorfullhash}{6fc930455c387eea386617b1b41bdbe8}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{The general situation (but exemplified in urban areas), where a significant degree of sub-grid variability (SGV) exists in grid models poses problems when comparing grid-based air-quality modeling results with observations. Typically, grid models ignore or parameterize processes and features that are at their sub-grid scale. Also, observations may be obtained in an area where significant spatial variability in the concentration fields exists. Consequently, model results and observations cannot be expected to be equal. To address this issue, we suggest a framework that can provide for qualitative judgments on model performance based on comparing observations to the grid predictions and its SGV distribution. Further, we (a) explore some characteristics of SGV, (b) comment on the contributions to SGV and (c) examine the implications to the modeling results at coarse grid resolution using examples from fine scale grid modeling of the Community Multi-scale Air Quality (CMAQ) modeling system.}
-      \field{issn}{1352-2310}
-      \field{journaltitle}{Atmospheric Environment}
-      \field{month}{8}
-      \field{number}{26}
-      \field{series}{Special issue on {Model} {Evaluation}: {Evaluation} of {Urban} and {Regional} {Eulerian} {Air} {Quality} {Models}}
-      \field{title}{On joint deterministic grid modeling and sub-grid variability conceptual framework for model evaluation}
-      \field{urlday}{13}
-      \field{urlmonth}{2}
-      \field{urlyear}{2024}
-      \field{volume}{40}
-      \field{year}{2006}
-      \field{urldateera}{ce}
-      \field{pages}{4935\bibrangedash 4945}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1016/j.atmosenv.2006.01.021
-      \endverb
-      \verb{file}
-      \verb Ching et al. - 2006 - On joint deterministic grid modeling and sub-grid .pdf:/Users/sf20/Zotero/storage/UGZQ6T7H/Ching et al. - 2006 - On joint deterministic grid modeling and sub-grid .pdf:application/pdf;ScienceDirect Snapshot:/Users/sf20/Zotero/storage/KPK7ELH8/S1352231006000641.html:text/html
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S1352231006000641
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S1352231006000641
-      \endverb
-      \keyw{CMAQ fine scale modeling,Multiscale air-quality modeling,Neighborhood-scale models,Sub-grid distributions,Sub-grid variability,Thesis}
     \endentry
     \entry{cooper_quantifying_1997}{article}{}
       \name{author}{5}{}{%
@@ -2867,6 +2876,73 @@
       \verb https://acp.copernicus.org/articles/7/1961/2007/acp-7-1961-2007.html
       \endverb
     \endentry
+    \entry{pierce_parameterization_2009}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=b722c04321a735395f77abae8cc96163}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e610407960b3f1194d253cc70feff28}{%
+           family={Theodoritsi},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dced0583356434f51caf3250d9f92516}{%
+           family={Adams},
+           familyi={A\bibinitperiod},
+           given={P.\bibnamedelimi J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=41118e5d2e0f466633adacb35e7042ff}{%
+           family={Pandis},
+           familyi={P\bibinitperiod},
+           given={S.\bibnamedelimi N.},
+           giveni={S\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e53861dddcf0777822fe2268d59b7f4d}
+      \strng{fullhash}{2ad866e8de33628beef19c0f16a2a8e5}
+      \strng{bibnamehash}{e53861dddcf0777822fe2268d59b7f4d}
+      \strng{authorbibnamehash}{e53861dddcf0777822fe2268d59b7f4d}
+      \strng{authornamehash}{e53861dddcf0777822fe2268d59b7f4d}
+      \strng{authorfullhash}{2ad866e8de33628beef19c0f16a2a8e5}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A method for parameterizing sub-grid scale aerosol dynamics of freshly emitted aerosol is developed. This approach is based on the calculation of the probability that a given particle emitted inside a computational grid cell will survive and be available for transfer outside the cell. This survival probability is calculated as a function of the emitted particle size, the pre-existing aerosol size distribution and the grid-cell mean advection time scale. The approach can be used in three-dimensional chemical transport models (CTMs) of all scales, from urban to global. The parameterization's results are evaluated against the predictions of a detailed one-dimensional aerosol dynamics model under a variety of atmospheric conditions. The parameterization agrees well with the dynamic model when the mean emitted particle size is smaller than that of the existing particles. Finally, the method for applying the sub-grid coagulation parameterization to a CTM is discussed.}
+      \field{issn}{0021-8502}
+      \field{journaltitle}{Journal of Aerosol Science}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Parameterization of the effect of sub-grid scale aerosol dynamics on aerosol number emission rates}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2024}
+      \field{volume}{40}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{385\bibrangedash 393}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.jaerosci.2008.11.009
+      \endverb
+      \verb{file}
+      \verb Pierce et al. - 2009 - Parameterization of the effect of sub-grid scale a.pdf:/Users/sf20/Zotero/storage/7BRNW3YG/Pierce et al. - 2009 - Parameterization of the effect of sub-grid scale a.pdf:application/pdf;ScienceDirect Snapshot:/Users/sf20/Zotero/storage/7SUDG8HS/S0021850208002103.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021850208002103
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021850208002103
+      \endverb
+      \keyw{Aerosol emissions,Chemical transport models,Coagulation,Sub-grid dynamics}
+    \endentry
     \entry{plexida_selecting_2014}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=e83ca1051a20fcd6fd2f2882790fa3c1}{%
@@ -3082,6 +3158,88 @@
       \endverb
       \keyw{Thesis}
     \endentry
+    \entry{ramnarine_effects_2019}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=806336be20d06a6c4e558d3f7dba6499}{%
+           family={Ramnarine},
+           familyi={R\bibinitperiod},
+           given={Emily},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8717b4984f671b2ad88d0d85936475b8}{%
+           family={Kodros},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima K.},
+           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84813fa212872ed62c755a56f331972f}{%
+           family={Hodshire},
+           familyi={H\bibinitperiod},
+           given={Anna\bibnamedelima L.},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=706d134cf242cc9650d82cdd64f668cd}{%
+           family={Lonsdale},
+           familyi={L\bibinitperiod},
+           given={Chantelle\bibnamedelima R.},
+           giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cf03423526452783e57604d2fee49c0}{%
+           family={Alvarado},
+           familyi={A\bibinitperiod},
+           given={Matthew\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d582f6ebc46abf91f23889979b144404}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={Jeffrey\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{210640907147094065acac3354f82937}
+      \strng{fullhash}{c224ef2893c532c9ffd1f2d249bf724c}
+      \strng{bibnamehash}{210640907147094065acac3354f82937}
+      \strng{authorbibnamehash}{210640907147094065acac3354f82937}
+      \strng{authornamehash}{210640907147094065acac3354f82937}
+      \strng{authorfullhash}{c224ef2893c532c9ffd1f2d249bf724c}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Biomass burning is a significant global source of aerosol number and mass. In fresh biomass burning plumes, aerosol coagulation reduces aerosol number and increases the median size of aerosol size distributions, impacting aerosol radiative effects. Near-source biomass burning aerosol coagulation occurs at spatial scales much smaller than the grid boxes of global and many regional models. To date, these models have ignored sub-grid coagulation and instantly mixed fresh biomass burning emissions into coarse grid boxes. A previous study found that the rate of particle growth by coagulation within an individual smoke plume can be approximated using the aerosol mass emissions rate, initial size distribution median diameter and modal width, plume mixing depth, and wind speed. In this paper, we use this parameterization of sub-grid coagulation in the GEOS-Chem–TOMAS (TwO-Moment Aerosol Sectional) global aerosol microphysics model to quantify the impacts on global aerosol size distributions, the direct radiative effect, and the cloud-albedo aerosol indirect effect. We find that inclusion of biomass burning sub-grid coagulation reduces the biomass burning impact on the number concentration of particles larger than 80\&thinsp;nm (a proxy for CCN-sized particles) by 37\&thinsp;\% globally. This cloud condensation nuclei (CCN) reduction causes our estimated global biomass burning cloud-albedo aerosol indirect effect to decrease from −76 to −43\&thinsp;mW\&thinsp;m−2. Further, as sub-grid coagulation moves mass to sizes with more efficient scattering, including it increases our estimated biomass burning all-sky direct effect from −224 to −231\&thinsp;mW\&thinsp;m−2, with assumed external mixing of black carbon and from −188 to −197\&thinsp;mW\&thinsp;m−2 and with assumed internal mixing of black carbon with core-shell morphology. However, due to differences in fire and meteorological conditions across regions, the impact of sub-grid coagulation is not globally uniform. We also test the sensitivity of the impact of sub-grid coagulation to two different biomass burning emission inventories to various assumptions about the fresh biomass burning aerosol size distribution and to two different timescales of sub-grid coagulation. The impacts of sub-grid coagulation are qualitatively the same regardless of these assumptions.}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{5}
+      \field{number}{9}
+      \field{title}{Effects of near-source coagulation of biomass burning aerosols on global predictions of aerosol size distributions and implications for aerosol radiative effects}
+      \field{urlday}{8}
+      \field{urlmonth}{12}
+      \field{urlyear}{2023}
+      \field{volume}{19}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{6561\bibrangedash 6577}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.5194/acp-19-6561-2019
+      \endverb
+      \verb{file}
+      \verb Ramnarine et al. - 2019 - Effects of near-source coagulation of biomass burning aerosols on global predictions of aerosol size distributions and implications for aerosol radiative effects.pdf:/Users/sf20/Zotero/storage/C2FDQ79J/Ramnarine et al. - 2019 - Effects of near-source coagulation of biomass burning aerosols on global predictions of aerosol size distributions and implications for aerosol radiative effects.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/19/6561/2019/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/19/6561/2019/
+      \endverb
+      \keyw{Thesis}
+    \endentry
     \entry{riemer_quantifying_2013}{article}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=5c05fd7739fd5ea39474b8fc5c21e5ec}{%
@@ -3207,6 +3365,85 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2008JD011073
       \endverb
       \keyw{aerosol aging,particle-resolved model,Thesis}
+    \endentry
+    \entry{sakamoto_evolution_2016}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=d96ad203b79239aa66ebb45e65f0a107}{%
+           family={Sakamoto},
+           familyi={S\bibinitperiod},
+           given={Kimiko\bibnamedelima M.},
+           giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a57756a375afe2180cbccfbac215bc65}{%
+           family={Laing},
+           familyi={L\bibinitperiod},
+           given={James\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=221caaf88307e603415f48700f2f236e}{%
+           family={Stevens},
+           familyi={S\bibinitperiod},
+           given={Robin\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4fd2873f7a74caa6821d2d526e0095ed}{%
+           family={Jaffe},
+           familyi={J\bibinitperiod},
+           given={Daniel\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d582f6ebc46abf91f23889979b144404}{%
+           family={Pierce},
+           familyi={P\bibinitperiod},
+           given={Jeffrey\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{e065b8a733f9e002b5d55a90dabd723a}
+      \strng{fullhash}{9b541b47bbf01729500db12227ddf156}
+      \strng{bibnamehash}{e065b8a733f9e002b5d55a90dabd723a}
+      \strng{authorbibnamehash}{e065b8a733f9e002b5d55a90dabd723a}
+      \strng{authornamehash}{e065b8a733f9e002b5d55a90dabd723a}
+      \strng{authorfullhash}{9b541b47bbf01729500db12227ddf156}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Biomass-burning aerosols have a significant effect on global and regional aerosol climate forcings. To model the magnitude of these effects accurately requires knowledge of the size distribution of the emitted and evolving aerosol particles. Current biomass-burning inventories do not include size distributions, and global and regional models generally assume a fixed size distribution from all biomass-burning emissions. However, biomass-burning size distributions evolve in the plume due to coagulation and net organic aerosol (OA) evaporation or formation, and the plume processes occur on spacial scales smaller than global/regional-model grid boxes. The extent of this size-distribution evolution is dependent on a variety of factors relating to the emission source and atmospheric conditions. Therefore, accurately accounting for biomass-burning aerosol size in global models requires an effective aerosol size distribution that accounts for this sub-grid evolution and can be derived from available emission-inventory and meteorological parameters. In this paper, we perform a detailed investigation of the effects of coagulation on the aerosol size distribution in biomass-burning plumes. We compare the effect of coagulation to that of OA evaporation and formation. We develop coagulation-only parameterizations for effective biomass-burning size distributions using the SAM-TOMAS large-eddy simulation plume model. For the most-sophisticated parameterization, we use the Gaussian Emulation Machine for Sensitivity Analysis (GEM-SA) to build a parameterization of the aged size distribution based on the SAM-TOMAS output and seven inputs: emission median dry diameter, emission distribution modal width, mass emissions flux, fire area, mean boundary-layer wind speed, plume mixing depth, and time/distance since emission. This parameterization was tested against an independent set of SAM-TOMAS simulations and yields R2 values of 0.83 and 0.89 for Dpm and modal width, respectively. The size distribution is particularly sensitive to the mass emissions flux, fire area, wind speed, and time, and we provide simplified fits of the aged size distribution to just these input variables. The simplified fits were tested against 11 aged biomass-burning size distributions observed at the Mt. Bachelor Observatory in August 2015. The simple fits captured over half of the variability in observed Dpm and modal width even though the freshly emitted Dpm and modal widths were unknown. These fits may be used in global and regional aerosol models. Finally, we show that coagulation generally leads to greater changes in the particle size distribution than OA evaporation/formation does, using estimates of OA production/loss from the literature.}
+      \field{annotation}{Cited by Jeff Pierce when mentioning the effects of coagulation/dilution in modeling wildfire plumes. Contains equation for calculating mean diameter after sub grid coagulation as a function of emitted mean diameter, emissions concentration, wind speed, mixing depth, and time}
+      \field{issn}{1680-7316}
+      \field{journaltitle}{Atmospheric Chemistry and Physics}
+      \field{month}{6}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{12}
+      \field{shorttitle}{The evolution of biomass-burning aerosol size distributions due to coagulation}
+      \field{title}{The evolution of biomass-burning aerosol size distributions due to coagulation: dependence on fire and meteorological details and parameterization}
+      \field{urlday}{17}
+      \field{urlmonth}{1}
+      \field{urlyear}{2024}
+      \field{volume}{16}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{7709\bibrangedash 7724}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.5194/acp-16-7709-2016
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/9VEUTK7H/Sakamoto et al. - 2016 - The evolution of biomass-burning aerosol size dist.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://acp.copernicus.org/articles/16/7709/2016/
+      \endverb
+      \verb{url}
+      \verb https://acp.copernicus.org/articles/16/7709/2016/
+      \endverb
+      \keyw{To read,Thesis}
     \endentry
     \entry{schumann_large-eddy_1989}{article}{}
       \name{author}{1}{}{%

@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {1.2}Impacts of aerosols on climate}{3}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Spatial heterogeneity of aerosols}{4}{section.1.3}%
 \contentsline {subsection}{\numberline {1.3.1}Modeling approaches and parameterizations for emissions sub-grid scale variability}{9}{subsection.1.3.1}%
-\contentsline {section}{\numberline {1.4}Treatment of aerosols across modeling frameworks}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.4}Treatment of aerosols across modeling frameworks}{11}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Objectives of this thesis}{11}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Quantifying emissions spatial heterogeneity and mixing}{13}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Existing Approaches to Quantifying Spatial Heterogeneity}{13}{section.2.1}%

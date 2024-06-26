@@ -64,19 +64,15 @@ Numerous modeling approaches and parameterizations have been developed for incor
 
 While adaptive grid modeling lowers computational cost relative to the approach of global mesh refinement, computational overhead is incurred due to the need to recompute the grid mesh at regular intervals. By contrast, plume-in-grid (PinG) modeling preserves the original, Eulerian mesh resolution while improving representation of emissions plumes at sub-grid scales via the use of an embedded Lagrangian framework. The embedded model is used to track the local dispersion of sub-grid scale emissions plumes until local concentrations are sufficiently diffuse, at which point the plume is handed over to the Eulerian grid. PinG modeling requires a-priori knowledge of the plume morphology in order to accurately represent its dispersion, a fact which hampered early implementations of PinG due to the limited choice of plume geometries (e.g., ellipses, Gaussian distributions, etc.) (\cite{karamchandani_sub-grid_2011}). In recent years, the plume model SCICHEM \hl{resolves these issues?} has been embedded in numerous models, including the U.S. Environmental Protection Agency's CMAQ model, CAMx, and the Weather Research and Forecasting model coupled to chemistry (WRF-Chem). 
 
- \cite{galmarini_modeling_2008} proposed a parameterization for the sub-grid variability of emitted, non-reactive scalars in the PBL. Their approach requires representing the evolution of the scalar concentration variance via a prognostic equation, for which closure of the covariance between emission fluctuations and scalar concentration values is presented.  
+ \cite{galmarini_modeling_2008} proposed a parameterization for the sub-grid variability of emitted, non-reactive scalars in the PBL applicable to models ranging from regional to global scale. Their approach required representing the evolution of the scalar concentration variance via a prognostic equation, for which closure of the covariance between emission fluctuations and scalar concentration values was presented. Closure constants were derived via LES and the parameterization was evaluated by comparing Reynolds Averaged Navier Stokes (RANS) simulations with the sub-grid parameterization against LES results. 
+ 
+\cite{cassiani_stochastic_2010} developed a method for representing the emission, transport, and dispersion of reactive scalars (e.g., reactive gas phase compounds) via an ensemble of stochastic fields. The stochastic fields represent the concentration PDF, where the transport equation solution for the concentration PDF is solved via the ensemble of stochastic field members. Provided an emissions inventory with resolution higher than that of the modeling domain, one can construct an emissions PDF which provides a source term for the evolution of the stochastic fields. By contrast to the method of \cite{galmarini_modeling_2008}, the stochastic fields method is notable in providing formal closure for an arbitrary number and type of chemical reactions. This aspect is particularly valuable for atmospheric chemistry models given the impacts of chemical segregation due to emissions heterogeneity and turbulence on second order reactions as discussed previously.   
 
-\cite{valari_transferring_2010}
+%\cite{valari_transferring_2010}
+In addition to modeling approaches and parameterizations which address the sub-grid scale variability of emitted scalars such as gas phase species, recent progress has been made in the sub-grid scale representation of aerosol processes such as coagulation. \cite{pierce_parameterization_2009} developed a parameterization for the coagulation of aerosol particles within sub-grid scale plumes. The parameterization estimates the number of particles that remain after coagulation and which are transferred outside the emitting grid cell. Subsequently, \cite{sakamoto_evolution_2016} created a parameterization for growth in aerosol diameter due to sub-grid coagulation in biomass burning plumes. \cite{ramnarine_effects_2019} applied the sub-grid coagulation parameterization of \cite{sakamoto_evolution_2016} to evaluate its impact on global aerosol size distributions and radiative effects in the GEOS-Chem-TOMAS (TwO-Moment Aerosol Sectional) model. The authors found that including sub-grid coagulation led to a 37\% reduction in particles 80 nm and larger (a chosen proxy for particles capable of activating as CCN), resulting in a decrease in the magnitude of indirect radiative forcing (-76 to -43 \si{mW.m^{-2}}). Furthermore, the inclusion of sub-grid coagulation shifted the size distribution to more efficient scattering, increasing the all-sky direct radiative effect from -224 to -231 \si{mW.m^{-2}}.
 
-\begin{itemize}
-\item adaptive grids
-\item plume in grid modeling
-\item coagulation parameterizations
-\item PDF-based methods: Probability distribution functions have been used to model the within-grid variability of emissions \cite{ching_joint_2006}?
-\item stochastic fields
-\end{itemize}
 
-\section{Treatment of aerosols across modeling frameworks}\label{aerosol_model_treatments}
+\section{Treatment of aerosols across modeling frameworks}\label{aerosol_model_treatments} 
 
 \begin{itemize}
 
@@ -114,9 +110,9 @@ While adaptive grid modeling lowers computational cost relative to the approach 
 
 \end{itemize}
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
-	\includegraphics[width=\textwidth]{particle-resolved-model.pdf}
-	\caption{Cartoon representation of a particle resolved model}
+	\includegraphics[width=\textwidth]{chapter1/aerosol-model-treatments.pdf}
+	\caption{Cartoon representations of aerosol modeling treatments, each for the same aerosol population. The following representations are shown: (a) Bulk, (b) Modal, (c) 1-D sectional, (d) Particle-resolved.}
 	\label{fig:test}
 \end{figure}

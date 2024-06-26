@@ -1,6 +1,6 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Cartoon representation of a particle resolved model}}{12}{figure.caption.6}%
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Cartoon representations of aerosol modeling treatments, each for the same aerosol population. The following representations are shown: (a) Bulk, (b) Modal, (c) 1-D sectional, (d) Particle-resolved.}}{12}{figure.caption.6}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Dependence of the Damköhler number on turbulent and reactive timescales. Figure adapted from \blx@tocontentsinit {0}\cite {kotamarthi_and_2017}}}{18}{figure.caption.7}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Example subsets for $SH$ calculation. (a) Full domain mean. (b-f) Examples of rectangular subsets (highlighted regions) over which the subset mean is computed.}}{20}{figure.caption.8}%
