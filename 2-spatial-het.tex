@@ -67,7 +67,7 @@ where $w_*$ is the velocity scale in the convective boundary layer and is define
 	\label{fig:damkohler}
 \end{figure}
 
-Figure \ref{fig:damkohler} displays the three primary regimes for the Damköhler number that determine the abundance of precursor concentrations $[A]$ and $[B]$. When the turbulent and chemical timescales are balanced, $D_a = 1$. If the chemical reaction timescale is shorter than the turbulence timescale, $D_a >1$ and the concentration of the precursors will be determined by the rate at which turbulence mixes the reactive compounds (fast-chemistry regime). Conversely, if the chemical reaction timescale is slower than the turbulent timescale, $D_a<1$ such that the concentration of precursors is determined by the rate of chemical reaction (slow-chemistry regime). Thus, the Damköhler number indicates the relative importance of turbulence in chemical reactions -- in the fast chemistry regime with  reactions with $D_a > 1$, turbulent scales responsible for mixing the reactive compounds should be fully resolved. Examples of relevant gas-phase reactions in convective boundary layer that correspond to the fast-chemistry regime include oxidation of volatile organic compounds such as isoprene by OH \hl{I assume oxidation of SO2 by OH as well?}.
+Figure \ref{fig:damkohler} displays the three primary regimes for the Damköhler number that determine the abundance of precursor concentrations $[A]$ and $[B]$. When the turbulent and chemical timescales are balanced, $D_a = 1$. If the chemical reaction timescale is shorter than the turbulence timescale, $D_a >1$ and the concentration of the precursors will be determined by the rate at which turbulence mixes the reactive compounds (fast-chemistry regime). Conversely, if the chemical reaction timescale is slower than the turbulent timescale, $D_a<1$ such that the concentration of precursors is determined by the rate of chemical reaction (slow-chemistry regime). Thus, the Damköhler number indicates the relative importance of turbulence in chemical reactions -- in the fast chemistry regime with  reactions with $D_a > 1$, turbulent scales responsible for mixing the reactive compounds should be fully resolved. Examples of relevant gas-phase reactions in convective boundary layer that correspond to the fast-chemistry regime include oxidation of volatile organic compounds such as isoprene by OH to produce semi-volatile organic compounds that partition into the aerosol phase to form secondary organic aerosol. Additional fast reactions include the oxidation of SO$_2$ by OH, resulting in H$_2$SO$_4$ which posses an extremely low volatility and rapidly condenses into the aerosol phase where it forms sulfate (SO$_4^{2-}$). 
 
 \section{A novel approach to quantifying spatial heterogeneity}
 Existing approaches to quantifying spatial heterogeneity discussed in Section \ref{existing-sh-metrics} and metrics for mixing of reactive compounds in Section \ref{metrics-reactive-mixing} provide valuable information on the state of a heterogeneously distributed field, however each metric varies in terms of range of applicability, interpretability, and ease of implementation. 
@@ -85,7 +85,7 @@ $SH$ is calculated by summing up the absolute difference between the mean of a s
 SH(f, S) = \frac{1}{P}\sum_{\tilde{S}\in \mathbb{R}}|\overline{f}(S) - \overline{f}(\tilde{S})|.
 \end{equation}
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\includegraphics[width=\textwidth]{figures/chapter2/SH-subarray-examples.pdf}
 	\caption{Example subsets for $SH$ calculation. (a) Full domain mean. (b-f) Examples of rectangular subsets (highlighted regions) over which the subset mean is computed.}
@@ -104,7 +104,7 @@ A visualization of the total domain mean $\overline{f}(S)$ and domain subset mea
 \subsection{Computational methods for computing the spatial heterogeneity metric}\label{sh-metric-calculation}
 To calculate $SH$ over a computational domain, an array comprising the scalar quantity of interest with dimension equal to the size of the domain ($N$ by $M$) is passed to a Fortran subroutine. Here, we discuss two approaches to calculating $SH$: a computationally expensive naive looping algorithm and a significantly more efficient Monte Carlo based method.
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\includegraphics[width=\textwidth]{figures/chapter2/NSH-performance.pdf}
 	\caption{CPU time for the naive looping $SH$ Fortran subroutine. The x-axis indicates the total number of domain grid cells (elements) in the array passed to the subroutine. A power law regression is plotted as the red dashed line.}
@@ -113,7 +113,7 @@ To calculate $SH$ over a computational domain, an array comprising the scalar qu
 
 The naive subroutine loops over all possible rectangular subdomains which can be quite computationally expensive, especially for domains with a large number of grid cells (e.g., 100$\times$100 grid cells laterally as used for domain mesh size in this thesis). Figure \ref{fig:nsh-performance} shows the computational scaling for a Fortran subroutine using this naive looping algorithm. A power law regression (red dashed lined) is fit to the CPU time vs. the total number of domain grid cells. The naive looping algorithm scales as $O(n^3)$ for $n$ the number of grid cels. For domain sizes used in this thesis ($N=M=100$), this results in a single calculation taking in excess of 2 minutes.
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\includegraphics[width=\textwidth]{figures/chapter2/mcNSH-performance.pdf}
 	\caption{CPU time for the Monte Carlo $SH$ Fortran subroutine. The x-axis indicates the number of domain subsets that are randomly selected to determine the $SH$ estimate. A power law regression is plotted as the red dashed line.}
@@ -122,7 +122,7 @@ The naive subroutine loops over all possible rectangular subdomains which can be
 
 Instead of looping over every possible subdomain, we may use the fact that the probability of selecting any given subdomain is the same (i.e., the sampling probability is uniform across the entire domain) in order to construct a Monte Carlo sampling based approach for calculating $SH$. We then pass the array with domain scalar values alongside a parameter for the number of subsets to sample ($N_{\tilde{S}}$) to our Monte Carlo-based Fortran subroutine. Figure \ref{fig:mcsh-performance} shows the CPU time for corresponding number of randomly selected domain subsets, ranging from 1 to 100,000 for a domain with dimensions $N=M=100$ and $P=(100(100-1)+1)(100(100-1)+1) = 98,029,801$ total subsets. For a low number of randomly selected subsets (number of subdomains $\lesssim 100$), the algorithm scales quite weakly, suggesting that computational overhead limits speedup in this region over the naive algorithm. As the number of subdomains increases above 100, the algorithm scales as $O(N_{\tilde{S}})$ as indicated by the power law regression.
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\includegraphics[width=\textwidth]{figures/chapter2/mcNSH-accuracy-v2.pdf}
 	\caption{$SH$ estimate in blue for the Monte Carlo sampling subroutine vs. the number of randomly selected domain subsets (top panel). The true value of $SH$ computed via the naive algorithm is shown as the black line.  Absolute relative error between $SH$ estimate and the true value of $SH$ (middle panel). Bias between $SH$ estimate and the true value of $SH$ (bottom panel) }
@@ -135,7 +135,7 @@ Given the performance of the Monte Carlo sampling subroutine over the naive loop
 
 \subsection{Example calculations for emission patterns}
 
-\begin{figure}[h]
+\begin{figure}[!t]
 	\centering
 	\includegraphics[width=\textwidth]{figures/chapter2/SH-scenarios-all.pdf}
 	\caption{Example emission patterns arranged from least heterogeneous (``Uniform Base Case") to most heterogeneous (``Scenario 5").  For each pattern, the spatial heterogeneity $SH$ is listed alongisde the domain mean ($\overline{f}(S)$) and variance ($\sigma^2$). The color of each scenario indicates the emission scaling relative to the uniform base case with red being the highest scaling.)}

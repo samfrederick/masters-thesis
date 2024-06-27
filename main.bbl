@@ -286,6 +286,79 @@
       \verb https://acp.copernicus.org/articles/16/5009/2016/
       \endverb
     \endentry
+    \entry{de_bruine_explicit_2019}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=82ea2a61da83fbef4e4b567fdbb56fa6}{%
+           family={Bruine},
+           familyi={B\bibinitperiod},
+           given={Marco},
+           giveni={M\bibinitperiod},
+           givenun=0,
+           prefix={de},
+           prefixi={d\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=a421e22f4f1a40f44caf78fc5c11bac1}{%
+           family={Krol},
+           familyi={K\bibinitperiod},
+           given={Maarten},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=94828284121329909e6e3b89ae5cf18d}{%
+           family={Vilà-Guerau\bibnamedelimb de\bibnamedelima Arellano},
+           familyi={V\bibinithyphendelim G\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim A\bibinitperiod},
+           given={Jordi},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd56ad0b97468e45068b7c4b05463b2e}{%
+           family={Röckmann},
+           familyi={R\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{39297857908980ab16dd284dc577ebd3}
+      \strng{fullhash}{a1974857ce3fd0e4842b4724d31f7c15}
+      \strng{bibnamehash}{39297857908980ab16dd284dc577ebd3}
+      \strng{authorbibnamehash}{39297857908980ab16dd284dc577ebd3}
+      \strng{authornamehash}{39297857908980ab16dd284dc577ebd3}
+      \strng{authorfullhash}{a1974857ce3fd0e4842b4724d31f7c15}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Large-eddy simulation (LES) models are an excellent tool to improve our understanding of aerosol–cloud interactions (ACI). We introduce a prognostic aerosol scheme with multiple aerosol species in the Dutch Atmospheric Large-Eddy Simulation model (DALES), especially focused on simulating the impact of cloud microphysical processes on the aerosol population. The numerical treatment of aerosol activation is a crucial element for simulating both cloud and aerosol characteristics. Two methods are implemented and discussed: an explicit activation scheme based on κ-Köhler theory and a more classic approach using updraught strength. Sample model simulations are based on the Rain in Shallow Cumulus over the Ocean (RICO) campaign, characterized by rapidly precipitating warm-phase shallow cumulus clouds. We find that in this pristine ocean environment virtually all aerosol mass in cloud droplets is the result of the activation process, while in-cloud scavenging is relatively inefficient. Despite the rapid formation of precipitation, most of the in-cloud aerosol mass is returned to the atmosphere by cloud evaporation. The strength of aerosol processing through subsequent cloud cycles is found to be particularly sensitive to the activation scheme and resulting cloud characteristics. However, the precipitation processes are considerably less sensitive. Scavenging by precipitation is the dominant source for in-rain aerosol mass. About half of the in-rain aerosol reaches the surface, while the rest is released by evaporation of falling precipitation. The effect of cloud microphysics on the average aerosol size depends on the balance between the evaporation of clouds and rain and ultimate removal by precipitation. Analysis of typical aerosol size associated with the different microphysical processes shows that aerosols resuspended by cloud evaporation have a radius that is only 5\&thinsp;\% to 10\&thinsp;\% larger than the originally activated aerosols. In contrast, aerosols released by evaporating precipitation are an order of magnitude larger.}
+      \field{issn}{1991-959X}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{month}{12}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{12}
+      \field{title}{Explicit aerosol–cloud interactions in the {Dutch} {Atmospheric} {Large}-{Eddy} {Simulation} model {DALES4}.1-{M7}}
+      \field{urlday}{25}
+      \field{urlmonth}{5}
+      \field{urlyear}{2023}
+      \field{volume}{12}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{5177\bibrangedash 5196}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.5194/gmd-12-5177-2019
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/6Y2CE2UE/de Bruine et al. - 2019 - Explicit aerosol–cloud interactions in the Dutch A.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://gmd.copernicus.org/articles/12/5177/2019/
+      \endverb
+      \verb{url}
+      \verb https://gmd.copernicus.org/articles/12/5177/2019/
+      \endverb
+    \endentry
     \entry{cassiani_stochastic_2010}{article}{}
       \name{author}{4}{}{%
         {{un=0,uniquepart=base,hash=bddb28836d4a181ec03249d56b0b27ab}{%
@@ -3240,6 +3313,83 @@
       \endverb
       \keyw{Thesis}
     \endentry
+    \entry{riemer_aerosol_2019}{article}{}
+      \name{author}{5}{ul=2}{%
+        {{un=2,uniquepart=given,hash=5c05fd7739fd5ea39474b8fc5c21e5ec}{%
+           family={Riemer},
+           familyi={R\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=a3cfae30f5ffecdc9ba31a3971cb3ce7}{%
+           family={Ault},
+           familyi={A\bibinitperiod},
+           given={A.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5112d0294362c4012eb8aefe452fcc72}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8fb1c6788296c796f56eaad2059385c}{%
+           family={Craig},
+           familyi={C\bibinitperiod},
+           given={R.\bibnamedelimi L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8ae29c3c083d7fb10ad4229f5be9177c}{%
+           family={Curtis},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{f036b3c3b4a96b3e263cff46b90097d1}
+      \strng{fullhash}{eb086b84585dee29698333898e62f0ba}
+      \strng{bibnamehash}{f036b3c3b4a96b3e263cff46b90097d1}
+      \strng{authorbibnamehash}{f036b3c3b4a96b3e263cff46b90097d1}
+      \strng{authornamehash}{f036b3c3b4a96b3e263cff46b90097d1}
+      \strng{authorfullhash}{eb086b84585dee29698333898e62f0ba}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Atmospheric aerosols are complex mixtures of different chemical species, and individual particles exist in many different shapes and morphologies. Together, these characteristics contribute to the aerosol mixing state. This review provides an overview of measurement techniques to probe aerosol mixing state, discusses how aerosol mixing state is represented in atmospheric models at different scales, and synthesizes our knowledge of aerosol mixing state's impact on climate-relevant properties, such as cloud condensation and ice nucleating particle concentrations, and aerosol optical properties. We present these findings within a framework that defines aerosol mixing state along with appropriate mixing state metrics to quantify it. Future research directions are identified, with a focus on the need for integrating mixing state measurements and modeling.}
+      \field{issn}{1944-9208}
+      \field{journaltitle}{Reviews of Geophysics}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2018RG000615}
+      \field{number}{2}
+      \field{shorttitle}{Aerosol {Mixing} {State}}
+      \field{title}{Aerosol {Mixing} {State}: {Measurements}, {Modeling}, and {Impacts}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2023}
+      \field{volume}{57}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \field{pages}{187\bibrangedash 249}
+      \range{pages}{63}
+      \verb{doi}
+      \verb 10.1029/2018RG000615
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/5Q354LJ2/Riemer et al. - 2019 - Aerosol Mixing State Measurements, Modeling, and .pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2018RG000615
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2018RG000615
+      \endverb
+      \keyw{aerosol climate impacts,aerosol measurements,aerosol mixing state,aerosol modeling}
+    \endentry
     \entry{riemer_quantifying_2013}{article}{}
       \name{author}{2}{}{%
         {{un=2,uniquepart=given,hash=5c05fd7739fd5ea39474b8fc5c21e5ec}{%
@@ -4103,6 +4253,89 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2021GL097070
       \endverb
       \keyw{cloud,GOES,land atmosphere interaction,land cover,secondary circulations,shallow cumulus,surface heat flux,Thesis}
+    \endentry
+    \entry{tonttila_uclalessalsa_2017}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=8dd79dd6080d99ca09d708b6b5301f62}{%
+           family={Tonttila},
+           familyi={T\bibinitperiod},
+           given={Juha},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b554518f84b5c40e493d1de663a7ff3b}{%
+           family={Maalick},
+           familyi={M\bibinitperiod},
+           given={Zubair},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1887544cdcd36d4cccde4de699fc27f5}{%
+           family={Raatikainen},
+           familyi={R\bibinitperiod},
+           given={Tomi},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34a9b8a05443ad5838dbcbc39107ff2d}{%
+           family={Kokkola},
+           familyi={K\bibinitperiod},
+           given={Harri},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5b38242c24a4752bac7c4b6e2b44f850}{%
+           family={Kühn},
+           familyi={K\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ace78ac6a149fe4edfd586f17f2c9c51}{%
+           family={Romakkaniemi},
+           familyi={R\bibinitperiod},
+           given={Sami},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{abd7d42f786f7eda06d006b6437be4ff}
+      \strng{fullhash}{8f5129a9d986280fd6a3c0904955068a}
+      \strng{bibnamehash}{abd7d42f786f7eda06d006b6437be4ff}
+      \strng{authorbibnamehash}{abd7d42f786f7eda06d006b6437be4ff}
+      \strng{authornamehash}{abd7d42f786f7eda06d006b6437be4ff}
+      \strng{authorfullhash}{8f5129a9d986280fd6a3c0904955068a}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{{<}p{>}{<}strong class="journal-contentHeaderColor"{>}Abstract.{<}/strong{>} Challenges in understanding the aerosol–cloud interactions and their impacts on global climate highlight the need for improved knowledge of the underlying physical processes and feedbacks as well as their interactions with cloud and boundary layer dynamics. To pursue this goal, increasingly sophisticated cloud-scale models are needed to complement the limited supply of observations of the interactions between aerosols and clouds. For this purpose, a new large-eddy simulation (LES) model, coupled with an interactive sectional description for aerosols and clouds, is introduced. The new model builds and extends upon the well-characterized UCLA Large-Eddy Simulation Code (UCLALES) and the Sectional Aerosol module for Large-Scale Applications (SALSA), hereafter denoted as UCLALES-SALSA. Novel strategies for the aerosol, cloud and precipitation bin discretisation are presented. These enable tracking the effects of cloud processing and wet scavenging on the aerosol size distribution as accurately as possible, while keeping the computational cost of the model as low as possible. The model is tested with two different simulation set-ups: a marine stratocumulus case in the DYCOMS-II campaign and another case focusing on the formation and evolution of a nocturnal radiation fog. It is shown that, in both cases, the size-resolved interactions between aerosols and clouds have a critical influence on the dynamics of the boundary layer. The results demonstrate the importance of accurately representing the wet scavenging of aerosol in the model. Specifically, in a case with marine stratocumulus, precipitation and the subsequent removal of cloud activating particles lead to thinning of the cloud deck and the formation of a decoupled boundary layer structure. In radiation fog, the growth and sedimentation of droplets strongly affect their radiative properties, which in turn drive new droplet formation. The size-resolved diagnostics provided by the model enable investigations of these issues with high detail. It is also shown that the results remain consistent with UCLALES (without SALSA) in cases where the dominating physical processes remain well represented by both models.{<}/p{>}}
+      \field{issn}{1991-959X}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{month}{1}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{1}
+      \field{shorttitle}{{UCLALES}–{SALSA} v1.0}
+      \field{title}{{UCLALES}–{SALSA} v1.0: a large-eddy model with interactive sectional microphysics for aerosol, clouds and precipitation}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2022}
+      \field{volume}{10}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \field{pages}{169\bibrangedash 188}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.5194/gmd-10-169-2017
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/XBAXPVAS/Tonttila et al. - 2017 - UCLALES–SALSA v1.0 a large-eddy model with intera.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/PLGTXQBG/2017.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://gmd.copernicus.org/articles/10/169/2017/
+      \endverb
+      \verb{url}
+      \verb https://gmd.copernicus.org/articles/10/169/2017/
+      \endverb
     \endentry
     \entry{twomey_influence_1977}{article}{}
       \name{author}{1}{}{%
