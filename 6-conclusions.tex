@@ -2,8 +2,15 @@
 \chapter{Conclusions}
 
 \section{Study limitations and future work}
+\hl{Some rough draft ideas}
 \begin{itemize}
 \item In this study, all emissions are released at the ground level. This is a simplification as some emission sources such as stack emissions from industrial sources are emitted at some height above the surface. Because the atmospheric stability often differs between the surface level and the planetary boundary layer, one may expect the shape and structure of the plume to differ if emissions are released directly into the boundary layer. For example, consider a nocturnal boundary layer/surface layer. If the emissions are released directly into the surface layer capped by a strong nocturnal inversion then emissions in the surface layer will be trapped and concentrations will be very high. If emissions are released from a plume above the surface layer, the absence of vertical mixing will lead to large concentration gradients between the region near the emissions plume and the surrounding ambient conditions. 
 
-\hl{Is it possible that emissions released directly into the neutrally buoyant PBL wont be vertically mixed as strongly as they would if they were emitted from the surface? Reason why im not sure about this is because if the surface layer is unstable and the surface heat flux drives lots of convection then there will be plenty of mixing and vertical motion throughout the PBL.}
+\item This thesis investigates the impact of emissions spatial heterogeneity on ccn activity, however one may wish to extend this analysis to include aerosol optical properties which govern their radiative effects.
+
+\item Through the use of particle-resolved modeling in a large-eddy simulation framework, this thesis establishes a benchmark for high resolution representation of aerosol processes in the boundary layer. A natural extension would be to conduct simulations with similar setups but instead use coarser-resolved treatments for the aerosols (e.g., modal or sectional representations) as well as the transport and turbulence treatment (e.g., use of Reynolds Averaged Navier Stokes modeling). This would allow intercomparison with the high-resolution results presented in this thesis and quantify structural uncertainties in desired quantities (such as CCN activity or aerosol optical properties) introduced by the use of coarser-resolved modeling treatments.
+ 
+\item Here we chose spatial and temporal discretization apriori, mainly on the basis of what is feasible given our computational resources. A limitation of this approach is that we are uncertain whether we are adequately resolving all spatial and temporal scales at which gas phase and aerosol chemical reactions occur. Future work should quantitatively determine the necessary spatial and temporal scales for resolving relevant atmospheric chemistry reactions via metrics such as the damkohler number.
+
+
 \end{itemize}

@@ -570,6 +570,82 @@
       \verb https://www.jstor.org/stable/2876009
       \endverb
     \endentry
+    \entry{ching_three-dimensional_2016}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=379b0bcbdc5ebf90a6003924f4dc129c}{%
+           family={Ching},
+           familyi={C\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cefedf772b5058aa14debe40086d9a13}{%
+           family={Zaveri},
+           familyi={Z\bibinitperiod},
+           given={Rahul\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38b4660deb2c79488fd2d72cdcd710d7}{%
+           family={Easter},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=761462924bb71da68bb0487e2badbf5a}{%
+           family={Riemer},
+           familyi={R\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7cb44e4ec53546ae1bb2deb1ffd1ebb1}{%
+           family={Fast},
+           familyi={F\bibinitperiod},
+           given={Jerome\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{654f860ac06d7a463835f1c9aa359543}
+      \strng{fullhash}{1ab4cc71d6dbf343d0c66f26b66f0ea9}
+      \strng{bibnamehash}{654f860ac06d7a463835f1c9aa359543}
+      \strng{authorbibnamehash}{654f860ac06d7a463835f1c9aa359543}
+      \strng{authornamehash}{654f860ac06d7a463835f1c9aa359543}
+      \strng{authorfullhash}{1ab4cc71d6dbf343d0c66f26b66f0ea9}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Light absorption by black carbon (BC) particles emitted from fossil fuel combustion depends on their size and how thickly they are coated with nonrefractory species such as ammonium, sulfate, nitrate, organics, and water. The cloud condensation nuclei (CCN) activation behavior of a particle depends on its dry size and the hygroscopicities of all the individual species mixed together. It is therefore necessary to represent both size and mixing state of aerosols to reliably predict their climate-relevant properties in atmospheric models. Here we describe and evaluate a novel sectional framework in the Model for Simulating Aerosol Interactions and Chemistry (box model), referred to as MOSAIC-mix, that represents the mixing state by resolving aerosol dry size (Ddry), BC dry mass fraction (wBC), and hygroscopicity (k). Using 10 idealized urban plume scenarios in which different types of aerosols evolve over 24 h under a range of atmospherically relevant conditions, we examine errors in CCN concentrations and optical properties with respect to the level of detail of the aerosol mixing state representation. We find that a small number of wBC and k bins can achieve significant reductions in the errors and propose a configuration with 24 Ddry bins, 2 wBC bins, and 2 k bins that give average errors of about 5\% or less in CCN concentrations and optical properties, 3–4 times lower than those from size-only resolved (i.e., internally mixed) simulations. These results suggest that MOSAIC-mix is suitable for use in regional and global models to examine the effects of mixing state on aerosol-radiation-cloud feedbacks.}
+      \field{issn}{2169-8996}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/2015JD024323}
+      \field{number}{10}
+      \field{title}{A three-dimensional sectional representation of aerosol mixing state for simulating optical properties and cloud condensation nuclei}
+      \field{urlday}{28}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{121}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{5912\bibrangedash 5929}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1002/2015JD024323
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/TPPSTRQH/Ching et al. - 2016 - A three-dimensional sectional representation of ae.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/FB4HNH2V/2015JD024323.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/2015JD024323
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/2015JD024323
+      \endverb
+      \keyw{absorbing aerosols,aerosol mixing state,aerosol model,black carbon,cloud condensation nuclei,optical properties}
+    \endentry
     \entry{cooper_quantifying_1997}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=a85f6f52a5e80d121a6d9ab8bf36da87}{%
@@ -1402,6 +1478,90 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2019MS001727
       \endverb
       \keyw{convective clouds,land-atmosphere coupling,LES model,soil moisture,Thesis}
+    \endentry
+    \entry{fierce_quantifying_2024}{article}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=dccb17c74bdf9d2ebe52a3b8c50a63b8}{%
+           family={Fierce},
+           familyi={F\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a01185b1ac8bfa36c6567649d3a8eb15}{%
+           family={Yao},
+           familyi={Y\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb738afee200e582831e1a878ecf2cef}{%
+           family={Easter},
+           familyi={E\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d4dd025baf69c3e74471cfa8692f1fa}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Po-Lun},
+           giveni={P\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f85751488058842b5777c7b4074077b5}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jian},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ea271a2af8c5e4227cb651f23be47b05}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Hui},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=accfaf086a407bfb746d7875478d9130}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{908a8673c169f90fa55bc14eec5a284c}
+      \strng{fullhash}{354f9a41bc0764dfeb14e9d922a8c05d}
+      \strng{bibnamehash}{908a8673c169f90fa55bc14eec5a284c}
+      \strng{authorbibnamehash}{908a8673c169f90fa55bc14eec5a284c}
+      \strng{authornamehash}{908a8673c169f90fa55bc14eec5a284c}
+      \strng{authorfullhash}{354f9a41bc0764dfeb14e9d922a8c05d}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Aerosol effects on clouds and radiation are a large source of uncertainty in our understanding of human impacts on the climate system. Uncertainty in aerosol effects results from uncertainty in parameter values, known as parametric uncertainty, and from uncertainty from the model’s structure, known as structural uncertainty. While previous studies have assessed the impact of parametric uncertainty on modeled forcing, structural errors from the numerical representation of particle distributions and their dynamics have not been well quantified. Here we present a framework for quantifying error in aerosol size distributions and cloud condensation nuclei activity, which we apply to the widely used 4-mode version of the Modal Aerosol Module (MAM4). Box model predictions from the MAM4 are evaluated against the Particle Monte Carlo Model for Simulating Aerosol Interactions and Chemistry (PartMC-MOSAIC), a benchmark model that tracks the evolution of individual particles. We show that size distributions simulated by MAM4 diverge from those simulated by PartMC-MOSAIC after only a few hours of aging by condensation and coagulation in polluted conditions, which leads to large errors in modeled cloud condensation nuclei concentrations. We find that differences between MAM4 and PartMC-MOSAIC are largest under polluted conditions, where the size distribution evolves rapidly though aging. These findings indicate that structural error in modeled aerosol properties is a key factor contributing to uncertainty in aerosol forcing.}
+      \field{issn}{0021-8502}
+      \field{journaltitle}{Journal of Aerosol Science}
+      \field{month}{9}
+      \field{title}{Quantifying structural errors in cloud condensation nuclei activity from reduced representation of aerosol size distributions}
+      \field{urlday}{28}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{181}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{106388}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.jaerosci.2024.106388
+      \endverb
+      \verb{file}
+      \verb Fierce et al. - 2024 - Quantifying structural errors in cloud condensatio.pdf:/Users/sf20/Zotero/storage/PDBPB9VR/Fierce et al. - 2024 - Quantifying structural errors in cloud condensatio.pdf:application/pdf;ScienceDirect Snapshot:/Users/sf20/Zotero/storage/TMNKKR2Q/S0021850224000557.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021850224000557
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0021850224000557
+      \endverb
+      \keyw{Aerosol microphysics,Cloud condensation nuclei,Structural error}
     \endentry
     \entry{ipcc_report_2021}{inbook}{}
       \name{author}{12}{}{%
@@ -2597,6 +2757,89 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1111/ele.14084
       \endverb
       \keyw{box-counting,complexity–diversity relationships,digital elevation model (DEM),fractal dimension,habitat structure,landscape metrics,photogrammetry,remote sensing,spatial analysis,spatial ecology,Thesis}
+    \endentry
+    \entry{mandelbrot_how_1967}{article}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=83ced72c407b4739f234545c111ae19f}{%
+           family={Mandelbrot},
+           familyi={M\bibinitperiod},
+           given={Benoit},
+           giveni={B\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{fullhash}{83ced72c407b4739f234545c111ae19f}
+      \strng{bibnamehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{authorbibnamehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{authornamehash}{83ced72c407b4739f234545c111ae19f}
+      \strng{authorfullhash}{83ced72c407b4739f234545c111ae19f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Geographical curves are so involved in their detail that their lengths are often infinite or, rather, undefinable. However, many are statistically "selfsimilar," meaning that each portion can be considered a reduced-scale image of the whole. In that case, the degree of complication can be described by a quantity D that has many properties of a "dimension," though it is fractional; that is, it exceeds the value unity associated with the ordinary, rectifiable, curves.}
+      \field{issn}{0036-8075}
+      \field{journaltitle}{Science}
+      \field{note}{Publisher: American Association for the Advancement of Science}
+      \field{number}{3775}
+      \field{shorttitle}{How {Long} {Is} the {Coast} of {Britain}?}
+      \field{title}{How {Long} {Is} the {Coast} of {Britain}? {Statistical} {Self}-{Similarity} and {Fractional} {Dimension}}
+      \field{urlday}{28}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{156}
+      \field{year}{1967}
+      \field{urldateera}{ce}
+      \field{pages}{636\bibrangedash 638}
+      \range{pages}{3}
+      \verb{file}
+      \verb JSTOR Full Text PDF:/Users/sf20/Zotero/storage/EPYCECQK/Mandelbrot - 1967 - How Long Is the Coast of Britain Statistical Self.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.jstor.org/stable/1721427
+      \endverb
+      \verb{url}
+      \verb https://www.jstor.org/stable/1721427
+      \endverb
+    \endentry
+    \entry{mandelbrot_fractal_1983}{book}{}
+      \name{author}{1}{}{%
+        {{un=1,uniquepart=given,hash=d1efa9919078b1d84e99492d760dcc14}{%
+           family={Mandelbrot},
+           familyi={M\bibinitperiod},
+           given={Benoit\bibnamedelima B.},
+           giveni={B\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=1}}%
+      }
+      \list{language}{1}{%
+        {eng}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {W.H. Freeman}%
+      }
+      \strng{namehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{fullhash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{bibnamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authorbibnamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authornamehash}{d1efa9919078b1d84e99492d760dcc14}
+      \strng{authorfullhash}{d1efa9919078b1d84e99492d760dcc14}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{The fractal geometry of nature}
+      \field{edition}{Updated and augmented.}
+      \field{isbn}{0716711869}
+      \field{title}{The fractal geometry of nature}
+      \field{year}{1983}
+      \keyw{Probabilités}
     \endentry
     \entry{mann_intercomparison_2012}{article}{}
       \name{author}{17}{}{%
@@ -4771,6 +5014,80 @@
       \verb https://acp.copernicus.org/articles/16/13619/2016/
       \endverb
       \keyw{Thesis}
+    \endentry
+    \entry{zaveri_particle-resolved_2010}{article}{}
+      \name{author}{5}{ul=2}{%
+        {{un=0,uniquepart=base,hash=cefedf772b5058aa14debe40086d9a13}{%
+           family={Zaveri},
+           familyi={Z\bibinitperiod},
+           given={Rahul\bibnamedelima A.},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cd75209b9761d4d6a7705bd6bbae97e}{%
+           family={Barnard},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=38b4660deb2c79488fd2d72cdcd710d7}{%
+           family={Easter},
+           familyi={E\bibinitperiod},
+           given={Richard\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=761462924bb71da68bb0487e2badbf5a}{%
+           family={Riemer},
+           familyi={R\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0efcadce193e0f61e982a33e021409ff}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{67ed19833fab695236fd6e93a1c787f6}
+      \strng{fullhash}{7621bbc18ae6197e879e4bff06737541}
+      \strng{bibnamehash}{67ed19833fab695236fd6e93a1c787f6}
+      \strng{authorbibnamehash}{67ed19833fab695236fd6e93a1c787f6}
+      \strng{authornamehash}{67ed19833fab695236fd6e93a1c787f6}
+      \strng{authorfullhash}{7621bbc18ae6197e879e4bff06737541}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The recently developed particle-resolved aerosol box model PartMC-MOSAIC (Particle Monte Carlo model–Model for Simulating Aerosol Interactions and Chemistry) was used to rigorously simulate the evolution of aerosol mixing state and the associated optical and cloud condensation nuclei (CCN) activation properties in an idealized urban plume. The model explicitly resolved the size and composition of individual particles from a number of sources and tracked their evolution due to condensation, evaporation, coagulation, emission, and dilution. The ensemble black carbon (BC)–specific absorption cross section increased by 40\% over the course of 2 days due to BC aging by condensation and coagulation. Threefold and fourfold enhancements in CCN/CN ratios were predicted to occur within 6 h for 0.2\% and 0.5\% supersaturations (S), respectively. The particle-resolved results were used to evaluate the errors in the optical and CCN activation properties that would be predicted by a conventional sectional framework that assumes monodisperse, internally mixed particles within each bin. This assumption artificially increased the ensemble BC-specific absorption by 14–30\% and decreased the single scattering albedo (SSA) by 0.03–0.07, while the bin resolution had a negligible effect. In contrast, the errors in CCN/CN ratios were sensitive to the bin resolution for a chosen supersaturation. For S = 0.2\%, the CCN/CN ratio predicted using 100 internally mixed bins was up to 25\% higher than the particle-resolved results, while it was up to 125\% higher using 10 internally mixed bins. Neglecting coagulation overpredicted aerosol water content and number concentrations ({<}0.2 μm), causing errors in SSA from −0.02 to 0.035 and overprediction of CCN concentrations by 25–80\% at S = 0.5\%.}
+      \field{issn}{2156-2202}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2009JD013616}
+      \field{number}{D17}
+      \field{title}{Particle-resolved simulation of aerosol size, composition, mixing state, and the associated optical and cloud condensation nuclei activation properties in an evolving urban plume}
+      \field{urlday}{28}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{volume}{115}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1029/2009JD013616
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/CGG85NZ2/Zaveri et al. - 2010 - Particle-resolved simulation of aerosol size, comp.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/V93PSVNC/2009JD013616.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2009JD013616
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2009JD013616
+      \endverb
+      \keyw{aerosol mixing state,aerosol optical properties,CCN activation}
     \endentry
     \entry{zaveri_model_2008}{article}{}
       \name{author}{4}{ul=2}{%
