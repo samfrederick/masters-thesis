@@ -81,7 +81,8 @@ We find that mean ozone concentrations are nearly uniform in the PBL for each em
 
 NO$_2$ concentrations vary considerably within the boundary layer, with concentrations approaching 6 ppbv near the surface followed by a slightly decreasing trend in the middle to upper PBL. We find higher NO$_2$ concentrations as we move from the uniform base case to higher emissions spatial heterogeneity scenarios. We also find that under the highest emissions $SH$ scenarios (scenario 2 and 3), the profile of NO$_2$ is more variable with height.
 
-HCHO concentrations are relatively uniform across each emissions heterogeneity scenario, with concentrations between 3--3.5 \si{ppbv} in the PBL. Agreement in the abundance of HCHO across emission scenarios suggest that it is not as sensitive to emissions spatial heterogeneity as NO$_x$ \hl{probably owing to the rate at which it reacts with other species}.
+HCHO concentrations are relatively uniform across each emissions heterogeneity scenario, with concentrations between 3--3.5 \si{ppbv} in the PBL. Agreement in the abundance of HCHO across emission scenarios suggest that it is not as sensitive to emissions spatial heterogeneity as NO$_x$. 
+%\hl{probably owing to the rate at which it reacts with other species}.
 
 \begin{figure}[t]
   \centering
@@ -151,11 +152,7 @@ We find similar trends to scenario 1 in the field $SH$ of ozone and its precurso
  
 Figure \ref{fig:atmos-sh-s3} shows the field $SH$ of ozone and its precursors for emissions scenario 3. Scenario 3 posses the highest emissions spatial heterogeneity, $SH=1$. As a result, the field $SH$ of both NO and HCHO are markedly higher compared to previous scenarios. Field $SH$ of NO varies both spatially and temporally for scenario 3. Following the release of emissions at $t=1$ h, we find a high field $SH$ of 0.8 near the surface that persists for the duration of the simulation. Moving up in the PBL, field $SH$ ranges from 0.4 to 0.6. From $t=1$ h to $t=2$ h, the region of high field $SH$ at 0.6 is localized near the surface. Following this point, this high field $SH$ region extends upwards to the top of the PBL from  $t=2$ h to $t=3$ h. After this point, field $SH$ lowers back down to 0.4 over most of the PBL. Field $SH$ of HCHO is relatively uniform through the PBL and increases following emissions to 0.2 by $t=3$ h where it remains for the duration of the simulation. Similar to the field $SH$ of ozone discussed for scenarios 1 and 2, ozone exhibits a very similar pattern for scenario 3--from $t=1$ h to $t=3.5$ h, ozone field $SH$ is of order 0.001, increasing to 0.01 afterwards.
 
-\hl{Decrease in NO field sh seems to occur around the same time that HCHO field sh increases, shortly followed by ozone. My theory is that this may point to changes in ozone production efficiency as the relative abundance of NOx changes due to continued emissions and perhaps the VOCs are reacting more to produce more ozone (thus increasing the conc. and coupling the field sh of ozone to VOC field sh?) Its also the case that there ARE aerosols in these simulations and that presents an important pathway for the removal of NOx via nitric acid to form aerosol nitrate and nitric acid deposition.}
-
-
-
-
+%\hl{Decrease in NO field sh seems to occur around the same time that HCHO field sh increases, shortly followed by ozone. My theory is that this may point to changes in ozone production efficiency as the relative abundance of NOx changes due to continued emissions and perhaps the VOCs are reacting more to produce more ozone (thus increasing the conc. and coupling the field sh of ozone to VOC field sh?) Its also the case that there ARE aerosols in these simulations and that presents an important pathway for the removal of NOx via nitric acid to form aerosol nitrate and nitric acid deposition.}
 
 
 %\subsection{Structural uncertainty in ozone production}
@@ -169,21 +166,22 @@ Figure \ref{fig:atmos-sh-s3} shows the field $SH$ of ozone and its precursors fo
   
 \section{Discussion}
 
-\hl{This either goes here or in the introduction..}
-\begin{itemize}
-\item Worth noting at some point past studies that have evaluated the production of ozone in LES as well as some studies that investigate the impacts of spatial het. on ozone production (Initial studies investigated idealized interactions between turbulence and ozone chemistry in the PBL, more recent studies have branched into region-specific studies to investigate impacts of spatially heterogeneous emissions and turbulence-chemistry interactions on local ozone production).
-\begin{itemize}
-\item \cite{schumann_large-eddy_1989} Idealized LES of boundary layer - investigate binary reactions (such as those typical of ozone production) with varying reaction rates. For rates typical of ozone-nox reactions, the mechanism is significantly impacted by turbulence.
-\item \cite{sykes_large-eddy_1992} Idealized LES of boundary layer - investigate turbulence chemistry interactions on ozone chemistry, particularly focused on the removal mechanism oxidizing NO to NO2 + O2. Find that the production rate of NO2 is highly dependent on the turbulent mixing of the plume. They show that the turbulence segregation coefficient can be approximated as uniform in a emitted plume. 
+We find an inverse relationship between emissions spatial heterogeneity and the production of ozone; as emissions become more spatially heterogeneous, ozone concentrations are reduced by up to 12\% within the PBL. Additionally, increases in the field $SH$ of ozone precursors are observed under high emissions $SH$ scenarios with the highest magnitude of field $SH$ observed for NO. By comparison, the field $SH$ of ozone is low (field $SH<0.01$) across all emissions scenarios. 
+
+The production of ozone in the PBL has been thoroughly studied, including the use of LES to investigate the impacts of chemically segregated emissions and turbulence-chemistry interactions. \cite{schumann_large-eddy_1989} conducted an idealized LES study of the PBL to determine the impacts of varying turbulent diffusion strength on generic binary reactions. For rates typical of the ozone-NO$_x$ mechanism, the authors found that reaction rates are significantly impacted by turbulence and chemical segregation. Subsequently, \cite{sykes_large-eddy_1992} conducted a similar LES study of the PBL, however they directly modeled the ozone removal mechanism via NO shown in Reaction \ref{eq:nox-titration}. They showed that the removal of ozone by Reaction \ref{eq:nox-titration} is highly dependent on the strength of turbulent mixing of an emissions plume. Under strong mixing, the plume is more rapidly diffused, reducing the rate of ozone removal and allowing ozone production mechanisms to proceed. Our findings point to a similar conclusion, whereby highly concentrated and spatially heterogeneous emissions of ozone precursors lead to efficient removal of ozone within the plume, resulting in the production of greater NO$_2$. 
+
+Enhancements in removal mechanisms are observed at high emissions spatial heterogeneity. We find that the opposite is true for ozone production. Note that ozone production occurs on short timescales and that low spatial heterogeneity emissions scenarios with more uniform and dilute distributions of precursors result in a longer duration of time in which precursors remain well mixed. This effectively enhances the timescale over which ozone production can occur, leading to higher ozone concentrations. Recall that the uniform base case emissions scenario serves as a proxy for coarser resolved models in which emissions spatial heterogeneity on length scales smaller than the grid resolution will not be resolved. Thus, we may expect model comparisons of ozone production at coarser resolution to over-predict tropospheric ozone concentrations. Indeed, \cite{wild_global_2006} evaluate the production of ozone in a global chemistry model across various grid resolutions and find that ozone production is overestimated near emissions sources by up to 27\% for the coarsest resolution evaluated ($5.6^{\circ}$ x $5.6^{\circ}$) and error scales approximately monotonically as resolution increases. 
+
+
+%\begin{itemize}
 %\item \cite{krol_effects_2000} Maybe?
-\item \cite{auger_chemical_2007} (seems very similar to what I am doing here) LES of PBL over 10x10 km domain. Indicate that segregation is strongest in the first two hours - after 3 hours segregation is largely reduced due to efficient mixing in the PBL. 
-\item \cite{zhong_modelling_2015} Similar to Zhong et al 2017, find that ozone production rate is reduced due to incomplete mixing.
-\item \cite{zhong_large_2017} LES study of O3-NOx-VOC chemistry in urban street canyons characterized by high spatial variability in concentration gradients. NOx and HOx radicals were consumed to produce NO2 and O3. Segregation effect due to incomplete mixing reduces the production of NO2. 
-\item \cite{wang_impact_2021}
-\item \cite{wang_segregation_2022} Similar to wang 2023
-\item \cite{wang_coupled_2023} Use of LES (WRF-Chem LES \hl{what chem mechanism?}) for urban (Hong Kong) emissions compared against mesoscale simulations, show that NOx is underestimated and O3 overestimated in mesoscale simulations when compared to LES, attributed to the higher spatial resolution of emissions and explicitly resolving turbulent transport.
-\end{itemize} 
-\end{itemize}
+%\item \cite{auger_chemical_2007} (seems very similar to what I am doing here) LES of PBL over 10x10 km domain. Indicate that segregation is strongest in the first two hours - after 3 hours segregation is largely reduced due to efficient mixing in the PBL. 
+%\item \cite{zhong_modelling_2015} Similar to Zhong et al 2017, find that ozone production rate is reduced due to incomplete mixing.
+%\item \cite{zhong_large_2017} LES study of O3-NOx-VOC chemistry in urban street canyons characterized by high spatial variability in concentration gradients. NOx and HOx radicals were consumed to produce NO2 and O3. Segregation effect due to incomplete mixing reduces the production of NO2. 
+%\item \cite{wang_impact_2021}
+%\item \cite{wang_segregation_2022} Similar to wang 2023
+%\item \cite{wang_coupled_2023} Use of LES (WRF-Chem LES \hl{what chem mechanism?}) for urban (Hong Kong) emissions compared against mesoscale simulations, show that NOx is underestimated and O3 overestimated in mesoscale simulations when compared to LES, attributed to the higher spatial resolution of emissions and explicitly resolving turbulent transport.
+%\end{itemize} 
 
 
 

@@ -1884,6 +1884,478 @@
       \verb https://journals-ametsoc-org.proxy2.library.illinois.edu/view/journals/atsc/32/10/1520-0469_1975_032_1977_aemfns_2_0_co_2.xml
       \endverb
     \endentry
+    \entry{golaz_doe_2022}{article}{}
+      \name{author}{71}{}{%
+        {{un=0,uniquepart=base,hash=6d3dc7b0ec222d31366d09df80e0972b}{%
+           family={Golaz},
+           familyi={G\bibinitperiod},
+           given={Jean‐Christophe},
+           giveni={J\bibinithyphendelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9fc4ed13c7aeefcdac8cf3166bfd162}{%
+           family={Van\bibnamedelima Roekel},
+           familyi={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Luke\bibnamedelima P.},
+           giveni={L\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0ec531c760f04b75ddefbe8ca970e3f9}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Xue},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8da20b5bff58282f7677d605c01211d1}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Andrew\bibnamedelima F.},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bacc6c7c2c0e11631a52e1825ef02972}{%
+           family={Wolfe},
+           familyi={W\bibinitperiod},
+           given={Jonathan\bibnamedelima D.},
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e855ee4bd5e4309d069b91a3c3e5e6ea}{%
+           family={Lin},
+           familyi={L\bibinitperiod},
+           given={Wuyin},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a785675921635985f857ad463ff09021}{%
+           family={Bradley},
+           familyi={B\bibinitperiod},
+           given={Andrew\bibnamedelima M.},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c4bed09a8ffdc32629138d7226093d61}{%
+           family={Tang},
+           familyi={T\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dab63ef38653bc95d4046fa102ae4795}{%
+           family={Maltrud},
+           familyi={M\bibinitperiod},
+           given={Mathew\bibnamedelima E.},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=43372a4926ba9f3f5b12a1ad7d5cd5ce}{%
+           family={Forsyth},
+           familyi={F\bibinitperiod},
+           given={Ryan\bibnamedelima M.},
+           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3bec0f0ddfc66096fda1ef00aab8655}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Chengzhu},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7c580a66fa1a8e148a3650ea5ed0442}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Tian},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=accfaf086a407bfb746d7875478d9130}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2dde144d5dd7a61b0a9d71f33b32db36}{%
+           family={Zender},
+           familyi={Z\bibinitperiod},
+           given={Charles\bibnamedelima S.},
+           giveni={C\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c6ad4673cdcd6ad96c77d53f0b33fa91}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Mingxuan},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=408e8623fa2b1f311e860bae82300670}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Hailong},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5298c6113a32ab0688652d5f6d7c7eb0}{%
+           family={Turner},
+           familyi={T\bibinitperiod},
+           given={Adrian\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b8ecd01ce5f35c63c4c9dd75a4d62771}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={Balwinder},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e52299e913f9a6170a413559df50171}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Jadwiga\bibnamedelima H.},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5089793647c7edab2e2ecab6a15d881}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Yi},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e1dbc34cc7b8ed4dbe4ef8efbc9e94c1}{%
+           family={Petersen},
+           familyi={P\bibinitperiod},
+           given={Mark\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=214b05c8d686aaa9d71884d0ca66a8be}{%
+           family={Mametjanov},
+           familyi={M\bibinitperiod},
+           given={Azamat},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8095d3d6255ab46346b332d5472d8e3c}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={Po‐Lun},
+           giveni={P\bibinithyphendelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6a410a06b92db6bb2575d88b07c6cc72}{%
+           family={Larson},
+           familyi={L\bibinitperiod},
+           given={Vincent\bibnamedelima E.},
+           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d1c067906a81fb561fd4e079f1cf066}{%
+           family={Krishna},
+           familyi={K\bibinitperiod},
+           given={Jayesh},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=07a370e7d5eddc3fb6a3331880ca2a0d}{%
+           family={Keen},
+           familyi={K\bibinitperiod},
+           given={Noel\bibnamedelima D.},
+           giveni={N\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ec4f812ab466ddca633e27b3aaa6bb87}{%
+           family={Jeffery},
+           familyi={J\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79e5e4e1a5e4392277362c15c3d2f178}{%
+           family={Hunke},
+           familyi={H\bibinitperiod},
+           given={Elizabeth\bibnamedelima C.},
+           giveni={E\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52bf08f46ca1d6d4dbf04516db5b5e67}{%
+           family={Hannah},
+           familyi={H\bibinitperiod},
+           given={Walter\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=51b1fe573620adc5f4355b9b18a3d84d}{%
+           family={Guba},
+           familyi={G\bibinitperiod},
+           given={Oksana},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1b278f5181bb854c9cd4917bb74829e}{%
+           family={Griffin},
+           familyi={G\bibinitperiod},
+           given={Brian\bibnamedelima M.},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d1d912509d266eb94dfcd8d6e4984992}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Yan},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a357e15651caf6d45d3f8da7b8ec83fe}{%
+           family={Engwirda},
+           familyi={E\bibinitperiod},
+           given={Darren},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa1835bb451bf576a3304b53c19b4233}{%
+           family={Di\bibnamedelima Vittorio},
+           familyi={D\bibinitperiod\bibinitdelim V\bibinitperiod},
+           given={Alan\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=493721b70c9bcf9379ec96cc7cf06356}{%
+           family={Dang},
+           familyi={D\bibinitperiod},
+           given={Cheng},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fbc9d2a113f5173373ced80aa6411bd9}{%
+           family={Conlon},
+           familyi={C\bibinitperiod},
+           given={LeAnn\bibnamedelima M.},
+           giveni={L\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a12e2d1814a1be9a948125379d951a19}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Chih‐Chieh‐Jack},
+           giveni={C\bibinithyphendelim C\bibinithyphendelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3eb9d6fb15fb9ff9fe43ba36e1abe322}{%
+           family={Brunke},
+           familyi={B\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8a5ec19b0926bb94de99c5ca43c4ed0}{%
+           family={Bisht},
+           familyi={B\bibinitperiod},
+           given={Gautam},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=39533bb94abb004f9e79767553f067cb}{%
+           family={Benedict},
+           familyi={B\bibinitperiod},
+           given={James\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50eefa8a3f83d6c96101cfa9f699bb77}{%
+           family={Asay‐Davis},
+           familyi={A\bibinithyphendelim D\bibinitperiod},
+           given={Xylar\bibnamedelima S.},
+           giveni={X\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3e198c277b61eb94a13cf16f9b6278cc}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Yuying},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1276b0c695bd412950c2be5e737aeed5}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Meng},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2ae6a44f0273f7795809a067250b90d}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Xubin},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=08dfb3d41c0e0502c7a1eb947b89e461}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Shaocheng},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d04baf1fb6e2e6543a9477dd76bcb584}{%
+           family={Wolfram},
+           familyi={W\bibinitperiod},
+           given={Phillip\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1032c7863370634d1a70890cdc8f989b}{%
+           family={Vo},
+           familyi={V\bibinitperiod},
+           given={Tom},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6983f84e7e372ef8c16f57bbf9f21283}{%
+           family={Veneziani},
+           familyi={V\bibinitperiod},
+           given={Milena},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2251a8d1082c8b77f85f7faca6d80580}{%
+           family={Tesfa},
+           familyi={T\bibinitperiod},
+           given={Teklu\bibnamedelima K.},
+           giveni={T\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d5d03bd5e3cb0e9f5d60ecd387c093a5}{%
+           family={Sreepathi},
+           familyi={S\bibinitperiod},
+           given={Sarat},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ab8944693163c7902b9d9668f216dc20}{%
+           family={Salinger},
+           familyi={S\bibinitperiod},
+           given={Andrew\bibnamedelima G.},
+           giveni={A\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0c1b5ff6d1274dda322e4353ed28f27d}{%
+           family={Reeves\bibnamedelima Eyre},
+           familyi={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           given={J.\bibnamedelimi E.\bibnamedelimi Jack},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6bf8c041941ce36effeb8704876d276}{%
+           family={Prather},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d245fd8273d7e4a3b3d5ac7832e1f47}{%
+           family={Mahajan},
+           familyi={M\bibinitperiod},
+           given={Salil},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d484758c7e67665004efd977f6f72f92}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Philip\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=89c73e1ab18dd3373e43188c550400ff}{%
+           family={Jacob},
+           familyi={J\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dfac91ae1c0cbcb80f1c17a3919bb383}{%
+           family={Huebler},
+           familyi={H\bibinitperiod},
+           given={Gunther\bibnamedelima W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ef207034e30eb1505e186e23ed86d16}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={Xianglei},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15e2054d2f3bc9b6a4d031f45fac4c66}{%
+           family={Hillman},
+           familyi={H\bibinitperiod},
+           given={Benjamin\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a761e54ba26c73389770bd22fc55896a}{%
+           family={Harrop},
+           familyi={H\bibinitperiod},
+           given={Bryce\bibnamedelima E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=17e919239d98e4dba82fd446f2a75897}{%
+           family={Foucar},
+           familyi={F\bibinitperiod},
+           given={James\bibnamedelima G.},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e35acd2651a8a8f145d06d90e04af1f0}{%
+           family={Fang},
+           familyi={F\bibinitperiod},
+           given={Yilin},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0ce0c26156345c9e30714fc2421c3c9}{%
+           family={Comeau},
+           familyi={C\bibinitperiod},
+           given={Darin\bibnamedelima S.},
+           giveni={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=483c4905272fc44f15378f9f68ecfa77}{%
+           family={Caldwell},
+           familyi={C\bibinitperiod},
+           given={Peter\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2f86ebb1eede03c6b43d20abcf2657b1}{%
+           family={Bartoletti},
+           familyi={B\bibinitperiod},
+           given={Tony},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d487f24efcdcc6b74fb4f7d949929de}{%
+           family={Balaguru},
+           familyi={B\bibinitperiod},
+           given={Karthik},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a65b66b603ac22ecac220c1e45918ae4}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Mark\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=15184e23be12536cd231cc6ae6b14554}{%
+           family={McCoy},
+           familyi={M\bibinitperiod},
+           given={Renata\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4389709539c8b5505ffc5fd8ca605871}{%
+           family={Leung},
+           familyi={L\bibinitperiod},
+           given={L.\bibnamedelimi Ruby},
+           giveni={L\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9e15c1857be2c79b3750f86dfede76ac}{%
+           family={Bader},
+           familyi={B\bibinitperiod},
+           given={David\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{820918670a18ae541291b293cd36d8ad}
+      \strng{fullhash}{1fc88dae03ef3a31642aa5b1192dbf9f}
+      \strng{bibnamehash}{820918670a18ae541291b293cd36d8ad}
+      \strng{authorbibnamehash}{820918670a18ae541291b293cd36d8ad}
+      \strng{authornamehash}{820918670a18ae541291b293cd36d8ad}
+      \strng{authorfullhash}{1fc88dae03ef3a31642aa5b1192dbf9f}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Abstract This work documents version two of the Department of Energy's Energy Exascale Earth System Model (E3SM). E3SMv2 is a significant evolution from its predecessor E3SMv1, resulting in a model that is nearly twice as fast and with a simulated climate that is improved in many metrics. We describe the physical climate model in its lower horizontal resolution configuration consisting of 110 km atmosphere, 165 km land, 0.5° river routing model, and an ocean and sea ice with mesh spacing varying between 60 km in the mid‐latitudes and 30 km at the equator and poles. The model performance is evaluated with Coupled Model Intercomparison Project Phase 6 Diagnosis, Evaluation, and Characterization of Klima simulations augmented with historical simulations as well as simulations to evaluate impacts of different forcing agents. The simulated climate has many realistic features of the climate system, with notable improvements in clouds and precipitation compared to E3SMv1. E3SMv1 suffered from an excessively high equilibrium climate sensitivity (ECS) of 5.3 K. In E3SMv2, ECS is reduced to 4.0 K which is now within the plausible range based on a recent World Climate Research Program assessment. However, a number of important biases remain including a weak Atlantic Meridional Overturning Circulation, deficiencies in the characteristics and spectral distribution of tropical atmospheric variability, and a significant underestimation of the observed warming in the second half of the historical period. An analysis of single‐forcing simulations indicates that correcting the historical temperature bias would require a substantial reduction in the magnitude of the aerosol‐related forcing. , Plain Language Summary The U.S. Department of Energy recently released version two of its Energy Exascale Earth System Model (E3SM). E3SMv2 experienced a significant evolution in many of its model components (most notably the atmosphere and sea ice models), and its supporting software infrastructure. In this work, we document the computational performance of E3SMv2 and analyze its ability to reproduce the observed climate. To accomplish this, we utilize the standard Diagnosis and Evaluation and Characterization of Klima experiments augmented with historical simulations for the period 1850–2015. We find that E3SMv2 is nearly twice as fast as its predecessor and more accurately reproduces the observed climate in a number of metrics, most notably clouds and precipitation. We also find that the model's simulated response to increasing carbon dioxide (the equilibrium climate sensitivity) is much more realistic. Unfortunately, E3SMv2 underestimates the global mean surface temperature compared to observations during the second half of historical period. Using sensitivity experiments, where forcing agents (carbon dioxide, aerosols) are selectively disabled in the model, we determine that correcting this problem would require a strong reduction in the impact of aerosols. , Key Points E3SMv2 is nearly twice as fast as E3SMv1 with a simulated climate that is improved in many metrics (e.g., precipitation and clouds) Climate sensitivity is substantially lower with a more plausible equilibrium climate sensitivity of 4.0 K (compared to an unlikely value of 5.3 K in E3SMv1) E3SMv2 underestimates the warming in the late historical period due to excessive aerosol‐related forcing}
+      \field{issn}{1942-2466, 1942-2466}
+      \field{journaltitle}{Journal of Advances in Modeling Earth Systems}
+      \field{month}{12}
+      \field{number}{12}
+      \field{shorttitle}{The {DOE} {E3SM} {Model} {Version} 2}
+      \field{title}{The {DOE} {E3SM} {Model} {Version} 2: {Overview} of the {Physical} {Model} and {Initial} {Model} {Evaluation}}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{14}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{e2022MS003156}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1029/2022MS003156
+      \endverb
+      \verb{file}
+      \verb Full Text:/Users/sf20/Zotero/storage/QCSFAE66/Golaz et al. - 2022 - The DOE E3SM Model Version 2 Overview of the Phys.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022MS003156
+      \endverb
+      \verb{url}
+      \verb https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2022MS003156
+      \endverb
+    \endentry
     \entry{gustafson_jr_downscaling_2011}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=acd820613d1b87989fed3c3744799f98}{%
@@ -4497,6 +4969,112 @@
       \endverb
       \keyw{cloud,GOES,land atmosphere interaction,land cover,secondary circulations,shallow cumulus,surface heat flux,Thesis}
     \endentry
+    \entry{tilmes_description_2023}{article}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=60aa7f6a9bd1913ae065300e5d7f7e49}{%
+           family={Tilmes},
+           familyi={T\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2a6df263b60faf98cc5a55f3ac9bf7bb}{%
+           family={Mills},
+           familyi={M\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cb2f245854f1c48b763f508adf86d15d}{%
+           family={Zhu},
+           familyi={Z\bibinitperiod},
+           given={Yunqian},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90cf8b66603f4e49c223ce7dc255c01e}{%
+           family={Bardeen},
+           familyi={B\bibinitperiod},
+           given={Charles\bibnamedelima G.},
+           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2084203aa180ee4ecfc408a941bce917}{%
+           family={Vitt},
+           familyi={V\bibinitperiod},
+           given={Francis},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fd0e87ce78c3ffc7e6a38ca815269abe}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Pengfei},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84f63fb6c8af0997b4ffe446d77f98cf}{%
+           family={Fillmore},
+           familyi={F\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=163b6ada3d03b7a9c8ff77f957ba0c28}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Xiaohong},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2913978bd59384ddd0fc3d2223499e5b}{%
+           family={Toon},
+           familyi={T\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=194b4fa9ea0ebbe4af1b750f3cb6ef49}{%
+           family={Deshler},
+           familyi={D\bibinitperiod},
+           given={Terry},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {English}%
+      }
+      \strng{namehash}{e2b5cac454fd088c35ef7c274de4aebb}
+      \strng{fullhash}{c1e82678cf7940898b31449b629d0d38}
+      \strng{bibnamehash}{e2b5cac454fd088c35ef7c274de4aebb}
+      \strng{authorbibnamehash}{e2b5cac454fd088c35ef7c274de4aebb}
+      \strng{authornamehash}{e2b5cac454fd088c35ef7c274de4aebb}
+      \strng{authorfullhash}{c1e82678cf7940898b31449b629d0d38}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We implemented the Community Aerosol and Radiation Model for Atmospheres (CARMA) in both the high- and low-top model versions of the Community Earth System Model Version 2 (CESM2). CARMA is a sectional microphysical model, which we use for aerosol in both the troposphere and stratosphere. CARMA is fully coupled to chemistry, clouds, radiation, and transport routines in CESM2. This development enables the comparison of simulations with a sectional (CARMA) and a modal (MAM4) aerosol microphysical model in the same modeling framework. The new implementation of CARMA has been adopted from previous work, with some additions that align with the current CESM2 Modal Aerosol Model (MAM4) implementation. The main updates include an interactive secondary organic aerosol description in CARMA, using the volatility basis set (VBS) approach, updated wet removal, and the use of transient emissions of aerosols and trace gases. In addition, we implemented an alternative aerosol nucleation scheme in CARMA, which is also used in MAM4. Detailed comparisons of stratospheric aerosol properties after the Mount Pinatubo eruption reveal the importance of prescribing sulfur injections in a larger region rather than in a single column to better represent the observed evolution of aerosols. Both CARMA and MAM4 in CESM2 are able to represent stratospheric and tropospheric aerosol properties reasonably well when compared to observations. Several differences in the performance of the two aerosol models show, in general, an improved representation of aerosols when using the sectional aerosol model in CESM2. These include a better representation of the aerosol size distribution after the Mount Pinatubo volcanic eruption in CARMA compared to MAM4. MAM4 produces on average smaller aerosols and less removal than CARMA, which results in a larger total mass. Both CARMA and MAM4 reproduce the stratospheric aerosol optical depth (AOD) within the error bar of the observations between 2001 and 2020, except for recent larger volcanic eruptions that are overestimated by both model configurations. The CARMA background surface area density and aerosol size distribution in the stratosphere and troposphere compare well to observations, with some underestimation of the Aitken-mode size range. MAM4 shows shortcomings in reproducing coarse-mode aerosol distributions in the stratosphere and troposphere. This work outlines additional development needs for CESM2 CARMA to improve the model compared to observations in both the troposphere and stratosphere.}
+      \field{issn}{1991-959X}
+      \field{journaltitle}{Geoscientific Model Development}
+      \field{month}{11}
+      \field{note}{Publisher: Copernicus GmbH}
+      \field{number}{21}
+      \field{title}{Description and performance of a sectional aerosol microphysical model in the {Community} {Earth} {System} {Model} ({CESM2})}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{16}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{6087\bibrangedash 6125}
+      \range{pages}{39}
+      \verb{doi}
+      \verb 10.5194/gmd-16-6087-2023
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/PCPR3L9H/Tilmes et al. - 2023 - Description and performance of a sectional aerosol.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://gmd.copernicus.org/articles/16/6087/2023/
+      \endverb
+      \verb{url}
+      \verb https://gmd.copernicus.org/articles/16/6087/2023/
+      \endverb
+    \endentry
     \entry{tonttila_uclalessalsa_2017}{article}{}
       \name{author}{6}{}{%
         {{un=0,uniquepart=base,hash=8dd79dd6080d99ca09d708b6b5301f62}{%
@@ -4753,202 +5331,6 @@
       \endverb
       \keyw{segregation,LES,ozone production rate,reaction rate,urban pollution,To read,Thesis}
     \endentry
-    \entry{wang_coupled_2023}{article}{}
-      \name{author}{10}{ul=4}{%
-        {{un=1,uniquepart=given,hash=8867ec7ba406060d80adc69093d45bd2}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Yuting},
-           giveni={Y\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=479ded1ca62a1a1cd41aae33921d1af7}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={Yong-Feng},
-           giveni={Y\bibinithyphendelim F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a7172257c6c4b3e336a74d0d1296a786}{%
-           family={Muñoz-Esparza},
-           familyi={M\bibinithyphendelim E\bibinitperiod},
-           given={Domingo},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b88e40e44d3caad6dc78d0e9873d4151}{%
-           family={Dai},
-           familyi={D\bibinitperiod},
-           given={Jianing},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2868ea5d9d0a0839e7d5b6b9db7dc0ac}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Cathy\bibnamedelimb Wing\bibnamedelima Yi},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Y\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2c1b3aeded9d5eed2a06d3bdab76ddf1}{%
-           family={Lichtig},
-           familyi={L\bibinitperiod},
-           given={Pablo},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd3b1e08bde59804ad7efb0755e48b34}{%
-           family={Tsang},
-           familyi={T\bibinitperiod},
-           given={Roy\bibnamedelima Chun-Wang},
-           giveni={R\bibinitperiod\bibinitdelim C\bibinithyphendelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f185de79612f7d709acb7c208b106510}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Chun-Ho},
-           giveni={C\bibinithyphendelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ad1506e9f10da2cad4389eac16751647}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Tao},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=302e602660a22424bb3914c0bdb8a1cd}{%
-           family={Brasseur},
-           familyi={B\bibinitperiod},
-           given={Guy\bibnamedelima Pierre},
-           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{6b691f0d0d6a592cf02c5c4726787bbf}
-      \strng{fullhash}{32956845113356c9c276805939456952}
-      \strng{bibnamehash}{6b691f0d0d6a592cf02c5c4726787bbf}
-      \strng{authorbibnamehash}{6b691f0d0d6a592cf02c5c4726787bbf}
-      \strng{authornamehash}{6b691f0d0d6a592cf02c5c4726787bbf}
-      \strng{authorfullhash}{32956845113356c9c276805939456952}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{To perform realistic high-resolution air quality modeling in a polluted urban area, the Weather Research and Forecasting (WRF) model is used with an embedded large-eddy simulation (LES) module and online chemistry. As an illustration, a numerical experiment is conducted in the megacity of Hong Kong, which is characterized by multi-type inhomogeneous pollution sources and complex topography. The results from the multi-resolution simulations at mesoscale and LES scales are evaluated by comparing them with ozone sounding profiles and surface observations. The comparisons show that both mesoscale and LES simulations reproduce the mean concentrations of the chemical species and their diurnal variations at the background stations well. However, the mesoscale simulations largely underestimate the NOx concentrations and overestimate O3 at the roadside stations due to the coarse representation of the traffic emissions. The LES simulations improve the agreement with the measurements near the road traffic, and the LES with the highest spatial resolution (33.3 m) provides the best results. The large-eddy simulations show more detailed structures in the spatial distributions of chemical species than the mesoscale simulations, highlighting the capability of LES to resolve high-resolution photochemical transformations in urban areas. Compared to the mesoscale model results, the LES simulations show similar evolutions in the profiles of the chemical species as a function of the boundary layer development over a diurnal cycle.}
-      \field{issn}{1680-7316}
-      \field{journaltitle}{Atmospheric Chemistry and Physics}
-      \field{month}{5}
-      \field{note}{Publisher: Copernicus GmbH}
-      \field{number}{10}
-      \field{title}{Coupled mesoscale–microscale modeling of air quality in a polluted city using {WRF}-{LES}-{Chem}}
-      \field{urlday}{5}
-      \field{urlmonth}{6}
-      \field{urlyear}{2023}
-      \field{volume}{23}
-      \field{year}{2023}
-      \field{urldateera}{ce}
-      \field{pages}{5905\bibrangedash 5927}
-      \range{pages}{23}
-      \verb{doi}
-      \verb 10.5194/acp-23-5905-2023
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/Users/sf20/Zotero/storage/AHHV2VVK/Wang et al. - 2023 - Coupled mesoscale–microscale modeling of air quali.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://acp.copernicus.org/articles/23/5905/2023/
-      \endverb
-      \verb{url}
-      \verb https://acp.copernicus.org/articles/23/5905/2023/
-      \endverb
-      \keyw{To read,Thesis}
-    \endentry
-    \entry{wang_impact_2021}{article}{}
-      \name{author}{7}{ul=4}{%
-        {{un=1,uniquepart=given,hash=8867ec7ba406060d80adc69093d45bd2}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Yuting},
-           giveni={Y\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=479ded1ca62a1a1cd41aae33921d1af7}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={Yong-Feng},
-           giveni={Y\bibinithyphendelim F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a7172257c6c4b3e336a74d0d1296a786}{%
-           family={Muñoz-Esparza},
-           familyi={M\bibinithyphendelim E\bibinitperiod},
-           given={Domingo},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=1,uniquepart=given,hash=dfeafc1b641d0cb87d188a267ded0699}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Cathy\bibnamedelimb W.\bibnamedelimi Y.},
-           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim Y\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=886e68547626a3ed3dbf5b835ab98624}{%
-           family={Barth},
-           familyi={B\bibinitperiod},
-           given={Mary},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ad1506e9f10da2cad4389eac16751647}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Tao},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ca9931ba2cb727b41ee398338e0b9446}{%
-           family={Brasseur},
-           familyi={B\bibinitperiod},
-           given={Guy\bibnamedelima P.},
-           giveni={G\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {English}%
-      }
-      \strng{namehash}{37462d0d4d1c2e303870973c07c21197}
-      \strng{fullhash}{87afd6a9e5031487f7f6a11519e99e8d}
-      \strng{bibnamehash}{37462d0d4d1c2e303870973c07c21197}
-      \strng{authorbibnamehash}{37462d0d4d1c2e303870973c07c21197}
-      \strng{authornamehash}{37462d0d4d1c2e303870973c07c21197}
-      \strng{authorfullhash}{87afd6a9e5031487f7f6a11519e99e8d}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Global and regional chemical transport models of the atmosphere are based on the assumption that chemical species are completely mixed within each model grid box. However, in reality, these species are often segregated due to localized sources and the influence of topography. In order to investigate the degree to which the rates of chemical reactions between two reactive species are reduced due to the possible segregation of species within the convective boundary layer, we perform large-eddy simulations (LESs) in the mountainous region of Hong Kong Island. We adopt a simple chemical scheme with 15 primary and secondary chemical species, including ozone and its precursors. We calculate the segregation intensity due to inhomogeneity in the surface emissions of primary pollutants and due to turbulent motions related to topography. We show that the inhomogeneity in the emissions increases the segregation intensity by a factor of 2–5 relative to a case in which the emissions are assumed to be uniformly distributed. Topography has an important effect on the segregation locally, but this influence is relatively limited when considering the spatial domain as a whole. In the particular setting of our model, segregation reduces the ozone formation by 8 \%–12 \% compared to the case with complete mixing, implying that the coarse-resolution models may overestimate the surface ozone when ignoring the segregation effect.}
-      \field{issn}{1680-7316}
-      \field{journaltitle}{Atmospheric Chemistry and Physics}
-      \field{month}{3}
-      \field{note}{Publisher: Copernicus GmbH}
-      \field{number}{5}
-      \field{title}{The impact of inhomogeneous emissions and topography on ozone photochemistry in the vicinity of {Hong} {Kong} {Island}}
-      \field{urlday}{5}
-      \field{urlmonth}{6}
-      \field{urlyear}{2023}
-      \field{volume}{21}
-      \field{year}{2021}
-      \field{urldateera}{ce}
-      \field{pages}{3531\bibrangedash 3553}
-      \range{pages}{23}
-      \verb{doi}
-      \verb 10.5194/acp-21-3531-2021
-      \endverb
-      \verb{file}
-      \verb Full Text PDF:/Users/sf20/Zotero/storage/N4VEAA7R/Wang et al. - 2021 - The impact of inhomogeneous emissions and topograp.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://acp.copernicus.org/articles/21/3531/2021/
-      \endverb
-      \verb{url}
-      \verb https://acp.copernicus.org/articles/21/3531/2021/
-      \endverb
-      \keyw{To read,Thesis}
-    \endentry
     \entry{weigum_effect_2016}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=20c1afddf4d78652b725ace94be058cd}{%
@@ -5014,6 +5396,63 @@
       \verb https://acp.copernicus.org/articles/16/13619/2016/
       \endverb
       \keyw{Thesis}
+    \endentry
+    \entry{wild_global_2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=36793d80a901bdaf7bc5d27d3bf460f2}{%
+           family={Wild},
+           familyi={W\bibinitperiod},
+           given={Oliver},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f6bf8c041941ce36effeb8704876d276}{%
+           family={Prather},
+           familyi={P\bibinitperiod},
+           given={Michael\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{ec12fc5e88c5b6e6f110292aeb97e2be}
+      \strng{fullhash}{ec12fc5e88c5b6e6f110292aeb97e2be}
+      \strng{bibnamehash}{ec12fc5e88c5b6e6f110292aeb97e2be}
+      \strng{authorbibnamehash}{ec12fc5e88c5b6e6f110292aeb97e2be}
+      \strng{authornamehash}{ec12fc5e88c5b6e6f110292aeb97e2be}
+      \strng{authorfullhash}{ec12fc5e88c5b6e6f110292aeb97e2be}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Ozone production in global chemical models is dependent on model resolution because ozone chemistry is inherently nonlinear, the timescales for chemical production are short, and precursors are artificially distributed over the spatial scale of the model grid. In this study we examine the sensitivity of ozone, its precursors, and its production to resolution by running a global chemical transport model at four different resolutions between T21 (5.6° × 5.6°) and T106 (1.1° × 1.1°) and by quantifying the errors in regional and global budgets. The sensitivity to vertical mixing through the parameterization of boundary layer turbulence is also examined. We find less ozone production in the boundary layer at higher resolution, consistent with slower chemical production in polluted emission regions and greater export of precursors. Agreement with ozonesonde and aircraft measurements made during the NASA TRACE-P campaign over the western Pacific in spring 2001 is consistently better at higher resolution. We demonstrate that the numerical errors in transport processes on a given resolution converge geometrically for a tracer at successively higher resolutions. The convergence in ozone production on progressing from T21 to T42, T63, and T106 resolution is likewise monotonic but indicates that there are still large errors at 120 km scales, suggesting that T106 resolution is too coarse to resolve regional ozone production. Diagnosing the ozone production and precursor transport that follow a short pulse of emissions over east Asia in springtime allows us to quantify the impacts of resolution on both regional and global ozone. Production close to continental emission regions is overestimated by 27\% at T21 resolution, by 13\% at T42 resolution, and by 5\% at T106 resolution. However, subsequent ozone production in the free troposphere is not greatly affected. We find that the export of short-lived precursors such as NOx by convection is overestimated at coarse resolution.}
+      \field{issn}{2156-2202}
+      \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
+      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2005JD006605}
+      \field{number}{D11}
+      \field{shorttitle}{Global tropospheric ozone modeling}
+      \field{title}{Global tropospheric ozone modeling: {Quantifying} errors due to grid resolution}
+      \field{urlday}{1}
+      \field{urlmonth}{7}
+      \field{urlyear}{2024}
+      \field{volume}{111}
+      \field{year}{2006}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.1029/2005JD006605
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/sf20/Zotero/storage/75PADJ9H/Wild and Prather - 2006 - Global tropospheric ozone modeling Quantifying er.pdf:application/pdf;Snapshot:/Users/sf20/Zotero/storage/V9M9LSZF/2005JD006605.html:text/html
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2005JD006605
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/2005JD006605
+      \endverb
+      \keyw{atmospheric water vapor,climate change,water vapor feedback}
     \endentry
     \entry{zaveri_particle-resolved_2010}{article}{}
       \name{author}{5}{ul=2}{%
@@ -5214,136 +5653,6 @@
       \verb https://onlinelibrary.wiley.com/doi/abs/10.1029/1999JD900876
       \endverb
       \keyw{CBMZ,Thesis}
-    \endentry
-    \entry{zhong_modelling_2015}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=2b94cd0fae81f957d5cabce984d1a94c}{%
-           family={Zhong},
-           familyi={Z\bibinitperiod},
-           given={Jian},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5c18834b552a036355e0a855d3b1626f}{%
-           family={Cai},
-           familyi={C\bibinitperiod},
-           given={Xiao-Ming},
-           giveni={X\bibinithyphendelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0978a8562bcc935c56c7e5f10239bd9a}{%
-           family={Bloss},
-           familyi={B\bibinitperiod},
-           given={William\bibnamedelima James},
-           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \strng{fullhash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \strng{bibnamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \strng{authorbibnamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \strng{authornamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \strng{authorfullhash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \field{extraname}{1}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{This study investigates the dispersion and transport of reactive pollutants in a deep urban street canyon with an aspect ratio of 2 under neutral meteorological conditions using large-eddy simulation. The spatial variation of pollutants is significant due to the existence of two unsteady vortices. The deviation of species abundance from chemical equilibrium for the upper vortex is greater than that for the lower vortex. The interplay of dynamics and chemistry is investigated using two metrics: the photostationary state defect, and the inferred ozone production rate. The latter is found to be negative at all locations within the canyon, pointing to a systematic negative offset to ozone production rates inferred by analogous approaches in environments with incomplete mixing of emissions. This study demonstrates an approach to quantify parameters for a simplified two-box model, which could support traffic management and urban planning strategies and personal exposure assessment.}
-      \field{issn}{0269-7491}
-      \field{journaltitle}{Environmental Pollution}
-      \field{month}{5}
-      \field{shorttitle}{Modelling the dispersion and transport of reactive pollutants in a deep urban street canyon}
-      \field{title}{Modelling the dispersion and transport of reactive pollutants in a deep urban street canyon: {Using} large-eddy simulation}
-      \field{urlday}{31}
-      \field{urlmonth}{5}
-      \field{urlyear}{2023}
-      \field{volume}{200}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \field{pages}{42\bibrangedash 52}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1016/j.envpol.2015.02.009
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Full Text PDF:/Users/sf20/Zotero/storage/DJWQIKMP/Zhong et al. - 2015 - Modelling the dispersion and transport of reactive.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0269749115000779
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0269749115000779
-      \endverb
-      \keyw{Large-eddy simulation,Turbulence,Pollutant removal,Two-box model,Urban street canyon,Thesis}
-    \endentry
-    \entry{zhong_large_2017}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=2b94cd0fae81f957d5cabce984d1a94c}{%
-           family={Zhong},
-           familyi={Z\bibinitperiod},
-           given={Jian},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5c18834b552a036355e0a855d3b1626f}{%
-           family={Cai},
-           familyi={C\bibinitperiod},
-           given={Xiao-Ming},
-           giveni={X\bibinithyphendelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0978a8562bcc935c56c7e5f10239bd9a}{%
-           family={Bloss},
-           familyi={B\bibinitperiod},
-           given={William\bibnamedelima James},
-           giveni={W\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \strng{fullhash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \strng{bibnamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \strng{authorbibnamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \strng{authornamehash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \strng{authorfullhash}{8f2d69dc77eb6e397b85ca7f666d0d3f}
-      \field{extraname}{2}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{A large eddy simulation (LES) model coupled with O3-NOx-VOC chemistry is implemented to simulate the coupled effects of emissions, mixing and chemical pre-processing within an idealised deep (aspect ratio = 2) urban street canyon under a weak wind condition. Reactive pollutants exhibit significant spatial variations in the presence of two vertically aligned unsteady vortices formed in the canyon. Comparison of the LES results from two chemical schemes (simple NOx-O3 chemistry and a more comprehensive Reduced Chemical Scheme (RCS) chemical mechanism) shows that the concentrations of NO2 and Ox inside the street canyon are enhanced by approximately 30–40\% via OH/HO2 chemistry. NO, NOx, O3, OH and HO2 are chemically consumed, while NO2 and Ox (total oxidant) are chemically produced within the canyon environment. Within-canyon pre-processing increases oxidant fluxes from the canyon to the overlying boundary layer, and this effect is greater for deeper street canyons (as found in many traditional European urban centres) than shallower (lower aspect ratio) streets. There is clear evidence of distinct behaviours for emitted chemical species and entrained chemical species, and positive (or negative) values of intensities of segregations are found between pairs of species with similar (or opposite) behaviour. The simplified two-box model underestimated NO and O3 levels, but overestimated NO2 levels for both the lower and upper canyon compared with the more realistic LES-chemistry model. This suggests that the segregation effect due to incomplete mixing reduces the chemical conversion rate of NO to NO2. This study reveals the impacts of nonlinear O3-NOx-VOC photochemical processes in the incomplete mixing environment and provides a better understanding of the pre-processing of emissions within canyons, prior to their release to the urban boundary layer, through the coupling of street canyon dynamics and chemistry.}
-      \field{issn}{0269-7491}
-      \field{journaltitle}{Environmental Pollution}
-      \field{month}{5}
-      \field{shorttitle}{Large eddy simulation of reactive pollutants in a deep urban street canyon}
-      \field{title}{Large eddy simulation of reactive pollutants in a deep urban street canyon: {Coupling} dynamics with {O3}-{NOx}-{VOC} chemistry}
-      \field{urlday}{31}
-      \field{urlmonth}{5}
-      \field{urlyear}{2023}
-      \field{volume}{224}
-      \field{year}{2017}
-      \field{urldateera}{ce}
-      \field{pages}{171\bibrangedash 184}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1016/j.envpol.2017.01.076
-      \endverb
-      \verb{file}
-      \verb ScienceDirect Full Text PDF:/Users/sf20/Zotero/storage/645J6QWH/Zhong et al. - 2017 - Large eddy simulation of reactive pollutants in a .pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0269749116312398
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0269749116312398
-      \endverb
-      \keyw{Large eddy simulation,Nonlinear photochemistry,Segregation effect,Street canyon,Thesis}
     \endentry
     \entry{zhu_study_2002}{article}{}
       \name{author}{5}{}{%

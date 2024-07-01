@@ -2426,59 +2426,56 @@
     <bcf:citekey order="65" intorder="1">riemer_simulating_2009</bcf:citekey>
     <bcf:citekey order="66" intorder="1">zaveri_particle-resolved_2010</bcf:citekey>
     <bcf:citekey order="67" intorder="1">fierce_quantifying_2024</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">tonttila_uclalessalsa_2017</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">de_bruine_explicit_2019</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">cooper_quantifying_1997</bcf:citekey>
-    <bcf:citekey order="71" intorder="1">mandelbrot_how_1967</bcf:citekey>
-    <bcf:citekey order="72" intorder="1">mandelbrot_fractal_1983</bcf:citekey>
-    <bcf:citekey order="73" intorder="1">loke_measuring_2022</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">golaz_doe_2022</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">tilmes_description_2023</bcf:citekey>
+    <bcf:citekey order="70" intorder="1">tonttila_uclalessalsa_2017</bcf:citekey>
+    <bcf:citekey order="71" intorder="1">de_bruine_explicit_2019</bcf:citekey>
+    <bcf:citekey order="72" intorder="1">cooper_quantifying_1997</bcf:citekey>
+    <bcf:citekey order="73" intorder="1">mandelbrot_how_1967</bcf:citekey>
     <bcf:citekey order="74" intorder="1">mandelbrot_fractal_1983</bcf:citekey>
-    <bcf:citekey order="75" intorder="1">dong_lacunarity_2000</bcf:citekey>
-    <bcf:citekey order="76" intorder="1">dong_lacunarity_2000</bcf:citekey>
-    <bcf:citekey order="77" intorder="1">plexida_selecting_2014</bcf:citekey>
-    <bcf:citekey order="78" intorder="1">shu_quantifying_2019</bcf:citekey>
-    <bcf:citekey order="79" intorder="1">thiffeault_using_2012</bcf:citekey>
-    <bcf:citekey order="80" intorder="1">thiffeault_using_2012</bcf:citekey>
-    <bcf:citekey order="81" intorder="1">danckwerts_definition_1952</bcf:citekey>
-    <bcf:citekey order="82" intorder="1">damköhler_effect_1947</bcf:citekey>
-    <bcf:citekey order="83" intorder="1">vinuesa_fluxes_2003</bcf:citekey>
-    <bcf:citekey order="84" intorder="1">kotamarthi_and_2017</bcf:citekey>
-    <bcf:citekey order="85" intorder="1">kotamarthi_and_2017</bcf:citekey>
-    <bcf:citekey order="86" intorder="1">shu_quantifying_2019</bcf:citekey>
-    <bcf:citekey order="87" intorder="1">kolmogorov_local_1991</bcf:citekey>
-    <bcf:citekey order="88" intorder="1">skamarock_description_2008</bcf:citekey>
-    <bcf:citekey order="89" intorder="1">smagorinsky_general_1963</bcf:citekey>
-    <bcf:citekey order="90" intorder="1">stoll_large-eddy_2020</bcf:citekey>
-    <bcf:citekey order="91" intorder="1">deardorff_numerical_1970</bcf:citekey>
-    <bcf:citekey order="92" intorder="1">deardorff_stratocumulus-capped_1980</bcf:citekey>
-    <bcf:citekey order="93" intorder="1">tian_how_2022</bcf:citekey>
-    <bcf:citekey order="94" intorder="1">fast_impact_2019</bcf:citekey>
-    <bcf:citekey order="95" intorder="1">zaveri_new_1999</bcf:citekey>
-    <bcf:citekey order="96" intorder="1">zaveri_new_1999</bcf:citekey>
-    <bcf:citekey order="97" intorder="1">riemer_simulating_2009</bcf:citekey>
-    <bcf:citekey order="98" intorder="1">riemer_simulating_2009</bcf:citekey>
+    <bcf:citekey order="75" intorder="1">loke_measuring_2022</bcf:citekey>
+    <bcf:citekey order="76" intorder="1">mandelbrot_fractal_1983</bcf:citekey>
+    <bcf:citekey order="77" intorder="1">dong_lacunarity_2000</bcf:citekey>
+    <bcf:citekey order="78" intorder="1">dong_lacunarity_2000</bcf:citekey>
+    <bcf:citekey order="79" intorder="1">plexida_selecting_2014</bcf:citekey>
+    <bcf:citekey order="80" intorder="1">shu_quantifying_2019</bcf:citekey>
+    <bcf:citekey order="81" intorder="1">thiffeault_using_2012</bcf:citekey>
+    <bcf:citekey order="82" intorder="1">thiffeault_using_2012</bcf:citekey>
+    <bcf:citekey order="83" intorder="1">danckwerts_definition_1952</bcf:citekey>
+    <bcf:citekey order="84" intorder="1">damköhler_effect_1947</bcf:citekey>
+    <bcf:citekey order="85" intorder="1">vinuesa_fluxes_2003</bcf:citekey>
+    <bcf:citekey order="86" intorder="1">kotamarthi_and_2017</bcf:citekey>
+    <bcf:citekey order="87" intorder="1">kotamarthi_and_2017</bcf:citekey>
+    <bcf:citekey order="88" intorder="1">shu_quantifying_2019</bcf:citekey>
+    <bcf:citekey order="89" intorder="1">kolmogorov_local_1991</bcf:citekey>
+    <bcf:citekey order="90" intorder="1">skamarock_description_2008</bcf:citekey>
+    <bcf:citekey order="91" intorder="1">smagorinsky_general_1963</bcf:citekey>
+    <bcf:citekey order="92" intorder="1">stoll_large-eddy_2020</bcf:citekey>
+    <bcf:citekey order="93" intorder="1">deardorff_numerical_1970</bcf:citekey>
+    <bcf:citekey order="94" intorder="1">deardorff_stratocumulus-capped_1980</bcf:citekey>
+    <bcf:citekey order="95" intorder="1">tian_how_2022</bcf:citekey>
+    <bcf:citekey order="96" intorder="1">fast_impact_2019</bcf:citekey>
+    <bcf:citekey order="97" intorder="1">zaveri_new_1999</bcf:citekey>
+    <bcf:citekey order="98" intorder="1">zaveri_new_1999</bcf:citekey>
     <bcf:citekey order="99" intorder="1">riemer_simulating_2009</bcf:citekey>
-    <bcf:citekey order="100" intorder="1">zaveri_model_2008</bcf:citekey>
-    <bcf:citekey order="101" intorder="1">zaveri_model_2008</bcf:citekey>
+    <bcf:citekey order="100" intorder="1">riemer_simulating_2009</bcf:citekey>
+    <bcf:citekey order="101" intorder="1">riemer_simulating_2009</bcf:citekey>
     <bcf:citekey order="102" intorder="1">zaveri_model_2008</bcf:citekey>
-    <bcf:citekey order="103" intorder="1">riemer_simulating_2009</bcf:citekey>
-    <bcf:citekey order="104" intorder="1">gillespie_exact_1975</bcf:citekey>
-    <bcf:citekey order="105" intorder="1">curtis_single-column_2017</bcf:citekey>
-    <bcf:citekey order="106" intorder="1">riemer_simulating_2009</bcf:citekey>
-    <bcf:citekey order="107" intorder="1">riemer_simulating_2009</bcf:citekey>
+    <bcf:citekey order="103" intorder="1">zaveri_model_2008</bcf:citekey>
+    <bcf:citekey order="104" intorder="1">zaveri_model_2008</bcf:citekey>
+    <bcf:citekey order="105" intorder="1">riemer_simulating_2009</bcf:citekey>
+    <bcf:citekey order="106" intorder="1">gillespie_exact_1975</bcf:citekey>
+    <bcf:citekey order="107" intorder="1">curtis_single-column_2017</bcf:citekey>
     <bcf:citekey order="108" intorder="1">riemer_simulating_2009</bcf:citekey>
-    <bcf:citekey order="109" intorder="1">schumann_large-eddy_1989</bcf:citekey>
-    <bcf:citekey order="110" intorder="1">sykes_large-eddy_1992</bcf:citekey>
-    <bcf:citekey order="111" intorder="1">auger_chemical_2007</bcf:citekey>
-    <bcf:citekey order="112" intorder="1">zhong_modelling_2015</bcf:citekey>
-    <bcf:citekey order="113" intorder="1">zhong_large_2017</bcf:citekey>
-    <bcf:citekey order="114" intorder="1">wang_impact_2021</bcf:citekey>
-    <bcf:citekey order="115" intorder="1">wang_segregation_2022</bcf:citekey>
-    <bcf:citekey order="116" intorder="1">wang_coupled_2023</bcf:citekey>
+    <bcf:citekey order="109" intorder="1">riemer_simulating_2009</bcf:citekey>
+    <bcf:citekey order="110" intorder="1">riemer_simulating_2009</bcf:citekey>
+    <bcf:citekey order="111" intorder="1">schumann_large-eddy_1989</bcf:citekey>
+    <bcf:citekey order="112" intorder="1">sykes_large-eddy_1992</bcf:citekey>
+    <bcf:citekey order="113" intorder="1">wild_global_2006</bcf:citekey>
+    <bcf:citekey order="114" intorder="1">petters_single_2007</bcf:citekey>
+    <bcf:citekey order="115" intorder="1">kohler_nucleus_1936</bcf:citekey>
+    <bcf:citekey order="116" intorder="1">riemer_quantifying_2013</bcf:citekey>
     <bcf:citekey order="117" intorder="1">petters_single_2007</bcf:citekey>
-    <bcf:citekey order="118" intorder="1">kohler_nucleus_1936</bcf:citekey>
-    <bcf:citekey order="119" intorder="1">riemer_quantifying_2013</bcf:citekey>
-    <bcf:citekey order="120" intorder="1">petters_single_2007</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
