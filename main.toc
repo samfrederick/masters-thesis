@@ -46,7 +46,7 @@
 \contentsline {subsection}{\numberline {3.3.3}Initial conditions and emissions}{38}{subsection.3.3.3}%
 \contentsline {chapter}{\numberline {4}Impacts of emissions spatial heterogeneity on gas-phase reactions}{41}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Simulated emissions scenarios}{41}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Results}{42}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Results}{43}{section.4.2}%
 \contentsline {subsection}{\numberline {4.2.1}Ozone cross sections}{43}{subsection.4.2.1}%
 \contentsline {subsection}{\numberline {4.2.2}Spatio-temporal trends in ozone and its precursors}{45}{subsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.2.3}Spatial heterogeneity in the atmosphere of ozone and its precursors}{48}{subsection.4.2.3}%
@@ -63,7 +63,7 @@
 \contentsline {subsection}{\numberline {5.2.5}Impacts of emissions $SH$ on CCN activity}{75}{subsection.5.2.5}%
 \contentsline {subsection}{\numberline {5.2.6}Influence of ammonia on aerosol composition and CCN activity}{80}{subsection.5.2.6}%
 \contentsline {section}{\numberline {5.3}Implications}{83}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Conclusions}{84}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Study limitations and future work}{84}{section.6.1}%
-\contentsline {chapter}{References}{86}{chapter*.55}%
+\contentsline {chapter}{\numberline {6}Conclusions}{85}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Study limitations and future work}{85}{section.6.1}%
+\contentsline {chapter}{References}{87}{chapter*.55}%
 \contentsfinish 
