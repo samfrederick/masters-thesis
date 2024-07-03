@@ -621,7 +621,6 @@
       \field{abstract}{Light absorption by black carbon (BC) particles emitted from fossil fuel combustion depends on their size and how thickly they are coated with nonrefractory species such as ammonium, sulfate, nitrate, organics, and water. The cloud condensation nuclei (CCN) activation behavior of a particle depends on its dry size and the hygroscopicities of all the individual species mixed together. It is therefore necessary to represent both size and mixing state of aerosols to reliably predict their climate-relevant properties in atmospheric models. Here we describe and evaluate a novel sectional framework in the Model for Simulating Aerosol Interactions and Chemistry (box model), referred to as MOSAIC-mix, that represents the mixing state by resolving aerosol dry size (Ddry), BC dry mass fraction (wBC), and hygroscopicity (k). Using 10 idealized urban plume scenarios in which different types of aerosols evolve over 24 h under a range of atmospherically relevant conditions, we examine errors in CCN concentrations and optical properties with respect to the level of detail of the aerosol mixing state representation. We find that a small number of wBC and k bins can achieve significant reductions in the errors and propose a configuration with 24 Ddry bins, 2 wBC bins, and 2 k bins that give average errors of about 5\% or less in CCN concentrations and optical properties, 3–4 times lower than those from size-only resolved (i.e., internally mixed) simulations. These results suggest that MOSAIC-mix is suitable for use in regional and global models to examine the effects of mixing state on aerosol-radiation-cloud feedbacks.}
       \field{issn}{2169-8996}
       \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/2015JD024323}
       \field{number}{10}
       \field{title}{A three-dimensional sectional representation of aerosol mixing state for simulating optical properties and cloud condensation nuclei}
       \field{urlday}{28}
@@ -1454,7 +1453,6 @@
       \field{abstract}{We use a large-eddy simulation model with a nested domain configuration (297 and 120 km wide) and an interactive land surface parameterization to simulate the complex population of shallow clouds observed on 30 August 2016 during the Holistic Interactions of Shallow Clouds, Aerosols, and Land-Ecosystems campaign conducted in north-central Oklahoma. Shallow convective clouds first formed over southeast Oklahoma and then spread toward the northwest into southern Kansas. By the early afternoon, the relatively uniform shallow cloud field became more complex in which some regions became nearly cloud free and in other regions larger shallow clouds developed with some transitioning to deeper, precipitating convection. We show that the model reproduces the observed heterogeneity in the cloud populations only when realistic variations in soil moisture are used to initialize the model. While more variable soil moisture and to a lesser extent cool lake temperatures drive the initial spatial heterogeneity in the cloud populations, precipitation-driven cold pools become an important factor after 1300 CST. When smoother soil moisture variations are used in the model, more uniform shallow cloud populations are predicted with far fewer clouds that transition to deeper, precipitating convection that produce cold pools. An algorithm that tracks thousands of individual cumulus show that the more realistic soil moisture distributions produces clouds that are larger and have a longer lifetime. The results suggest that shallow and deep convection parameterizations used by mesoscale models need to account for the effects of variable land-atmosphere interactions and cold pools.}
       \field{issn}{1942-2466}
       \field{journaltitle}{Journal of Advances in Modeling Earth Systems}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2019MS001727}
       \field{number}{8}
       \field{title}{The {Impact} of {Variable} {Land}-{Atmosphere} {Coupling} on {Convective} {Cloud} {Populations} {Observed} {During} the 2016 {HI}-{SCALE} {Field} {Campaign}}
       \field{urlday}{6}
@@ -2395,7 +2393,6 @@
       \field{abstract}{Recent improvements to many global climate models include detailed, prognostic aerosol calculations intended to better reproduce the observed climate. However, the trace gas and aerosol fields are treated at the grid cell scale with no attempt to account for subgrid impacts on the aerosol fields. This paper begins to quantify the error introduced by the neglected subgrid variability for the shortwave direct aerosol radiative forcing for a representative climate model grid spacing of 75 km. An analysis of the value added in downscaling aerosol fields is also presented to give context to the WRF-Chem simulations used for the subgrid analysis. We found that the impact of neglected subgrid variability on the direct aerosol radiative forcing is strongest in regions of complex topography and complicated flow patterns. Evidence also suggests that scale-induced differences in emissions, particularly for emissions calculated online, such as dust, contribute strongly to the impact of neglected subgrid processes on the aerosol radiative forcing. The two of these effects together, when simulated at 75 km versus 3 km in WRF-Chem, result in an average daytime mean bias of over 30\% error in top-of-atmosphere shortwave direct aerosol radiative forcing for a large percentage of central Mexico during the Megacity Initiative: Local and Global Research Observations (MILAGRO) field campaign and an average mean bias of 10\% when averaged over the entire analysis region and 17 day period.}
       \field{issn}{2156-2202}
       \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2010JD015480}
       \field{number}{D13}
       \field{title}{Downscaling aerosols and the impact of neglected subgrid processes on direct aerosol radiative forcing for a representative global climate model grid spacing}
       \field{urlday}{18}
@@ -2522,7 +2519,6 @@
       \field{abstract}{Isoprene, a volatile organic compound that is mainly emitted from trees, rapidly reacts with hydroxyl radical (OH) during daytime and subsequently forms ozone and aerosols in the troposphere. The isoprene-OH reaction can be affected by the interplay between chemistry and mixing because the two processes occur at a similar time scale. We investigate the impact of turbulent mixing on isoprene-OH reactivity with large eddy simulations (LES) coupled with comprehensive chemistry. Our results show that the covariance of isoprene and OH causes 20\% decrease to 10\% increase of the horizontal average reaction rate, depending on nitrogen oxides (NOx = NO + NO2) abundances, compared to the rate that neglects the covariance. This wide range of effects on reaction rates is caused by the primary production and loss reactions of OH in each NOx regime. Our research promotes the use of LES for better understanding the role of turbulence in isoprene-OH reaction and parameterizations in large-scale models.}
       \field{issn}{1944-8007}
       \field{journaltitle}{Geophysical Research Letters}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/2016GL069752}
       \field{number}{14}
       \field{title}{Impact of turbulent mixing on isoprene chemistry}
       \field{urlday}{6}
@@ -2730,7 +2726,6 @@
       \field{abstract}{Photochemistry is studied in a convective atmospheric boundary layer. The essential reactions that account for the ozone formation and depletion are included in the chemical mechanism which, as a consequence, contains a wide range of timescales. The turbulent reacting flow is modeled with a large-eddy simulation (LES) code. The deviations from chemical equilibrium that are caused by turbulent motions are investigated in terms of the intensity of segregation. For the studied cases it is found that the volume-averaged concentrations calculated with the LES code agree well with the concentrations calculated with a box model. The reaction rate between RH (a generic hydrocarbon emitted at the surface) and OH is most strongly affected (3\% slower than in the box model). However, if RH is emitted nonuniformly at the surface, or if the RH-OH reaction rate is increased, the volume-averaged RH destruction by OH may be slowed down by as much as 30\% compared to a box model. Sensitivity studies showed that the intensity of segregation between RH and OH not only depends on the strength and spatial distribution of the RH emissions but also on the way NO is emitted in the model atmosphere. The results obtained indicate that the assumption that localized emissions of reactive hydrocarbons, for example, isoprene or terpenes, are instantaneously mixed may lead to an underestimation of their atmospheric lifetime.}
       \field{issn}{2156-2202}
       \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/1999JD900958}
       \field{number}{D5}
       \field{title}{Effects of turbulence and heterogeneous emissions on photochemically active species in the convective boundary layer}
       \field{urlday}{6}
@@ -2788,7 +2783,6 @@
       \field{abstract}{Preliminary observational evidences are presented showing that the Indian subcontinent and surrounding regions are subject to heavy loading of absorbing aerosols, i.e., dust and black carbon, which possess spatial and temporal variability that are closely linked to those of the Asian monsoon water cycle. Consistent with the Elevated Heat Pump hypothesis, we find that increased loading of absorbing aerosols over the Indo-Gangetic Plain in the pre-monsoon season is associated with a) increased heating of the upper troposphere, with the formation of a warm-core upper level anticyclone over the Tibetan Plateau in April–May, b) an advance of the monsoon rainy season in northern India in May, and c) subsequent increased rainfall over the Indian subcontinent, and decreased rainfall over East Asia in June–July.}
       \field{issn}{1944-8007}
       \field{journaltitle}{Geophysical Research Letters}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2006GL027546}
       \field{number}{21}
       \field{title}{Observational relationships between aerosol and {Asian} monsoon rainfall, and circulation}
       \field{urlday}{17}
@@ -3147,7 +3141,6 @@
       \field{abstract}{One limitation of most global climate models (GCMs) is that with the horizontal resolutions they typically employ, they cannot resolve the subgrid variability (SGV) of clouds and aerosols, adding extra uncertainties to the aerosol radiative forcing estimation. To inform the development of an aerosol subgrid variability parameterization, here we analyze the aerosol SGV over the southern Pacific Ocean simulated by the high-resolution Weather Research and Forecasting model coupled to Chemistry. We find that within a typical GCM grid, the aerosol mass subgrid standard deviation is 15\% of the grid-box mean mass near the surface on a 1 month mean basis. The fraction can increase to 50\% in the free troposphere. The relationships between the sea-salt mass concentration, meteorological variables, and sea-salt emission rate are investigated in both the clear and cloudy portion. Under clear-sky conditions, marine aerosol subgrid standard deviation is highly correlated with the standard deviations of vertical velocity, cloud water mixing ratio, and sea-salt emission rates near the surface. It is also strongly connected to the grid box mean aerosol in the free troposphere (between 2 km and 4 km). In the cloudy area, interstitial sea-salt aerosol mass concentrations are smaller, but higher correlation is found between the subgrid standard deviations of aerosol mass and vertical velocity. Additionally, we find that decreasing the model grid resolution can reduce the marine aerosol SGV but strengthen the correlations between the aerosol SGV and the total water mixing ratio (sum of water vapor, cloud liquid, and cloud ice mixing ratios).}
       \field{issn}{2169-8996}
       \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1002/2017JD026567}
       \field{number}{12}
       \field{title}{Quantification of marine aerosol subgrid variability and its correlation with clouds based on high-resolution regional modeling}
       \field{urlday}{13}
@@ -3205,7 +3198,6 @@
       \field{abstract}{Habitat complexity has been considered a key driver of biodiversity and other ecological phenomena for nearly a century. However, there is still no consensus over the definition of complexity or how to measure it. Up-to-date and clear guidance on measuring complexity is urgently needed, particularly given the rise of remote sensing and advent of technologies that allow environments to be scanned at unprecedented spatial extents and resolutions. Here we review how complexity is measured in ecology. We provide a framework for metrics of habitat complexity, and for the related concept of spatial heterogeneity. We focus on the two most commonly used complexity metrics in ecology: fractal dimension and rugosity. We discuss the pros and cons of these metrics using practical examples from our own empirical data and from simulations. Fractal dimension is particularly widely used, and we provide a critical examination of it drawing on research from other scientific fields. We also discuss informational metrics of complexity and their potential benefits. We chart a path forward for research on measuring habitat complexity by presenting, as a guide, sets of essential and desirable criteria that a metric of complexity should possess. Lastly, we discuss the applied significance of our review.}
       \field{issn}{1461-0248}
       \field{journaltitle}{Ecology Letters}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/ele.14084}
       \field{number}{10}
       \field{title}{Measuring habitat complexity and spatial heterogeneity in ecology}
       \field{urlday}{9}
@@ -3460,6 +3452,49 @@
       \verb{url}
       \verb https://acp.copernicus.org/articles/12/4449/2012/
       \endverb
+    \endentry
+    \entry{mohebalhojeh_2024}{unpublished}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=9acacc87ef38987b8c2ef862d7d8fc99}{%
+           family={Mohebalhojeh},
+           familyi={M\bibinitperiod},
+           given={Matin},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d94e0c4915fe5311c22818ed8ac04d4}{%
+           family={Frederick},
+           familyi={F\bibinitperiod},
+           given={Samuel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=761462924bb71da68bb0487e2badbf5a}{%
+           family={Riemer},
+           familyi={R\bibinitperiod},
+           given={Nicole},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0efcadce193e0f61e982a33e021409ff}{%
+           family={West},
+           familyi={W\bibinitperiod},
+           given={Matthew},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{9bb9399c0fbbcd1b9865c1ecb691c7ba}
+      \strng{fullhash}{172536cab006f208eb0565284f9345c0}
+      \strng{bibnamehash}{9bb9399c0fbbcd1b9865c1ecb691c7ba}
+      \strng{authorbibnamehash}{9bb9399c0fbbcd1b9865c1ecb691c7ba}
+      \strng{authornamehash}{9bb9399c0fbbcd1b9865c1ecb691c7ba}
+      \strng{authorfullhash}{172536cab006f208eb0565284f9345c0}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{(in prep)}
+      \field{title}{A Measure of Spatial Heterogeneity}
+      \field{year}{2024}
     \endentry
     \entry{molemaker_control_1998}{article}{}
       \name{author}{2}{}{%
@@ -4079,7 +4114,6 @@
       \field{abstract}{Atmospheric aerosols are complex mixtures of different chemical species, and individual particles exist in many different shapes and morphologies. Together, these characteristics contribute to the aerosol mixing state. This review provides an overview of measurement techniques to probe aerosol mixing state, discusses how aerosol mixing state is represented in atmospheric models at different scales, and synthesizes our knowledge of aerosol mixing state's impact on climate-relevant properties, such as cloud condensation and ice nucleating particle concentrations, and aerosol optical properties. We present these findings within a framework that defines aerosol mixing state along with appropriate mixing state metrics to quantify it. Future research directions are identified, with a focus on the need for integrating mixing state measurements and modeling.}
       \field{issn}{1944-9208}
       \field{journaltitle}{Reviews of Geophysics}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2018RG000615}
       \field{number}{2}
       \field{shorttitle}{Aerosol {Mixing} {State}}
       \field{title}{Aerosol {Mixing} {State}: {Measurements}, {Modeling}, and {Impacts}}
@@ -4208,7 +4242,6 @@
       \field{abstract}{The mixing state of soot particles in the atmosphere is of crucial importance for assessing their climatic impact, since it governs their chemical reactivity, cloud condensation nuclei activity, and radiative properties. To improve the mixing state representation in models, we present a new approach, the stochastic particle-resolved model PartMC-MOSAIC, which explicitly resolves the composition of individual particles in a given population of different types of aerosol particles. This approach tracks the evolution of the mixing state of particles due to emission, dilution, condensation, and coagulation. To make this direct stochastic particle-based method practical, we implemented a new multiscale stochastic coagulation method. With this method we achieved high computational efficiency for situations when the coagulation kernel is highly nonuniform, as is the case for many realistic applications. PartMC-MOSAIC was applied to an idealized urban plume case representative of a large urban area to simulate the evolution of carbonaceous aerosols of different types due to coagulation and condensation. For this urban plume scenario we quantified the individual processes that contributed to the aging of the aerosol distribution, illustrating the capabilities of our modeling approach. The results showed for the first time the multidimensional structure of particle composition, which is usually lost in sectional or modal aerosol models.}
       \field{issn}{2156-2202}
       \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2008JD011073}
       \field{number}{D9}
       \field{title}{Simulating the evolution of soot mixing state with a particle-resolved aerosol model}
       \field{urlday}{6}
@@ -4454,7 +4487,7 @@
       \field{issn}{1365-8816}
       \field{journaltitle}{International Journal of Geographical Information Science}
       \field{month}{7}
-      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.1080/13658816.2019.1577432}
+      \field{note}{Publisher: Taylor \& Francis}
       \field{number}{7}
       \field{title}{Quantifying the spatial heterogeneity of points}
       \field{urlday}{9}
@@ -4944,7 +4977,6 @@
       \field{annotation}{e2021GL097070 2021GL097070}
       \field{issn}{1944-8007}
       \field{journaltitle}{Geophysical Research Letters}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2021GL097070}
       \field{number}{7}
       \field{title}{How {Does} {Land} {Cover} and {Its} {Heterogeneity} {Length} {Scales} {Affect} the {Formation} of {Summertime} {Shallow} {Cumulus} {Clouds} in {Observations} {From} the {US} {Southern} {Great} {Plains}?}
       \field{urlday}{31}
@@ -5241,7 +5273,7 @@
       \field{issn}{null}
       \field{journaltitle}{Tellus B: Chemical and Physical Meteorology}
       \field{month}{12}
-      \field{note}{Publisher: Taylor \& Francis \_eprint: https://doi.org/10.3402/tellusb.v55i4.16382}
+      \field{note}{Publisher: Taylor \& Francis}
       \field{number}{4}
       \field{title}{Fluxes and (co-)variances of reacting scalars in the convective boundary layer}
       \field{urlday}{6}
@@ -5430,7 +5462,6 @@
       \field{abstract}{Ozone production in global chemical models is dependent on model resolution because ozone chemistry is inherently nonlinear, the timescales for chemical production are short, and precursors are artificially distributed over the spatial scale of the model grid. In this study we examine the sensitivity of ozone, its precursors, and its production to resolution by running a global chemical transport model at four different resolutions between T21 (5.6° × 5.6°) and T106 (1.1° × 1.1°) and by quantifying the errors in regional and global budgets. The sensitivity to vertical mixing through the parameterization of boundary layer turbulence is also examined. We find less ozone production in the boundary layer at higher resolution, consistent with slower chemical production in polluted emission regions and greater export of precursors. Agreement with ozonesonde and aircraft measurements made during the NASA TRACE-P campaign over the western Pacific in spring 2001 is consistently better at higher resolution. We demonstrate that the numerical errors in transport processes on a given resolution converge geometrically for a tracer at successively higher resolutions. The convergence in ozone production on progressing from T21 to T42, T63, and T106 resolution is likewise monotonic but indicates that there are still large errors at 120 km scales, suggesting that T106 resolution is too coarse to resolve regional ozone production. Diagnosing the ozone production and precursor transport that follow a short pulse of emissions over east Asia in springtime allows us to quantify the impacts of resolution on both regional and global ozone. Production close to continental emission regions is overestimated by 27\% at T21 resolution, by 13\% at T42 resolution, and by 5\% at T106 resolution. However, subsequent ozone production in the free troposphere is not greatly affected. We find that the export of short-lived precursors such as NOx by convection is overestimated at coarse resolution.}
       \field{issn}{2156-2202}
       \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2005JD006605}
       \field{number}{D11}
       \field{shorttitle}{Global tropospheric ozone modeling}
       \field{title}{Global tropospheric ozone modeling: {Quantifying} errors due to grid resolution}
@@ -5505,7 +5536,6 @@
       \field{abstract}{The recently developed particle-resolved aerosol box model PartMC-MOSAIC (Particle Monte Carlo model–Model for Simulating Aerosol Interactions and Chemistry) was used to rigorously simulate the evolution of aerosol mixing state and the associated optical and cloud condensation nuclei (CCN) activation properties in an idealized urban plume. The model explicitly resolved the size and composition of individual particles from a number of sources and tracked their evolution due to condensation, evaporation, coagulation, emission, and dilution. The ensemble black carbon (BC)–specific absorption cross section increased by 40\% over the course of 2 days due to BC aging by condensation and coagulation. Threefold and fourfold enhancements in CCN/CN ratios were predicted to occur within 6 h for 0.2\% and 0.5\% supersaturations (S), respectively. The particle-resolved results were used to evaluate the errors in the optical and CCN activation properties that would be predicted by a conventional sectional framework that assumes monodisperse, internally mixed particles within each bin. This assumption artificially increased the ensemble BC-specific absorption by 14–30\% and decreased the single scattering albedo (SSA) by 0.03–0.07, while the bin resolution had a negligible effect. In contrast, the errors in CCN/CN ratios were sensitive to the bin resolution for a chosen supersaturation. For S = 0.2\%, the CCN/CN ratio predicted using 100 internally mixed bins was up to 25\% higher than the particle-resolved results, while it was up to 125\% higher using 10 internally mixed bins. Neglecting coagulation overpredicted aerosol water content and number concentrations ({<}0.2 μm), causing errors in SSA from −0.02 to 0.035 and overprediction of CCN concentrations by 25–80\% at S = 0.5\%.}
       \field{issn}{2156-2202}
       \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2009JD013616}
       \field{number}{D17}
       \field{title}{Particle-resolved simulation of aerosol size, composition, mixing state, and the associated optical and cloud condensation nuclei activation properties in an evolving urban plume}
       \field{urlday}{28}
@@ -5573,7 +5603,6 @@
       \field{abstract}{This paper describes and evaluates a new Model for Simulating Aerosol Interactions and Chemistry (MOSAIC), with a special focus on addressing the long-standing issues in solving the dynamic partitioning of semivolatile inorganic gases (HNO3, HCl, and NH3) to size-distributed atmospheric aerosol particles. The coupled ordinary differential equations (ODE) for dynamic gas-particle mass transfer are extremely stiff, and the available numerical techniques are either very expensive or produce oscillatory solutions. These limitations are overcome in MOSAIC with a new dynamic gas-particle partitioning module, which is coupled to an efficient and accurate thermodynamics module. The algorithm includes a new concept of “dynamic pH,” a novel formulation for mass transfer to mixed-phase and solid particles, and an adaptive time stepping scheme, which together hold the key to smooth, accurate, and efficient solutions of gas-particle partitioning over the entire relative humidity range. MOSAIC is found to be in excellent agreement with a benchmark version of the model that uses a rigorous solver for integrating the stiff ODEs. The steady-state MOSAIC results for monodisperse aerosol test cases are also in excellent agreement with those obtained with the benchmark equilibrium model AIM. Moreover, the CPU times required for fully dynamic solutions by MOSAIC per size bin per 5 min intervals (typical 3-D model time steps) are similar to those for bulk equilibrium solutions by the computationally efficient but relatively less accurate model ISORROPIA. These results show that MOSAIC is extremely efficient without compromising accuracy, and is therefore highly attractive for use in air quality and regional/global aerosol models.}
       \field{issn}{2156-2202}
       \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/2007JD008782}
       \field{number}{D13}
       \field{title}{Model for {Simulating} {Aerosol} {Interactions} and {Chemistry} ({MOSAIC})}
       \field{urlday}{6}
@@ -5629,7 +5658,6 @@
       \field{abstract}{The lumped-structure approach for condensing organic chemical mechanisms is attractive, since it yields fewer species and reactions and reduces computational costs. This paper leads through the development of a new lumped-structure mechanism, largely based on the widely used Carbon Bond Mechanism (CBM-IV) developed by Gery et al. [1989]. The new mechanism called CBM-Z extends the original framework to function properly at larger spatial and longer timescales. The major modifications in the mechanism include revised inorganic chemistry; explicit treatment of the lesser reactive paraffins, methane and ethane; revised parameterizations of the reactive paraffin, olefin, and aromatic reactions; inclusion of alkyl and acyl peroxy radical interactions and their reactions with NO3; inclusion of organic nitrates and hydroperoxides; and refined isoprene chemistry based on the condensed one-product mechanism of Carter [1996]. CBM-Z was successfully evaluated along with the CBM-IV, a partially revised CBM-IV, and a revised Regional Acid Deposition Model (RADM2) mechanism [Stockwell et al., 1990; Kirchner and Stockwell, 1996] using the low NOx and volatile organic compound concentration smog chamber experiments of Simonaitis et al. [1997]. Box model versions of the four mechanisms were also evaluated under a variety of hypothetical urban and rural scenarios for a period of 30 days. Results from CBM-Z and revised RADM2 were found to be within ±20\% of each other, while CBM-IV and revised CBM-IV results deviated significantly by up to 50–95\%. Sensitivity tests were performed to elucidate the effects of some of the new features added in CBM-Z. Relative computational memory and time requirements of these mechanisms are also discussed.}
       \field{issn}{2156-2202}
       \field{journaltitle}{Journal of Geophysical Research: Atmospheres}
-      \field{note}{\_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1029/1999JD900876}
       \field{number}{D23}
       \field{title}{A new lumped structure photochemical mechanism for large-scale applications}
       \field{urlday}{13}
