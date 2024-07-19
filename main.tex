@@ -8,7 +8,8 @@
 \usepackage{amsmath,amsthm,amssymb}
 \usepackage[bookmarksdepth=3,linktoc=all,colorlinks=true,urlcolor=blue,linkcolor=blue,citecolor=blue]{hyperref}
 \usepackage[capitalize]{cleveref}
-\usepackage[backend=biber, style=authoryear, citestyle=authoryear, doi=true,isbn=false,url=false,eprint=false]{biblatex}
+\usepackage[style=apa]{biblatex}
+%\usepackage[backend=biber, style=apa, citestyle=authoryear, doi=true,isbn=false,url=false,eprint=false]{biblatex}
 
 % User added packages
 \usepackage{mathptmx}
@@ -22,6 +23,7 @@
 \usepackage{subfigure} 
 \usepackage{subcaption}
 \usepackage{amsfonts}
+
 
 %\usepackage{chemformula}
 \usepackage[version=4]{mhchem}
@@ -127,9 +129,10 @@ on CCN activity}
 
 \backmatter
 
+%\bibliographystyle{IEEEtran}
 \printbibliography[heading=bibintoc,title={References}]
 
-%\bibliographystyle{IEEEtran}
+%
 %\printbibliography
 
 % the below lines are only needed if bibliography precedes appendices
