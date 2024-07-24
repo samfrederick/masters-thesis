@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  19 JUL 2024 14:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  23 JUL 2024 20:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -954,14 +954,7 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (./main.aux
 (./abstract.aux) (./acknowledgments.aux) (./1-introduction.aux)
 (./2-spatial-het.aux) (./3-modeling-tools.aux) (./4-spatial-het-gas-phase.aux)
-(./5-spatial-het-aerosols.aux
-
-LaTeX Warning: Label `fig:ht-ccn-pdiff-s1' multiply defined.
-
-
-LaTeX Warning: Label `fig:ht-ccn-pdiff-s1@cref' multiply defined.
-
-) (./6-conclusions.aux))
+(./5-spatial-het-aerosols.aux) (./6-conclusions.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
@@ -1233,42 +1226,50 @@ l.8
 
  (./1-introduction.tex
 Chapter 1.
+<./figures/chapter1/SP_Figure_8-11.pdf, id=720, 361.35pt x 361.35pt>
+File: ./figures/chapter1/SP_Figure_8-11.pdf Graphic file (type pdf)
+<use ./figures/chapter1/SP_Figure_8-11.pdf>
+Package pdftex.def Info: ./figures/chapter1/SP_Figure_8-11.pdf  used on input l
+ine 14.
+(pdftex.def)             Requested size: 352.31625pt x 352.3176pt.
 [1
 
 
 
-] [2] [3] [4] [5] [6]
+] [2 <./figures/chapter1/SP_Figure_8-11.pdf>] [3] [4] [5] [6] [7]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 64.
- [7] [8] [9] [10]
-<./figures/chapter1/aerosol-model-treatments.pdf, id=848, 469.755pt x 289.08pt>
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 74.
+ [8]
+[9] [10] [11]
+<./figures/chapter1/aerosol-model-treatments.pdf, id=879, 469.755pt x 289.08pt>
 
 File: ./figures/chapter1/aerosol-model-treatments.pdf Graphic file (type pdf)
 <use ./figures/chapter1/aerosol-model-treatments.pdf>
 Package pdftex.def Info: ./figures/chapter1/aerosol-model-treatments.pdf  used 
-on input line 96.
+on input line 106.
 (pdftex.def)             Requested size: 469.75502pt x 289.07928pt.
- [11] [12 <./figures/chapter1/aerosol-model-treatments.pdf>] [13] [14]
-<./figures/chapter1/Transport-vs-aerosol-model-struc-uncert.pdf, id=905, 469.75
+ [12] [13 <./figures/chapter1/aerosol-model-treatments.pdf>]
+[14] [15]
+<./figures/chapter1/Transport-vs-aerosol-model-struc-uncert.pdf, id=933, 469.75
 5pt x 289.08pt>
 File: ./figures/chapter1/Transport-vs-aerosol-model-struc-uncert.pdf Graphic fi
 le (type pdf)
 <use ./figures/chapter1/Transport-vs-aerosol-model-struc-uncert.pdf>
 Package pdftex.def Info: ./figures/chapter1/Transport-vs-aerosol-model-struc-un
-cert.pdf  used on input line 131.
+cert.pdf  used on input line 141.
 (pdftex.def)             Requested size: 469.75502pt x 289.07928pt.
- [15]) [16 <./figures/chapter1/Transport-vs-aerosol-model-struc-uncert.pdf>]
+ [16]) [17 <./figures/chapter1/Transport-vs-aerosol-model-struc-uncert.pdf>]
 \openout2 = `2-spatial-het.aux'.
 
  (./2-spatial-het.tex
 Chapter 2.
-[17
+[18
 
 
 
 
-] [18] [19] [20]
-<figures/chapter2/damkohler_number_figure.pdf, id=994, 722.7pt x 433.62pt>
+] [19] [20] [21]
+<figures/chapter2/damkohler_number_figure.pdf, id=1023, 722.7pt x 433.62pt>
 File: figures/chapter2/damkohler_number_figure.pdf Graphic file (type pdf)
 <use figures/chapter2/damkohler_number_figure.pdf>
 Package pdftex.def Info: figures/chapter2/damkohler_number_figure.pdf  used on 
@@ -1278,95 +1279,99 @@ input line 65.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[21] [22 <./figures/chapter2/damkohler_number_figure.pdf>] [23]
-<figures/chapter2/SH-subarray-examples.pdf, id=1040, 963.6pt x 578.16pt>
+[22] [23 <./figures/chapter2/damkohler_number_figure.pdf>]
+<figures/chapter2/SH-subarray-examples.pdf, id=1063, 963.6pt x 578.16pt>
 File: figures/chapter2/SH-subarray-examples.pdf Graphic file (type pdf)
 <use figures/chapter2/SH-subarray-examples.pdf>
 Package pdftex.def Info: figures/chapter2/SH-subarray-examples.pdf  used on inp
 ut line 90.
 (pdftex.def)             Requested size: 469.75502pt x 281.85406pt.
- [24 <./figures/chapter2/SH-subarray-examples.pdf>]
-<figures/chapter2/NSH-performance.pdf, id=1087, 507.79083pt x 354.14308pt>
+ [24] [25 <./figures/chapter2/SH-subarray-examples.pdf>]
+<figures/chapter2/NSH-performance.pdf, id=1116, 507.79083pt x 354.14308pt>
 File: figures/chapter2/NSH-performance.pdf Graphic file (type pdf)
 <use figures/chapter2/NSH-performance.pdf>
 Package pdftex.def Info: figures/chapter2/NSH-performance.pdf  used on input li
-ne 109.
+ne 111.
 (pdftex.def)             Requested size: 469.75502pt x 327.62044pt.
-<figures/chapter2/mcNSH-performance.pdf, id=1089, 507.79083pt x 353.13933pt>
+<figures/chapter2/mcNSH-performance.pdf, id=1118, 507.79083pt x 353.13933pt>
 File: figures/chapter2/mcNSH-performance.pdf Graphic file (type pdf)
 <use figures/chapter2/mcNSH-performance.pdf>
 Package pdftex.def Info: figures/chapter2/mcNSH-performance.pdf  used on input 
-line 118.
+line 120.
 (pdftex.def)             Requested size: 469.75502pt x 326.69186pt.
- [25 <./figures/chapter2/NSH-performance.pdf>]
-<figures/chapter2/mcNSH-accuracy-v2.pdf, id=1142, 679.63254pt x 298.00397pt>
+ [26 <./figures/chapter2/NSH-performance.pdf>]
+<figures/chapter2/mcNSH-accuracy-v2.pdf, id=1172, 679.63254pt x 298.00397pt>
 File: figures/chapter2/mcNSH-accuracy-v2.pdf Graphic file (type pdf)
 <use figures/chapter2/mcNSH-accuracy-v2.pdf>
 Package pdftex.def Info: figures/chapter2/mcNSH-accuracy-v2.pdf  used on input 
-line 127.
+line 129.
 (pdftex.def)             Requested size: 469.75502pt x 205.97763pt.
- [26 <./figures/chapter2/mcNSH-performance.pdf>] [27 <./figures/chapter2/mcNSH-
+ [27 <./figures/chapter2/mcNSH-performance.pdf>] [28 <./figures/chapter2/mcNSH-
 accuracy-v2.pdf>]
-<figures/chapter2/SH-scenarios-all.pdf, id=1238, 459.43005pt x 264.11987pt>
+<figures/chapter2/SH-scenarios-all.pdf, id=1268, 459.43005pt x 264.11987pt>
 File: figures/chapter2/SH-scenarios-all.pdf Graphic file (type pdf)
 <use figures/chapter2/SH-scenarios-all.pdf>
 Package pdftex.def Info: figures/chapter2/SH-scenarios-all.pdf  used on input l
-ine 140.
+ine 142.
 (pdftex.def)             Requested size: 469.75502pt x 270.06769pt.
-) [28 <./figures/chapter2/SH-scenarios-all.pdf>] [29]
+) [29 <./figures/chapter2/SH-scenarios-all.pdf>] [30]
 \openout2 = `3-modeling-tools.aux'.
 
 
 (./3-modeling-tools.tex
 Chapter 3.
-[30
+[31
 
 
 
 
-] [31]
-<figures/chapter3/WRF-LES_default_sounding.pdf, id=1310, 509.71992pt x 380.6226
-2pt>
+] [32] [33]
+<figures/chapter3/WRF-LES_default_sounding.pdf, id=1350, 413.1592pt x 261.48094
+pt>
 File: figures/chapter3/WRF-LES_default_sounding.pdf Graphic file (type pdf)
 <use figures/chapter3/WRF-LES_default_sounding.pdf>
 Package pdftex.def Info: figures/chapter3/WRF-LES_default_sounding.pdf  used on
- input line 64.
-(pdftex.def)             Requested size: 469.75502pt x 350.7985pt.
- [32] [33 <./figures/chapter3/WRF-LES_default_sounding.pdf>]
-<figures/chapter3/heat-flux-and-tke-profile.pdf, id=1361, 517.85971pt x 402.253
-42pt>
-File: figures/chapter3/heat-flux-and-tke-profile.pdf Graphic file (type pdf)
-<use figures/chapter3/heat-flux-and-tke-profile.pdf>
-Package pdftex.def Info: figures/chapter3/heat-flux-and-tke-profile.pdf  used o
-n input line 86.
-(pdftex.def)             Requested size: 469.75502pt x 364.89725pt.
- [34 <./figures/chapter3/heat-flux-and-tke-profile.pdf>] [35] [36] [37]
+ input line 68.
+(pdftex.def)             Requested size: 469.75502pt x 297.29738pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/chapter3/urban-plume-aerosol-ic.pdf, id=1438, 492.64049pt x 364.86815p
-t>
+[34]
+<figures/chapter3/heat-flux-and-tke-profile.pdf, id=1360, 418.80528pt x 264.492
+2pt>
+File: figures/chapter3/heat-flux-and-tke-profile.pdf Graphic file (type pdf)
+<use figures/chapter3/heat-flux-and-tke-profile.pdf>
+Package pdftex.def Info: figures/chapter3/heat-flux-and-tke-profile.pdf  used o
+n input line 90.
+(pdftex.def)             Requested size: 469.75502pt x 296.68124pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[35 <./figures/chapter3/WRF-LES_default_sounding.pdf>] [36 <./figures/chapter3/
+heat-flux-and-tke-profile.pdf>] [37] [38] [39]
+<figures/chapter3/urban-plume-aerosol-ic.pdf, id=1482, 409.37944pt x 293.9091pt
+>
 File: figures/chapter3/urban-plume-aerosol-ic.pdf Graphic file (type pdf)
 <use figures/chapter3/urban-plume-aerosol-ic.pdf>
 Package pdftex.def Info: figures/chapter3/urban-plume-aerosol-ic.pdf  used on i
-nput line 188.
-(pdftex.def)             Requested size: 399.29463pt x 295.73643pt.
-<figures/chapter3/urban-plume-aerosol-emissions.pdf, id=1439, 513.84471pt x 364
-.86815pt>
+nput line 194.
+(pdftex.def)             Requested size: 399.29463pt x 286.67009pt.
+<figures/chapter3/urban-plume-aerosol-emissions.pdf, id=1483, 417.28398pt x 293
+.9091pt>
 File: figures/chapter3/urban-plume-aerosol-emissions.pdf Graphic file (type pdf
 )
 <use figures/chapter3/urban-plume-aerosol-emissions.pdf>
 Package pdftex.def Info: figures/chapter3/urban-plume-aerosol-emissions.pdf  us
-ed on input line 195.
-(pdftex.def)             Requested size: 399.29463pt x 283.54376pt.
-
-LaTeX Warning: Float too large for page by 1.27654pt on input line 199.
+ed on input line 201.
+(pdftex.def)             Requested size: 399.29463pt x 281.23914pt.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Float too large for page by 3.50557pt on input line 205.
 
-) [38] [39] [40 <./figures/chapter3/urban-plume-aerosol-ic.pdf> <./figures/chap
-ter3/urban-plume-aerosol-emissions.pdf>]
+) [40] [41 <./figures/chapter3/urban-plume-aerosol-ic.pdf> <./figures/chapter3/
+urban-plume-aerosol-emissions.pdf>]
 \openout2 = `4-spatial-het-gas-phase.aux'.
 
  (./4-spatial-het-gas-phase.tex
@@ -1377,149 +1382,129 @@ Overfull \hbox (4.03891pt too wide) in paragraph at lines 2--2
 s-phase
  []
 
-<./figures/SH-scenarios-main-runs.pdf, id=1554, 294.72836pt x 305.04277pt>
-File: ./figures/SH-scenarios-main-runs.pdf Graphic file (type pdf)
-<use ./figures/SH-scenarios-main-runs.pdf>
-Package pdftex.def Info: ./figures/SH-scenarios-main-runs.pdf  used on input li
-ne 10.
-(pdftex.def)             Requested size: 328.82707pt x 340.34229pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[41
+[42
 
 
 
 
 ]
-<figures/chapter4/o3-crosssec-uniform-basecase-z25.pdf, id=1560, 889.28586pt x 
+<./figures/SH-scenarios-main-runs.pdf, id=1587, 294.72836pt x 305.04277pt>
+File: ./figures/SH-scenarios-main-runs.pdf Graphic file (type pdf)
+<use ./figures/SH-scenarios-main-runs.pdf>
+Package pdftex.def Info: ./figures/SH-scenarios-main-runs.pdf  used on input li
+ne 51.
+(pdftex.def)             Requested size: 328.82707pt x 340.34229pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[43] [44 <./figures/SH-scenarios-main-runs.pdf>]
+<figures/chapter4/o3-crosssec-uniform-basecase-z25.pdf, id=1642, 889.28586pt x 
 291.48804pt>
 File: figures/chapter4/o3-crosssec-uniform-basecase-z25.pdf Graphic file (type 
 pdf)
 <use figures/chapter4/o3-crosssec-uniform-basecase-z25.pdf>
 Package pdftex.def Info: figures/chapter4/o3-crosssec-uniform-basecase-z25.pdf 
- used on input line 29.
+ used on input line 70.
 (pdftex.def)             Requested size: 469.75502pt x 153.97198pt.
- [42 <./figures/SH-scenarios-main-runs.pdf>]
-<figures/chapter4/o3-crosssec-fx1fy0-z25.pdf, id=1608, 889.28586pt x 291.48804p
+ [45 <./figures/chapter4/o3-crosssec-uniform-basecase-z25.pdf>]
+<figures/chapter4/o3-crosssec-fx1fy0-z25.pdf, id=1684, 889.28586pt x 291.48804p
 t>
 File: figures/chapter4/o3-crosssec-fx1fy0-z25.pdf Graphic file (type pdf)
 <use figures/chapter4/o3-crosssec-fx1fy0-z25.pdf>
 Package pdftex.def Info: figures/chapter4/o3-crosssec-fx1fy0-z25.pdf  used on i
-nput line 42.
+nput line 83.
 (pdftex.def)             Requested size: 422.77664pt x 138.57388pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/chapter4/o3-crosssec-road-10x-z25.pdf, id=1609, 889.28586pt x 291.4880
+<figures/chapter4/o3-crosssec-road-10x-z25.pdf, id=1685, 889.28586pt x 291.4880
 4pt>
 File: figures/chapter4/o3-crosssec-road-10x-z25.pdf Graphic file (type pdf)
 <use figures/chapter4/o3-crosssec-road-10x-z25.pdf>
 Package pdftex.def Info: figures/chapter4/o3-crosssec-road-10x-z25.pdf  used on
- input line 49.
+ input line 90.
 (pdftex.def)             Requested size: 422.77664pt x 138.57388pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/chapter4/o3-crosssec-point-source-1x1-z25.pdf, id=1610, 889.28586pt x 
+<figures/chapter4/o3-crosssec-point-source-1x1-z25.pdf, id=1686, 889.28586pt x 
 291.48804pt>
 File: figures/chapter4/o3-crosssec-point-source-1x1-z25.pdf Graphic file (type 
 pdf)
 <use figures/chapter4/o3-crosssec-point-source-1x1-z25.pdf>
 Package pdftex.def Info: figures/chapter4/o3-crosssec-point-source-1x1-z25.pdf 
- used on input line 56.
+ used on input line 97.
 (pdftex.def)             Requested size: 422.77664pt x 138.57388pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[43 <./figures/chapter4/o3-crosssec-uniform-basecase-z25.pdf>]
-<figures/chapter4/vertical-profiles-time36.pdf, id=1647, 859.95026pt x 343.0080
+ [46 <./figures/chapter4/o3-crosssec-fx1fy0-z25.pdf> <./figures/chapter4/o3-cro
+sssec-road-10x-z25.pdf>]
+<figures/chapter4/vertical-profiles-time36.pdf, id=1754, 859.95026pt x 343.0080
 4pt>
 File: figures/chapter4/vertical-profiles-time36.pdf Graphic file (type pdf)
 <use figures/chapter4/vertical-profiles-time36.pdf>
 Package pdftex.def Info: figures/chapter4/vertical-profiles-time36.pdf  used on
- input line 68.
+ input line 109.
 (pdftex.def)             Requested size: 469.75502pt x 187.3727pt.
- [44 <./figures/chapter4/o3-crosssec-fx1fy0-z25.pdf> <./figures/chapter4/o3-cro
-sssec-road-10x-z25.pdf> <./figures/chapter4/o3-crosssec-point-source-1x1-z25.pd
-f>] [45 <./figures/chapter4/vertical-profiles-time36.pdf>]
-<figures/chapter4/height-time-o3-four-scenarios.pdf, id=1798, 413.71791pt x 304
+ [47 <./figures/chapter4/o3-crosssec-point-source-1x1-z25.pdf> <./figures/chapt
+er4/vertical-profiles-time36.pdf>]
+<figures/chapter4/height-time-o3-four-scenarios.pdf, id=1835, 413.71791pt x 304
 .8307pt>
 File: figures/chapter4/height-time-o3-four-scenarios.pdf Graphic file (type pdf
 )
 <use figures/chapter4/height-time-o3-four-scenarios.pdf>
 Package pdftex.def Info: figures/chapter4/height-time-o3-four-scenarios.pdf  us
-ed on input line 89.
+ed on input line 125.
 (pdftex.def)             Requested size: 469.75502pt x 346.14311pt.
- [46 <./figures/chapter4/height-time-o3-four-scenarios.pdf>]
-<figures/chapter4/height-time-o3-pdiff-four-scenarios.pdf, id=1850, 413.71791pt
+ [48]
+<figures/chapter4/height-time-o3-pdiff-four-scenarios.pdf, id=1842, 413.71791pt
  x 304.8307pt>
 File: figures/chapter4/height-time-o3-pdiff-four-scenarios.pdf Graphic file (ty
 pe pdf)
 <use figures/chapter4/height-time-o3-pdiff-four-scenarios.pdf>
 Package pdftex.def Info: figures/chapter4/height-time-o3-pdiff-four-scenarios.p
-df  used on input line 106.
+df  used on input line 142.
 (pdftex.def)             Requested size: 469.75502pt x 346.14311pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[47]
-<figures/chapter4/height-time-nsh-multivar-uniform-basecase.pdf, id=1858, 479.4
+[49 <./figures/chapter4/height-time-o3-four-scenarios.pdf>]
+<figures/chapter4/height-time-nsh-multivar-uniform-basecase.pdf, id=1895, 479.4
 1089pt x 294.34622pt>
 File: figures/chapter4/height-time-nsh-multivar-uniform-basecase.pdf Graphic fi
 le (type pdf)
 <use figures/chapter4/height-time-nsh-multivar-uniform-basecase.pdf>
 Package pdftex.def Info: figures/chapter4/height-time-nsh-multivar-uniform-base
-case.pdf  used on input line 121.
+case.pdf  used on input line 157.
 (pdftex.def)             Requested size: 455.66293pt x 279.76656pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[48 <./figures/chapter4/height-time-o3-pdiff-four-scenarios.pdf>]
-<figures/chapter4/height-time-nsh-multivar-fx1fy0.pdf, id=1905, 479.41089pt x 2
+ [50 <./figures/chapter4/height-time-o3-pdiff-four-scenarios.pdf>] [51 <./figur
+es/chapter4/height-time-nsh-multivar-uniform-basecase.pdf>]
+<figures/chapter4/height-time-nsh-multivar-fx1fy0.pdf, id=1984, 479.41089pt x 2
 94.34622pt>
 File: figures/chapter4/height-time-nsh-multivar-fx1fy0.pdf Graphic file (type p
 df)
 <use figures/chapter4/height-time-nsh-multivar-fx1fy0.pdf>
 Package pdftex.def Info: figures/chapter4/height-time-nsh-multivar-fx1fy0.pdf  
-used on input line 132.
+used on input line 168.
 (pdftex.def)             Requested size: 455.66293pt x 279.76656pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[49 <./figures/chapter4/height-time-nsh-multivar-uniform-basecase.pdf>]
-<figures/chapter4/height-time-nsh-multivar-road-10x.pdf, id=1947, 479.41089pt x
+<figures/chapter4/height-time-nsh-multivar-road-10x.pdf, id=1986, 479.41089pt x
  294.34622pt>
 File: figures/chapter4/height-time-nsh-multivar-road-10x.pdf Graphic file (type
  pdf)
 <use figures/chapter4/height-time-nsh-multivar-road-10x.pdf>
 Package pdftex.def Info: figures/chapter4/height-time-nsh-multivar-road-10x.pdf
-  used on input line 141.
+  used on input line 177.
 (pdftex.def)             Requested size: 455.66293pt x 279.76656pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/chapter4/height-time-nsh-multivar-point-source-1x1.pdf, id=1948, 479.4
+<figures/chapter4/height-time-nsh-multivar-point-source-1x1.pdf, id=1987, 479.4
 1089pt x 294.34622pt>
 File: figures/chapter4/height-time-nsh-multivar-point-source-1x1.pdf Graphic fi
 le (type pdf)
 <use figures/chapter4/height-time-nsh-multivar-point-source-1x1.pdf>
 Package pdftex.def Info: figures/chapter4/height-time-nsh-multivar-point-source
--1x1.pdf  used on input line 148.
+-1x1.pdf  used on input line 184.
 (pdftex.def)             Requested size: 455.66293pt x 279.76656pt.
-[50 <./figures/chapter4/height-time-nsh-multivar-fx1fy0.pdf>] [51 <./figures/ch
-apter4/height-time-nsh-multivar-road-10x.pdf>] [52 <./figures/chapter4/height-t
-ime-nsh-multivar-point-source-1x1.pdf>]) [53]
+ [52 <./figures/chapter4/height-time-nsh-multivar-fx1fy0.pdf>] [53 <./figures/c
+hapter4/height-time-nsh-multivar-road-10x.pdf>] [54 <./figures/chapter4/height-
+time-nsh-multivar-point-source-1x1.pdf>]) [55]
 \openout2 = `5-spatial-het-aerosols.aux'.
 
  (./5-spatial-het-aerosols.tex
 Chapter 5.
-<figures/chapter5/ideal-coag/ideal-coag-SH-scenarios.pdf, id=2083, 459.43005pt 
+<figures/chapter5/ideal-coag/ideal-coag-SH-scenarios.pdf, id=2120, 459.43005pt 
 x 264.11987pt>
 File: figures/chapter5/ideal-coag/ideal-coag-SH-scenarios.pdf Graphic file (typ
 e pdf)
@@ -1530,13 +1515,13 @@ f  used on input line 14.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[54
+[56
 
 
 
 
 ]
-<figures/chapter5/ideal-coag/NumConcTimescale_composite.pdf, id=2089, 469.755pt
+<figures/chapter5/ideal-coag/NumConcTimescale_composite.pdf, id=2127, 469.755pt
  x 505.89pt>
 File: figures/chapter5/ideal-coag/NumConcTimescale_composite.pdf Graphic file (
 type pdf)
@@ -1548,173 +1533,173 @@ Package pdftex.def Info: figures/chapter5/ideal-coag/NumConcTimescale_composite
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[55 <./figures/chapter5/ideal-coag/ideal-coag-SH-scenarios.pdf>] [56 <./figures
+[57 <./figures/chapter5/ideal-coag/ideal-coag-SH-scenarios.pdf>] [58 <./figures
 /chapter5/ideal-coag/NumConcTimescale_composite.pdf>]
-<figures/chapter5/ideal-coag/TimeTo75pcnt_vs_SH.pdf, id=2159, 502.678pt x 345.5
+<figures/chapter5/ideal-coag/TimeTo75pcnt_vs_SH.pdf, id=2197, 502.678pt x 345.5
 7733pt>
 File: figures/chapter5/ideal-coag/TimeTo75pcnt_vs_SH.pdf Graphic file (type pdf
 )
 <use figures/chapter5/ideal-coag/TimeTo75pcnt_vs_SH.pdf>
 Package pdftex.def Info: figures/chapter5/ideal-coag/TimeTo75pcnt_vs_SH.pdf  us
 ed on input line 38.
-(pdftex.def)             Requested size: 469.75502pt x 322.95496pt.
- [57 <./figures/chapter5/ideal-coag/TimeTo75pcnt_vs_SH.pdf>]
-<figures/SH-scenarios-main-runs.pdf, id=2205, 294.72836pt x 305.04277pt>
+(pdftex.def)             Requested size: 375.80544pt x 258.36502pt.
+ [59 <./figures/chapter5/ideal-coag/TimeTo75pcnt_vs_SH.pdf>]
+<figures/SH-scenarios-main-runs.pdf, id=2243, 294.72836pt x 305.04277pt>
 File: figures/SH-scenarios-main-runs.pdf Graphic file (type pdf)
 <use figures/SH-scenarios-main-runs.pdf>
 Package pdftex.def Info: figures/SH-scenarios-main-runs.pdf  used on input line
  54.
-(pdftex.def)             Requested size: 328.82707pt x 340.34229pt.
- [58 <./figures/SH-scenarios-main-runs.pdf>]
-<figures/chapter5/number-distribution-plots.pdf, id=2251, 469.755pt x 491.8375p
+(pdftex.def)             Requested size: 281.85587pt x 291.72528pt.
+ [60 <./figures/SH-scenarios-main-runs.pdf>]
+<figures/chapter5/number-distribution-plots.pdf, id=2290, 469.755pt x 491.8375p
 t>
 File: figures/chapter5/number-distribution-plots.pdf Graphic file (type pdf)
 <use figures/chapter5/number-distribution-plots.pdf>
 Package pdftex.def Info: figures/chapter5/number-distribution-plots.pdf  used o
-n input line 66.
+n input line 68.
 (pdftex.def)             Requested size: 469.75502pt x 491.83629pt.
-
-[59]
-<figures/chapter5/mass-distribution-plots.pdf, id=2260, 469.755pt x 491.8375pt>
+<figures/chapter5/mass-distribution-plots.pdf, id=2295, 469.755pt x 491.8375pt>
 
 File: figures/chapter5/mass-distribution-plots.pdf Graphic file (type pdf)
 <use figures/chapter5/mass-distribution-plots.pdf>
 Package pdftex.def Info: figures/chapter5/mass-distribution-plots.pdf  used on 
-input line 81.
+input line 83.
 (pdftex.def)             Requested size: 469.75502pt x 491.83629pt.
- [60 <./figures/chapter5/number-distribution-plots.pdf>] [61 <./figures/chapter
-5/mass-distribution-plots.pdf>]
-<figures/chapter5/height-time-pmc_SO4-four-scenarios.pdf, id=2305, 413.71791pt 
+
+[61] [62 <./figures/chapter5/number-distribution-plots.pdf>] [63 <./figures/cha
+pter5/mass-distribution-plots.pdf>]
+<figures/chapter5/height-time-pmc_SO4-four-scenarios.pdf, id=2352, 413.71791pt 
 x 304.8307pt>
 File: figures/chapter5/height-time-pmc_SO4-four-scenarios.pdf Graphic file (typ
 e pdf)
 <use figures/chapter5/height-time-pmc_SO4-four-scenarios.pdf>
 Package pdftex.def Info: figures/chapter5/height-time-pmc_SO4-four-scenarios.pd
-f  used on input line 97.
+f  used on input line 99.
 (pdftex.def)             Requested size: 469.75502pt x 346.14311pt.
-<figures/chapter5/height-time-pmc_NH4-four-scenarios.pdf, id=2307, 413.71791pt 
+ [64 <./figures/chapter5/height-time-pmc_SO4-four-scenarios.pdf>]
+<figures/chapter5/height-time-pmc_NH4-four-scenarios.pdf, id=2401, 413.71791pt 
 x 304.8307pt>
 File: figures/chapter5/height-time-pmc_NH4-four-scenarios.pdf Graphic file (typ
 e pdf)
 <use figures/chapter5/height-time-pmc_NH4-four-scenarios.pdf>
 Package pdftex.def Info: figures/chapter5/height-time-pmc_NH4-four-scenarios.pd
-f  used on input line 110.
+f  used on input line 112.
 (pdftex.def)             Requested size: 469.75502pt x 346.14311pt.
- [62]
-<figures/chapter5/height-time-pmc_NO3-four-scenarios.pdf, id=2314, 413.71791pt 
+<figures/chapter5/height-time-pmc_NO3-four-scenarios.pdf, id=2403, 413.71791pt 
 x 305.92856pt>
 File: figures/chapter5/height-time-pmc_NO3-four-scenarios.pdf Graphic file (typ
 e pdf)
 <use figures/chapter5/height-time-pmc_NO3-four-scenarios.pdf>
 Package pdftex.def Info: figures/chapter5/height-time-pmc_NO3-four-scenarios.pd
-f  used on input line 119.
+f  used on input line 121.
 (pdftex.def)             Requested size: 469.75502pt x 347.38974pt.
- [63 <./figures/chapter5/height-time-pmc_SO4-four-scenarios.pdf>]
-<figures/chapter5/aerosol-SNA-vertical-profiles-time36.pdf, id=2363, 856.07254p
+ [65]
+<figures/chapter5/aerosol-SNA-vertical-profiles-time36.pdf, id=2410, 856.07254p
 t x 342.00429pt>
 File: figures/chapter5/aerosol-SNA-vertical-profiles-time36.pdf Graphic file (t
 ype pdf)
 <use figures/chapter5/aerosol-SNA-vertical-profiles-time36.pdf>
 Package pdftex.def Info: figures/chapter5/aerosol-SNA-vertical-profiles-time36.
-pdf  used on input line 130.
+pdf  used on input line 134.
 (pdftex.def)             Requested size: 469.75502pt x 187.66978pt.
- [64 <./figures/chapter5/height-time-pmc_NH4-four-scenarios.pdf>]
+ [66 <./figures/chapter5/height-time-pmc_NH4-four-scenarios.pdf>]
 
-LaTeX Warning: Text page 65 contains only floats.
+LaTeX Warning: Text page 67 contains only floats.
 
-[65 <./figures/chapter5/height-time-pmc_NO3-four-scenarios.pdf> <./figures/chap
+[67 <./figures/chapter5/height-time-pmc_NO3-four-scenarios.pdf> <./figures/chap
 ter5/aerosol-SNA-vertical-profiles-time36.pdf>]
 <figures/chapter5/speciated-mass-frac-four-panel-uniform-basecase-z40.pdf, id=2
-505, 429.36034pt x 397.84386pt>
+552, 429.36034pt x 397.84386pt>
 File: figures/chapter5/speciated-mass-frac-four-panel-uniform-basecase-z40.pdf 
 Graphic file (type pdf)
 <use figures/chapter5/speciated-mass-frac-four-panel-uniform-basecase-z40.pdf>
 Package pdftex.def Info: figures/chapter5/speciated-mass-frac-four-panel-unifor
-m-basecase-z40.pdf  used on input line 145.
+m-basecase-z40.pdf  used on input line 149.
 (pdftex.def)             Requested size: 469.75502pt x 435.28633pt.
- [66] [67 <./figures/chapter5/speciated-mass-frac-four-panel-uniform-basecase-z
+ [68] [69 <./figures/chapter5/speciated-mass-frac-four-panel-uniform-basecase-z
 40.pdf>]
 <figures/chapter5/speciated-mass-frac-four-panel-point-source-1x1-z40.pdf, id=2
-568, 429.36034pt x 397.84386pt>
+615, 429.36034pt x 397.84386pt>
 File: figures/chapter5/speciated-mass-frac-four-panel-point-source-1x1-z40.pdf 
 Graphic file (type pdf)
 <use figures/chapter5/speciated-mass-frac-four-panel-point-source-1x1-z40.pdf>
 Package pdftex.def Info: figures/chapter5/speciated-mass-frac-four-panel-point-
-source-1x1-z40.pdf  used on input line 193.
+source-1x1-z40.pdf  used on input line 197.
 (pdftex.def)             Requested size: 469.75502pt x 435.28633pt.
- [68] [69 <./figures/chapter5/speciated-mass-frac-four-panel-point-source-1x1-z
+ [70] [71 <./figures/chapter5/speciated-mass-frac-four-panel-point-source-1x1-z
 40.pdf>]
-<figures/chapter5/2d-kappa-dist-4-panel-uniform-basecase-z40.pdf, id=2632, 537.
+<figures/chapter5/2d-kappa-dist-4-panel-uniform-basecase-z40.pdf, id=2678, 537.
 62103pt x 332.56747pt>
 File: figures/chapter5/2d-kappa-dist-4-panel-uniform-basecase-z40.pdf Graphic f
 ile (type pdf)
 <use figures/chapter5/2d-kappa-dist-4-panel-uniform-basecase-z40.pdf>
 Package pdftex.def Info: figures/chapter5/2d-kappa-dist-4-panel-uniform-basecas
-e-z40.pdf  used on input line 204.
+e-z40.pdf  used on input line 208.
 (pdftex.def)             Requested size: 469.75502pt x 290.59999pt.
- [70 <./figures/chapter5/2d-kappa-dist-4-panel-uniform-basecase-z40.pdf>]
-<figures/chapter5/2d-kappa-dist-4-panel-point-source-1x1-z40.pdf, id=2684, 537.
+ [72 <./figures/chapter5/2d-kappa-dist-4-panel-uniform-basecase-z40.pdf>]
+<figures/chapter5/2d-kappa-dist-4-panel-point-source-1x1-z40.pdf, id=2730, 537.
 62103pt x 332.56747pt>
 File: figures/chapter5/2d-kappa-dist-4-panel-point-source-1x1-z40.pdf Graphic f
 ile (type pdf)
 <use figures/chapter5/2d-kappa-dist-4-panel-point-source-1x1-z40.pdf>
 Package pdftex.def Info: figures/chapter5/2d-kappa-dist-4-panel-point-source-1x
-1-z40.pdf  used on input line 215.
+1-z40.pdf  used on input line 219.
 (pdftex.def)             Requested size: 469.75502pt x 290.59999pt.
-<figures/chapter5/mixing-state-ideal-cases.pdf, id=2687, 469.755pt x 144.54pt>
+ [73 <./figures/chapter5/2d-kappa-dist-4-panel-point-source-1x1-z40.pdf>]
+<figures/chapter5/mixing-state-ideal-cases.pdf, id=2781, 469.755pt x 144.54pt>
 File: figures/chapter5/mixing-state-ideal-cases.pdf Graphic file (type pdf)
 <use figures/chapter5/mixing-state-ideal-cases.pdf>
 Package pdftex.def Info: figures/chapter5/mixing-state-ideal-cases.pdf  used on
- input line 226.
+ input line 230.
 (pdftex.def)             Requested size: 469.75502pt x 144.53963pt.
- [71 <./figures/chapter5/2d-kappa-dist-4-panel-point-source-1x1-z40.pdf>] [72 <
-./figures/chapter5/mixing-state-ideal-cases.pdf>]
-<figures/chapter5/aerosol-mixingstate-vertical-profiles-time36.pdf, id=2748, 85
+ [74 <./figures/chapter5/mixing-state-ideal-cases.pdf>]
+<figures/chapter5/aerosol-mixingstate-vertical-profiles-time36.pdf, id=2796, 85
 9.95026pt x 344.45093pt>
 File: figures/chapter5/aerosol-mixingstate-vertical-profiles-time36.pdf Graphic
  file (type pdf)
 <use figures/chapter5/aerosol-mixingstate-vertical-profiles-time36.pdf>
 Package pdftex.def Info: figures/chapter5/aerosol-mixingstate-vertical-profiles
--time36.pdf  used on input line 255.
+-time36.pdf  used on input line 259.
 (pdftex.def)             Requested size: 469.75502pt x 188.16089pt.
- [73 <./figures/chapter5/aerosol-mixingstate-vertical-profiles-time36.pdf>]
-<figures/chapter5/aerosol-ccn-mixingstate-vertical-profiles-time36.pdf, id=2801
+ [75]
+<figures/chapter5/aerosol-ccn-mixingstate-vertical-profiles-time36.pdf, id=2807
 , 859.95026pt x 344.55132pt>
 File: figures/chapter5/aerosol-ccn-mixingstate-vertical-profiles-time36.pdf Gra
 phic file (type pdf)
 <use figures/chapter5/aerosol-ccn-mixingstate-vertical-profiles-time36.pdf>
 Package pdftex.def Info: figures/chapter5/aerosol-ccn-mixingstate-vertical-prof
-iles-time36.pdf  used on input line 266.
+iles-time36.pdf  used on input line 270.
 (pdftex.def)             Requested size: 469.75502pt x 188.21573pt.
- [74 <./figures/chapter5/aerosol-ccn-mixingstate-vertical-profiles-time36.pdf>]
+ [76 <./figures/chapter5/aerosol-mixingstate-vertical-profiles-time36.pdf> <./f
+igures/chapter5/aerosol-ccn-mixingstate-vertical-profiles-time36.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 277.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 273.
+(hyperref)                removing `math shift' on input line 277.
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 273.
-
-<figures/chapter5/aerosol-ccn-vertical-profiles-time36.pdf, id=2855, 570.87025p
+[77]
+<figures/chapter5/aerosol-ccn-vertical-profiles-time36.pdf, id=2906, 570.87025p
 t x 646.25975pt>
 File: figures/chapter5/aerosol-ccn-vertical-profiles-time36.pdf Graphic file (t
 ype pdf)
 <use figures/chapter5/aerosol-ccn-vertical-profiles-time36.pdf>
 Package pdftex.def Info: figures/chapter5/aerosol-ccn-vertical-profiles-time36.
-pdf  used on input line 287.
+pdf  used on input line 291.
 (pdftex.def)             Requested size: 422.77664pt x 478.62904pt.
-[75] [76 <./figures/chapter5/aerosol-ccn-vertical-profiles-time36.pdf>]
-<figures/chapter5/height-time-ccn-pdiff-fx1fy0.pdf, id=2915, 413.71791pt x 304.
+ [78 <./figures/chapter5/aerosol-ccn-vertical-profiles-time36.pdf>]
+<figures/chapter5/height-time-ccn-pdiff-fx1fy0.pdf, id=2961, 413.71791pt x 304.
 68956pt>
 File: figures/chapter5/height-time-ccn-pdiff-fx1fy0.pdf Graphic file (type pdf)
 
 <use figures/chapter5/height-time-ccn-pdiff-fx1fy0.pdf>
 Package pdftex.def Info: figures/chapter5/height-time-ccn-pdiff-fx1fy0.pdf  use
-d on input line 298.
+d on input line 302.
 (pdftex.def)             Requested size: 469.75502pt x 345.98285pt.
 
-Overfull \hbox (1.8797pt too wide) in paragraph at lines 303--304
+Overfull \hbox (1.8797pt too wide) in paragraph at lines 307--308
 \OT1/ptm/m/n/10.95 (-20) nario 1 rel-a-tive to the uni-form base case. Plots ar
 e shown for each su-per-sat-u-ra-tion level ($\OML/ztmcm/m/it/10.95 S \OT1/ztmc
 m/m/n/10.95 = 0\OML/ztmcm/m/it/10.95 :\OT1/ztmcm/m/n/10.95 1\OML/ztmcm/m/it/10.
@@ -1724,66 +1709,67 @@ mcm/m/it/10.95 ; \OT1/ztmcm/m/n/10.95 0\OML/ztmcm/m/it/10.95 :\OT1/ztmcm/m/n/10
 ztmcm/m/n/10.95 0%$\OT1/ptm/m/n/10.95 (-20) ).
  []
 
-[77 <./figures/chapter5/height-time-ccn-pdiff-fx1fy0.pdf>]
-<figures/chapter5/height-time-ccn-pdiff-road-10x.pdf, id=2961, 413.71791pt x 30
+[79]
+<figures/chapter5/height-time-ccn-pdiff-road-10x.pdf, id=2968, 413.71791pt x 30
 4.68956pt>
 File: figures/chapter5/height-time-ccn-pdiff-road-10x.pdf Graphic file (type pd
 f)
 <use figures/chapter5/height-time-ccn-pdiff-road-10x.pdf>
 Package pdftex.def Info: figures/chapter5/height-time-ccn-pdiff-road-10x.pdf  u
-sed on input line 315.
+sed on input line 319.
 (pdftex.def)             Requested size: 469.75502pt x 345.98285pt.
-<figures/chapter5/height-time-ccn-pdiff-point-source-1x1.pdf, id=2963, 413.7179
+ [80 <./figures/chapter5/height-time-ccn-pdiff-fx1fy0.pdf>]
+<figures/chapter5/height-time-ccn-pdiff-point-source-1x1.pdf, id=3015, 413.7179
 1pt x 304.68956pt>
 File: figures/chapter5/height-time-ccn-pdiff-point-source-1x1.pdf Graphic file 
 (type pdf)
 <use figures/chapter5/height-time-ccn-pdiff-point-source-1x1.pdf>
 Package pdftex.def Info: figures/chapter5/height-time-ccn-pdiff-point-source-1x
-1.pdf  used on input line 326.
+1.pdf  used on input line 330.
 (pdftex.def)             Requested size: 469.75502pt x 345.98285pt.
- [78] [79 <./figures/chapter5/height-time-ccn-pdiff-road-10x.pdf>] [80 <./figur
-es/chapter5/height-time-ccn-pdiff-point-source-1x1.pdf>]
-<figures/chapter5/aerosol-SNA-vertical-profiles-no-nh4-cases-time36.pdf, id=306
-0, 859.95026pt x 342.00429pt>
+ [81 <./figures/chapter5/height-time-ccn-pdiff-road-10x.pdf>] [82 <./figures/ch
+apter5/height-time-ccn-pdiff-point-source-1x1.pdf>]
+<figures/chapter5/aerosol-SNA-vertical-profiles-no-nh4-cases-time36.pdf, id=310
+7, 859.95026pt x 342.00429pt>
 File: figures/chapter5/aerosol-SNA-vertical-profiles-no-nh4-cases-time36.pdf Gr
 aphic file (type pdf)
 <use figures/chapter5/aerosol-SNA-vertical-profiles-no-nh4-cases-time36.pdf>
 Package pdftex.def Info: figures/chapter5/aerosol-SNA-vertical-profiles-no-nh4-
-cases-time36.pdf  used on input line 346.
+cases-time36.pdf  used on input line 350.
 (pdftex.def)             Requested size: 469.75502pt x 186.82437pt.
- [81 <./figures/chapter5/aerosol-SNA-vertical-profiles-no-nh4-cases-time36.pdf>
-]
+ [83]
 <figures/chapter5/aerosol-ccn-vertical-profiles-no-nh4-cases-time36.pdf, id=311
-0, 649.76505pt x 646.25975pt>
+3, 649.76505pt x 646.25975pt>
 File: figures/chapter5/aerosol-ccn-vertical-profiles-no-nh4-cases-time36.pdf Gr
 aphic file (type pdf)
 <use figures/chapter5/aerosol-ccn-vertical-profiles-no-nh4-cases-time36.pdf>
 Package pdftex.def Info: figures/chapter5/aerosol-ccn-vertical-profiles-no-nh4-
-cases-time36.pdf  used on input line 355.
+cases-time36.pdf  used on input line 359.
 (pdftex.def)             Requested size: 469.75502pt x 467.22958pt.
- [82 <./figures/chapter5/aerosol-ccn-vertical-profiles-no-nh4-cases-time36.pdf>
-] [83]) [84]
+ [84 <./figures/chapter5/aerosol-SNA-vertical-profiles-no-nh4-cases-time36.pdf>
+] [85 <./figures/chapter5/aerosol-ccn-vertical-profiles-no-nh4-cases-time36.pdf
+>] [86]) [87]
 \openout2 = `6-conclusions.aux'.
 
  (./6-conclusions.tex
 Chapter 6.
-[85
+[88
 
 
 
 
-] [86] [87]) [88] [89
+] [89] [90]) [91] [92
 
 
 
 
-] [90] [91] [92] [93] [94] [95]
+] [93] [94] [95] [96] [97] [98]
 Overfull \hbox (13.25114pt too wide) in paragraph at lines 133--133
 [][]\OT1/ptm/m/n/10.95 (-20) Tonttila, J., Maal-ick, Z., Raatikainen, T., Kokko
 la, H., K[]uhn, T., & Ro-makkaniemi, S. (2017). UCLALES{SALSA
  []
 
-[96] [97] [98] (./main.aux (./abstract.aux) (./acknowledgments.aux)
+[99] [100] [101] (./main.aux (./abstract.aux) (./acknowledgments.aux)
 (./1-introduction.aux) (./2-spatial-het.aux) (./3-modeling-tools.aux)
 (./4-spatial-het-gas-phase.aux) (./5-spatial-het-aerosols.aux)
 (./6-conclusions.aux))
@@ -1791,24 +1777,20 @@ la, H., K[]uhn, T., & Ro-makkaniemi, S. (2017). UCLALES{SALSA
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3D998C857AFE2C47EFCB43A646BFDECA;15637.
+(rerunfilecheck)             Checksum: 3A52E6823EFC8731B4F6C0B9AD55DFC9;16034.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32903 strings out of 474116
- 667675 string characters out of 5743682
- 1950187 words of memory out of 5000000
- 54157 multiletter control sequences out of 15000+600000
- 620716 words of font info for 352 fonts, out of 8000000 for 9000
+ 32936 strings out of 474116
+ 668449 string characters out of 5743682
+ 1951187 words of memory out of 5000000
+ 54176 multiletter control sequences out of 15000+600000
+ 622371 words of font info for 354 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,13n,81p,4462b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,20n,85p,4462b,5052s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 ></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
@@ -1823,10 +1805,10 @@ ocal/texlive/2024/texmf-dist/fonts/type1/urw/symbol/usyr.pfb></usr/local/texliv
 e/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2024/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2024/texmf-dist/fo
 nts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (109 pages, 10919163 bytes).
+Output written on main.pdf (112 pages, 11067741 bytes).
 PDF statistics:
- 3471 PDF objects out of 3580 (max. 8388607)
- 1929 compressed objects within 20 object streams
- 331 named destinations out of 1000 (max. 500000)
- 76052 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 3523 PDF objects out of 3580 (max. 8388607)
+ 1974 compressed objects within 20 object streams
+ 344 named destinations out of 1000 (max. 500000)
+ 76073 words of extra memory for PDF output out of 89155 (max. 10000000)
 

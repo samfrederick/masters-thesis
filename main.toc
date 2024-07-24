@@ -5,67 +5,69 @@
 \contentsline {section}{\numberline {1.1}The complexity of atmospheric aerosols}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Particle size}{1}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Production and removal mechanisms}{2}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Aerosol compositional diversity}{2}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.3}Aerosol compositional diversity}{3}{subsection.1.1.3}%
 \contentsline {subsection}{\numberline {1.1.4}Impacts of aerosols on climate}{3}{subsection.1.1.4}%
-\contentsline {section}{\numberline {1.2}Spatial heterogeneity in the atmosphere and its impact on aerosols}{4}{section.1.2}%
-\contentsline {subsection}{\numberline {1.2.1}Coupling between surface heterogeneities and atmospheric state}{4}{subsection.1.2.1}%
-\contentsline {subsection}{\numberline {1.2.2}Coupling between emissions spatial heterogeneity and aerosol processes}{5}{subsection.1.2.2}%
-\contentsline {subsection}{\numberline {1.2.3}Sub-grid scale variability of aerosols}{6}{subsection.1.2.3}%
-\contentsline {subsection}{\numberline {1.2.4}Modeling approaches and parameterizations for emissions sub-grid scale variability}{9}{subsection.1.2.4}%
-\contentsline {section}{\numberline {1.3}Representation of aerosols across modeling frameworks}{11}{section.1.3}%
-\contentsline {subsection}{\numberline {1.3.1}Aerosol modeling treatments}{11}{subsection.1.3.1}%
-\contentsline {subsection}{\numberline {1.3.2}Joint aerosol-transport models}{14}{subsection.1.3.2}%
-\contentsline {section}{\numberline {1.4}Objectives of this thesis}{15}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Quantifying emissions spatial heterogeneity and mixing}{17}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Existing approaches to quantifying spatial heterogeneity}{17}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Spatial autocorrelation and semivariograms}{18}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Fractal dimensions}{18}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Lacunarity}{18}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Information entropy based metrics}{19}{subsection.2.1.4}%
-\contentsline {subsection}{\numberline {2.1.5}Nearest neighbor statistics for point-based heterogeneity}{19}{subsection.2.1.5}%
-\contentsline {subsection}{\numberline {2.1.6}Multiscale norms}{20}{subsection.2.1.6}%
-\contentsline {section}{\numberline {2.2}Metrics for quantifying the mixing of reactive compounds}{20}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Segregation intensity}{20}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Damköhler number}{21}{subsection.2.2.2}%
+\contentsline {section}{\numberline {1.2}Spatial heterogeneity in the atmosphere and its impact on aerosols}{5}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Coupling between surface heterogeneities and atmospheric state}{5}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Coupling between emissions spatial heterogeneity and aerosol processes}{6}{subsection.1.2.2}%
+\contentsline {subsection}{\numberline {1.2.3}Sub-grid scale variability of aerosols}{7}{subsection.1.2.3}%
+\contentsline {subsection}{\numberline {1.2.4}Modeling approaches and parameterizations for emissions sub-grid scale variability}{10}{subsection.1.2.4}%
+\contentsline {section}{\numberline {1.3}Representation of aerosols across modeling frameworks}{12}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}Aerosol modeling treatments}{12}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Coupled aerosol-transport models}{15}{subsection.1.3.2}%
+\contentsline {section}{\numberline {1.4}Objectives of this thesis}{16}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Quantifying emissions spatial heterogeneity and mixing}{18}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Existing approaches to quantifying spatial heterogeneity}{18}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Spatial autocorrelation and semivariograms}{19}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Fractal dimensions}{19}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Lacunarity}{19}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Information entropy based metrics}{20}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Nearest neighbor statistics for point-based heterogeneity}{20}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}Multiscale norms}{21}{subsection.2.1.6}%
+\contentsline {section}{\numberline {2.2}Metrics for quantifying the mixing of reactive compounds}{21}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Segregation intensity}{21}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Damköhler number}{22}{subsection.2.2.2}%
 \contentsline {section}{\numberline {2.3}A novel approach to quantifying spatial heterogeneity}{23}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Metric definition}{23}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Computational methods for computing the spatial heterogeneity metric}{25}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Example calculations for emission patterns}{28}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}Modeling tools}{30}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Large-eddy simulations}{30}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Sub-grid scale parameterizations}{31}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Computational domain}{32}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Meteorological Initial Conditions}{33}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Simulation spin-up}{34}{subsection.3.1.4}%
-\contentsline {section}{\numberline {3.2}Gas phase simulations}{35}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Chemical mechanism}{35}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Initial conditions and emissions}{36}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Multiphase simulations}{37}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Chemical mechanism}{37}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Aerosol representation}{37}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Initial conditions and emissions}{38}{subsection.3.3.3}%
-\contentsline {chapter}{\numberline {4}Impacts of emissions spatial heterogeneity on gas-phase reactions}{41}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Simulated emissions scenarios}{41}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Results}{43}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Ozone cross sections}{43}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Spatio-temporal trends in ozone and its precursors}{45}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Spatial heterogeneity in the atmosphere of ozone and its precursors}{48}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Discussion}{51}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Impacts of emissions spatial heterogeneity on aerosol properties and CCN activity}{54}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Idealized coagulation simulations}{54}{section.5.1}%
-\contentsline {subsection}{\numberline {5.1.1}Simulation scenarios}{54}{subsection.5.1.1}%
-\contentsline {subsection}{\numberline {5.1.2}Results}{55}{subsection.5.1.2}%
-\contentsline {section}{\numberline {5.2}Full multiphase simulations}{58}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Simulated emissions scenarios}{59}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Aerosol size distributions}{59}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Aerosol composition}{62}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Aerosol mixing state}{72}{subsection.5.2.4}%
-\contentsline {subsection}{\numberline {5.2.5}Impacts of emissions $SH$ on CCN activity}{75}{subsection.5.2.5}%
-\contentsline {subsection}{\numberline {5.2.6}Influence of ammonia on aerosol composition and CCN activity}{80}{subsection.5.2.6}%
-\contentsline {section}{\numberline {5.3}Implications}{83}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Conclusions}{85}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Overview}{85}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Findings and implications}{86}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Study limitations and future work}{87}{section.6.3}%
-\contentsline {chapter}{References}{89}{chapter*.55}%
+\contentsline {subsection}{\numberline {2.3.1}Metric definition}{24}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Computational methods for computing the spatial heterogeneity metric}{26}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Example calculations for emission patterns}{29}{subsection.2.3.3}%
+\contentsline {chapter}{\numberline {3}Modeling tools}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Large-eddy simulations}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Sub-grid scale parameterizations}{32}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Computational domain}{34}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Meteorological Initial Conditions}{34}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Simulation spin-up}{35}{subsection.3.1.4}%
+\contentsline {section}{\numberline {3.2}Gas phase simulations}{37}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Chemical mechanism}{37}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Initial conditions and emissions}{37}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Multiphase simulations}{38}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Chemical mechanism}{38}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Aerosol representation}{39}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Initial conditions and emissions}{40}{subsection.3.3.3}%
+\contentsline {chapter}{\numberline {4}Impacts of emissions spatial heterogeneity on gas-phase reactions}{42}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Production of ozone in the troposphere}{42}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Simulated emissions scenarios}{43}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Results}{45}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Ozone cross sections}{45}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Spatio-temporal trends in ozone and its precursors}{47}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Spatial heterogeneity in the atmosphere of ozone and its precursors}{50}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Discussion}{54}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Impacts of emissions spatial heterogeneity on aerosol properties and CCN activity}{56}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Idealized coagulation simulations}{56}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Simulation scenarios}{56}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Results}{57}{subsection.5.1.2}%
+\contentsline {section}{\numberline {5.2}Full multiphase simulations}{60}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Simulated emissions scenarios}{60}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Aerosol size distributions}{61}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Aerosol composition}{64}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Aerosol mixing state}{74}{subsection.5.2.4}%
+\contentsline {subsection}{\numberline {5.2.5}Impacts of emissions $SH$ on CCN activity}{77}{subsection.5.2.5}%
+\contentsline {subsection}{\numberline {5.2.6}Influence of ammonia on aerosol composition and CCN activity}{83}{subsection.5.2.6}%
+\contentsline {section}{\numberline {5.3}Implications}{84}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Conclusions}{88}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Overview}{88}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Contributions}{89}{subsection.6.1.1}%
+\contentsline {section}{\numberline {6.2}Findings and implications}{89}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Study limitations and future work}{90}{section.6.3}%
+\contentsline {chapter}{References}{92}{chapter*.56}%
 \contentsfinish 

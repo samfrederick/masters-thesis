@@ -1,7 +1,48 @@
 % !TEX root = ./main.tex
 \chapter{Impacts of emissions spatial heterogeneity on gas-phase reactions}
 
-This chapter investigates the impacts of gas phase emissions and associated chemical reactions on the production of ozone in the planetary boundary layer. The effect emissions spatial heterogeneity on ozone production is explored across numerous emissions scenarios with ranging emissions spatial heterogeneity. We find that for the most heterogeneous emissions case, ozone production is reduced in the mid-boundary layer by up to $\sim13\%$. We also evaluate the spatial heterogeneity of ozone and its precursor compounds NO$_x$ and volatile organic compounds (VOCs) after they are emitted. We find that $SH$ varies considerably across precursors and also exhibits spatio-temporal variability.
+This chapter investigates the impacts of gas phase emissions and associated chemical reactions on the production of ozone in the planetary boundary layer. The effect of emissions spatial heterogeneity on ozone production is explored across numerous emissions scenarios with varying emissions spatial heterogeneity. We find that for the most heterogeneous emissions case, ozone production is reduced in the mid-boundary layer by up to $\sim13\%$. We also evaluate the spatial heterogeneity of ozone and its precursor compounds NO$_x$ and volatile organic compounds (VOCs) after they are emitted. We find that $SH$ varies considerably across precursors and also exhibits spatio-temporal variability.
+
+\section{Production of ozone in the troposphere}
+
+Ozones plays an important role in production of OH, a strong oxidant critical to many reactions in the troposphere. Without the production of ozone in the troposphere, emitted and naturally occurring compounds such as CO and hydrocarbons would reach dangerous levels due to the slow rate at which ozone is transferred between the stratosphere and troposphere. 
+
+A primary mechanism for ozone production in the troposphere is due to the oxidation of CO and VOCs, which are catalyzed by the presence of HO$_\text{x}$ ($\text{OH} + \text{HO}_2$) and NO$_\text{x}$ ($\text{NO} + \text{NO}_2$) radicals. First, ozone must undergo photolysis to produce singlet oxygen O$(^1\text{D})$. This excited state of atomic oxygen reacts with water to form OH, kicking off the availability of HO$_\text{x}$ radicals,  
+\begin{align}
+    \ce{
+    O_3 + h\nu &-> O_2 + O(^1D), \\ 
+    O(^1D) + H_2O&-> 2OH. 
+       }
+\end{align}
+
+Subsequently, both CO and VOCs are oxidized, resulting in the net production of HO$_2$. The oxidation of VOCs results in the formation of various chains of organics containing O$_2$ referred to as RO$_2$ which go on to react with NO and form secondary VOC alongside additional HO$_2$, 
+\begin{align}
+    \ce{
+    CO + OH &->[O_2] CO_2 + HO_2, \\ 
+   VOC + OH &->[O_2] RO_2 + H_2O, \\
+   RO_2 + NO &->[O_2] secondary VOC + HO_2 + NO_2.
+       }
+\end{align}
+The presence of HO$_2$ facilitates the conversion between NO$_x$ radicals, 
+\begin{align}
+    \ce{
+    HO_2 + NO &-> OH + NO_2. 
+       }
+\end{align}
+Lastly, NO$_2$ is photolyzed at wavelengths smaller than 400~nm, returning to NO and producing ozone in the process,
+\begin{align}
+\ce{NO_2 + h\nu &->[O_2] NO + O_3.}
+\end{align}
+This results in the net conversion of CO and 2O$_2$ to CO$_2$ and O$_3$. 
+
+Note that under high concentrations of NO, a net conversion of ozone to NO$_2$ will occur via NO$_x$ titration, 
+\begin{equation}
+\ce{O_3 + NO -> NO_2 + O_2}.
+\label{eq:nox-titration}
+\end{equation}
+Usually this reaction is balanced by photolysis of NO$_2$, however, in emissions plumes with high concentrations of NO, Reaction \ref{eq:nox-titration} results in a net conversion of ozone to NO$_2$. 
+
+This illustrates the complex dependence of ozone production on the availability of precursor species such as CO and VOCs and the role of NO in removing ozone under high concentration NO$_x$ emissions. 
 
 \section{Simulated emissions scenarios}\label{gas-emission-scenarios}
 
@@ -12,11 +53,11 @@ This chapter investigates the impacts of gas phase emissions and associated chem
 	\label{fig:ozone-emission-patterns}
 \end{figure}
 
-We conduct four simulations in total ranging in emissions spatial heterogeneity from $SH=0$ to $SH=1$ for precursor species responsible the production of ozone. Emissions scenarios are shown in Figure \ref{fig:ozone-emission-patterns}. The first simulation, named the uniform base case scenario, is characterized by uniform emissions of all compounds across the computational domain ground level. The uniform base case has a spatial heterogeneity equal to zero. This scenario represents the emissions across a single grid cell in a lower resolution model, such as a regional or global climate model, where emitted species are both uniform and dilute. Thus, results for simulations with higher emissions heterogeneity are compared against the uniform base case to quantify the structural uncertainty in ozone concentrations resulting from the assumption of uniform, dilute emissions characteristic of coarser resolved models that do not adequately resolve the true emissions spatial heterogeneity.  
+We conduct four simulations in total ranging in emissions spatial heterogeneity from $SH=0$ to $SH=1$ for precursor species responsible the production of ozone. Emissions scenarios are shown in Figure \ref{fig:ozone-emission-patterns}. The first simulation, named the uniform base case scenario, is characterized by uniform emissions of all compounds across the computational domain ground level. The uniform base case has a spatial heterogeneity equal to zero. This scenario represents the emissions across a single grid cell in a lower resolution model, such as a regional or global climate model, where emitted species are both uniform and dilute. Thus, results for simulations with higher emissions heterogeneity are compared against the uniform base case to quantify the structural uncertainty in simulating ozone concentrations resulting from the assumption of uniform, dilute emissions characteristic of coarser resolved models that do not adequately resolve the true emissions spatial heterogeneity.  
 
-Across the simulated emission scenarios, the area occupied by ground level emissions decreases up to a single grid cell in the case of emissions scenario 3. This scenario is meant to represent a highly localized emissions source and is the maximally heterogeneous case with $SH=1$. The total mass per unit time emitted across each scenario remains the same, thus the emission rate for high spatial heterogeneity cases must be scaled by the ratio between the area occupied by emissions in the uniform base case and the area emissions occupy in the corresponding emissions scenario. For example, the area of emissions in emissions scenario 3 is $0.01$ \si{km^2} while the area occupied by emissions in the uniform base case is  $100$ \si{km^2}, resulting in an emissions rate scaling factor of $100/0.01 = 10,000$. 
+Across the simulated emission scenarios, the area occupied by ground level emissions decreases up to a single grid cell in the case of emissions scenario 3. This scenario is meant to represent a highly localized emissions source and is the maximally heterogeneous case with $SH=1$. The total mass per unit time emitted across each scenario remains the same, thus the emission rate for high spatial heterogeneity cases must be scaled by the ratio between the area occupied by emissions in the uniform base case and the area emissions occupy in the corresponding emissions scenario. For example, the area of emissions in emissions scenario 3 is $0.01$ \si{km^2} while the area occupied by emissions in the uniform base case is  $100$ \si{km^2}, resulting in an emissions rate scaling factor of $100/0.01 = 10,000$. Emissions comprise gas phase species discussed in Chapter 3 and are all emissions are collocated (i.e., the chemical segregation of species is zero within the region of surface emissions). 
 
-Each simulation was run for a total of 6 hours beginning at 9:00 AM LT and ending at 3:00 PM LT. The first hour of each simulation allows spin up and development of the PBL. Afterward, emissions occur at a constant rate for the remainder of each simulation.
+Each simulation was run for a total of 6 hours beginning at 9:00 AM LT and ending at 3:00 PM LT. The first hour of each simulation allows spin up and development of the planetary boundary layer. Afterward, emissions occur at a constant rate for the remainder of each simulation.
 
 \section{Results}
 
@@ -27,38 +68,38 @@ Each simulation was run for a total of 6 hours beginning at 9:00 AM LT and endin
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{figures/chapter4/o3-crosssec-uniform-basecase-z25.pdf}
-    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim500$ \si{m}) for the uniform base case.}
+    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the planetary boundary layer ($z\sim500$ \si{m}) for the uniform base case.}
     \label{fig:o3-crosssec-ub}
   \end{figure}
 
-In order to visualize the spatial heterogeneities present in ozone throughout each simulation, cross sections of ozone concentrations in the x-y plane were plotted for each emissions scenario. Cross sections were selected at a vertical level corresponding to the approximate middle of the PBL ($z\sim500$ \si{m}) and were plotted at regular, 2 hour intervals. 
+In order to visualize the spatial heterogeneities present in ozone throughout each simulation, cross sections of ozone concentrations in the x-y plane were plotted for each emissions scenario. Cross sections were selected at a vertical level corresponding to the approximate middle of the planetary boundary layer ($z\sim500$ \si{m}) and were plotted at regular, 2 hour intervals. 
 
-Ozone cross section plots for the uniform base case are shown in Figure \ref{fig:o3-crosssec-ub}. Ozone concentrations are displayed as molar fractions in parts per billion by volume (ppbv). Throughout each snapshot, the distribution of ozone is shown to be nearly uniform with minimal concentration gradients. Ozone concentrations steadily increase throughout the course of the simulation, reaching in excess of 110 ppbv by $t=6$ h.
+Ozone cross section plots for the uniform base case are shown in Figure \ref{fig:o3-crosssec-ub}. Ozone concentrations are displayed as molar fractions in parts per billion by volume (ppbv). Throughout each snapshot, the distribution of ozone is shown to be nearly uniform with minimal concentration gradients. Ozone concentrations steadily increase throughout the course of the simulation, reaching in excess of 110 ppbv by $t=6$~h. These concentrations are typical of the planetary boundary layer in polluted urban regions.
 
-Ozone cross sections for emission scenarios 1--3 are shown in Figures \ref{fig:o3-crosssec-s1}--\ref{fig:o3-crosssec-s3}, respectively. By $t=2$ h, ozone concentrations have risen from their initial condition of 50 \si{ppbv} to a nearly uniform 60 \si{ppbv} in areas distant from the region where the emissions plume passes through. Approaching the area surrounding the plume, ozone concentrations are lower at  $\sim50$ \si{ppbv}, indicating that very little ozone production occurs in the immediate vicinity of the emissions plume. This trend increases moving from emissions scenario 1 (Figure \ref{fig:o3-crosssec-s1}) to emissions scenario 3 (Figure \ref{fig:o3-crosssec-s3}), where the absence of elevated ozone levels in the central region of the plume is clearly visible. 
+Ozone cross sections for emission scenarios 1--3 are shown in Figures \ref{fig:o3-crosssec-s1}--\ref{fig:o3-crosssec-s3}, respectively. By $t=2$~h, ozone concentrations have risen from their initial condition of 50 \si{ppbv} to a nearly uniform 60 \si{ppbv} in areas distant from the region where the emissions plume passes through. Approaching the area surrounding the plume, ozone concentrations are lower at  $\sim50$ \si{ppbv}, indicating that very little ozone production occurs in the immediate vicinity of the emissions plume. This trend increases moving from emissions scenario 1 (Figure \ref{fig:o3-crosssec-s1}) to emissions scenario 3 (Figure \ref{fig:o3-crosssec-s3}), where the absence of elevated ozone levels in the central region of the plume is clearly visible. 
 
-\begin{figure}[h]
+\begin{figure}[!t]
     \centering
     \includegraphics[width=.9\textwidth]{figures/chapter4/o3-crosssec-fx1fy0-z25.pdf}
-    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim500$ \si{m}) for emissions scenario 1.}
+    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the planetary boundary layer ($z\sim500$ \si{m}) for emissions scenario 1.}
     \label{fig:o3-crosssec-s1}
 \end{figure}
 
-\begin{figure}[h]
+\begin{figure}[!t]
     \centering
     \includegraphics[width=.9\textwidth]{figures/chapter4/o3-crosssec-road-10x-z25.pdf}
-    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim500$ \si{m}) for emissions scenario 2.}
+    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the planetary boundary layer ($z\sim500$ \si{m}) for emissions scenario 2.}
     \label{fig:o3-crosssec-s2}
 \end{figure}
 
-  \begin{figure}[!h]
+  \begin{figure}[!t]
     \centering
     \includegraphics[width=.9\textwidth]{figures/chapter4/o3-crosssec-point-source-1x1-z25.pdf}
-    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the PBL ($z\sim500$ \si{m}) for emissions scenario 3.}
+    \caption{Ozone cross sections in the x-y plane at 2 hour intervals in the middle of the planetary boundary layer ($z\sim500$ \si{m}) for emissions scenario 3.}
     \label{fig:o3-crosssec-s3}
 \end{figure}
 
-By $t=4$ h and $t=6$ h, ozone concentrations have risen in the region immediately surrounding the plume, reaching upwards of 110 \si{ppbv} in each scenario by $t=6$ h. The region of most efficient ozone production clearly overlaps with the region where the plume is rising through the PBL; however, for the highest spatial heterogeneity emissions scenario, scenario 3 (Figure \ref{fig:o3-crosssec-s3}), we find that ozone concentrations are significantly depressed in the immediate vicinity of the plume. This points to the non-linear nature of ozone production and its dependance on the relative abundance of NO$_x$ and VOCs.
+By $t=4$~h and $t=6$~h, ozone concentrations have risen in the region immediately surrounding the plume, reaching upwards of 110 \si{ppbv} in each scenario by $t=6$~h. The region of most efficient ozone production clearly overlaps with the region where the plume is rising through the planetary boundary layer; however, for the highest spatial heterogeneity emissions scenario, scenario 3 (Figure \ref{fig:o3-crosssec-s3}), we find that ozone concentrations are significantly depressed in the immediate vicinity of the plume. This points to the non-linear nature of ozone production and its dependance on the relative abundance of NO$_x$ and VOCs.
 
 %\subsection{Segregation intensity}
 \subsection{Spatio-temporal trends in ozone and its precursors}
@@ -66,22 +107,17 @@ By $t=4$ h and $t=6$ h, ozone concentrations have risen in the region immediatel
 \begin{figure}[h]
     \centering
     \includegraphics[width=\textwidth]{figures/chapter4/vertical-profiles-time36.pdf}
-    \caption{Vertical profiles at $t=6$ h for ozone, NO$_2$, and HCHO (left to right) for each emissions scenario. Each vertical profile indicates the species mean concentration when horizontally averaged at each vertical level.}
+    \caption{Vertical profiles at $t=6$~h for ozone, NO$_2$, and HCHO (left to right) for each emissions scenario. Each vertical profile indicates the species mean concentration when horizontally averaged at each vertical level.}
     \label{fig:vertical-profiles-o3-nox-hcho}
   \end{figure}
   
-Vertical profiles at $t=6$ h for ozone, NO$_2$, and HCHO (formaldehyde) across each emissions scenario are shown in Figure \ref{fig:vertical-profiles-o3-nox-hcho}. For each plot, the vertical profile was computed by determining the horizontal average across the domain of each compound and for each vertical level. NO$_2$ is displayed alongside ozone to evaluate whether NO$_x$ titration is occuring--at high NO concentrations, there is a net conversion of ozone to NO$_2$ via 
-\begin{equation}
-\ce{O_3 + NO -> NO_2 + O_2}.
-\label{eq:nox-titration}
-\end{equation}
-Usually this reaction is balanced by photolysis of NO$_2$, however, in emissions plumes with high concentrations of NO, Reaction \ref{eq:nox-titration} results in a net conversion of ozone to NO$_2$. HCHO is chosen as a representative VOC.
+Vertical profiles at $t=6$~h for ozone, NO$_2$, and HCHO (formaldehyde) across each emissions scenario are shown in Figure \ref{fig:vertical-profiles-o3-nox-hcho}. For each plot, the vertical profile was computed by determining the horizontal average across the domain of each compound and for each vertical level. NO$_2$ is displayed alongside ozone to evaluate whether NO$_x$ titration is occurring. HCHO is chosen as a representative VOC.
 
-We find that mean ozone concentrations are nearly uniform in the PBL for each emissions scenario, with a reduction in mean concentrations from $\sim 112$ ppbv in the uniform base case to $\sim 97$ ppbv for emissions scenario 3. By $t=6$ h, the boundary layer height has grown to nearly $z=1.5$ \si{km}, above which point ozone concentrations are nearly identical at $\sim80$ \si{ppbv} across emissions scenarios. Note the initial condition for ozone is a uniform 50 \si{ppbv} throughout the entire domain, indicating that in the absence of additional NO$_x$ and VOC precursors due to emissions, ozone concentrations rise by approximately 30 \si{ppbv} over 6 hours due to ambient precursor concentrations and photolysis reactions.
+We find that mean ozone concentrations are nearly uniform in the planetary boundary layer for each emissions scenario, with a reduction in mean concentrations from $\sim 112$ ppbv in the uniform base case to $\sim 97$ ppbv for emissions scenario 3. By $t=6$~h, the boundary layer height has grown to nearly $z=1.5$ \si{km}, above which point ozone concentrations are nearly identical at $\sim80$ \si{ppbv} across emissions scenarios. Note the initial condition for ozone is a uniform 50 \si{ppbv} throughout the entire domain, indicating that in the absence of additional NO$_x$ and VOC precursors due to emissions, ozone concentrations in the free troposphere rise by approximately 30 \si{ppbv} over 6 hours due to ambient precursor concentrations and photolysis reactions.
 
-NO$_2$ concentrations vary considerably within the boundary layer, with concentrations approaching 6 ppbv near the surface followed by a slightly decreasing trend in the middle to upper PBL. We find higher NO$_2$ concentrations as we move from the uniform base case to higher emissions spatial heterogeneity scenarios. We also find that under the highest emissions $SH$ scenarios (scenario 2 and 3), the profile of NO$_2$ is more variable with height.
+NO$_2$ concentrations vary considerably within the boundary layer, with concentrations approaching 6 ppbv near the surface followed by a slightly decreasing trend in the middle to upper planetary boundary layer. We find higher NO$_2$ concentrations as we move from the uniform base case to higher emissions spatial heterogeneity scenarios. We also find that under the highest emissions $SH$ scenarios (scenario 2 and 3), the profile of NO$_2$ is more variable with height.
 
-HCHO concentrations are relatively uniform across each emissions heterogeneity scenario, with concentrations between 3--3.5 \si{ppbv} in the PBL. Agreement in the abundance of HCHO across emission scenarios suggest that it is not as sensitive to emissions spatial heterogeneity as NO$_x$. 
+HCHO concentrations are relatively uniform across each emissions heterogeneity scenario, with concentrations between 3--3.5 \si{ppbv} in the planetary boundary layer. Agreement in the abundance of HCHO across emission scenarios suggest that it is not as sensitive to emissions spatial heterogeneity as NO$_x$. 
 %\hl{probably owing to the rate at which it reacts with other species}.
 
 \begin{figure}[t]
@@ -93,7 +129,7 @@ HCHO concentrations are relatively uniform across each emissions heterogeneity s
 
 Time-height sections of ozone concentrations are shown for each emissions scenario in Figure \ref{fig:ht-o3}. For each time-height figure, the horizontal average concentration of ozone was computed for each vertical level and at time in the simulation output. Isopleths are superimposed on each time-height plot and indicate regions of constant ozone concentrations in increments of 5 ppbv. 
 
-During the first hour of each simulation, ozone concentrations gradually increase nearly uniformly from the initial concentration of 50 ppbv to 60 ppbv. Emissions are turned on at $t=1$ h, however ozone concentrations for emissions scenarios 1--3 do not appear to appreciably diverge from the uniform base case until $t\simeq2$ h and beyond. After this point, ozone concentrations increase in the PBL of each scenario (the PBL height gradually grows throughout the simulation as indicated by the region of highest ozone concentrations due to the constant heat flux at the surface). Ozone concentrations alongside the ozone formation rate are highest in the uniform base case. Note that between hours 5 and 6, ozone concentrations in the PBL increase by approximately 10 ppbv as indicated by isopleths. By comparison, ozone concentrations increase by approximately 5 ppbv for scenario 3 during the same time period.
+During the first hour of each simulation, ozone concentrations gradually increase nearly uniformly from the initial concentration of 50 ppbv to 60 ppbv. Emissions are turned on at $t=1$~h, however ozone concentrations for emissions scenarios 1--3 do not appear to appreciably diverge from the uniform base case until $t\simeq2$~h and beyond. After this point, ozone concentrations increase in the planetary boundary layer of each scenario (the planetary boundary layer height gradually grows throughout the simulation as indicated by the region of highest ozone concentrations due to the constant heat flux at the surface). Ozone concentrations alongside the ozone formation rate are highest in the uniform base case. Note that between hours 5 and 6, ozone concentrations in the planetary boundary layer increase by approximately 10 ppbv as indicated by isopleths. By comparison, ozone concentrations increase by approximately 5 ppbv for scenario 3 during the same time period.
 
 To quantify the relative difference between ozone production in the uniform base case and each emission scenario, Figure \ref{fig:ht-pdiff-o3} displays time-height plots for each emissions scenario where the percent difference between ozone in the uniform base case and each scenario is displayed with superimposed isopleths. Percent difference is calculated as 
 \begin{equation}
@@ -108,49 +144,49 @@ where $\overline{[O_3]}(t, z)_{\text{Scenario}}$ is the horizontally averaged co
     \label{fig:ht-pdiff-o3}
 \end{figure}
 
-In Figure \ref{fig:ht-pdiff-o3} , regions shaded in blue indicate negative percent difference (i.e., the uniform base case contains higher concentrations in a given region) while red indicates positive percent difference. Regions shaded in gray indicate zero percent difference. We find that ozone concentrations for emissions scenario 1 are in good agreement with the uniform base case within the free troposphere during the entire simulation and also in the PBL prior to $\sim$2 hours. After this point, ozone concentrations are up to 3\% less in the PBL through $t=6$ h.
+In Figure \ref{fig:ht-pdiff-o3} , regions shaded in blue indicate negative percent difference (i.e., the uniform base case contains higher concentrations in a given region) while red indicates positive percent difference. Regions shaded in gray indicate zero percent difference. We find that ozone concentrations for emissions scenario 1 are in good agreement with the uniform base case within the free troposphere during the entire simulation and also in the planetary boundary layer prior to $\sim$2 hours. After this point, ozone concentrations are up to 3\% less in the planetary boundary layer through $t=6$~h.
 
-We find similar but heightened trends for ozone concentration percent difference for emissions scenarios 2 and 3, respectively. For scenario 2, ozone concentrations are up to 8\% less in the PBL through $t=6$ h and are reduced by up to $\sim13$\% for scenario 3.
+We find similar but heightened trends for ozone concentration percent difference for emissions scenarios 2 and 3, respectively. For scenario 2, ozone concentrations are up to 8\% less in the planetary boundary layer through $t=6$~h and are reduced by up to $\sim13$\% for scenario 3.
 
 \subsection{Spatial heterogeneity in the atmosphere of ozone and its precursors}
 
 In addition to the spatial heterogeneity of each emission pattern as shown in Figure \ref{fig:ozone-emission-patterns}, once gas phase species are emitted from the surface, their atmospheric distribution will be influenced by the emissions pattern heterogeneity, the strength of mixing, and chemical reactions that alter the abundance of compounds. We refer to the spatial heterogeneity of a gas phase species in the atmosphere as the species' {\it field} spatial heterogeneity. 
 
-\begin{figure}[h]
+\begin{figure}[!t]
     \centering
     \includegraphics[width=.97\textwidth]{figures/chapter4/height-time-nsh-multivar-uniform-basecase.pdf}
     \caption{Time-height plot of field $SH$ for O$_3$, NO$_x$, and HCHO in the uniform base case. $SH$ value contours are shown in grayscale for each subplot.}
     \label{fig:atmos-sh-ub}
   \end{figure}
 
-Figure \ref{fig:atmos-sh-ub} shows time-height plots of the field spatial heterogeneity for NO (top), HCHO (middle), and ozone (bottom) for the uniform base case. Field $SH$ is computed for horizontal cross sections of the domain at each vertical level and each time. Regions filled with dark blue correspond to low field $SH$ while regions in green and yellow indicate high field $SH$. In Figure \ref{fig:atmos-sh-ub}, the field $SH$ of each compound is very low. After $t=1$ h, NO field $SH$ is $\sim0.01$ within the PBL. HCHO field $SH$ is $\sim0.001$ within the PBL following the release of emissions at $t=1$ h, with slightly higher values of 0.01 near the upper PBL developing after $t=2$ h. Ozone field $SH$ is the lowest of the three compounds, with values of 0.001 developing in the upper PBL after $t=2$ h and extending to the surface by $t=5$ h.
+Figure \ref{fig:atmos-sh-ub} shows time-height plots of the field spatial heterogeneity for NO (top), HCHO (middle), and ozone (bottom) for the uniform base case. Field $SH$ is computed for horizontal cross sections of the domain at each vertical level and each time. Regions filled with dark blue correspond to low field $SH$ while regions in green and yellow indicate high field $SH$. In Figure \ref{fig:atmos-sh-ub}, the field $SH$ of each compound is very low. After $t=1$~h, NO field $SH$ is $\sim0.01$ within the planetary boundary layer. HCHO field $SH$ is $\sim0.001$ within the planetary boundary layer following the release of emissions at $t=1$~h, with slightly higher values of 0.01 near the upper planetary boundary layer developing after $t=2$~h. Ozone field $SH$ is the lowest of the three compounds, with values of 0.001 developing in the upper planetary boundary layer after $t=2$~h and extending to the surface by $t=5$~h.
 
-Similarly, Figure \ref{fig:atmos-sh-s1} shows time-height plots for ozone and its precursors for emissions scenario 1. Recall that the emissions $SH$ for scenario 1 is 0.33. Field $SH$ for all species is lower than the emissions $SH$ (as we expect due to atmospheric processes that disperse, dilute, and alter the concentration of each compound). As emissions begin at $t=1$ h, the field $SH$ of NO is $\sim0.1$ within the PBL and increases to 0.2 after approximately 2 hours. Around $t=5$ h, the field SH of NO decreases back down to 0.1 within the PBL. Following the release of emissions at $t=1$ h, HCHO field $SH$ is 0.05, increasing to 0.1 by approximately 2 hours and 30 minutes where it remains for the duration of the simulation. Similar to field $SH$ for the uniform base case, ozone exhibits the lowest field $SH$ of all three species, with values of 0.001 from $t=1$ h to $t=3$, afterward increasing to 0.01.
+Similarly, Figure \ref{fig:atmos-sh-s1} shows time-height plots for ozone and its precursors for emissions scenario 1. Recall that the emissions $SH$ for scenario 1 is 0.33. Field $SH$ for all species is lower than the emissions $SH$ (as we expect due to atmospheric processes that disperse, dilute, and alter the concentration of each compound). As emissions begin at $t=1$~h, the field $SH$ of NO is $\sim0.1$ within the planetary boundary layer and increases to 0.2 after approximately 2 hours. Around $t=5$~h, the field SH of NO decreases back down to 0.1 within the planetary boundary layer. Following the release of emissions at $t=1$~h, HCHO field $SH$ is 0.05, increasing to 0.1 by approximately 2 hours and 30 minutes where it remains for the duration of the simulation. Similar to field $SH$ for the uniform base case, ozone exhibits the lowest field $SH$ of all three species, with values of 0.001 from $t=1$~h to $t=3$, afterward increasing to 0.01.
 
-\begin{figure}[h]
+\begin{figure}[!t]
     \centering
     \includegraphics[width=.97\textwidth]{figures/chapter4/height-time-nsh-multivar-fx1fy0.pdf}
     \caption{Time-height plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 1. $SH$ value contours are shown in grayscale for each subplot.}
     \label{fig:atmos-sh-s1}
  \end{figure}
  
-We find similar trends to scenario 1 in the field $SH$ of ozone and its precursors for emissions scenario 2 as shown in Figure \ref{fig:atmos-sh-s2}. Recalling that the emissions $SH$ of scenario 2 is 0.60, we find that the field $SH$ of NO and HCHO correspondingly increase compared to scenario 1. Following emissions at $t=1$ h, the field $SH$ of NO in the PBL increases to 0.3 over nearly the entire height PBL except for near the surface where the field $SH$ reaches 0.4. The field $SH$ of HCHO increases to 0.15 by $t=3$ h, where it remains through the duration of the simulation. The pattern of field $SH$ for ozone closely matches its behavior noted for scenario 1--from $t=1$ h to $t=3$ h, ozone field $SH$ is of order 0.001, increasing to 0.01 afterwards.
+We find similar trends to scenario 1 in the field $SH$ of ozone and its precursors for emissions scenario 2 as shown in Figure \ref{fig:atmos-sh-s2}. Recalling that the emissions $SH$ of scenario 2 is 0.60, we find that the field $SH$ of NO and HCHO correspondingly increase compared to scenario 1. Following emissions at $t=1$~h, the field $SH$ of NO in the planetary boundary layer increases to 0.3 over nearly the entire height planetary boundary layer except for near the surface where the field $SH$ reaches 0.4. The field $SH$ of HCHO increases to 0.15 by $t=3$~h, where it remains through the duration of the simulation. The pattern of field $SH$ for ozone closely matches its behavior noted for scenario 1--from $t=1$~h to $t=3$~h, ozone field $SH$ is of order 0.001, increasing to 0.01 afterwards.
 
-\begin{figure}[h]
+\begin{figure}[!t]
     \centering
     \includegraphics[width=.97\textwidth]{figures/chapter4/height-time-nsh-multivar-road-10x.pdf}
     \caption{Time-height plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 2. $SH$ value contours are shown in grayscale for each subplot.}
     \label{fig:atmos-sh-s2}
 \end{figure}
 
-  \begin{figure}
+  \begin{figure}[!t]
     \centering
     \includegraphics[width=.97\textwidth]{figures/chapter4/height-time-nsh-multivar-point-source-1x1.pdf}
     \caption{Time-height plot of field $SH$ for O$_3$, NO$_x$, and HCHO in emissions scenario 3. $SH$ value contours are shown in grayscale for each subplot.}
     \label{fig:atmos-sh-s3}
  \end{figure}
  
-Figure \ref{fig:atmos-sh-s3} shows the field $SH$ of ozone and its precursors for emissions scenario 3. Scenario 3 posses the highest emissions spatial heterogeneity, $SH=1$. As a result, the field $SH$ of both NO and HCHO are markedly higher compared to previous scenarios. Field $SH$ of NO varies both spatially and temporally for scenario 3. Following the release of emissions at $t=1$ h, we find a high field $SH$ of 0.8 near the surface that persists for the duration of the simulation. Moving up in the PBL, field $SH$ ranges from 0.4 to 0.6. From $t=1$ h to $t=2$ h, the region of high field $SH$ at 0.6 is localized near the surface. Following this point, this high field $SH$ region extends upwards to the top of the PBL from  $t=2$ h to $t=3$ h. After this point, field $SH$ lowers back down to 0.4 over most of the PBL. Field $SH$ of HCHO is relatively uniform through the PBL and increases following emissions to 0.2 by $t=3$ h where it remains for the duration of the simulation. Similar to the field $SH$ of ozone discussed for scenarios 1 and 2, ozone exhibits a very similar pattern for scenario 3--from $t=1$ h to $t=3.5$ h, ozone field $SH$ is of order 0.001, increasing to 0.01 afterwards.
+Figure \ref{fig:atmos-sh-s3} shows the field $SH$ of ozone and its precursors for emissions scenario 3. Scenario 3 posses the highest emissions spatial heterogeneity, $SH=1$. As a result, the field $SH$ of both NO and HCHO are markedly higher compared to previous scenarios. Field $SH$ of NO varies both spatially and temporally for scenario 3. Following the release of emissions at $t=1$~h, we find a high field $SH$ of 0.8 near the surface that persists for the duration of the simulation. Moving up in the planetary boundary layer, field $SH$ ranges from 0.4 to 0.6. From $t=1$~h to $t=2$~h, the region of high field $SH$ at 0.6 is localized near the surface. Following this point, this high field $SH$ region extends upwards to the top of the planetary boundary layer from  $t=2$~h to $t=3$~h. After this point, field $SH$ lowers back down to 0.4 over most of the planetary boundary layer. Field $SH$ of HCHO is relatively uniform through the planetary boundary layer and increases following emissions to 0.2 by $t=3$~h where it remains for the duration of the simulation. Similar to the field $SH$ of ozone discussed for scenarios 1 and 2, ozone exhibits a very similar pattern for scenario 3--from $t=1$~h to $t=3.5$~h, ozone field $SH$ is of order 0.001, increasing to 0.01 afterwards.
 
 %\hl{Decrease in NO field sh seems to occur around the same time that HCHO field sh increases, shortly followed by ozone. My theory is that this may point to changes in ozone production efficiency as the relative abundance of NOx changes due to continued emissions and perhaps the VOCs are reacting more to produce more ozone (thus increasing the conc. and coupling the field sh of ozone to VOC field sh?) Its also the case that there ARE aerosols in these simulations and that presents an important pathway for the removal of NOx via nitric acid to form aerosol nitrate and nitric acid deposition.}
 
@@ -166,18 +202,18 @@ Figure \ref{fig:atmos-sh-s3} shows the field $SH$ of ozone and its precursors fo
   
 \section{Discussion}
 
-We find an inverse relationship between emissions spatial heterogeneity and the production of ozone; as emissions become more spatially heterogeneous, ozone concentrations are reduced by up to 12\% within the PBL. Additionally, increases in the field $SH$ of ozone precursors are observed under high emissions $SH$ scenarios with the highest magnitude of field $SH$ observed for NO. By comparison, the field $SH$ of ozone is low (field $SH<0.01$) across all emissions scenarios. 
+We find an inverse relationship between emissions spatial heterogeneity and the production of ozone; as emissions become more spatially heterogeneous, ozone concentrations are reduced by up to 12\% within the planetary boundary layer. Additionally, increases in the field $SH$ of ozone precursors are observed under high emissions $SH$ scenarios with the highest magnitude of field $SH$ observed for NO. By comparison, the field $SH$ of ozone is low (field $SH<0.01$) across all emissions scenarios. 
 
 % Perhaps the field SH of ozone is low because it is reacting very quickly, i.e., whatever gets produced is subsequently removed, thus reducing any concentration gradients or local hotspots that may otherwise increase field SH. This kind of contradicts my hypothesis that the NOx titration mechanism is responsible for ozone removal though, since NO has pretty high field SH in the highest heterogeneity scenario. One could alternatively argue that the reaction rate of NO is very high which is why it has the highest field SH (the region of NO remains concentrated since its reacted away and doesnt get the chance to be diffused out to the point of having lower SH). Another thing is that ozone is not emitted, but rather produced everywhere in the domain. This rate varies depending on where you are relative to the plume, but on net this should lead to more diffuse distribution of ozone.
 
-The production of ozone in the PBL has been thoroughly studied, including the use of LES to investigate the impacts of chemically segregated emissions and turbulence-chemistry interactions. \cite{schumann_large-eddy_1989} conducted an idealized LES study of the PBL to determine the impacts of varying turbulent diffusion strength on generic binary reactions. For rates typical of the ozone-NO$_x$ mechanism, the authors found that reaction rates are significantly impacted by turbulence and chemical segregation. Subsequently, \cite{sykes_large-eddy_1992} conducted a similar LES study of the PBL, however they directly modeled the ozone removal mechanism via NO shown in Reaction \ref{eq:nox-titration}. They showed that the removal of ozone by Reaction \ref{eq:nox-titration} is highly dependent on the strength of turbulent mixing of an emissions plume. Under strong mixing, the plume is more rapidly diffused, reducing the rate of ozone removal and allowing ozone production mechanisms to proceed. Our findings point to a similar conclusion, whereby highly concentrated and spatially heterogeneous emissions of ozone precursors lead to efficient removal of ozone within the plume, resulting in the production of greater NO$_2$. 
+The production of ozone in the planetary boundary layer has been thoroughly studied, including the use of LES to investigate the impacts of chemically segregated emissions and turbulence-chemistry interactions. \textcite{schumann_large-eddy_1989} conducted an idealized LES study of the planetary boundary layer to determine the impacts of varying turbulent diffusion strength on generic binary reactions. For rates typical of the ozone-NO$_x$ mechanism, the authors found that reaction rates are significantly impacted by turbulence and chemical segregation. Subsequently, \textcite{sykes_large-eddy_1992} conducted a similar LES study of the planetary boundary layer, however they directly modeled the ozone removal mechanism via NO shown in Reaction \ref{eq:nox-titration}. They showed that the removal of ozone by Reaction \ref{eq:nox-titration} is highly dependent on the strength of turbulent mixing of an emissions plume. Under strong mixing, the plume is more rapidly diffused, reducing the rate of ozone removal and allowing ozone production mechanisms to proceed. Our findings point to a similar conclusion, whereby highly concentrated and spatially heterogeneous emissions of ozone precursors lead to efficient removal of ozone within the plume, resulting in greater production NO$_2$. 
 
-Enhancements in removal mechanisms are observed at high emissions spatial heterogeneity. We find that the opposite is true for ozone production. Note that ozone production occurs on short timescales and that low spatial heterogeneity emissions scenarios with more uniform and dilute distributions of precursors result in a longer duration of time in which precursors remain well mixed. This effectively enhances the timescale over which ozone production can occur, leading to higher ozone concentrations. Recall that the uniform base case emissions scenario serves as a proxy for coarser resolved models in which emissions spatial heterogeneity on length scales smaller than the grid resolution will not be resolved. Thus, we may expect model comparisons of ozone production at coarser resolution to over-predict tropospheric ozone concentrations. Indeed, \cite{wild_global_2006} evaluate the production of ozone in a global chemistry model across various grid resolutions and find that ozone production is overestimated near emissions sources by up to 27\% for the coarsest resolution evaluated ($5.6^{\circ}$ x $5.6^{\circ}$) and error scales approximately monotonically as resolution increases. 
+Enhancements in removal mechanisms are observed at high emissions spatial heterogeneity. We find that the opposite is true for ozone production. Note that ozone production occurs on short timescales and that low spatial heterogeneity emissions scenarios with more uniform and dilute distributions of precursors result in a longer duration of time in which precursors remain well mixed. This effectively enhances the timescale over which ozone production can occur, leading to higher ozone concentrations. Recall that the uniform base case emissions scenario serves as a proxy for coarser resolved models in which emissions spatial heterogeneity on length scales smaller than the grid resolution will not be resolved. Thus, we may expect model comparisons of ozone production at coarser resolution to over-predict tropospheric ozone concentrations. Indeed, \textcite{wild_global_2006} evaluate the production of ozone in a global chemistry model across various grid resolutions and find that ozone production is overestimated near emissions sources by up to 27\% for the coarsest resolution evaluated ($5.6^{\circ}$ x $5.6^{\circ}$) and error scales approximately monotonically as resolution increases. 
 
 
 %\begin{itemize}
 %\item \cite{krol_effects_2000} Maybe?
-%\item \cite{auger_chemical_2007} (seems very similar to what I am doing here) LES of PBL over 10x10 km domain. Indicate that segregation is strongest in the first two hours - after 3 hours segregation is largely reduced due to efficient mixing in the PBL. 
+%\item \cite{auger_chemical_2007} (seems very similar to what I am doing here) LES of planetary boundary layer over 10x10 km domain. Indicate that segregation is strongest in the first two hours - after 3 hours segregation is largely reduced due to efficient mixing in the planetary boundary layer. 
 %\item \cite{zhong_modelling_2015} Similar to Zhong et al 2017, find that ozone production rate is reduced due to incomplete mixing.
 %\item \cite{zhong_large_2017} LES study of O3-NOx-VOC chemistry in urban street canyons characterized by high spatial variability in concentration gradients. NOx and HOx radicals were consumed to produce NO2 and O3. Segregation effect due to incomplete mixing reduces the production of NO2. 
 %\item \cite{wang_impact_2021}
